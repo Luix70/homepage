@@ -20,3 +20,54 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* Clases personalizadas */
+
+.hero-image {
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.elevado {
+  margin-bottom: 20%;
+}
+
+.hero {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 10em !important;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+41,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 55%,
+    rgba(255, 255, 255, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 55%,
+    rgba(255, 255, 255, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 55%,
+    rgba(255, 255, 255, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}

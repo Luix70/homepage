@@ -2,7 +2,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <div className="App container-fluid">
-      <nav className="navbar navbar navbar-expand-sm navbar-dark bg-dark px-0">
+      <nav className="navbar navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="navbar-header">
           <a href="/" className="navbar-brand">
             INDESAN
@@ -22,22 +22,22 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="toggler">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a class="nav-link" href="/">
+              <a className="nav-link" href="/">
                 Colecciones
               </a>
             </li>
             <li className="nav-item">
-              <a class="nav-link" href="/">
+              <a className="nav-link" href="/">
                 Área Usuario
               </a>
             </li>
             <li className="nav-item">
-              <a class="nav-link" href="/">
+              <a className="nav-link" href="/">
                 Contacto
               </a>
             </li>
             <li className="nav-item">
-              <a class="nav-link" href="/">
+              <a className="nav-link" href="/">
                 Blog
               </a>
             </li>
