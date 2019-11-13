@@ -30,7 +30,7 @@ class Slider extends Component {
             );
           })}
         </ol>
-        <div className="carousel-inner min-vh-100">
+        <div className="carousel-inner">
           {cols.map(col => {
             const index = cols.indexOf(col);
             const baseStyle = "carousel-item min-vh-100 hero-image";

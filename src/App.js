@@ -8,15 +8,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container-fluid px-0">
-      <div className="fill">
-        <div className="row">
+    <div className="container-fluid px-0 ">
+      
+        <div className="row encabezado">
           <div className="col-12 bg-dark">
             <NavBar></NavBar>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12 min-vh-100">
+        <div className="row principal">
+          <div className="col-12  ">
             <Switch>
               <Route path="/coleccion/:col" component={Coleccion}></Route>
               <Route exact path="/" component={Slider}></Route>
@@ -24,8 +24,7 @@ function App() {
             </Switch>
           </div>
         </div>
-      </div>
-      <div className="row">
+      <div className="row pie">
         <div className="col-12 bg-dark">
           <Footer></Footer>
         </div>

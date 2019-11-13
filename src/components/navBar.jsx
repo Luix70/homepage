@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
+
 const NavBar = () => {
   return (
-    <div className="App container">
-      <nav className="navbar navbar navbar-expand-sm navbar-dark bg-dark">
+    
+      <nav className="navbar navbar navbar-expand-sm navbar-dark bg-dark encabezado">
+      
         <div className="navbar-header">
-          <a href="/" className="navbar-brand ml-2">
-            INDESAN
-          </a>
+        <h1 className="logo mr-2 mt-1"><Link to="/"> INDESAN</Link></h1>
         </div>
         <button
           className="navbar-toggler"
@@ -39,7 +41,7 @@ const NavBar = () => {
           </ul>
         </div>
       </nav>
-    </div>
+    
   );
 };
 
