@@ -1,0 +1,27 @@
+import httpService from "./httpService";
+import config from "../config.json";
+
+export async function getColeccion(col) {
+  const colecciones = await getColecciones();
+  // console.log(colecciones);
+
+  return colecciones.filter(coleccion => coleccion.mod === col)[0];
+}
+
+export async function getColecciones() {
+  const scolecciones = JSON.parse(
+    sessionStorage.getItem("colecciones_indesan")
+  );
+  if (!scolecciones) {
+    const apiEndpoint = config.apiEndPoint;
+    const { data: colecciones } = await httpService.get(
+      apiEndpoint + "/Colecciones/web"
+    );
+    sessionStorage.setItem("colecciones_indesan", JSON.stringify(colecciones));
+    return colecciones;
+  } else {
+    return scolecciones;
+  }
+}
+
+export function getImages(col) {}

@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import httpService from "../services/httpService";
-import config from "../config.json";
+import { getColecciones } from "../services/datosWeb";
 
 class Slider extends Component {
   state = { listaColecciones: [] };
   componentDidMount = async () => {
-    const apiEndpoint = config.apiEndPoint;
-    const { data: colecciones } = await httpService.get(
-      apiEndpoint + "/Colecciones/web"
-    );
-    this.setState({ listaColecciones: colecciones });
-    console.log(this.state.listaColecciones);
+    this.setState({ listaColecciones: await getColecciones() });
   };
   render() {
     const cols = this.state.listaColecciones;
@@ -29,7 +23,7 @@ class Slider extends Component {
                 key={index}
                 data-target="#carouselColecciones"
                 data-slide-to={index}
-                className={index === 0 ? "active" : null}
+                className={index === 0 ? "selector active" : "selector"}
               >
                 {col.mod}
               </li>
@@ -49,14 +43,18 @@ class Slider extends Component {
                 }}
               >
                 <div className="hero w-100">
-                  <h1>
-                    <Link to={"/coleccion/" + col.mod}>{col.mod}</Link>
-                  </h1>
+                  <h1>{col.mod}</h1>
                   <h5 className="text-dark">{col.tags["es"]}</h5>
                 </div>
 
                 <div className="carousel-caption  d-sm-block semitrans elevado">
                   <p className=" text-dark">{col.desc["es"]}</p>
+                  <Link
+                    className="btn btn-outline-primary "
+                    to={"/coleccion/" + col.mod}
+                  >
+                    Ver coleccion
+                  </Link>
                 </div>
               </div>
             );

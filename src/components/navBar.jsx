@@ -1,10 +1,10 @@
 import React from "react";
 const NavBar = () => {
   return (
-    <div className="App container-fluid">
+    <div className="App container">
       <nav className="navbar navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="navbar-header">
-          <a href="/" className="navbar-brand">
+          <a href="/" className="navbar-brand ml-2">
             INDESAN
           </a>
         </div>
