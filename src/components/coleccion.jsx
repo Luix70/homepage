@@ -18,7 +18,7 @@ class Coleccion extends Component {
     if (!coleccion) {
       return <h1>{col}</h1>;
     } else {
-      console.log(col, coleccion);
+      //console.log(col, coleccion);
       return (
         <div className="container">
           <ColHeader col={coleccion}></ColHeader>

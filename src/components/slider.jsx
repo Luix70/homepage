@@ -12,10 +12,10 @@ class Slider extends Component {
     return (
       <div
         id="carouselColecciones"
-        className="carousel slide  min-vh-100"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <ol className="carousel-indicators elevado">
+        {/* <ol className="carousel-indicators elevado">
           {cols.map(col => {
             const index = cols.indexOf(col);
             return (
@@ -29,7 +29,7 @@ class Slider extends Component {
               </li>
             );
           })}
-        </ol>
+        </ol> */}
         <div className="carousel-inner">
           {cols.map(col => {
             const index = cols.indexOf(col);
@@ -47,10 +47,10 @@ class Slider extends Component {
                   <h5 className="text-dark">{col.tags["es"]}</h5>
                 </div>
 
-                <div className="carousel-caption  d-sm-block semitrans elevado">
+                <div className="carousel-caption d-sm-inline-block semitrans elevado p-3 pb-4">
                   <p className=" text-dark">{col.desc["es"]}</p>
                   <Link
-                    className="btn btn-outline-primary "
+                    className="btn btn-outline-info "
                     to={"/coleccion/" + col.mod}
                   >
                     Ver coleccion

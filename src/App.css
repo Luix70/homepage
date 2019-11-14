@@ -31,10 +31,6 @@
   position: relative;
 }
 
-.elevado {
-  margin-bottom: 20%;
-}
-
 .hero {
   position: absolute;
   text-align: center;
@@ -46,28 +42,28 @@
     bottom,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 10%,
-    rgba(255, 255, 255, 0) 25%,
-    rgba(255, 255, 255, 0) 55%,
-    rgba(255, 255, 255, 1) 65%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 1) 80%,
     rgba(255, 255, 255, 1) 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     bottom,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 10%,
-    rgba(255, 255, 255, 0) 25%,
-    rgba(255, 255, 255, 0) 55%,
-    rgba(255, 255, 255, 1) 65%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 1) 80%,
     rgba(255, 255, 255, 1) 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 10%,
-    rgba(255, 255, 255, 0) 25%,
-    rgba(255, 255, 255, 0) 55%,
-    rgba(255, 255, 255, 1) 65%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(255, 255, 255, 0.7) 10%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 0) 80%,
+    rgba(255, 255, 255, 0) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
@@ -78,28 +74,42 @@
   width: 10em !important;
 }
 
-.logo{
-  font-family:'Arial';
-  font-weight:bolder;
-  color:white;
-  font-size:1.5rem;
+.logo {
+  font-family: "Arial";
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5rem;
 }
 
-.logo a{
-  color:white;
+.logo a {
+  color: white;
 }
 
-.logo a:hover{
-  color:white;
-  text-decoration:none;
+.logo a:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.encabezado{
-  height:6vh;
-  min-height:4em;
+.encabezado {
+  height: 4em;
+  min-height: 4em;
 }
 
-.principal{
-  min-height:94vh;
+.principal {
+  min-height: 94vh;
 }
 
+.elevado {
+  margin-bottom: 4em;
+}
+.semitrans {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100vw;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+.panel {
+  min-width: 320px;
+}
