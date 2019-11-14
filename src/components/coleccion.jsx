@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { getColeccion } from "./../services/datosWeb";
 import ColHeader from "./colHeader";
 import ColIntro from "./colIntro";
+
 class Coleccion extends Component {
   state = { coleccion: null };
 

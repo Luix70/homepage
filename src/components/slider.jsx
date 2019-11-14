@@ -28,7 +28,9 @@ class Slider extends Component {
                 }}
               >
                 <div className="hero w-100">
-                  <h1 className="display-3 text-uppercase">{col.mod}</h1>
+                  <Link to={"/coleccion/" + col.mod}>
+                    <h1 className="display-3 text-uppercase">{col.mod}</h1>{" "}
+                  </Link>
                   <h4 className="text-dark lead ">{col.tags["es"]}</h4>
                 </div>
 

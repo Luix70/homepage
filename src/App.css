@@ -69,6 +69,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
+.hero > a {
+  color: navy;
+}
+
+.hero > a:hover {
+  text-decoration: none;
+}
 .logo {
   font-family: "Arial";
   font-weight: bolder;
