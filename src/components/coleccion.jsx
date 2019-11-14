@@ -20,7 +20,7 @@ class Coleccion extends Component {
     } else {
       //console.log(col, coleccion);
       return (
-        <div className="container">
+        <div className="container  min-vh-100 mt-5">
           <ColHeader col={coleccion}></ColHeader>
           <ColIntro col={coleccion}></ColIntro>
         </div>

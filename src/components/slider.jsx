@@ -15,25 +15,10 @@ class Slider extends Component {
         className="carousel slide"
         data-ride="carousel"
       >
-        {/* <ol className="carousel-indicators elevado">
-          {cols.map(col => {
-            const index = cols.indexOf(col);
-            return (
-              <li
-                key={index}
-                data-target="#carouselColecciones"
-                data-slide-to={index}
-                className={index === 0 ? "selector active" : "selector"}
-              >
-                {col.mod}
-              </li>
-            );
-          })}
-        </ol> */}
         <div className="carousel-inner">
           {cols.map(col => {
             const index = cols.indexOf(col);
-            const baseStyle = "carousel-item min-vh-100 hero-image";
+            const baseStyle = "carousel-item vh-100 min-vh-100 hero-image";
             return (
               <div
                 key={index}
@@ -43,12 +28,12 @@ class Slider extends Component {
                 }}
               >
                 <div className="hero w-100">
-                  <h1>{col.mod}</h1>
-                  <h5 className="text-dark">{col.tags["es"]}</h5>
+                  <h1 className="display-3 text-uppercase">{col.mod}</h1>
+                  <h4 className="text-dark lead ">{col.tags["es"]}</h4>
                 </div>
 
                 <div className="carousel-caption d-sm-inline-block semitrans elevado p-3 pb-4">
-                  <p className=" text-dark">{col.desc["es"]}</p>
+                  <p className=" text-dark font-italic">{col.desc["es"]}</p>
                   <Link
                     className="btn btn-outline-info "
                     to={"/coleccion/" + col.mod}

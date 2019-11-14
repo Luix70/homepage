@@ -8,23 +8,20 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container-fluid px-0">
-      <div className="row encabezado">
-        <div className="col-12 bg-dark">
+    <div className="container-fluid mx-0 px-0  my-0 py-0">
+      <div className="row mx-0 px-0 my-0 py-0 ">
+        <div className="fixed-top col col-12 mx-0 px-0 my-0 py-0">
           <NavBar></NavBar>
         </div>
-      </div>
-      <div className="row principal">
-        <div className="col-12  ">
+
+        <div className="col col-12 mx-0 px-0 my-0 py-0">
           <Switch>
-            <Route path="/coleccion/:col" component={Coleccion}></Route>
-            <Route exact path="/" component={Slider}></Route>
-            <Redirect to="/"></Redirect>
+            <Route path="/coleccion/:col" component={Coleccion} />
+            <Route exact path="/" component={Slider} />
+            <Redirect to="/" />
           </Switch>
         </div>
-      </div>
-      <div className="row pie">
-        <div className="col-12 bg-dark">
+        <div className="col col-12 mx-0 px-0 my-0 py-0">
           <Footer></Footer>
         </div>
       </div>

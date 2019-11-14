@@ -11,11 +11,7 @@ const ColIntro = props => {
         />
       </div>
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <blockquote className="blockquote">
-          <p>
-            {col.desc["es"]}
-          </p>
-        </blockquote>
+        <p className="lead text-justify">{col.desc["es"]}</p>
       </div>
     </div>
   );
