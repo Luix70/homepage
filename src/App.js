@@ -8,25 +8,47 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container-fluid mx-0 px-0  my-0 py-0">
-      <div className="row mx-0 px-0 my-0 py-0 ">
-        <div className="fixed-top col col-12 mx-0 px-0 my-0 py-0">
+    <div className="container-fluid  px-0 mx-0 min-vh-100 ">
+      <div className="row panel w-100 mx-0 px-0  min-vh-100 no-gutters">
+        <div className="col-12 fixed-top">
           <NavBar></NavBar>
         </div>
 
-        <div className="col col-12 mx-0 px-0 my-0 py-0">
+        <div className="col-12  min-vh-100 mx-0 px-0 ">
           <Switch>
             <Route path="/coleccion/:col" component={Coleccion} />
             <Route exact path="/" component={Slider} />
             <Redirect to="/" />
           </Switch>
         </div>
-        <div className="col col-12 mx-0 px-0 my-0 py-0">
-          <Footer></Footer>
-        </div>
+      </div>
+      <div className="row  w-100 mx-0">
+        <Footer></Footer>
       </div>
     </div>
   );
+
+  /* <div className="container-fluid">
+      <div className="row px-0 mx-0">
+        <div className="fixed-top col-12 ">
+          <NavBar></NavBar>
+        </div>
+
+        <div className="col-12">
+          <Switch>
+            <Route path="/coleccion/:col" component={Coleccion} />
+            <Route exact path="/" component={Slider} />
+            <Redirect to="/" />
+          </Switch>
+        </div>
+      </div>
+
+      <div className="row ">
+        <div className="col-12 ">
+          <Footer></Footer>
+        </div>
+      </div>
+    </div> */
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import React from "react";
 const Footer = () => {
   return (
-    <div className="bg-dark text-light col-12">
+    <div className="row w-100 mx-0 bg-dark">
       <div className="bg-dark text-light col-xs-12 col-sm-8  col-md-6 container pt-3 pb-5">
         <object
           type="image/svg+xml"

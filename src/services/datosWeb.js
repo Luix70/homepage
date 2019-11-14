@@ -24,4 +24,10 @@ export async function getColecciones() {
   }
 }
 
-export function getImages(col) {}
+export async function getImages(col) {
+  const apiEndpoint = config.apiEndPoint;
+  const { data: listaImagenes } = await httpService.get(
+    apiEndpoint + "/imagenes/" + col
+  );
+  return listaImagenes;
+}

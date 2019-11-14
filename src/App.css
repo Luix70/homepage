@@ -23,6 +23,17 @@
 
 /* Clases personalizadas */
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .hero-image {
   background-color: #cccccc;
   background-position: center;
@@ -98,4 +109,23 @@
   right: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+body,
+html,
+.root {
+  margin: 0 !important;
+  padding: 0 !important;
 }

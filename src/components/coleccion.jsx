@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { getColeccion } from "./../services/datosWeb";
 import ColHeader from "./colHeader";
 import ColIntro from "./colIntro";
+import Galeria from "./galeria";
 
 class Coleccion extends Component {
   state = { coleccion: null };
@@ -21,10 +22,11 @@ class Coleccion extends Component {
     } else {
       //console.log(col, coleccion);
       return (
-        <div className="container  min-vh-100 mt-5">
+        <React.Fragment>
           <ColHeader col={coleccion}></ColHeader>
           <ColIntro col={coleccion}></ColIntro>
-        </div>
+          <Galeria col={coleccion}></Galeria>
+        </React.Fragment>
       );
     }
   }
