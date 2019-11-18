@@ -31,3 +31,9 @@ export async function getImages(col) {
   );
   return listaImagenes;
 }
+
+export function getLan() {
+  // console.log( sessionStorage.getItem("lan"),  sessionStorage.getItem("lan") || "es"  );
+
+  return sessionStorage.getItem("lan") || "es";
+}

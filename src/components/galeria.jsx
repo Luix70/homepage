@@ -7,7 +7,7 @@ class Galeria extends Component {
     const { col } = this.props;
     const listaImagenes = await getImages(col.mod);
     this.setState({ listaImagenes });
-    console.log(this.state.listaImagenes);
+    // console.log(this.state.listaImagenes);
   };
 
   render() {
@@ -16,10 +16,12 @@ class Galeria extends Component {
     return listaImagenes ? (
       <div className="row col-12 px-0 mx-0">
         {listaImagenes.map(imagen => (
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 px-0 mx-0">
+          <div
+            key={imagen.nombre_tn}
+            className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 px-0 mx-0"
+          >
             <img
               className={"w-100"}
-              key={imagen.nombre_tn}
               src={"/resources/img/" + col.mod + "/" + imagen.nombre_tn}
               alt={col.mod}
             />

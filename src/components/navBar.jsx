@@ -1,11 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import t from "./navBar.json";
 const NavBar = props => {
+  const { lan, handleLanguage } = props;
+  //console.log(lan, t, t.COL[lan]);
+
+  if (lan === "") {
+    // console.log("no renderizo");
+    return null;
+  }
+  //console.log("renderizo");
+
+  function badgeStyle(badgeLan) {
+    const baseBadgeStyle = "badge badge-pill mr-2 mt-2 py-2 ";
+    const activBadgeStyle = "badge-secondary";
+    const inactivBadgeStyle = "badge-light";
+    return lan === badgeLan
+      ? baseBadgeStyle + activBadgeStyle
+      : baseBadgeStyle + inactivBadgeStyle;
+  }
+
   return (
     <div className="row w-100 mx-0 bg-dark">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
-        <div className="navbar-brand ">
+        <div className="navbar-brand">
           <object
             type="image/svg+xml"
             data="/resources/img/logoIndesan.svg"
@@ -29,18 +47,38 @@ const NavBar = props => {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <Link className="nav-link" to={"/"}>
-                Colecciones
+                {t.COL[lan]}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to={"/"}>
-                Area Usuario
+                {t.AU[lan]}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to={"/"}>
-                Contacto
+                {t.CON[lan]}
               </Link>
+            </li>
+            <li className="nav-item">
+              <span
+                className={badgeStyle("es")}
+                onClick={() => handleLanguage("es")}
+              >
+                ES
+              </span>
+              <span
+                className={badgeStyle("en")}
+                onClick={() => handleLanguage("en")}
+              >
+                EN
+              </span>
+              <span
+                className={badgeStyle("fr")}
+                onClick={() => handleLanguage("fr")}
+              >
+                FR
+              </span>
             </li>
           </ul>
         </div>

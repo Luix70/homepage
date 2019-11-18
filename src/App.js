@@ -1,54 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import Slider from "./components/slider";
 import Coleccion from "./components/coleccion";
+import { getLan } from "./services/datosWeb";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="container-fluid  px-0 mx-0 min-vh-100 ">
-      <div className="row panel w-100 mx-0 px-0  min-vh-100 no-gutters">
-        <div className="col-12 fixed-top">
-          <NavBar></NavBar>
-        </div>
+class App extends Component {
+  state = { lan: "" };
+  componentDidMount = () => {
+    this.setState({ lan: getLan() });
+  };
 
-        <div className="col-12  min-vh-100 mx-0 px-0 ">
-          <Switch>
-            <Route path="/coleccion/:col" component={Coleccion} />
-            <Route exact path="/" component={Slider} />
-            <Redirect to="/" />
-          </Switch>
-        </div>
-      </div>
-      <div className="row  w-100 mx-0">
-        <Footer></Footer>
-      </div>
-    </div>
-  );
+  handleLanguage = lan => {
+    sessionStorage.setItem("lan", lan);
+    this.setState({ lan });
+  };
 
-  /* <div className="container-fluid">
-      <div className="row px-0 mx-0">
-        <div className="fixed-top col-12 ">
-          <NavBar></NavBar>
-        </div>
+  render() {
+    const { lan } = this.state;
+    return (
+      <div className="container-fluid  px-0 mx-0 min-vh-100 ">
+        <div className="row panel w-100 mx-0 px-0  min-vh-100 no-gutters">
+          <div className="col-12 fixed-top">
+            <NavBar lan={lan} handleLanguage={this.handleLanguage}></NavBar>
+          </div>
 
-        <div className="col-12">
-          <Switch>
-            <Route path="/coleccion/:col" component={Coleccion} />
-            <Route exact path="/" component={Slider} />
-            <Redirect to="/" />
-          </Switch>
+          <div className="col-12  min-vh-100 mx-0 px-0 ">
+            <Switch>
+              <Route path="/coleccion/:col" component={Coleccion} lan={lan} />
+              <Route exact path="/" component={Slider} lan={lan} />
+              <Redirect to="/" />
+            </Switch>
+          </div>
         </div>
-      </div>
-
-      <div className="row ">
-        <div className="col-12 ">
+        <div className="row  w-100 mx-0">
           <Footer></Footer>
         </div>
       </div>
-    </div> */
+    );
+  }
 }
 
 export default App;
