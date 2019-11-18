@@ -3,12 +3,22 @@ import { Link } from "react-router-dom";
 import { getColecciones } from "../services/datosWeb";
 
 class Slider extends Component {
-  state = { listaColecciones: [] };
+  state = { listaColecciones: [], lan: "" };
   componentDidMount = async () => {
-    this.setState({ listaColecciones: await getColecciones() });
+    this.setState({
+      listaColecciones: await getColecciones(),
+      lan: this.props.lan
+    });
+    //console.log(this.props);
   };
   render() {
     const cols = this.state.listaColecciones;
+    const { lan } = this.state;
+
+    if (lan === "") {
+      console.log("no renderizado slider");
+      return null;
+    }
     return (
       <div
         id="carouselColecciones"
@@ -31,7 +41,7 @@ class Slider extends Component {
                   <Link to={"/coleccion/" + col.mod}>
                     <h1 className="display-3 text-uppercase">{col.mod}</h1>{" "}
                   </Link>
-                  <h4 className="text-dark lead ">{col.tags["es"]}</h4>
+                  <h4 className="text-dark lead ">{col.tags[lan]}</h4>
                 </div>
 
                 <div className="carousel-caption d-sm-inline-block semitrans elevado p-3 pb-4">

@@ -61,24 +61,27 @@ const NavBar = props => {
               </Link>
             </li>
             <li className="nav-item">
-              <span
+              <Link
+                to={"#"}
                 className={badgeStyle("es")}
                 onClick={() => handleLanguage("es")}
               >
                 ES
-              </span>
-              <span
+              </Link>
+              <Link
+                to={"#"}
                 className={badgeStyle("en")}
                 onClick={() => handleLanguage("en")}
               >
                 EN
-              </span>
-              <span
+              </Link>
+              <Link
+                to={"#"}
                 className={badgeStyle("fr")}
                 onClick={() => handleLanguage("fr")}
               >
                 FR
-              </span>
+              </Link>
             </li>
           </ul>
         </div>

@@ -29,8 +29,15 @@ class App extends Component {
 
           <div className="col-12  min-vh-100 mx-0 px-0 ">
             <Switch>
-              <Route path="/coleccion/:col" component={Coleccion} lan={lan} />
-              <Route exact path="/" component={Slider} lan={lan} />
+              <Route
+                path="/coleccion/:col"
+                render={props => <Coleccion lan={lan} {...props} />}
+              />
+              <Route
+                exact
+                path="/"
+                render={props => <Slider lan={lan} {...props} />}
+              />
               <Redirect to="/" />
             </Switch>
           </div>
