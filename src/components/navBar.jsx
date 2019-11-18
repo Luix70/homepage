@@ -23,7 +23,7 @@ const NavBar = props => {
 
   return (
     <div className="row w-100 mx-0 bg-dark">
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark w-100">
         <div className="navbar-brand">
           <object
             type="image/svg+xml"
@@ -45,23 +45,38 @@ const NavBar = props => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="toggler">
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav mr-auto ">
             <li className="nav-item active">
-              <Link className="nav-link" to={"/"}>
+              <Link
+                className="nav-link"
+                to={"/"}
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
                 {t.COL[lan]}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link
+                className="nav-link"
+                to={"/"}
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
                 {t.AU[lan]}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link
+                className="nav-link"
+                to={"/"}
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
                 {t.CON[lan]}
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <Link
                 to={"#"}
                 className={badgeStyle("es")}
