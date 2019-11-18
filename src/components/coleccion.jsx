@@ -9,23 +9,25 @@ class Coleccion extends Component {
 
   async componentDidMount() {
     const { col } = this.props.match.params;
+
     const coleccion = await getColeccion(col);
     this.setState({ coleccion });
   }
 
   render() {
+    const { lan } = this.props;
     const { col } = this.props.match.params;
     const { coleccion } = this.state;
 
-    if (!coleccion) {
+    if (!coleccion || lan === "") {
       return <h1>{col}</h1>;
     } else {
       //console.log(col, coleccion);
       return (
         <React.Fragment>
-          <ColHeader col={coleccion}></ColHeader>
-          <ColIntro col={coleccion}></ColIntro>
-          <Galeria col={coleccion}></Galeria>
+          <ColHeader col={coleccion} lan={lan}></ColHeader>
+          <ColIntro col={coleccion} lan={lan}></ColIntro>
+          <Galeria col={coleccion} lan={lan}></Galeria>
         </React.Fragment>
       );
     }

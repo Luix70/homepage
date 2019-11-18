@@ -4,13 +4,14 @@ import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import Slider from "./components/slider";
 import Coleccion from "./components/coleccion";
-import { getLan } from "./services/datosWeb";
+import { getLan, getColecciones } from "./services/datosWeb";
 import "./App.css";
 
 class App extends Component {
-  state = { lan: "" };
-  componentDidMount = () => {
-    this.setState({ lan: getLan() });
+  state = { lan: "", listaColecciones: [] };
+  componentDidMount = async () => {
+    const listaColecciones = await getColecciones();
+    this.setState({ lan: getLan(), listaColecciones });
   };
 
   handleLanguage = lan => {
@@ -19,7 +20,9 @@ class App extends Component {
   };
 
   render() {
-    const { lan } = this.state;
+    const { lan, listaColecciones } = this.state;
+    //console.log(lan, listaColecciones);
+    if (listaColecciones.length === 0 || lan === "") return null;
     return (
       <div className="container-fluid  px-0 mx-0 min-vh-100 ">
         <div className="row panel w-100 mx-0 px-0  min-vh-100 no-gutters">
@@ -36,7 +39,13 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={props => <Slider lan={lan} {...props} />}
+                render={props => (
+                  <Slider
+                    lan={lan}
+                    listaColecciones={listaColecciones}
+                    {...props}
+                  />
+                )}
               />
               <Redirect to="/" />
             </Switch>
