@@ -45,8 +45,8 @@ const NavBar = props => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="toggler">
-          <div className="navbar-nav mr-auto ">
-            <div className="nav-item active">
+          <ul className="navbar-nav mr-auto ">
+            <li className="nav-item active">
               <Link
                 className="nav-link"
                 to={"/"}
@@ -55,8 +55,8 @@ const NavBar = props => {
               >
                 {t.COL[lan]}
               </Link>
-            </div>
-            <div className="nav-item">
+            </li>
+            <li className="nav-item">
               <Link
                 className="nav-link"
                 to={"/"}
@@ -65,8 +65,8 @@ const NavBar = props => {
               >
                 {t.AU[lan]}
               </Link>
-            </div>
-            <div className="nav-item">
+            </li>
+            <li className="nav-item">
               <Link
                 className="nav-link"
                 to={"/"}
@@ -75,12 +75,10 @@ const NavBar = props => {
               >
                 {t.CON[lan]}
               </Link>
-            </div>
-            <div className="nav-item  position-absolute idiomas">
+            </li>
+            <li className="nav-item ">
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("es")}
                 onClick={() => handleLanguage("es")}
               >
@@ -88,8 +86,6 @@ const NavBar = props => {
               </Link>
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("en")}
                 onClick={() => handleLanguage("en")}
               >
@@ -97,15 +93,13 @@ const NavBar = props => {
               </Link>
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("fr")}
                 onClick={() => handleLanguage("fr")}
               >
                 FR
               </Link>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
