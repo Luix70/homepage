@@ -47,40 +47,23 @@ const NavBar = props => {
         <div className="collapse navbar-collapse" id="toggler">
           <div className="navbar-nav mr-auto ">
             <div className="nav-item active">
-              <Link
-                className="nav-link"
-                to={"/"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-              >
+              <Link className="nav-link" to={"/"}>
                 {t.COL[lan]}
               </Link>
             </div>
             <div className="nav-item">
-              <Link
-                className="nav-link"
-                to={"/"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-              >
+              <Link className="nav-link" to={"/"}>
                 {t.AU[lan]}
               </Link>
             </div>
             <div className="nav-item">
-              <Link
-                className="nav-link"
-                to={"/"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-              >
+              <Link className="nav-link" to={"/"}>
                 {t.CON[lan]}
               </Link>
             </div>
             <div className="nav-item  position-absolute idiomas">
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("es")}
                 onClick={() => handleLanguage("es")}
               >
@@ -88,8 +71,6 @@ const NavBar = props => {
               </Link>
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("en")}
                 onClick={() => handleLanguage("en")}
               >
@@ -97,8 +78,6 @@ const NavBar = props => {
               </Link>
               <Link
                 to={"#"}
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
                 className={badgeStyle("fr")}
                 onClick={() => handleLanguage("fr")}
               >

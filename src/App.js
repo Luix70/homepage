@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import NavBar from "./components/navBar";
-import Footer from "./components/footer";
-import Slider from "./components/slider";
+import NavBar from "./components/navBar.jsx";
+import Footer from "./components/footer.jsx";
+import Slider from "./components/slider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
 import "./App.css";
