@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import t from "./slider.json";
+import t from "./slider.lit.json";
 const Slider = props => {
   const { listaColecciones: cols, lan } = props;
   // console.log(cols, lan);
