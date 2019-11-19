@@ -133,3 +133,17 @@ html,
 .idiomas {
   right: 10px;
 }
+
+.iconOverlay {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.iconOverlay:hover {
+  transform: scale(1.3);
+  filter: invert(25%);
+}

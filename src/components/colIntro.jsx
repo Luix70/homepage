@@ -11,7 +11,7 @@ const ColIntro = props => {
         />
       </div>
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-4 mx-0 text-center ">
-        <p className="lead ">{col.desc[lan]}</p>
+        <p className="lead">{col.desc[lan]}</p>
       </div>
     </div>
   );
