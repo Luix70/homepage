@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import t from "./navBar.json";
+import t from "./navBar.lit.json";
 
 const NavBar = props => {
   const { lan, handleLanguage } = props;
