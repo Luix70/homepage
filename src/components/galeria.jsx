@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import ThumbnailGallery from "./thumbnailGalery";
 import Slider from "./slider";
+import Fullscreen from "./fullscreen";
 import MaterialIcon from "react-google-material-icons";
 import { getImages } from "./../services/datosWeb";
 import t from "./galeria.lit.json";
 
 class Galeria extends Component {
-  state = { listaImagenes: null, verGaleria: true, modo: "module" };
+  state = {
+    listaImagenes: null,
+    verGaleria: true,
+    modo: "module",
+    currentImage: null
+  };
   componentDidMount = async () => {
     const { col } = this.props;
     const listaImagenes = await getImages(col.mod);
@@ -18,21 +24,18 @@ class Galeria extends Component {
     return this.setState({ verGaleria: !this.state.verGaleria });
   };
 
-  getBootstrapBreakpoint = () => {
-    var w =
-      window.innerWidth ||
-      document.documentElement.clientWidth ||
-      document.body.clientWidth;
-    return w < 768 ? "xs" : w < 992 ? "sm" : w < 1200 ? "md" : "lg";
-  };
-
   zoomImage = img => {
-    console.log(img);
+    this.setState({ currentImage: img });
   };
 
   toggleMode = modo => {
     this.setState({ modo });
   };
+
+  closePicture = () => {
+    this.setState({ currentImage: null });
+  };
+
   render() {
     const { listaImagenes, verGaleria, modo } = this.state;
     const { col, lan } = this.props;
@@ -41,7 +44,6 @@ class Galeria extends Component {
     return listaImagenes ? (
       <div className="row col-12 px-0 mx-0">
         <div className="col-12 pr-2 py-2 mx-0 bg-light">
-          &nbsp;
           <div
             className={
               "btn-group btn-group-sm float-right " +
@@ -110,6 +112,13 @@ class Galeria extends Component {
             <Slider col={col} imgs={listaImagenes} />
           ) : null}
         </div>
+        {this.state.currentImage ? (
+          <Fullscreen
+            img={this.state.currentImage}
+            lan={lan}
+            handleClosePicture={this.closePicture}
+          />
+        ) : null}
       </div>
     ) : null;
   }

@@ -14,7 +14,7 @@ const ThumbNail = props => {
       />
       <div
         className="float-right m-0 p-0 pl-3 iconOverlay "
-        onClick={() => handleClick(imagen.nombre_tn)}
+        onClick={() => handleClick(imagen)}
       >
         <MaterialIcon
           className="ml-2 float-right"
