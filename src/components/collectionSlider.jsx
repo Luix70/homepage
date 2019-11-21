@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import t from "./slider.lit.json";
+import t from "./collectionSlider.lit.json";
 
 const CollectionSlider = props => {
   const { listaColecciones: cols, lan } = props;
@@ -17,6 +17,7 @@ const CollectionSlider = props => {
         {cols.map(col => {
           const index = cols.indexOf(col);
           const baseStyle = "carousel-item vh-100 min-vh-100 hero-image";
+
           return (
             <div
               key={index}

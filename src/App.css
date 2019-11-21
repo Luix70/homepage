@@ -45,6 +45,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-position: 50% 50%;
 }
 
 .hero {
@@ -118,6 +119,10 @@ html,
 .root {
   margin: 0 !important;
   padding: 0 !important;
+  width: 100vw;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .idiomas {
@@ -147,4 +152,41 @@ html,
 
 .iconActive {
   transform: invert(50%);
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 80vh !important;
+  width: 100%;
+  object-fit: cover;
+
+  opacity: 1;
+}
+
+.slider-indicator {
+  background-color: #000;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+ol.carousel-indicators li.active {
+  border: 1px solid white;
+  background: black;
 }

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ThumbnailGallery from "./thumbnailGalery";
-import { getImages } from "./../services/datosWeb";
+import Slider from "./slider";
 import MaterialIcon from "react-google-material-icons";
+import { getImages } from "./../services/datosWeb";
 import t from "./galeria.lit.json";
 
 class Galeria extends Component {
@@ -35,7 +36,7 @@ class Galeria extends Component {
   render() {
     const { listaImagenes, verGaleria, modo } = this.state;
     const { col, lan } = this.props;
-    const defaultButtonStyle = "btn btn-light p-0 ";
+    const defaultButtonStyle = "btn btn-light pl-4 ";
 
     return listaImagenes ? (
       <div className="row col-12 px-0 mx-0">
@@ -106,11 +107,7 @@ class Galeria extends Component {
           ) : null}
 
           {modo === "carousel" ? (
-            <ThumbnailGallery
-              col={col}
-              listaImagenes={listaImagenes}
-              handleClick={this.zoomImage}
-            />
+            <Slider col={col} imgs={listaImagenes} />
           ) : null}
         </div>
       </div>
