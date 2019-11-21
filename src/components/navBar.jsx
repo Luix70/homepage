@@ -12,6 +12,10 @@ const NavBar = props => {
   }
   //console.log("renderizo");
 
+  function clickLogo() {
+    console.log("clicked");
+  }
+
   function badgeStyle(badgeLan) {
     const baseBadgeStyle = "badge badge-pill mr-2 mt-2 py-2 ";
     const activBadgeStyle = "badge-secondary";
@@ -23,7 +27,10 @@ const NavBar = props => {
 
   return (
     <div className="row w-100 mx-0 bg-dark">
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark w-100">
+      <nav
+        className="navbar navbar-expand-sm navbar-dark bg-dark w-100"
+        onClick={clickLogo}
+      >
         <div className="navbar-brand">
           <object
             type="image/svg+xml"
@@ -31,6 +38,7 @@ const NavBar = props => {
             className="logo"
             aria-label="logo"
             style={{ height: "30px" }}
+            onClick={clickLogo}
           ></object>
         </div>
         <button
