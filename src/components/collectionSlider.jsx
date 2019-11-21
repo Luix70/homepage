@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import t from "./slider.lit.json";
-const Slider = props => {
+
+const CollectionSlider = props => {
   const { listaColecciones: cols, lan } = props;
   // console.log(cols, lan);
+
   return (
     <div
       id="carouselColecciones"
       className="carousel slide"
       data-ride="carousel"
+      data-interval="5000"
     >
       <div className="carousel-inner">
         {cols.map(col => {
@@ -22,14 +25,16 @@ const Slider = props => {
                 backgroundImage: "url(/resources/img/" + col.thumbnail + ")"
               }}
             >
-              <div className="hero w-100">
-                <Link to={"/coleccion/" + col.mod}>
-                  <h1 className="display-3 text-uppercase">{col.mod}</h1>{" "}
+              <div className="hero w-100 pt-0 mt-5">
+                <h4 className="text-dark lead mt-4 mb-0 ">{col.tags[lan]}</h4>
+                <Link to={"/coleccion/" + col.mod} className={"heroLink"}>
+                  <h1 className="display-3 text-uppercase mt-0 pt-0">
+                    {col.mod}
+                  </h1>
                 </Link>
-                <h4 className="text-dark lead ">{col.tags[lan]}</h4>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans elevado p-3 pb-4">
+              <div className="carousel-caption d-sm-inline-block semitrans elevado pt-3 pb-4 pr-5 pl-3">
                 <p className=" text-dark font-italic">{col.desc[lan]}</p>
                 <Link
                   className="btn btn-outline-info "
@@ -65,4 +70,4 @@ const Slider = props => {
   );
 };
 
-export default Slider;
+export default CollectionSlider;

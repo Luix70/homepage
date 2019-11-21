@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import ThumbnailGallery from "./thumbnailGalery";
 import { getImages } from "./../services/datosWeb";
 import MaterialIcon from "react-google-material-icons";
 import t from "./galeria.lit.json";
-import ThumbNail from "./thumbnail";
+
 class Galeria extends Component {
-  state = { listaImagenes: null, verGaleria: true };
+  state = { listaImagenes: null, verGaleria: true, modo: "module" };
   componentDidMount = async () => {
     const { col } = this.props;
     const listaImagenes = await getImages(col.mod);
@@ -27,8 +28,12 @@ class Galeria extends Component {
   zoomImage = img => {
     console.log(img);
   };
+
+  toggleMode = modo => {
+    this.setState({ modo });
+  };
   render() {
-    const { listaImagenes, verGaleria } = this.state;
+    const { listaImagenes, verGaleria, modo } = this.state;
     const { col, lan } = this.props;
     const defaultButtonStyle = "btn btn-light p-0 ";
 
@@ -44,14 +49,23 @@ class Galeria extends Component {
             role="group"
             aria-label="Basic example"
           >
-            <button type="button" className={defaultButtonStyle}>
+            <button
+              type="button"
+              className={
+                defaultButtonStyle + (modo === "module" ? " disabled" : null)
+              }
+              onClick={() => this.toggleMode("module")}
+            >
               <MaterialIcon icon="view_module" size={24} />
             </button>
-            <button type="button" className={defaultButtonStyle}>
+            <button
+              type="button"
+              className={
+                defaultButtonStyle + (modo === "carousel" ? " disabled" : null)
+              }
+              onClick={() => this.toggleMode("carousel")}
+            >
               <MaterialIcon icon="view_carousel" size={24} />
-            </button>
-            <button type="button" className={defaultButtonStyle}>
-              <MaterialIcon icon="photo" size={24} />
             </button>
           </div>
           <div
@@ -81,15 +95,23 @@ class Galeria extends Component {
             </button>
           </div>
         </div>
+
         <div className={"row " + (verGaleria ? "d-flex" : "d-none")}>
-          {listaImagenes.map(imagen => (
-            <ThumbNail
-              key={imagen.nombre_tn}
-              imagen={imagen}
+          {modo === "module" ? (
+            <ThumbnailGallery
               col={col}
+              listaImagenes={listaImagenes}
               handleClick={this.zoomImage}
             />
-          ))}
+          ) : null}
+
+          {modo === "carousel" ? (
+            <ThumbnailGallery
+              col={col}
+              listaImagenes={listaImagenes}
+              handleClick={this.zoomImage}
+            />
+          ) : null}
         </div>
       </div>
     ) : null;

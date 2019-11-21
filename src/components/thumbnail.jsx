@@ -13,10 +13,14 @@ const ThumbNail = props => {
         alt={col.mod}
       />
       <div
-        className="float-right m-0 p-0 iconOverlay"
+        className="float-right m-0 p-0 pl-3 iconOverlay "
         onClick={() => handleClick(imagen.nombre_tn)}
       >
-        <MaterialIcon className="m-0 p-0" icon="fullscreen" size={48} />
+        <MaterialIcon
+          className="ml-2 float-right"
+          icon="fullscreen"
+          size={36}
+        />
       </div>
     </div>
   );

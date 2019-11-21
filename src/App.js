@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
-import Slider from "./components/slider.jsx";
+import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
 import "./App.css";
@@ -17,6 +17,18 @@ class App extends Component {
   handleLanguage = lan => {
     sessionStorage.setItem("lan", lan);
     this.setState({ lan });
+  };
+
+  randomCols = cols => {
+    const array = [...cols];
+
+    for (let i = array.length - 1; i > -1; --i) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+
+    console.log(cols, array);
+    return array;
   };
 
   render() {
@@ -40,9 +52,9 @@ class App extends Component {
                 exact
                 path="/"
                 render={props => (
-                  <Slider
+                  <CollectionSlider
                     lan={lan}
-                    listaColecciones={listaColecciones}
+                    listaColecciones={this.randomCols(listaColecciones)}
                     {...props}
                   />
                 )}
