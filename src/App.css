@@ -190,10 +190,12 @@ ol.carousel-indicators li.active {
 .full-screen-container {
   background: white;
   position: relative;
+  overflow: scroll;
 }
 .full-screen-image {
   position: center center;
   position: relative;
+  overflow: scroll;
   top: 50%;
   transform: translate(0, -50%);
   z-index: 900;

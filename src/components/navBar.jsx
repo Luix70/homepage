@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import t from "./navBar.lit.json";
 
 const NavBar = props => {
-  const { lan, handleLanguage, windowWidth, windowHeight } = props;
+  const { lan, handleLanguage, windowWidth, windowHeight, BSBreak } = props;
   //console.log(lan, t, t.COL[lan]);
 
   if (lan === "") {
@@ -68,7 +68,7 @@ const NavBar = props => {
             </div>
             <div>
               <p className="text-light">
-                {windowWidth + " x " + windowHeight}{" "}
+                {windowWidth + " x " + windowHeight + "( " + BSBreak + ")"}
               </p>
             </div>
             <div className="nav-item  position-absolute idiomas">

@@ -9,7 +9,7 @@ const Slider = props => {
         id="carousel_"
         className="carousel slide vw-100"
         data-ride="carousel"
-        data-interval="500000"
+        data-interval="5000"
       >
         <ol className="carousel-indicators">
           {imgs.map(img => {

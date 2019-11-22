@@ -6,6 +6,7 @@ import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
+import { WhichBotstrapBreak } from "./utilities/utilities.js";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -13,12 +14,14 @@ class App extends Component {
   state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };
   componentDidMount = async () => {
     const listaColecciones = await getColecciones();
-    this.updateDimensions();
+
     window.addEventListener("resize", this.updateDimensions.bind(this));
 
     this.setState({
       lan: getLan(),
-      listaColecciones: this.randomCols(listaColecciones)
+      listaColecciones: this.randomCols(listaColecciones),
+      windowWidth: window.innerWidth,
+      windowHeight: window.innerHeight
     });
   };
 
@@ -59,6 +62,7 @@ class App extends Component {
               handleLanguage={this.handleLanguage}
               windowWidth={this.state.windowWidth}
               windowHeight={this.state.windowHeight}
+              BSBreak={WhichBotstrapBreak(windowWidth, windowHeight)}
             ></NavBar>
           </div>
 
