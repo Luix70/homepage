@@ -13,7 +13,7 @@ const NavBar = props => {
   //console.log("renderizo");
 
   function clickLogo() {
-    console.log("clicked");
+    console.log("logo clicked");
   }
 
   function badgeStyle(badgeLan) {
@@ -27,10 +27,7 @@ const NavBar = props => {
 
   return (
     <div className="row w-100 mx-0 bg-dark">
-      <nav
-        className="navbar navbar-expand-sm navbar-dark bg-dark w-100"
-        onClick={clickLogo}
-      >
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark w-100">
         <div className="navbar-brand">
           <object
             type="image/svg+xml"

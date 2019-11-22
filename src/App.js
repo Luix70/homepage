@@ -1,17 +1,22 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
 import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
   state = { lan: "", listaColecciones: [] };
   componentDidMount = async () => {
     const listaColecciones = await getColecciones();
-    this.setState({ lan: getLan(), listaColecciones });
+    this.setState({
+      lan: getLan(),
+      listaColecciones: this.randomCols(listaColecciones)
+    });
   };
 
   handleLanguage = lan => {
@@ -37,6 +42,7 @@ class App extends Component {
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
       <div className="container-fluid  p-0 m-0 min-vh-100 ">
+        <ToastContainer></ToastContainer>
         <div className="row panel w-100 m-0 p-0  min-vh-100 no-gutters">
           <div className="col-12 fixed-top">
             <NavBar lan={lan} handleLanguage={this.handleLanguage}></NavBar>
@@ -54,7 +60,7 @@ class App extends Component {
                 render={props => (
                   <CollectionSlider
                     lan={lan}
-                    listaColecciones={this.randomCols(listaColecciones)}
+                    listaColecciones={listaColecciones}
                     {...props}
                   />
                 )}

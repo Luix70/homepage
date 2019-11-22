@@ -3,5 +3,10 @@
     "es": "Ocultar Imagen",
     "en": "Close Picture",
     "fr": "Fermer Image"
+  },
+  "AD": {
+    "es": "Se ha descargado el archivo: ",
+    "en": "The follwing file has been downloaded: ",
+    "fr": "On a téléchargé le fichier : "
   }
 }

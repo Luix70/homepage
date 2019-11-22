@@ -1,8 +1,10 @@
 import React from "react";
 import MaterialIcon from "react-google-material-icons";
-//import t from "./fullscreen.lit.json";
+import { toast } from "react-toastify";
+import t from "./fullscreen.lit.json";
+
 const Fullscreen = props => {
-  const { img, handleClosePicture } = props;
+  const { img, handleClosePicture, lan } = props;
   const defaultButtonStyle = "btn btn-light pl-4 d-block";
   return (
     <div className="col-12 fixed-top p-0 m-0 overflow-hidden max-vh-100 max-vw-100 vh-100 vw-100 overflow-hidden">
@@ -20,7 +22,13 @@ const Fullscreen = props => {
               <MaterialIcon icon="fullscreen_exit" size={24} />
             </button>
 
-            <button type="button" className={defaultButtonStyle}>
+            <button
+              type="button"
+              className={defaultButtonStyle}
+              onClick={() => {
+                toast.success(t.AD[lan] + img.nombre_img);
+              }}
+            >
               <a
                 href={"/resources/img/" + img.folder + "/" + img.nombre_img}
                 download
