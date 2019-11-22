@@ -9,7 +9,7 @@ const ThumbNail = props => {
     >
       <img
         className={"w-100"}
-        src={"/resources/img/" + col.mod + "/" + imagen.nombre_tn}
+        src={"/resources/img/" + imagen.folder + "/" + imagen.nombre_tn}
         alt={col.mod}
       />
       <div
