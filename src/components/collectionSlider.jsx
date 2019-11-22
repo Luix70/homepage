@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import t from "./collectionSlider.lit.json";
 
 const CollectionSlider = props => {
-  const { listaColecciones: cols, lan } = props;
-  // console.log(cols, lan);
+  const { listaColecciones: cols, lan, windowWidth, windowHeight } = props;
+  const aspectRatio = windowWidth / windowHeight;
+  console.log(aspectRatio);
 
   return (
     <div
@@ -17,13 +18,33 @@ const CollectionSlider = props => {
         {cols.map(col => {
           const index = cols.indexOf(col);
           const baseStyle = "carousel-item vh-100 min-vh-100 hero-image";
+          const fondo =
+            aspectRatio >= 1
+              ? windowWidth > 512
+                ? windowWidth > 1024
+                  ? "url(/resources/img/" +
+                    col.thumbnail.replace(".jpg", "_0.jpg") +
+                    ")"
+                  : "url(/resources/img/" +
+                    col.thumbnail.replace(".jpg", "_0_0.jpg") +
+                    ")"
+                : "url(/resources/img/" + col.thumbnail + ")"
+              : windowHeight > 512
+              ? windowHeight > 1024
+                ? "url(/resources/img/" +
+                  col.thumbnail.replace(".jpg", "_0.jpg") +
+                  ")"
+                : "url(/resources/img/" +
+                  col.thumbnail.replace(".jpg", "_0_0.jpg") +
+                  ")"
+              : "url(/resources/img/" + col.thumbnail + ")";
 
           return (
             <div
               key={index}
               className={index === 0 ? baseStyle + " active" : baseStyle}
               style={{
-                backgroundImage: "url(/resources/img/" + col.thumbnail + ")"
+                backgroundImage: fondo
               }}
             >
               <div className="hero w-100 pt-0 mt-5">

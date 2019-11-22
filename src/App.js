@@ -10,13 +10,22 @@ import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
-  state = { lan: "", listaColecciones: [] };
+  state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };
   componentDidMount = async () => {
     const listaColecciones = await getColecciones();
+    this.updateDimensions();
+    window.addEventListener("resize", this.updateDimensions.bind(this));
+
     this.setState({
       lan: getLan(),
       listaColecciones: this.randomCols(listaColecciones)
     });
+  };
+
+  updateDimensions = () => {
+    let update_width = window.innerWidth;
+    let update_height = window.innerHeight;
+    this.setState({ windowWidth: update_width, windowHeight: update_height });
   };
 
   handleLanguage = lan => {
@@ -37,7 +46,7 @@ class App extends Component {
   };
 
   render() {
-    const { lan, listaColecciones } = this.state;
+    const { lan, listaColecciones, windowWidth, windowHeight } = this.state;
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
@@ -45,7 +54,12 @@ class App extends Component {
         <ToastContainer></ToastContainer>
         <div className="row panel w-100 m-0 p-0  min-vh-100 no-gutters">
           <div className="col-12 fixed-top">
-            <NavBar lan={lan} handleLanguage={this.handleLanguage}></NavBar>
+            <NavBar
+              lan={lan}
+              handleLanguage={this.handleLanguage}
+              windowWidth={this.state.windowWidth}
+              windowHeight={this.state.windowHeight}
+            ></NavBar>
           </div>
 
           <div className="col-12  min-vh-100 m-0 p-0 ">
@@ -61,6 +75,8 @@ class App extends Component {
                   <CollectionSlider
                     lan={lan}
                     listaColecciones={listaColecciones}
+                    windowWidth={windowWidth}
+                    windowHeight={windowHeight}
                     {...props}
                   />
                 )}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import t from "./navBar.lit.json";
 
 const NavBar = props => {
-  const { lan, handleLanguage } = props;
+  const { lan, handleLanguage, windowWidth, windowHeight } = props;
   //console.log(lan, t, t.COL[lan]);
 
   if (lan === "") {
@@ -65,6 +65,11 @@ const NavBar = props => {
               <Link className="nav-link" to={"/"}>
                 {t.CON[lan]}
               </Link>
+            </div>
+            <div>
+              <p className="text-light">
+                {windowWidth + " x " + windowHeight}{" "}
+              </p>
             </div>
             <div className="nav-item  position-absolute idiomas">
               <Link
