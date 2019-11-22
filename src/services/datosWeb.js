@@ -35,5 +35,10 @@ export async function getImages(col) {
 export function getLan() {
   // console.log( sessionStorage.getItem("lan"),  sessionStorage.getItem("lan") || "es"  );
 
-  return sessionStorage.getItem("lan") || "es";
+  return (
+    sessionStorage.getItem("lan") ||
+    navigator.language.substring(0, 2).toLowerCase() ||
+    navigator.userLanguage.substring(0, 2).toLowerCase() ||
+    "es"
+  );
 }
