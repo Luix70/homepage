@@ -27,7 +27,7 @@ class App extends Component {
       [array[i], array[j]] = [array[j], array[i]];
     }
 
-    console.log(cols, array);
+    //console.log(cols, array);
     return array;
   };
 
@@ -36,13 +36,13 @@ class App extends Component {
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
-      <div className="container-fluid  px-0 mx-0 min-vh-100 ">
-        <div className="row panel w-100 mx-0 px-0  min-vh-100 no-gutters">
+      <div className="container-fluid  p-0 m-0 min-vh-100 ">
+        <div className="row panel w-100 m-0 p-0  min-vh-100 no-gutters">
           <div className="col-12 fixed-top">
             <NavBar lan={lan} handleLanguage={this.handleLanguage}></NavBar>
           </div>
 
-          <div className="col-12  min-vh-100 mx-0 px-0 ">
+          <div className="col-12  min-vh-100 m-0 p-0 ">
             <Switch>
               <Route
                 path="/coleccion/:col"
@@ -63,7 +63,7 @@ class App extends Component {
             </Switch>
           </div>
         </div>
-        <div className="row  w-100 mx-0">
+        <div className="row  w-100 m-0">
           <Footer></Footer>
         </div>
       </div>

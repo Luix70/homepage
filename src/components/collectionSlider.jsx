@@ -35,12 +35,9 @@ const CollectionSlider = props => {
                 </Link>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans elevado pt-3 pb-4 pr-5 pl-3">
+              <div className="carousel-caption d-sm-inline-block semitrans p-3 mb-5">
                 <p className=" text-dark font-italic">{col.desc[lan]}</p>
-                <Link
-                  className="btn btn-outline-info "
-                  to={"/coleccion/" + col.mod}
-                >
+                <Link className="btn btn-link " to={"/coleccion/" + col.mod}>
                   {t.VC[lan]}
                 </Link>
               </div>

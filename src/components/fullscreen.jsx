@@ -1,36 +1,44 @@
 import React from "react";
 import MaterialIcon from "react-google-material-icons";
-import t from "./fullscreen.lit.json";
+//import t from "./fullscreen.lit.json";
 const Fullscreen = props => {
-  const { img, lan, handleClosePicture } = props;
-  const defaultButtonStyle = "btn btn-light pl-4 ";
+  const { img, handleClosePicture } = props;
+  const defaultButtonStyle = "btn btn-light pl-4 d-block";
   return (
-    <div className="full-image col-12 fixed-top p-0 m-0">
+    <div className="col-12 fixed-top p-0 m-0 overflow-hidden max-vh-100 max-vw-100 vh-100 vw-100 overflow-hidden">
       <div className="row bg-light">
-        <div
-          className="btn-group btn-group-sm float-left "
-          role="group"
-          aria-label="Basic example"
-        >
-          <button
-            onClick={handleClosePicture}
-            type="button"
-            className={defaultButtonStyle + "d-flex"}
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div
+            className="btn-group btn-group-sm float-left iconOverlay"
+            role="group"
           >
-            <MaterialIcon icon="visibility_off" size={24} />
-            <p className="ml-2 mb-0">{t.OI[lan]}</p>
-          </button>
+            <button
+              onClick={handleClosePicture}
+              type="button"
+              className={defaultButtonStyle}
+            >
+              <MaterialIcon icon="fullscreen_exit" size={24} />
+            </button>
+
+            <button type="button" className={defaultButtonStyle}>
+              <a
+                href={"/resources/img/" + img.folder + "/" + img.nombre_img}
+                download
+              >
+                <MaterialIcon icon="cloud_download" size={24} />
+              </a>
+            </button>
+          </div>
         </div>
       </div>
-      <div className="row">
-        <div className="row">
-          <div className="col-12">
-            <img
-              className="flex-image min-vh-100 min-vw-100 vw-100 "
-              src={"/resources/img/" + img.folder + "/" + img.nombre_img}
-              alt={img.nombre_img}
-            />
-          </div>
+
+      <div className="row m-0 p-0 text-center full-screen-container overflow-hidden">
+        <div className="col-12 m-0 p-0 position-relative vw-100 vh-100 ">
+          <img
+            className=" min-vw-100 w-100 text-center full-screen-image"
+            src={"/resources/img/" + img.folder + "/" + img.nombre_img}
+            alt={img.nombre_img}
+          />
         </div>
       </div>
     </div>
