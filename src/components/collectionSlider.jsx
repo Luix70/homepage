@@ -27,6 +27,8 @@ const CollectionSlider = props => {
               style={{
                 backgroundImage:
                   "url(/resources/img/" +
+                  col.mod +
+                  "/" +
                   col.thumbnail.replace(
                     ".jpg",
                     "_" + WhichBotstrapBreak(windowWidth, windowHeight) + ".jpg"
@@ -35,7 +37,9 @@ const CollectionSlider = props => {
               }}
             >
               <div className="hero w-100 pt-0 mt-5">
-                <h4 className="text-dark lead mt-4 mb-0 ">{col.tags[lan]}</h4>
+                <h4 className="text-dark lead mt-4 mb-0 p-2">
+                  {col.tags[lan]}
+                </h4>
                 <Link to={"/coleccion/" + col.mod} className={"heroLink"}>
                   <h1 className="display-3 text-uppercase mt-0 pt-0">
                     {col.mod}

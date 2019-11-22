@@ -6,7 +6,7 @@ const ColIntro = props => {
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-4 mx-0 text-center">
         <img
           className="rounded img-fluid"
-          src={"/resources/img/" + col.thumbnail}
+          src={"/resources/img/" + col.mod + "/" + col.tec_thumbnail}
           alt={col.thumbnail}
         />
       </div>
