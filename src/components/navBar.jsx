@@ -26,9 +26,9 @@ const NavBar = props => {
   }
 
   return (
-    <div className="row w-100 mx-0 bg-dark">
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark w-100">
-        <div className="navbar-brand">
+    <div className="row w-100 mx-0 bg-dark d-flex clearfix">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark w-100  align-items-left ">
+        <div className="navbar-brand position-relative ml-1">
           <object
             type="image/svg+xml"
             data="/resources/img/logoIndesan.svg"
@@ -39,7 +39,7 @@ const NavBar = props => {
           ></object>
         </div>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler  burgerButton"
           type="button"
           data-toggle="collapse"
           data-target="#toggler"
@@ -49,7 +49,10 @@ const NavBar = props => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="toggler">
+        <div
+          className="collapse navbar-collapse justify-content-around align-items-middle"
+          id="toggler"
+        >
           <div className="navbar-nav mr-auto ">
             <div className="nav-item active">
               <Link className="nav-link" to={"/"}>
@@ -66,12 +69,14 @@ const NavBar = props => {
                 {t.CON[lan]}
               </Link>
             </div>
-            <div>
-              <p className="text-light">
-                {windowWidth + " x " + windowHeight + "( " + BSBreak + ")"}
-              </p>
+
+            <div className="nav-item">
+              <Link className="nav-link" to={"/"}>
+                {windowWidth + " x " + windowHeight + " (" + BSBreak + ")"}
+              </Link>
             </div>
-            <div className="nav-item  position-absolute idiomas">
+
+            <div className="nav-item  idiomas position-absolute">
               <Link
                 to={"#"}
                 className={badgeStyle("es")}

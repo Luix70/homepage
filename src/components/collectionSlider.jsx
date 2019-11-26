@@ -13,7 +13,7 @@ const CollectionSlider = props => {
       id="carouselColecciones"
       className="carousel slide"
       data-ride="carousel"
-      data-interval="500000"
+      data-interval="5000"
     >
       <div className="carousel-inner">
         {cols.map(col => {
@@ -47,8 +47,10 @@ const CollectionSlider = props => {
                 </Link>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans p-3 mb-5">
-                <p className=" text-dark font-italic">{col.desc[lan]}</p>
+              <div className="carousel-caption d-sm-inline-block semitrans p-1 mb-5">
+                {aspectRatio < 1 && windowHeight > 500 ? (
+                  <p className=" text-dark font-italic">{col.desc[lan]}</p>
+                ) : null}
                 <Link className="btn btn-link " to={"/coleccion/" + col.mod}>
                   {t.VC[lan]}
                 </Link>

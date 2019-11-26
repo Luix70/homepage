@@ -7,12 +7,25 @@ import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak } from "./utilities/utilities.js";
+import jwt_decode from "jwt-decode";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
   state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };
+
   componentDidMount = async () => {
+    const jwt = sessionStorage.getItem("apiToken");
+    try {
+      const payload = jwt_decode(jwt);
+      console.log(payload);
+      sessionStorage.setItem("lan", payload.Idioma.toLowerCase());
+      sessionStorage.setItem("nombreUsuario", payload.NombreUsuario);
+    } catch {
+      sessionStorage.setItem("lan", "");
+      sessionStorage.setItem("nombreUsuario", "");
+    }
+
     const listaColecciones = await getColecciones();
 
     window.addEventListener("resize", this.updateDimensions.bind(this));
@@ -89,7 +102,7 @@ class App extends Component {
             </Switch>
           </div>
         </div>
-        <div className="row  w-100 m-0">
+        <div className="row w-100 m-0">
           <Footer></Footer>
         </div>
       </div>
