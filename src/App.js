@@ -6,7 +6,7 @@ import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
-import { WhichBotstrapBreak } from "./utils/utilities.js";
+import { WhichBotstrapBreak, randomCols } from "./utils/utilities.js";
 import jwt_decode from "jwt-decode";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -32,7 +32,7 @@ class App extends Component {
 
     this.setState({
       lan: getLan(),
-      listaColecciones: this.randomCols(listaColecciones),
+      listaColecciones: randomCols(listaColecciones),
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight
     });
@@ -47,18 +47,6 @@ class App extends Component {
   handleLanguage = lan => {
     sessionStorage.setItem("lan", lan);
     this.setState({ lan });
-  };
-
-  randomCols = cols => {
-    const array = [...cols];
-
-    for (let i = array.length - 1; i > -1; --i) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-
-    //console.log(cols, array);
-    return array;
   };
 
   render() {
