@@ -67,8 +67,8 @@ class App extends Component {
     return (
       <div className="container-fluid  p-0 m-0 min-vh-100 ">
         <ToastContainer></ToastContainer>
-        <div className="row panel w-100 m-0 p-0  min-vh-100 no-gutters">
-          <div className="col-12 fixed-top">
+        <div className="row panel w-100 m-0   min-vh-100 no-gutters">
+          <div className="col-12 fixed-top navegacion">
             <NavBar
               lan={lan}
               handleLanguage={this.handleLanguage}

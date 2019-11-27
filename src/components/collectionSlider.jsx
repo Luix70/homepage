@@ -36,7 +36,7 @@ const CollectionSlider = props => {
                   ")"
               }}
             >
-              <div className="hero w-100 pt-0 mt-5">
+              <div className="hero w-100 pt-0 ">
                 <h4 className="text-dark lead mt-4 mb-0 p-2">
                   {col.tags[lan]}
                 </h4>
@@ -47,7 +47,7 @@ const CollectionSlider = props => {
                 </Link>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans p-1 mb-5">
+              <div className="carousel-caption d-sm-inline-block semitrans ">
                 {aspectRatio < 1 && windowHeight > 500 ? (
                   <p className=" text-dark font-italic">{col.desc[lan]}</p>
                 ) : null}

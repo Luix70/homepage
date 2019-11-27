@@ -5,6 +5,13 @@
   background-color: #eee;
 }
 
+.panel {
+  padding-top: 60px;
+}
+
+.navegacion {
+  min-height: 60px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -28,7 +35,6 @@
 .hero {
   position: absolute;
   text-align: center;
-  margin-top: 7%;
   width: 100vw;
   height: 100vh;
   font-size: 10em !important;
@@ -88,6 +94,9 @@
   right: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 120px !important;
 }
 
 body,
