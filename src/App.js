@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import jwt_decode from "jwt-decode";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
-import jwt_decode from "jwt-decode";
-import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
+import "./App.css";
+import "./Custom.css";
 
 class App extends Component {
   state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };
