@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "../common/form";
 import http from "../services/httpService";
-import { apiEndPoint3 } from "../config.json";
+import { apiDataEndPoint } from "../config.json";
 
 class LoginForm extends Form {
   state = { data: { username: "", password: "" }, errors: {} };
@@ -25,9 +25,9 @@ class LoginForm extends Form {
   schema = Joi.object(this.objSchema);
 
   doSubmit = async () => {
-    //console.log(apiEndPoint3 + "login/authenticate/", this.state.data);
+    //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
     const { data: token } = await http.post(
-      apiEndPoint3 + "login/authenticate/",
+      apiDataEndPoint + "login/authenticate/",
       this.state.data
     );
     //console.log(token);
@@ -40,13 +40,15 @@ class LoginForm extends Form {
 
   render() {
     return (
-      <div className="formContainer">
-        <h1>Login</h1>
-        <form onSubmit={this.handleSubmit}>
-          {this.renderInput("username", "Usuario")}
-          {this.renderInput("password", "Contraseña", "password")}
-          {this.renderButton("Login")}
-        </form>
+      <div className="d-flex container mt-5">
+        <div className="w-100 mt-5">
+          <h1>Login</h1>
+          <form onSubmit={this.handleSubmit}>
+            {this.renderInput("username", "Usuario")}
+            {this.renderInput("password", "Contraseña", "password")}
+            {this.renderButton("Login")}
+          </form>
+        </div>
       </div>
     );
   }

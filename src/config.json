@@ -1,1 +1,4 @@
-{ "apiEndPoint": "https://indesan.com:3001" }
+{
+  "apiEndPoint": "https://indesan.com:3001",
+  "apiDataEndPoint": "https://indesan.ddns.net:1443/api/"
+}

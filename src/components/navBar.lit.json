@@ -1,5 +1,7 @@
 {
   "COL": { "es": "Colecciones", "fr": "Collections", "en": "Collections" },
   "AU": { "es": "Área Usuario", "en": "User Area", "fr": "Espace Client" },
-  "CON": { "es": "Contacto", "en": "Contact", "fr": "Contacter" }
+  "CON": { "es": "Contacto", "en": "Contact", "fr": "Contacter" },
+  "LI": { "es": "Login", "en": "Login", "fr": "Login" },
+  "LO": { "es": "Logout", "en": "Logout", "fr": "Logout" }
 }

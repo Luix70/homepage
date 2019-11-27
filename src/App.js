@@ -6,6 +6,8 @@ import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
+import AreaReservada from "./components/areaReservada";
+import LoginForm from "./components/loginForm";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import "react-toastify/dist/ReactToastify.css";
@@ -17,8 +19,9 @@ class App extends Component {
 
   componentDidMount = async () => {
     const jwt = sessionStorage.getItem("apiToken");
+    var payload = null;
     try {
-      const payload = jwt_decode(jwt);
+      payload = jwt_decode(jwt);
       console.log(payload);
       sessionStorage.setItem("lan", payload.Idioma.toLowerCase());
       sessionStorage.setItem("nombreUsuario", payload.NombreUsuario);
@@ -35,7 +38,8 @@ class App extends Component {
       lan: getLan(),
       listaColecciones: randomArray(listaColecciones),
       windowWidth: window.innerWidth,
-      windowHeight: window.innerHeight
+      windowHeight: window.innerHeight,
+      usuario: payload
     });
   };
 
@@ -65,6 +69,7 @@ class App extends Component {
               windowWidth={this.state.windowWidth}
               windowHeight={this.state.windowHeight}
               BSBreak={WhichBotstrapBreak(windowWidth, windowHeight)}
+              usuario={this.state.usuario}
             ></NavBar>
           </div>
 
@@ -74,6 +79,11 @@ class App extends Component {
                 path="/coleccion/:col"
                 render={props => <Coleccion lan={lan} {...props} />}
               />
+              <Route
+                path="/ar"
+                render={props => <AreaReservada usuario={this.state.usuario} />}
+              />
+              <Route path="/login" render={props => <LoginForm />} />
               <Route
                 exact
                 path="/"

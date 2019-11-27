@@ -6,7 +6,7 @@ import { WhichBotstrapBreak } from "../utils/utilities.js";
 const CollectionSlider = props => {
   const { listaColecciones: cols, lan, windowWidth, windowHeight } = props;
   const aspectRatio = windowWidth / windowHeight;
-  console.log(aspectRatio);
+  //console.log(aspectRatio);
 
   return (
     <div

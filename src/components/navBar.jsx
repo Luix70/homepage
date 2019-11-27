@@ -1,9 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import MaterialIcon from "react-google-material-icons";
 import t from "./navBar.lit.json";
 
 const NavBar = props => {
-  const { lan, handleLanguage, windowWidth, windowHeight, BSBreak } = props;
+  const {
+    lan,
+    handleLanguage,
+    windowWidth,
+    windowHeight,
+    BSBreak,
+    usuario
+  } = props;
   //console.log(lan, t, t.COL[lan]);
 
   if (lan === "") {
@@ -16,13 +25,32 @@ const NavBar = props => {
     console.log("logo clicked");
   }
 
+  function showInfo() {
+    if (usuario) {
+      toast.info(usuario.NombreUsuario);
+    } else {
+      toast.error("El usuario no está identificado");
+    }
+  }
+
   function badgeStyle(badgeLan) {
-    const baseBadgeStyle = "badge badge-pill mr-2 mt-2 py-2 ";
-    const activBadgeStyle = "badge-secondary";
-    const inactivBadgeStyle = "badge-light";
+    const baseBadgeStyle = "badge badge-pill mr-2 mt-0 py-2 ";
+    const activBadgeStyle = " badge-secondary";
+    const inactivBadgeStyle = " badge-light";
+
     return lan === badgeLan
       ? baseBadgeStyle + activBadgeStyle
       : baseBadgeStyle + inactivBadgeStyle;
+  }
+
+  function userStyle(badgeUser) {
+    const baseBadgeStyle = "badge badge-pill mr-2 mt-0 py-2 ";
+    const userKnownBadgeStyle = " badge-secondary";
+    const userUnknownBadgeStyle = " badge-light";
+
+    return badgeUser
+      ? baseBadgeStyle + userKnownBadgeStyle
+      : baseBadgeStyle + userUnknownBadgeStyle;
   }
 
   return (
@@ -59,24 +87,39 @@ const NavBar = props => {
                 {t.COL[lan]}
               </Link>
             </div>
-            <div className="nav-item">
-              <Link className="nav-link" to={"/"}>
-                {t.AU[lan]}
-              </Link>
-            </div>
+
             <div className="nav-item">
               <Link className="nav-link" to={"/"}>
                 {t.CON[lan]}
               </Link>
             </div>
-
+            {usuario ? (
+              <React.Fragment>
+                <div className="nav-item">
+                  <Link className="nav-link" to={"/ar"}>
+                    {t.AU[lan]}
+                  </Link>
+                </div>
+                <div className="nav-item">
+                  <Link className="nav-link" to={"#"}>
+                    {t.LO[lan]}
+                  </Link>
+                </div>
+              </React.Fragment>
+            ) : (
+              <div className="nav-item">
+                <Link className="nav-link" to={"/login"}>
+                  {t.LI[lan]}
+                </Link>
+              </div>
+            )}
             <div className="nav-item">
               <Link className="nav-link" to={"/"}>
                 {windowWidth + " x " + windowHeight + " (" + BSBreak + ")"}
               </Link>
             </div>
 
-            <div className="nav-item  idiomas position-absolute">
+            <div className="nav-item  idiomas  d-flex position-absolute align-items-center">
               <Link
                 to={"#"}
                 className={badgeStyle("es")}
@@ -97,6 +140,9 @@ const NavBar = props => {
                 onClick={() => handleLanguage("fr")}
               >
                 FR
+              </Link>
+              <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
+                <MaterialIcon icon="person" size={24} />{" "}
               </Link>
             </div>
           </div>
