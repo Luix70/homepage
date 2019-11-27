@@ -54,6 +54,12 @@ class App extends Component {
     this.setState({ lan });
   };
 
+  handleLogout = () => {
+    console.log("handle logout");
+    sessionStorage.setItem("apiToken", "");
+    this.setState({ usuario: null });
+  };
+
   render() {
     const { lan, listaColecciones, windowWidth, windowHeight } = this.state;
     //console.log(lan, listaColecciones);
@@ -70,6 +76,7 @@ class App extends Component {
               windowHeight={this.state.windowHeight}
               BSBreak={WhichBotstrapBreak(windowWidth, windowHeight)}
               usuario={this.state.usuario}
+              handleLogout={this.handleLogout}
             ></NavBar>
           </div>
 

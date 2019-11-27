@@ -11,7 +11,8 @@ const NavBar = props => {
     windowWidth,
     windowHeight,
     BSBreak,
-    usuario
+    usuario,
+    handleLogout
   } = props;
   //console.log(lan, t, t.COL[lan]);
 
@@ -67,7 +68,7 @@ const NavBar = props => {
           ></object>
         </div>
         <button
-          className="navbar-toggler burgerButton"
+          className="navbar-toggler mr-3"
           type="button"
           data-toggle="collapse"
           data-target="#toggler"
@@ -101,7 +102,7 @@ const NavBar = props => {
                   </Link>
                 </div>
                 <div className="nav-item">
-                  <Link className="nav-link" to={"#"}>
+                  <Link className="nav-link" to={"#"} onClick={handleLogout}>
                     {t.LO[lan]}
                   </Link>
                 </div>
