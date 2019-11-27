@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import t from "./collectionSlider.lit.json";
-import { WhichBotstrapBreak } from "../utilities/utilities.js";
+import { WhichBotstrapBreak } from "../utils/utilities.js";
 
 const CollectionSlider = props => {
   const { listaColecciones: cols, lan, windowWidth, windowHeight } = props;

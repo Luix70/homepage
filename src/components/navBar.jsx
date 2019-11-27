@@ -27,7 +27,7 @@ const NavBar = props => {
 
   return (
     <div className="row w-100 mx-0 bg-dark d-flex clearfix">
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark w-100  align-items-left ">
+      <nav className="navbar navbar-expand-md navbar-dark  w-100  align-items-left ">
         <div className="navbar-brand position-relative ml-1">
           <object
             type="image/svg+xml"
@@ -39,7 +39,7 @@ const NavBar = props => {
           ></object>
         </div>
         <button
-          className="navbar-toggler  burgerButton"
+          className="navbar-toggler burgerButton"
           type="button"
           data-toggle="collapse"
           data-target="#toggler"

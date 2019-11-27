@@ -6,7 +6,7 @@ import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
-import { WhichBotstrapBreak } from "./utilities/utilities.js";
+import { WhichBotstrapBreak } from "./utils/utilities.js";
 import jwt_decode from "jwt-decode";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
