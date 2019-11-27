@@ -6,7 +6,7 @@ import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import { getLan, getColecciones } from "./services/datosWeb";
-import { WhichBotstrapBreak, randomCols } from "./utils/utilities.js";
+import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import jwt_decode from "jwt-decode";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -32,7 +32,7 @@ class App extends Component {
 
     this.setState({
       lan: getLan(),
-      listaColecciones: randomCols(listaColecciones),
+      listaColecciones: randomArray(listaColecciones),
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight
     });
