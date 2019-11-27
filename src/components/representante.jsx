@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import _ from "lodash";
-import Table from "./common/table";
+import Table from "../common/table";
 import Cliente from "./cliente";
 class Representante extends Component {
   state = {

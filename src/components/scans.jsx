@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import getScans from "../services/archivos";
 import PDFViewer from "pdf-viewer-reactjs";
-import DocView from "./common/docView";
+import DocView from "../common/docView";
 import { toast } from "react-toastify";
 import config from "../config.json";
 class Scans extends Component {

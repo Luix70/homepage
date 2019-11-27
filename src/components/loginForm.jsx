@@ -1,6 +1,6 @@
 import React from "react";
 import Joi from "@hapi/joi";
-import Form from "./common/form";
+import Form from "../common/form";
 import http from "../services/httpService";
 import { apiEndPoint3 } from "../config.json";
 
