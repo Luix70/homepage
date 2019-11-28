@@ -28,7 +28,7 @@ export async function getRepres() {
 }
 
 async function getData() {
-  const nEndPoint = config.apiEndPoint3 + "customers/GetAll";
+  const nEndPoint = config.apiDataEndPoint + "customers/GetAll";
 
   const cachedData = JSON.parse(sessionStorage.getItem("cachedData"));
 

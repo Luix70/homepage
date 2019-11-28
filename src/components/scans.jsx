@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import getScans from "../services/archivos";
-import PDFViewer from "pdf-viewer-reactjs";
-import DocView from "../common/docView";
+
+import DocView from "./common/docView";
 import { toast } from "react-toastify";
 import config from "../config.json";
 class Scans extends Component {
@@ -9,15 +9,14 @@ class Scans extends Component {
     const { cd, td } = this.props.match.params;
 
     const scans = await getScans(td, cd, 3);
-
     this.setState({ scans: scans, cd: cd, td: td });
   };
 
   handleClick = (ruta, tipo) => {
     const { cd, td } = this.state;
     window.location.href =
-      config.apiEndPoint +
-      "/JTransferScan?ruta=" +
+      config.DataEndPoint +
+      "JTransferScan?ruta=" +
       ruta +
       "&cd=" +
       cd +
@@ -28,8 +27,8 @@ class Scans extends Component {
 
     this.setState({
       rutaPDF:
-        config.apiEndPoint +
-        "/JTransferScan?ruta=" +
+        config.DataEndPoint +
+        "JTransferScan?ruta=" +
         ruta +
         "&cd=" +
         cd +
@@ -47,26 +46,15 @@ class Scans extends Component {
   render() {
     try {
       return (
-        <div className="d-flex">
-          <div className="cardContainer  col-2">
-            {this.state.scans.map(scan => (
-              <DocView
-                key={scan.numerador}
-                tipo={scan.TipoImagen}
-                ruta={scan.ruta + "\\" + scan.documento}
-                onClick={this.handleClick}
-              ></DocView>
-            ))}
-          </div>
-          <div className="cardContainer col-10">
-            {this.state.rutaPDF === "" ? null : (
-              <PDFViewer
-                document={{
-                  url: this.state.rutaPDF
-                }}
-              />
-            )}
-          </div>
+        <div className="row d-flex justify-content-center wrap">
+          {this.state.scans.map(scan => (
+            <DocView
+              key={scan.numerador}
+              tipo={scan.TipoImagen}
+              ruta={scan.ruta + "\\" + scan.documento}
+              onClick={this.handleClick}
+            ></DocView>
+          ))}
         </div>
       );
     } catch (error) {
@@ -75,5 +63,4 @@ class Scans extends Component {
     }
   }
 }
-
 export default Scans;

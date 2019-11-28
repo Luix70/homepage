@@ -8,6 +8,7 @@ import CollectionSlider from "./components/collectionSlider.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
+import Scans from "./components/scans";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import "react-toastify/dist/ReactToastify.css";
@@ -22,7 +23,7 @@ class App extends Component {
     var payload = null;
     try {
       payload = jwt_decode(jwt);
-      console.log(payload);
+      //console.log(payload);
       sessionStorage.setItem("lan", payload.Idioma.toLowerCase());
       sessionStorage.setItem("nombreUsuario", payload.NombreUsuario);
     } catch {
@@ -88,7 +89,9 @@ class App extends Component {
               />
               <Route
                 path="/ar"
-                render={props => <AreaReservada usuario={this.state.usuario} />}
+                render={props => (
+                  <AreaReservada usuario={this.state.usuario} {...props} />
+                )}
               />
               <Route path="/login" render={props => <LoginForm />} />
               <Route
@@ -104,6 +107,8 @@ class App extends Component {
                   />
                 )}
               />
+              <Route path="/scans/:td/:cd" component={Scans} />
+              <Redirect to="/not-found" />
               <Redirect to="/" />
             </Switch>
           </div>

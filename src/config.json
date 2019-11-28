@@ -1,4 +1,5 @@
 {
   "apiEndPoint": "https://indesan.com:3001",
+  "DataEndPoint": "https://indesan.ddns.net:1443/JData.asmx/",
   "apiDataEndPoint": "https://indesan.ddns.net:1443/api/"
 }

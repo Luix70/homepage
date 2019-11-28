@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import paginate from "../utils/paginate";
+import paginate from "../../utils/paginate";
 import _ from "lodash";
 import Pagination from "./pagination";
 class ListGroup extends Component {

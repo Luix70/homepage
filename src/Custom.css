@@ -190,3 +190,8 @@ ol.carousel-indicators li.active {
   transform: translate(0, -50%);
   z-index: 900;
 }
+
+.docThumbnail {
+  width: 150px !important;
+  width: 200px !important;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListGroup from "../common/listGroup";
+import ListGroup from "./common/listGroup";
 class MenuRepresentantes extends Component {
   render() {
     const {
