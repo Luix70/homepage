@@ -40,10 +40,11 @@ class LoginForm extends Form {
 
   render() {
     return (
-      <div className="d-flex min-vh-100 mt-5 justify-content-center">
-        <div className="row">
-          <div className="col">
-            <h1>Login</h1>
+      <div className="d-flex mt-5 ">
+        <div className="row m-0 p-0 w-100 justify-content-around ">
+          <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
+            <h1 className="text-center">Login</h1>
+            <hr />
             <form onSubmit={this.handleSubmit}>
               {this.renderInput("username", "Usuario")}
               {this.renderInput("password", "Contraseña", "password")}

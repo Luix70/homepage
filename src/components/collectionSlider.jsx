@@ -48,7 +48,8 @@ const CollectionSlider = props => {
               </div>
 
               <div className="carousel-caption d-sm-inline-block semitrans ">
-                {aspectRatio < 1 || windowHeight > 399 ? (
+                {(aspectRatio > 1 && windowHeight > 399) ||
+                (aspectRatio <= 1 && windowHeight > 500) ? (
                   <p className=" text-dark font-italic">{col.desc[lan]}</p>
                 ) : null}
                 <Link className="btn btn-link " to={"/coleccion/" + col.mod}>
