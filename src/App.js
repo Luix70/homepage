@@ -108,7 +108,7 @@ class App extends Component {
                 )}
               />
               <Route path="/scans/:td/:cd" component={Scans} />
-              <Redirect to="/not-found" />
+
               <Redirect to="/" />
             </Switch>
           </div>
