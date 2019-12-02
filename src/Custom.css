@@ -196,6 +196,7 @@ ol.carousel-indicators li.active {
   width: 200px !important;
 }
 
+/* Css area cliente */
 .codCliente {
   width: 4em;
 }
@@ -286,7 +287,6 @@ ol.carousel-indicators li.active {
 
 .col-3 {
   background-color: #d6d8db;
-  /* margin: 0px -15px 0 0; */
 }
 
 .encab-representante {
@@ -307,7 +307,6 @@ ol.carousel-indicators li.active {
 }
 
 .disabled a.page-link {
-  /* visibility: hidden; */
   background: #d6d8db !important;
 }
 
