@@ -17,55 +17,42 @@ class Secciones extends Component {
           switch (sec.tipo) {
             case "grupo":
               return (
-                <div className="row">
-                  <SeccionGrupo
-                    seccion={sec}
-                    lan={lan}
-                    key={secciones.indexOf(sec)}
-                  ></SeccionGrupo>{" "}
+                <div className="row" key={secciones.indexOf(sec)}>
+                  <SeccionGrupo seccion={sec} lan={lan}></SeccionGrupo>{" "}
                 </div>
               );
             case "media":
               return (
-                <div className="row">
+                <div className="row" key={secciones.indexOf(sec)}>
                   <SeccionMedia
                     seccion={sec}
                     lan={lan}
-                    key={secciones.indexOf(sec)}
                     folder={`/resources/img/${coleccion}/`}
                   ></SeccionMedia>
                 </div>
               );
             case "tecnico":
               return (
-                <div className="row">
-                  <div className="col-12 " key={secciones.indexOf(sec)}>
-                    Técnico
-                  </div>
+                <div className="row" key={secciones.indexOf(sec)}>
+                  <div className="col-12 ">Técnico</div>
                 </div>
               );
             case "opciones":
               return (
-                <div className="row">
-                  <div className="col-12 " key={secciones.indexOf(sec)}>
-                    Opciones
-                  </div>
+                <div className="row" key={secciones.indexOf(sec)}>
+                  <div className="col-12 ">Opciones</div>
                 </div>
               );
             case "descargas":
               return (
-                <div className="row">
-                  <div className="col-12 " key={secciones.indexOf(sec)}>
-                    Descarga
-                  </div>
+                <div className="row" key={secciones.indexOf(sec)}>
+                  <div className="col-12 ">Descarga</div>
                 </div>
               );
             default:
               return (
-                <div className="row">
-                  <div className="col-12 " key={secciones.indexOf(sec)}>
-                    desconocido
-                  </div>
+                <div className="row" key={secciones.indexOf(sec)}>
+                  <div className="col-12 ">desconocido</div>
                 </div>
               );
           }
