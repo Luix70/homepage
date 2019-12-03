@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import SeccionGrupo from "./seccionGrupo";
+import SeccionMedia from "./seccionMedia";
 class Secciones extends Component {
-  state = { secciones: [], lan: "" };
-  componentDidMount = () => {
-    this.setState({ secciones: this.props.secciones, lan: this.props.lan });
-  };
   render() {
-    const { secciones, lan } = this.props;
+    const { secciones, lan, coleccion } = this.props;
 
     return (
       <React.Fragment>
@@ -31,9 +28,12 @@ class Secciones extends Component {
             case "media":
               return (
                 <div className="row">
-                  <div className="col-12 " key={secciones.indexOf(sec)}>
-                    Media
-                  </div>
+                  <SeccionMedia
+                    seccion={sec}
+                    lan={lan}
+                    key={secciones.indexOf(sec)}
+                    folder={`/resources/img/${coleccion}/`}
+                  ></SeccionMedia>
                 </div>
               );
             case "tecnico":

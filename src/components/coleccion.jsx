@@ -28,7 +28,11 @@ class Coleccion extends Component {
           <ColHeader col={coleccion} lan={lan}></ColHeader>
           <ColIntro col={coleccion} lan={lan}></ColIntro>
           <Galeria col={coleccion} lan={lan}></Galeria>
-          <Secciones secciones={coleccion.secciones} lan={lan}></Secciones>
+          <Secciones
+            secciones={coleccion.secciones}
+            lan={lan}
+            coleccion={coleccion.mod}
+          ></Secciones>
         </React.Fragment>
       );
     }
