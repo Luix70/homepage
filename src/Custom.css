@@ -196,6 +196,9 @@ ol.carousel-indicators li.active {
   width: 200px !important;
 }
 
+.direccion {
+  border: none !important;
+}
 /* Css area cliente */
 .codCliente {
   width: 4em;
