@@ -14,6 +14,8 @@ import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./Custom.css";
+import "./AreaCliente.css";
+import "./OldWeb.css";
 
 class App extends Component {
   state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };

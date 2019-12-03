@@ -3,6 +3,7 @@ import { getColeccion } from "./../services/datosWeb";
 import ColHeader from "./colHeader";
 import ColIntro from "./colIntro";
 import Galeria from "./galeria";
+import Secciones from "./secciones";
 
 class Coleccion extends Component {
   state = { coleccion: null };
@@ -22,12 +23,12 @@ class Coleccion extends Component {
     if (!coleccion || lan === "") {
       return <h1>{col}</h1>;
     } else {
-      //console.log(col, coleccion);
       return (
         <React.Fragment>
           <ColHeader col={coleccion} lan={lan}></ColHeader>
           <ColIntro col={coleccion} lan={lan}></ColIntro>
           <Galeria col={coleccion} lan={lan}></Galeria>
+          <Secciones secciones={coleccion.secciones} lan={lan}></Secciones>
         </React.Fragment>
       );
     }
