@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import SeccionGrupo from "./seccionGrupo";
 import SeccionMedia from "./seccionMedia";
+import SeccionTecnico from "./seccionTecnico";
+import SeccionOpciones from "./seccionOpciones";
 class Secciones extends Component {
   render() {
     const { secciones, lan, coleccion } = this.props;
+
+    if (!secciones) return null;
 
     return (
       <React.Fragment>
@@ -34,13 +38,13 @@ class Secciones extends Component {
             case "tecnico":
               return (
                 <div className="row" key={secciones.indexOf(sec)}>
-                  <div className="col-12 ">Técnico</div>
+                  <SeccionTecnico seccion={sec} lan={lan}></SeccionTecnico>
                 </div>
               );
             case "opciones":
               return (
                 <div className="row" key={secciones.indexOf(sec)}>
-                  <div className="col-12 ">Opciones</div>
+                  <SeccionOpciones seccion={sec} lan={lan}></SeccionOpciones>
                 </div>
               );
             case "descargas":
