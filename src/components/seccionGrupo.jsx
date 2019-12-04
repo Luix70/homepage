@@ -6,7 +6,7 @@ class SeccionGrupo extends Component {
     //console.log(seccion, lan);
     return !seccion ? null : (
       <React.Fragment>
-        <div className="col-12 text-center ">
+        <div className="col-12 text-center mb-3">
           <h3>{seccion.titulo[lan].toUpperCase()}</h3>
         </div>
         {seccion.articulos.map(art => (

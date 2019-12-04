@@ -5,10 +5,12 @@ const SeccionTecnico = props => {
 
   return (
     <div className="col-12">
-      <h3 className="w-100 text-center">{seccion.titulo[lan].toUpperCase()}</h3>
-      <ul>
+      <h3 className="text-center">{seccion.titulo[lan].toUpperCase()}</h3>
+      <ul className="list-group">
         {seccion.items.map(item => (
-          <li key={seccion.items.indexOf(item)}>{item[lan]}</li>
+          <li className="list-group-item" key={seccion.items.indexOf(item)}>
+            {item[lan]}
+          </li>
         ))}
       </ul>
     </div>
