@@ -77,17 +77,23 @@ class App extends Component {
               handleLanguage={this.handleLanguage}
               windowWidth={this.state.windowWidth}
               windowHeight={this.state.windowHeight}
-              BSBreak={WhichBotstrapBreak(windowWidth, windowHeight)}
+              BSBreak={WhichBotstrapBreak(windowWidth)}
               usuario={this.state.usuario}
               handleLogout={this.handleLogout}
             ></NavBar>
           </div>
 
-          <div className="col-12  min-vh-100 m-0 p-0 ">
+          <div className="col-12 min-vh-100 m-0 p-0 ">
             <Switch>
               <Route
                 path="/coleccion/:col"
-                render={props => <Coleccion lan={lan} {...props} />}
+                render={props => (
+                  <Coleccion
+                    lan={lan}
+                    BSBreak={WhichBotstrapBreak(windowWidth)}
+                    {...props}
+                  />
+                )}
               />
               <Route
                 path="/ar"

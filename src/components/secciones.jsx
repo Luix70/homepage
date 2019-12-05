@@ -6,7 +6,7 @@ import SeccionOpciones from "./seccionOpciones";
 import SeccionDescargas from "./seccionDescargas";
 class Secciones extends Component {
   render() {
-    const { secciones, lan, coleccion } = this.props;
+    const { secciones, lan, coleccion, BSBreak } = this.props;
     const folder = `/resources/img/${coleccion}/`;
 
     if (!secciones) return null;
@@ -28,6 +28,7 @@ class Secciones extends Component {
                     seccion={sec}
                     lan={lan}
                     folder={folder}
+                    BSBreak={BSBreak}
                   ></SeccionGrupo>{" "}
                 </div>
               );
@@ -38,6 +39,7 @@ class Secciones extends Component {
                     seccion={sec}
                     lan={lan}
                     folder={folder}
+                    BSBreak={BSBreak}
                   ></SeccionMedia>
                 </div>
               );
@@ -48,6 +50,7 @@ class Secciones extends Component {
                     seccion={sec}
                     lan={lan}
                     folder={folder}
+                    BSBreak={BSBreak}
                   ></SeccionTecnico>
                 </div>
               );
@@ -58,6 +61,7 @@ class Secciones extends Component {
                     seccion={sec}
                     lan={lan}
                     folder={folder}
+                    BSBreak={BSBreak}
                   ></SeccionOpciones>
                 </div>
               );
@@ -68,6 +72,7 @@ class Secciones extends Component {
                     seccion={sec}
                     lan={lan}
                     folder={folder}
+                    BSBreak={BSBreak}
                   ></SeccionDescargas>
                 </div>
               );

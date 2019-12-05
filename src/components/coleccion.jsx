@@ -16,7 +16,7 @@ class Coleccion extends Component {
   }
 
   render() {
-    const { lan } = this.props;
+    const { lan, BSBreak } = this.props;
     const { col } = this.props.match.params;
     const { coleccion } = this.state;
 
@@ -32,6 +32,7 @@ class Coleccion extends Component {
             secciones={coleccion.secciones}
             lan={lan}
             coleccion={coleccion.mod}
+            BSBreak={BSBreak}
           ></Secciones>
         </React.Fragment>
       );

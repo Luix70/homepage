@@ -199,3 +199,8 @@ ol.carousel-indicators li.active {
 .direccion {
   border: none !important;
 }
+
+.medidas {
+  height: 150px;
+  width: auto;
+}
