@@ -68,10 +68,13 @@ class App extends Component {
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
-      <div className="container-fluid  p-0 m-0 min-vh-100 ">
+      <div className="container-fluid  p-0 m-0 min-vh-100 bg-light ">
         <ToastContainer></ToastContainer>
-        <div className="row panel w-100 m-0   min-vh-100 no-gutters">
-          <div className="col-12 fixed-top navegacion">
+        <div
+          className="row panel w-100 m-0  
+         min-vh-100 no-gutters"
+        >
+          <div className="col-12 fixed-top navegacion m-0">
             <NavBar
               lan={lan}
               handleLanguage={this.handleLanguage}

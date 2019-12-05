@@ -14,9 +14,9 @@ class Secciones extends Component {
     return (
       <React.Fragment>
         <div className="row mb-5 ">
-          <div className="col-12 bg-danger text-light">
+          {/* <div className="col-12 bg-danger text-light mt-5">
             <span>Añadir Seccion</span>
-          </div>
+          </div> */}
         </div>
 
         {secciones.map(sec => {

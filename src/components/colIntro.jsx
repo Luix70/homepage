@@ -11,10 +11,10 @@ const ColIntro = props => {
         />
       </div>
       <div
-        className="col-xs-12 col-sm-12 col-md-6 col-lg-6 p4
-      -0 mx-0 text-center "
+        className="col-xs-12 col-sm-12 col-md-5 col-lg-5 p4
+      -0 mx-0 mx-auto my-auto justify-content-center text-center"
       >
-        <p className="lead">{col.desc[lan]}</p>
+        <p className="font-weight-lighter font-italic h2 ">{col.desc[lan]}</p>
       </div>
     </div>
   );

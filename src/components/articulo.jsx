@@ -3,13 +3,13 @@ const Articulo = prop => {
   const { art, lan, folder, BSBreak } = prop;
   return (
     <div className="row bg-light py-3">
-      <div className="col-3 col-md-2 col-lg-1 bg-light d-flex align-self-stretch align-items-center  px-4 text-muted">
-        <h2 className="text-center w-100">{art.cod}</h2>
+      <div className="col-3 col-md-2 col-lg-1 bg-light d-flex align-self-stretch align-items-center px-0 text-muted">
+        <h2 className="text-center w-100 text-monospace">{art.cod}</h2>
       </div>
-      <div className="col-9 col-md-10 col-lg-3 bg-light align-self-stretch my-auto">
+      <div className="col-9 col-md-10 col-lg-3 bg-light align-self-stretch my-auto pr-0 ">
         <h4 className="text-start text-info">
           {art.desc[lan].split("#").map(line => (
-            <small key={line}>
+            <small key={line} className="text-nowrap">
               {line}
               {BSBreak === "md" ? null : <br />}
             </small>
@@ -28,7 +28,7 @@ const Articulo = prop => {
                     <img
                       src={folder + img}
                       alt={img}
-                      className="medidas w-100 h-100 mx-2"
+                      className=" w-100 h-100 mx-2"
                     />
                   }
                 </div>

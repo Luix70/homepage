@@ -4,10 +4,10 @@ const Slider = props => {
   const { imgs } = props;
   console.log(imgs);
   return (
-    <div className="col-12">
+    <div className="col-12 p-0 m-0">
       <div
         id="carousel_"
-        className="carousel slide vw-100"
+        className="carousel slide p-0 m-0"
         data-ride="carousel"
         data-interval="5000"
       >

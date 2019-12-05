@@ -39,11 +39,11 @@ class Galeria extends Component {
   render() {
     const { listaImagenes, verGaleria, modo } = this.state;
     const { col, lan } = this.props;
-    const defaultButtonStyle = "btn btn-light pl-4 ";
+    const defaultButtonStyle = "btn btn-white pl-4 ";
 
     return listaImagenes ? (
       <div className="row">
-        <div className="col-12 bg-light">
+        <div className="col-12 bg-white">
           <div
             className={
               "btn-group btn-group-sm float-right " +
@@ -71,7 +71,10 @@ class Galeria extends Component {
               <MaterialIcon icon="view_carousel" size={24} />
             </button>
           </div>
-          <div className="btn-group btn-group-sm float-left " role="group">
+          <div
+            className="btn-group btn-group-sm float-left bg-white"
+            role="group"
+          >
             <button
               onClick={this.toggleVisibility}
               type="button"

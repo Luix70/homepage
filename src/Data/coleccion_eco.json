@@ -1,0 +1,443 @@
+{
+  "_id": ObjectId("5c06b2d666fd0a2ef46f89b0"),
+  "mod": "eco",
+  "thumbnail": "Eco_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Siempre en movimiento",
+    "en": "Always in movement",
+    "fr": "Toujours en mouvement",
+    "_id": ObjectId("5c515f9b8a231811016da1fc")
+  },
+  "desc": {
+    "es": "De líneas suaves y sencilla geometría, esta colección se fusiona a la perfección con sus materiales y acabados\ny facilita su adaptabilidad a diferentes espacios y ambientes.",
+    "en": "With soft lines and simple geometry, this collection blends perfectly with its materials and finishes\nmaking it easy to adapt to different spaces and environments.",
+    "fr": "Avec des lignes douces et une géométrie simple, cette collection se marie parfaitement avec ses matériaux et ses finitions \nen s'adaptant parfaitement à différents espaces et environnements.",
+    "_id": ObjectId("5c515f9b8a231811016da1fd")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de madera, porcelánico o cristal",
+    "fr": "Plateau verre, céramique ou plaqué bois",
+    "en": "Tapa de madera, porcelánico o cristal"
+  },
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de Comedor. Ancho 90",
+        "en": "Dinner tables. Width 90cm",
+        "fr": "TABLES DE SALLE À MANGER. LARGEUR 90"
+      },
+      "articulos": [
+        {
+          "cod": "81A",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
+            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
+          },
+          "imagenes": ["81A_1_dim.svg", "81A_2_dim.svg", "81A_3_dim.svg"]
+        },
+        {
+          "cod": "810",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
+            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
+          },
+          "imagenes": ["810_1_dim.svg", "810_2_dim.svg", "810_3_dim.svg"]
+        },
+        {
+          "cod": "81P",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
+            "en": "[EN]2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
+          },
+          "imagenes": [
+            "81P_1_dim.svg",
+            "81P_2_dim.svg",
+            "81P_3_dim.svg",
+            "81P_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "811",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
+            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
+          },
+          "imagenes": ["811_1_dim.svg", "811_2_dim.svg", "811_3_dim.svg"]
+        },
+        {
+          "cod": "81H",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
+            "en": "[EN]2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
+          },
+          "imagenes": [
+            "81H_1_dim.svg",
+            "81H_2_dim.svg",
+            "81H_3_dim.svg",
+            "81H_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "media",
+      "subtipo": "imagen",
+      "archivo": "Dimensiones_90.jpg",
+      "titulo": {
+        "es": "dimensiones",
+        "en": "dimensions",
+        "fr": "dimensions"
+      },
+      "pie": {
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 810)",
+        "en": "[EN]DIMENSIONES INTERNAS Y EXTERNAS (REF: 810)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 810)"
+      }
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de comedor. Ancho 100",
+        "en": "Dinning Tables. Width 100cm",
+        "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
+      },
+      "articulos": [
+        {
+          "cod": "810+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
+            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 140 x 100 #  (Abierta 210 x 100)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
+          },
+          "imagenes": ["810+_1_dim.svg", "810+_2_dim.svg", "810+_3_dim.svg"]
+        },
+        {
+          "cod": "811+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 100 # (Abierta 230 x 100)",
+            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 160 x 100 #  (Abierta 230 x 100)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 100 # (Ouverte: 230 x 100 )"
+          },
+          "imagenes": ["811+_1_dim.svg", "811+_2_dim.svg", "811+_3_dim.svg"]
+        },
+        {
+          "cod": "81B+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 # (Abierta 250 x 100)",
+            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 180 x 100 #  (Abierta 250 x 100)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 180 x 100 # (Ouverte: 250 x 100 )"
+          },
+          "imagenes": ["81B+_1_dim.svg", "81B+_2_dim.svg", "81B+_3_dim.svg"]
+        },
+        {
+          "cod": "81C+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 # (Abierta 270 x 100)",
+            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 200 x 100 #  (Abierta 270 x 100)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 200 x 100 # (Ouverte: 270 x 100 )"
+          },
+          "imagenes": ["81C+_1_dim.svg", "81C+_2_dim.svg", "81C+_3_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE CENTRO",
+        "en": "Coffee Tables",
+        "fr": "TABLES BASSES"
+      },
+      "articulos": [
+        {
+          "cod": "81E",
+          "desc": {
+            "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
+            "en": "[EN]MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
+            "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
+          },
+          "imagenes": ["81E_1_dim.svg", "81E_2_dim.svg", "81E_3_dim.svg"]
+        },
+        {
+          "cod": "812",
+          "desc": {
+            "es": "MESA DE CENTRO 115 x 65 x 40 ",
+            "en": "[EN]MESA DE CENTRO 115 x 65 x 40 ",
+            "fr": "TABLE BASSE 115 x 65 x 40 "
+          },
+          "imagenes": ["812_1_dim.svg", "812_2_dim.svg"]
+        },
+        {
+          "cod": "813",
+          "desc": {
+            "es": "MESA DE CENTRO 90 x 90 x 40 ",
+            "en": "[EN]MESA DE CENTRO 90 x 90 x 40 ",
+            "fr": "TABLE BASSE 90 x 90 x 40 "
+          },
+          "imagenes": ["813_1_dim.svg"]
+        },
+        {
+          "cod": "814",
+          "desc": {
+            "es": " MESA DE RINCÓN 65 x 65 x 40",
+            "en": "[EN] MESA DE RINCÓN 65 x 65 x 40",
+            "fr": " TABLE BASSE 65 x 65 x 40"
+          },
+          "imagenes": ["814_1_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información Técnica",
+        "en": "[EN]Información Técnica",
+        "fr": "Détails"
+      },
+      "items": [
+        {
+          "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
+          "en": "[EN]Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
+          "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
+        },
+        {
+          "es": "Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
+          "en": "[EN]Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
+          "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau."
+        },
+        {
+          "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture.",
+          "es": "Ruedas ocultas en las patas de la parte extensible.",
+          "en": "[EN]Ruedas ocultas en las patas de la parte extensible."
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "Opciones Adicionales",
+        "en": "[EN]Opciones Adicionales",
+        "fr": "OPTIONS SUPPLÉMMENTAIRES"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Mesas de Comedor",
+            "en": "[EN] Mesas de Comedor",
+            "fr": "SALLE À MANGER"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "TABLE FIXE (sans allonges)",
+              "es": "MESA FIJA (sin extensibles)",
+              "en": "[EN] MESA FIJA (sin extensibles)"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Mesas de Centro",
+            "en": "[Mesas de Centro]",
+            "fr": "TABLE BASSE"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "es": "Juego de cuatro ruedas",
+              "en": "[EN]ENSEMBLE 4 ROUES",
+              "fr": "ENSEMBLE 4 ROUES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO",
+        "en": "[EN] OPCIONES DE ACABADO",
+        "fr": "FINITIONS"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados tapa",
+            "en": "[EN]Acabados tapa",
+            "fr": "Finitions plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "[EN]Chapas naturales"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "[EN]    -Nogal Americano"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "[EN]    -Cerezo",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "[EN]    -Roble",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "es": "    -Roble Nudoso",
+              "en": "[EN]    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "[EN]Lacados",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris céramique ",
+            "es": "Porcelánicos",
+            "en": "[EN]Porcelánicos"
+          },
+          "subtitulo": {
+            "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
+            "en": "[EN](Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
+            "fr": "(3 mm, collé sur verre de 8 mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Noir",
+              "es": "Negro",
+              "en": "Black"
+            },
+            {
+              "fr": "Blanc",
+              "es": "Blanco",
+              "en": "White"
+            },
+            {
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca",
+              "es": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "es": "Gris Nature",
+              "en": "Gris Nature",
+              "fr": "Gris Nature"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "[EN] Cristales "
+          },
+          "subtitulo": {
+            "es": "(Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
+            "en": "[EN](Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
+            "fr": "(Verre de sécurité. Épaisseur: 10mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "[EN]Extra Blanco"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "[EN]Arena"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_eco_es.pdf",
+            "fr": "Tecnico_eco_fr.pdf",
+            "en": "Tecnico_eco_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Eco",
+            "fr": "Brochure Eco",
+            "en": "Eco Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_eco.pdf",
+            "fr": "cat_eco.pdf",
+            "en": "cat_eco.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 2.53Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 2.56Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 2.56Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "eco.zip",
+            "en": "eco.zip",
+            "fr": "eco.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}
