@@ -1,7 +1,7 @@
 import React from "react";
 import MaterialIcon from "react-google-material-icons";
 const SeccionDescargas = props => {
-  const { seccion, lan, col } = props;
+  const { seccion, lan, folder } = props;
   console.log(seccion, lan);
   return (
     <div className="col-12">
@@ -10,16 +10,14 @@ const SeccionDescargas = props => {
         <div className="col-12">
           <ul className="list-group">
             {seccion.documentos.map(doc => {
-              const ruta = doc.comun
-                ? `/resources/images/Colecciones/${col}`
-                : "/resources/images/Colecciones/comun";
+              const ruta = doc.comun ? `/resources/img/comun/` : folder;
               return (
                 <li
                   key={seccion.documentos.indexOf(doc)}
                   className="list-group-item"
                 >
                   <a
-                    href={`${ruta}/${doc.archivo[lan]}`}
+                    href={`${ruta}${doc.archivo[lan]}`}
                     alt={doc.nombreDocumento[lan]}
                     download
                   >

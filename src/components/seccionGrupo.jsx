@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Articulo from "./articulo";
 class SeccionGrupo extends Component {
   render() {
-    const { seccion, lan } = this.props;
+    const { seccion, lan, folder } = this.props;
     //console.log(seccion, lan);
     return !seccion ? null : (
       <React.Fragment>
@@ -11,7 +11,7 @@ class SeccionGrupo extends Component {
         </div>
         {seccion.articulos.map(art => (
           <div className="col-12" key={art}>
-            <Articulo art={art} lan={lan}></Articulo>
+            <Articulo art={art} lan={lan} folder={folder}></Articulo>
           </div>
         ))}
       </React.Fragment>

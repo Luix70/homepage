@@ -7,6 +7,7 @@ import SeccionDescargas from "./seccionDescargas";
 class Secciones extends Component {
   render() {
     const { secciones, lan, coleccion } = this.props;
+    const folder = `/resources/img/${coleccion}/`;
 
     if (!secciones) return null;
 
@@ -23,7 +24,11 @@ class Secciones extends Component {
             case "grupo":
               return (
                 <div className="row mb-5" key={secciones.indexOf(sec)}>
-                  <SeccionGrupo seccion={sec} lan={lan}></SeccionGrupo>{" "}
+                  <SeccionGrupo
+                    seccion={sec}
+                    lan={lan}
+                    folder={folder}
+                  ></SeccionGrupo>{" "}
                 </div>
               );
             case "media":
@@ -32,20 +37,28 @@ class Secciones extends Component {
                   <SeccionMedia
                     seccion={sec}
                     lan={lan}
-                    folder={`/resources/img/${coleccion}/`}
+                    folder={folder}
                   ></SeccionMedia>
                 </div>
               );
             case "tecnico":
               return (
                 <div className="row mb-5" key={secciones.indexOf(sec)}>
-                  <SeccionTecnico seccion={sec} lan={lan}></SeccionTecnico>
+                  <SeccionTecnico
+                    seccion={sec}
+                    lan={lan}
+                    folder={folder}
+                  ></SeccionTecnico>
                 </div>
               );
             case "opciones":
               return (
                 <div className="row mb-5" key={secciones.indexOf(sec)}>
-                  <SeccionOpciones seccion={sec} lan={lan}></SeccionOpciones>
+                  <SeccionOpciones
+                    seccion={sec}
+                    lan={lan}
+                    folder={folder}
+                  ></SeccionOpciones>
                 </div>
               );
             case "descargas":
@@ -54,7 +67,7 @@ class Secciones extends Component {
                   <SeccionDescargas
                     seccion={sec}
                     lan={lan}
-                    col={coleccion}
+                    folder={folder}
                   ></SeccionDescargas>
                 </div>
               );

@@ -1,11 +1,12 @@
 import React from "react";
 const SeccionOpciones = props => {
   const { seccion, lan } = props;
+
   //console.log(seccion, lan);
   return (
     <div className="col-12">
       <h3 className="text-center mb-4">{seccion.titulo[lan].toUpperCase()}</h3>
-      <div className="row d-flex justify-content-center align-items-center">
+      <div className="row d-flex justify-content-center align-items-start">
         {seccion.subopciones.map(so => (
           <div
             key={seccion.subopciones.indexOf(so)}
@@ -16,7 +17,14 @@ const SeccionOpciones = props => {
             <ul className="list-group">
               {so.subtitulo[lan] ? (
                 <li className="list-group-item h-5">
-                  <h6 className="test-small">{so.subtitulo[lan]}</h6>
+                  <h6 className="test-small">
+                    {so.subtitulo[lan].split("#").map(line => (
+                      <span>
+                        {line}
+                        <br />
+                      </span>
+                    ))}
+                  </h6>
                 </li>
               ) : null}
               {so.opciones.map(op => (
