@@ -24,7 +24,7 @@ class Coleccion extends Component {
       return <h1>{col}</h1>;
     } else {
       return (
-        <React.Fragment>
+        <div className="container">
           <ColHeader col={coleccion} lan={lan}></ColHeader>
           <ColIntro col={coleccion} lan={lan}></ColIntro>
           <Galeria col={coleccion} lan={lan}></Galeria>
@@ -34,7 +34,7 @@ class Coleccion extends Component {
             coleccion={coleccion.mod}
             BSBreak={BSBreak}
           ></Secciones>
-        </React.Fragment>
+        </div>
       );
     }
   }

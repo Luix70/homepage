@@ -21,17 +21,6 @@ class Secciones extends Component {
 
         {secciones.map(sec => {
           switch (sec.tipo) {
-            case "grupo":
-              return (
-                <div className="row mb-5" key={secciones.indexOf(sec)}>
-                  <SeccionGrupo
-                    seccion={sec}
-                    lan={lan}
-                    folder={folder}
-                    BSBreak={BSBreak}
-                  ></SeccionGrupo>{" "}
-                </div>
-              );
             case "media":
               return (
                 <div className="row mb-5" key={secciones.indexOf(sec)}>
@@ -43,6 +32,19 @@ class Secciones extends Component {
                   ></SeccionMedia>
                 </div>
               );
+
+            case "grupo":
+              return (
+                <div className="row mb-5" key={secciones.indexOf(sec)}>
+                  <SeccionGrupo
+                    seccion={sec}
+                    lan={lan}
+                    folder={folder}
+                    BSBreak={BSBreak}
+                  ></SeccionGrupo>{" "}
+                </div>
+              );
+
             case "tecnico":
               return (
                 <div className="row mb-5" key={secciones.indexOf(sec)}>

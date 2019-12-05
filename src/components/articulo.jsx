@@ -9,7 +9,7 @@ const Articulo = prop => {
       <div className="col-9 col-md-10 col-lg-3 bg-light align-self-stretch my-auto">
         <h4 className="text-start text-info">
           {art.desc[lan].split("#").map(line => (
-            <small>
+            <small key={line}>
               {line}
               {BSBreak === "md" ? null : <br />}
             </small>
@@ -20,7 +20,10 @@ const Articulo = prop => {
         <div className="row d-flex justify-content-around">
           {art.imagenes
             ? art.imagenes.map(img => (
-                <div className="col-7 col-sm-6 col-md-4 col-lg-3 p-3 ">
+                <div
+                  key={art.imagenes.indexOf(img)}
+                  className="col-7 col-sm-6 col-md-4 col-lg-3 p-3 "
+                >
                   {
                     <img
                       src={folder + img}

@@ -2,7 +2,7 @@ import React from "react";
 import MaterialIcon from "react-google-material-icons";
 const SeccionDescargas = props => {
   const { seccion, lan, folder } = props;
-  console.log(seccion, lan);
+  //console.log(seccion, lan);
   return (
     <div className="col-12">
       <h3 className="w-100 text-center">{seccion.titulo[lan].toUpperCase()}</h3>

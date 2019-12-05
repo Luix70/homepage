@@ -42,8 +42,8 @@ class Galeria extends Component {
     const defaultButtonStyle = "btn btn-light pl-4 ";
 
     return listaImagenes ? (
-      <div className="row col-12 p-0 m-0">
-        <div className="col-12 pr-2 py-2 mx-0 bg-light">
+      <div className="row">
+        <div className="col-12 bg-light">
           <div
             className={
               "btn-group btn-group-sm float-right " +
@@ -95,7 +95,7 @@ class Galeria extends Component {
           </div>
         </div>
 
-        <div className={"row " + (verGaleria ? "d-flex" : "d-none")}>
+        <div className={"row " + (verGaleria ? "px-3" : "d-none")}>
           {modo === "module" ? (
             <ThumbnailGallery
               col={col}

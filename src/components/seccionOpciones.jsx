@@ -16,10 +16,10 @@ const SeccionOpciones = props => {
 
             <ul className="list-group">
               {so.subtitulo[lan] ? (
-                <li className="list-group-item h-5">
-                  <h6 className="test-small">
+                <li className="list-group-item p-0 m-0" key="-1">
+                  <h6 className="text-small text-small bg-light m-0 p-0">
                     {so.subtitulo[lan].split("#").map(line => (
-                      <span>
+                      <span key={line}>
                         {line}
                         <br />
                       </span>
