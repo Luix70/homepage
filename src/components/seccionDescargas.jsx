@@ -8,21 +8,25 @@ const SeccionDescargas = props => {
       <h3 className="w-100 text-center">{seccion.titulo[lan].toUpperCase()}</h3>
       <div className="row">
         <div className="col-12">
-          <ul className="list-group">
+          <ul className="list-group ">
             {seccion.documentos.map(doc => {
               const ruta = doc.comun ? `/resources/img/comun/` : folder;
               return (
                 <li
                   key={seccion.documentos.indexOf(doc)}
-                  className="list-group-item"
+                  className="list-group-item "
                 >
                   <a
                     href={`${ruta}${doc.archivo[lan]}`}
                     alt={doc.nombreDocumento[lan]}
+                    className="btn btn-link"
+                    style={{ textDecoration: "none" }}
                     download
                   >
-                    <MaterialIcon icon="cloud_download" size={24} />
-                    <span className="ml-2">{doc.nombreDocumento[lan]}</span>
+                    <div className="d-flex align-items-center">
+                      <MaterialIcon icon="cloud_download" size={24} />
+                      <span className="ml-4">{doc.nombreDocumento[lan]}</span>
+                    </div>
                   </a>
                 </li>
               );
