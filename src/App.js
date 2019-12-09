@@ -18,7 +18,13 @@ import "./AreaCliente.css";
 import "./OldWeb.css";
 
 class App extends Component {
-  state = { lan: "", listaColecciones: [], windowWidth: 0, windowHeight: 0 };
+  state = {
+    lan: "",
+    listaColecciones: [],
+    windowWidth: 0,
+    windowHeight: 0,
+    modoEdit: false
+  };
 
   componentDidMount = async () => {
     const jwt = sessionStorage.getItem("apiToken");
@@ -63,8 +69,18 @@ class App extends Component {
     this.setState({ usuario: null });
   };
 
+  toggleEdit = () => {
+    this.setState({ modoEdit: !this.state.modoEdit });
+  };
   render() {
-    const { lan, listaColecciones, windowWidth, windowHeight } = this.state;
+    const {
+      lan,
+      listaColecciones,
+      windowWidth,
+      windowHeight,
+      usuario,
+      modoEdit
+    } = this.state;
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
@@ -81,9 +97,11 @@ class App extends Component {
               windowWidth={this.state.windowWidth}
               windowHeight={this.state.windowHeight}
               BSBreak={WhichBotstrapBreak(windowWidth)}
-              usuario={this.state.usuario}
+              usuario={usuario}
               handleLogout={this.handleLogout}
               cols={listaColecciones}
+              modoEdit={modoEdit}
+              toggleEdit={this.toggleEdit}
             ></NavBar>
           </div>
 
@@ -94,6 +112,8 @@ class App extends Component {
                 render={props => (
                   <Coleccion
                     lan={lan}
+                    usuario={usuario}
+                    modoEdit={modoEdit}
                     BSBreak={WhichBotstrapBreak(windowWidth)}
                     {...props}
                   />
@@ -101,11 +121,9 @@ class App extends Component {
               />
               <Route
                 path="/ar"
-                render={props => (
-                  <AreaReservada usuario={this.state.usuario} {...props} />
-                )}
+                render={props => <AreaReservada usuario={usuario} {...props} />}
               />
-              <Route path="/login" render={props => <LoginForm />} />
+              <Route path="/login" render={props => <LoginForm {...props} />} />
               <Route
                 exact
                 path="/"
@@ -115,11 +133,18 @@ class App extends Component {
                     listaColecciones={listaColecciones}
                     windowWidth={windowWidth}
                     windowHeight={windowHeight}
+                    usuario={usuario}
+                    modoEdit={modoEdit}
                     {...props}
                   />
                 )}
               />
-              <Route path="/scans/:td/:cd" component={Scans} />
+              <Route
+                path="/scans/:td/:cd"
+                component={Scans}
+                modoEdit={modoEdit}
+                usuario={usuario}
+              />
 
               <Redirect to="/" />
             </Switch>

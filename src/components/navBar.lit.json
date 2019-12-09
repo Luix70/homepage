@@ -3,5 +3,19 @@
   "AU": { "es": "Área Usuario", "en": "User Area", "fr": "Espace Client" },
   "CON": { "es": "Contacto", "en": "Contact", "fr": "Contacter" },
   "LI": { "es": "Login", "en": "Login", "fr": "Login" },
-  "LO": { "es": "Logout", "en": "Logout", "fr": "Logout" }
+  "LO": { "es": "Logout", "en": "Logout", "fr": "Logout" },
+  "TU": {
+    "CL": { "es": "CLIENTE", "fr": "CLIENT", "en": "CUSTOMER" },
+    "RE": {
+      "es": "REPRESENTANTE",
+      "fr": "REPRESENTANT",
+      "en": "REPRESENTATIVE"
+    },
+    "AD": {
+      "es": "ADMINISTRADOR",
+      "fr": "ADMINISTRATEUR",
+      "en": "ADMINISTRATOR"
+    },
+    "WM": { "es": "WEBMASTER", "fr": "WEBMASTER", "en": "WEBMASTER" }
+  }
 }

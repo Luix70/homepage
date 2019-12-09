@@ -14,9 +14,11 @@ const NavBar = props => {
     BSBreak,
     usuario,
     handleLogout,
-    cols
+    cols,
+    toggleEdit,
+    modoEdit
   } = props;
-  //console.log(lan, t, t.COL[lan]);
+  console.log(windowWidth, windowHeight, BSBreak);
 
   if (lan === "") {
     // console.log("no renderizo");
@@ -30,7 +32,9 @@ const NavBar = props => {
 
   function showInfo() {
     if (usuario) {
-      toast.info(usuario.NombreUsuario);
+      toast.info(
+        `${usuario.NombreUsuario} (${t.TU[usuario.TipoEntidad][lan]})`
+      );
     } else {
       toast.error("El usuario no está identificado");
     }
@@ -145,8 +149,17 @@ const NavBar = props => {
                 FR
               </Link>
               <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
-                <MaterialIcon icon="person" size={24} />{" "}
+                <MaterialIcon icon="person" size={24} />
               </Link>
+              {usuario && usuario.TipoEntidad === "WM" ? (
+                <Link to={"#"} onClick={toggleEdit}>
+                  {modoEdit ? (
+                    <MaterialIcon icon="visibility" size={16} />
+                  ) : (
+                    <MaterialIcon icon="edit" size={16} />
+                  )}
+                </Link>
+              ) : null}
             </div>
           </div>
         </div>

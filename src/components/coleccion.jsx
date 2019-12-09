@@ -16,7 +16,7 @@ class Coleccion extends Component {
   }
 
   render() {
-    const { lan, BSBreak } = this.props;
+    const { lan, BSBreak, usuario } = this.props;
     const { col } = this.props.match.params;
     const { coleccion } = this.state;
 
@@ -25,14 +25,15 @@ class Coleccion extends Component {
     } else {
       return (
         <div className="container">
-          <ColHeader col={coleccion} lan={lan}></ColHeader>
-          <ColIntro col={coleccion} lan={lan}></ColIntro>
-          <Galeria col={coleccion} lan={lan}></Galeria>
+          <ColHeader col={coleccion} lan={lan} usuario={usuario}></ColHeader>
+          <ColIntro col={coleccion} lan={lan} usuario={usuario}></ColIntro>
+          <Galeria col={coleccion} lan={lan} usuario={usuario}></Galeria>
           <Secciones
             secciones={coleccion.secciones}
             lan={lan}
             coleccion={coleccion.mod}
             BSBreak={BSBreak}
+            usuario={usuario}
           ></Secciones>
         </div>
       );
