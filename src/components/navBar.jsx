@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import MaterialIcon from "react-google-material-icons";
 import t from "./navBar.lit.json";
+import CollectionsDropDown from "./common/collectionsDropDown.jsx";
 
 const NavBar = props => {
   const {
@@ -12,7 +13,8 @@ const NavBar = props => {
     windowHeight,
     BSBreak,
     usuario,
-    handleLogout
+    handleLogout,
+    cols
   } = props;
   //console.log(lan, t, t.COL[lan]);
 
@@ -83,12 +85,12 @@ const NavBar = props => {
           id="toggler"
         >
           <div className="navbar-nav mr-auto ">
-            <div className="nav-item active">
-              <Link className="nav-link" to={"/"}>
-                {t.COL[lan]}
-              </Link>
+            <div className="nav-item">
+              <CollectionsDropDown
+                label={t.COL[lan]}
+                cols={cols}
+              ></CollectionsDropDown>
             </div>
-
             <div className="nav-item">
               <Link className="nav-link" to={"/"}>
                 {t.CON[lan]}

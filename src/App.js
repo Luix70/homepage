@@ -83,6 +83,7 @@ class App extends Component {
               BSBreak={WhichBotstrapBreak(windowWidth)}
               usuario={this.state.usuario}
               handleLogout={this.handleLogout}
+              cols={listaColecciones}
             ></NavBar>
           </div>
 

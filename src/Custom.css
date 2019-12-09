@@ -204,3 +204,8 @@ ol.carousel-indicators li.active {
   height: 150px;
   width: auto;
 }
+
+.listaColecciones {
+  min-width: 70vw !important;
+  max-width: 80vw !important;
+}
