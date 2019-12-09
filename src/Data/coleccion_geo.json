@@ -204,14 +204,19 @@
       },
       "items": [
         {
+          "es": "PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
+          "en": "[EN]PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
+          "fr": "Pieds en chêne massif (vernis) ou hêtre massif (laqués). Plateau en panneau de fibres plaqué bois (vernis) ou melamine (laqués)."
+        },
+        {
           "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
           "en": "[EN]Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
           "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
         },
         {
+          "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau.",
           "es": "Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
-          "en": "[EN]Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
-          "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau."
+          "en": "[EN]Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa."
         },
         {
           "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture.",
@@ -406,9 +411,9 @@
         },
         {
           "nombreDocumento": {
-            "fr": "Images (.jpg, 2.53Mo, compressé ZIP)",
-            "es": "Fotos (.jpg, 2.56Mb, comprimido ZIP)",
-            "en": "Pictures (.jpg, 2.56Mb, ZIP compressed)"
+            "fr": "Images (.jpg, 5.34Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 5.34Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg,5.346Mb, ZIP compressed)"
           },
           "archivo": {
             "es": "geo.zip",
