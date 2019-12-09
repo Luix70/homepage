@@ -116,11 +116,11 @@ const NavBar = props => {
                 </Link>
               </div>
             )}
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <Link className="nav-link" to={"/"}>
                 {windowWidth + " x " + windowHeight + " (" + BSBreak + ")"}
               </Link>
-            </div>
+            </div> */}
 
             <div className="nav-item  idiomas  d-flex position-absolute align-items-center">
               <Link
