@@ -24,7 +24,7 @@ const CollectionsDropDown = props => {
           {ncols.map(col => (
             <a
               key={col}
-              className="btn btn-secondary m-2"
+              className="btn btn-secondary m-2 text-capitalize"
               href={"/coleccion/" + col}
             >
               {col}
