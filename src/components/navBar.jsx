@@ -9,16 +9,15 @@ const NavBar = props => {
   const {
     lan,
     handleLanguage,
-    windowWidth,
-    windowHeight,
-    BSBreak,
     usuario,
     handleLogout,
     cols,
     toggleEdit,
     modoEdit
   } = props;
-  console.log(windowWidth, windowHeight, BSBreak);
+
+  // const { windowWidth, windowHeight, BSBreak } = props;
+  // console.log(windowWidth, windowHeight, BSBreak);
 
   if (lan === "") {
     // console.log("no renderizo");
@@ -152,12 +151,16 @@ const NavBar = props => {
                 <MaterialIcon icon="person" size={24} />
               </Link>
               {usuario && usuario.TipoEntidad === "WM" ? (
-                <Link to={"#"} onClick={toggleEdit}>
-                  {modoEdit ? (
-                    <MaterialIcon icon="visibility" size={16} />
-                  ) : (
-                    <MaterialIcon icon="edit" size={16} />
-                  )}
+                <Link
+                  to={"#"}
+                  onClick={toggleEdit}
+                  className={
+                    modoEdit
+                      ? "badge badge-pill mr-2 mt-0 p-1 badge-danger"
+                      : "badge badge-pill mr-2 mt-0 p-1 badge-light"
+                  }
+                >
+                  <MaterialIcon icon="edit" className="text-light" size={16} />
                 </Link>
               ) : null}
             </div>

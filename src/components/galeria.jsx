@@ -17,7 +17,6 @@ class Galeria extends Component {
     const { col } = this.props;
     const listaImagenes = await getImages(col.mod);
     this.setState({ listaImagenes });
-    //console.log(this.state.verGaleria);
   };
 
   toggleVisibility = () => {
@@ -38,11 +37,16 @@ class Galeria extends Component {
 
   render() {
     const { listaImagenes, verGaleria, modo } = this.state;
-    const { col, lan } = this.props;
+    const { col, lan, modoEdit, usuario } = this.props;
     const defaultButtonStyle = "btn btn-white pl-4 ";
 
     return listaImagenes ? (
       <div className="row">
+        {modoEdit ? (
+          <div className="col-12 bg-danger text-light">
+            <span>Editar</span>
+          </div>
+        ) : null}
         <div className="col-12 bg-white">
           <div
             className={
@@ -104,6 +108,7 @@ class Galeria extends Component {
               col={col}
               listaImagenes={listaImagenes}
               handleClick={this.zoomImage}
+              usuario={usuario}
             />
           ) : null}
 

@@ -10,16 +10,15 @@ class Coleccion extends Component {
 
   async componentDidMount() {
     const { col } = this.props.match.params;
-
     const coleccion = await getColeccion(col);
     this.setState({ coleccion });
   }
 
   render() {
-    const { lan, BSBreak, usuario } = this.props;
+    const { lan, BSBreak, usuario, modoEdit } = this.props;
     const { col } = this.props.match.params;
     const { coleccion } = this.state;
-
+    //console.log(modoEdit);
     if (!coleccion || lan === "") {
       return <h1>{col}</h1>;
     } else {
@@ -27,7 +26,12 @@ class Coleccion extends Component {
         <div className="container">
           <ColHeader col={coleccion} lan={lan} usuario={usuario}></ColHeader>
           <ColIntro col={coleccion} lan={lan} usuario={usuario}></ColIntro>
-          <Galeria col={coleccion} lan={lan} usuario={usuario}></Galeria>
+          <Galeria
+            col={coleccion}
+            lan={lan}
+            usuario={usuario}
+            modoEdit={modoEdit}
+          ></Galeria>
           <Secciones
             secciones={coleccion.secciones}
             lan={lan}
