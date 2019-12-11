@@ -4,6 +4,7 @@ import ColHeader from "./colHeader";
 import ColIntro from "./colIntro";
 import Galeria from "./galeria";
 import Secciones from "./secciones";
+import ColeccionMetaTags from "./common/coleccionMetaTags";
 
 class Coleccion extends Component {
   state = { coleccion: null };
@@ -24,6 +25,11 @@ class Coleccion extends Component {
     } else {
       return (
         <div className="container">
+          <ColeccionMetaTags
+            col={coleccion}
+            lan={lan}
+            usuario={usuario}
+          ></ColeccionMetaTags>
           <ColHeader col={coleccion} lan={lan} usuario={usuario}></ColHeader>
           <ColIntro col={coleccion} lan={lan} usuario={usuario}></ColIntro>
           <Galeria

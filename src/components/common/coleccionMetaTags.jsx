@@ -1,10 +1,15 @@
 import React from "react";
-import MetaTags from "react-meta-tags";
+import { Helmet } from "react-helmet";
 const ColeccionMetaTags = props => {
   const { col, lan } = props;
   return (
     <div className="wrapper">
-      <MetaTags>
+      <Helmet>
+        <meta
+          property="og:url"
+          content="https://indesan.org/resources/staticViews/kepler.html"
+        />
+
         <title>{"INDESAN. Coleccion " + col.mod.toUpperCase()}</title>
         <meta name="description" content={col.desc[lan]} />
         <meta property="og:description" content={col.desc[lan]} />
@@ -42,7 +47,7 @@ const ColeccionMetaTags = props => {
           content={"https://indesan.org/coleccion/" + col.mod}
         />
         <meta property="og:type" content="website" />
-      </MetaTags>
+      </Helmet>
     </div>
   );
 };
