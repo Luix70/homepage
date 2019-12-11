@@ -4,7 +4,7 @@ const Articulo = prop => {
   return (
     <div className="row bg-light py-3">
       <div className="col-3 col-md-2 col-lg-1 bg-light d-flex align-self-stretch align-items-center px-0 text-muted">
-        <h2 className="text-center w-100 text-monospace">{art.cod}</h2>
+        <h4 className="text-center w-100 text-monospace">{art.cod}</h4>
       </div>
       <div className="col-9 col-md-10 col-lg-3 bg-light align-self-stretch my-auto pr-0 ">
         <h4 className="text-start text-info">
