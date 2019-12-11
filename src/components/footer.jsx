@@ -9,6 +9,8 @@ import {
   Linkedin,
   Tumblr
 } from "react-social-sharing";
+import { MobileView } from "react-device-detect";
+
 const Footer = () => {
   return (
     <div className="row w-100 mx-0 bg-dark">
@@ -40,12 +42,14 @@ const Footer = () => {
       </div>
       <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration">
         <h5>Compártenos en:</h5>
-        <Whatsapp
-          solid
-          medium
-          link="https://indesan.org"
-          message="Compartir en Whatsapp"
-        ></Whatsapp>
+        <MobileView>
+          <Whatsapp
+            solid
+            medium
+            link="https://indesan.org"
+            message="Compartir en Whatsapp"
+          ></Whatsapp>
+        </MobileView>
 
         <Facebook
           solid
