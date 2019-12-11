@@ -1,0 +1,271 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/coleccion.jsx":
+/*!**************************************!*\
+  !*** ./src/components/coleccion.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _services_datosWeb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../services/datosWeb */ "./src/services/datosWeb.js");
+/* harmony import */ var _colHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colHeader */ "./src/components/colHeader.jsx");
+/* harmony import */ var _colIntro__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./colIntro */ "./src/components/colIntro.jsx");
+/* harmony import */ var _galeria__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./galeria */ "./src/components/galeria.jsx");
+/* harmony import */ var _secciones__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./secciones */ "./src/components/secciones.jsx");
+/* harmony import */ var _common_coleccionMetaTags__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./common/coleccionMetaTags */ "./src/components/common/coleccionMetaTags.jsx");
+var _jsxFileName = "F:\\Usuarios\\Luis\\Desktop\\homepage\\src\\components\\coleccion.jsx";
+
+
+
+
+
+
+
+
+class Coleccion extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      coleccion: null
+    };
+  }
+
+  async componentDidMount() {
+    const col = this.props.match.params.col;
+    const coleccion = await Object(_services_datosWeb__WEBPACK_IMPORTED_MODULE_1__["getColeccion"])(col);
+    this.setState({
+      coleccion
+    });
+  }
+
+  render() {
+    const _this$props = this.props,
+          lan = _this$props.lan,
+          BSBreak = _this$props.BSBreak,
+          usuario = _this$props.usuario,
+          modoEdit = _this$props.modoEdit;
+    const col = this.props.match.params.col;
+    const coleccion = this.state.coleccion; //console.log(modoEdit);
+
+    if (!coleccion || lan === "") {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, col);
+    } else {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_coleccionMetaTags__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        col: coleccion,
+        lan: lan,
+        usuario: usuario,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_colHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        col: coleccion,
+        lan: lan,
+        usuario: usuario,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_colIntro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        col: coleccion,
+        lan: lan,
+        usuario: usuario,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_galeria__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        col: coleccion,
+        lan: lan,
+        usuario: usuario,
+        modoEdit: modoEdit,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_secciones__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        secciones: coleccion.secciones,
+        lan: lan,
+        coleccion: coleccion.mod,
+        BSBreak: BSBreak,
+        usuario: usuario,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }));
+    }
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Coleccion);
+
+/***/ }),
+
+/***/ "./src/components/common/coleccionMetaTags.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/common/coleccionMetaTags.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/lib/Helmet.js");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "F:\\Usuarios\\Luis\\Desktop\\homepage\\src\\components\\common\\coleccionMetaTags.jsx";
+
+
+
+const ColeccionMetaTags = props => {
+  const col = props.col,
+        lan = props.lan;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__["Helmet"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:url",
+    content: "https://indesan.org/resources/staticViews/kepler.html",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, "INDESAN. Coleccion " + col.mod.toUpperCase()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "description",
+    content: col.desc[lan],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:description",
+    content: col.desc[lan],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:title",
+    content: "INDESAN. Coleccion " + col.mod.toUpperCase(),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image",
+    content: "http://indesan.org/resources/img/" + col.mod + "/" + col.tec_thumbnail,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image:secure_url",
+    content: "https://indesan.org/resources/img/" + col.mod + "/" + col.tec_thumbnail,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image:type",
+    content: "image/jpeg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image:width",
+    content: "400",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image:height",
+    content: "300",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image:alt",
+    content: "INDESAN. Coleccion " + col.mod.toUpperCase(),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:url",
+    content: "https://indesan.org/coleccion/" + col.mod,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:type",
+    content: "website",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ColeccionMetaTags);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.6be7fb1e0f06c592d9fc.hot-update.js.map

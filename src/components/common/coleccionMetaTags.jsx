@@ -7,7 +7,7 @@ const ColeccionMetaTags = props => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://indesan.org/resources/staticViews/kepler.html"
+          content={"https://indesan.org/coleccion/" + col.mod}
         />
 
         <title>{"INDESAN. Coleccion " + col.mod.toUpperCase()}</title>
