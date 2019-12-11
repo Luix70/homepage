@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  Whatsapp,
+  Facebook,
+  Twitter,
+  Pinterest,
+  Mail,
+  Telegram,
+  Linkedin,
+  Tumblr
+} from "react-social-sharing";
 const Footer = () => {
   return (
     <div className="row w-100 mx-0 bg-dark">
@@ -27,6 +37,64 @@ const Footer = () => {
             Tf 968796411{" "}
           </li>
         </ul>
+      </div>
+      <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration">
+        <h5>Compártenos en:</h5>
+        <Whatsapp
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Whatsapp"
+        ></Whatsapp>
+
+        <Facebook
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Facebook"
+        ></Facebook>
+
+        <Twitter
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Twitter"
+        ></Twitter>
+
+        <Pinterest
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Pinterest"
+        ></Pinterest>
+
+        <Mail
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Mail"
+        ></Mail>
+
+        <Telegram
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Telegram"
+        ></Telegram>
+
+        <Tumblr
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Tumblr"
+        ></Tumblr>
+
+        <Linkedin
+          solid
+          medium
+          link="https://indesan.org"
+          message="Compartir en Linkedin"
+        ></Linkedin>
       </div>
     </div>
   );

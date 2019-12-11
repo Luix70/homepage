@@ -15,6 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
+import "./Social.css";
 import "./OldWeb.css";
 
 class App extends Component {
