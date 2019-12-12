@@ -152,7 +152,7 @@ class App extends Component {
           </div>
         </div>
         <div className="row w-100 m-0">
-          <Footer></Footer>
+          <Footer lan={lan}></Footer>
         </div>
       </div>
     );
