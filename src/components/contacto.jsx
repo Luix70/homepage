@@ -4,6 +4,8 @@ import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import { toast } from "react-toastify";
+import t from "./contacto.lit.json";
+import Direcciones from "./common/direcciones";
 
 class Contacto extends Form {
   state = {
@@ -64,23 +66,31 @@ class Contacto extends Form {
   };
 
   render() {
+    const { lan } = this.props;
     return (
-      <div className="d-flex mt-5 ">
-        <div className="row m-0 p-0 w-100 justify-content-around ">
-          <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
-            <h1 className="text-center">Mensaje</h1>
-            <hr />
-            <form onSubmit={this.handleSubmit}>
-              {this.renderInput("nombre", "Nombre")}
-              {this.renderInput("email", "Email")}
-              {this.renderInput("telefono", "Telefono")}
-              {this.renderArea(
-                "mensaje",
-                "Mensaje (máximo 500 caracteres)",
-                "5"
-              )}
-              {this.renderButton("Enviar")}
-            </form>
+      <div className="row">
+        <div className="col-12 col-md-6  p-5 bg-dark text-light ">
+          <Direcciones lan={lan}></Direcciones>
+        </div>
+        <div className="col-12 col-md-6 mb-5">
+          <div className="d-flex mt-5 ">
+            <div className="row m-0 p-0 w-100 justify-content-around ">
+              <div className="col-12 m-0 px-5">
+                <h3 className="text-center">{t.ME[lan]}</h3>
+                <hr />
+                <form onSubmit={this.handleSubmit}>
+                  {this.renderInput("nombre", "Nombre")}
+                  {this.renderInput("email", "Email")}
+                  {this.renderInput("telefono", "Telefono")}
+                  {this.renderArea(
+                    "mensaje",
+                    "Mensaje (máximo 500 caracteres)",
+                    "5"
+                  )}
+                  {this.renderButton("Enviar")}
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
