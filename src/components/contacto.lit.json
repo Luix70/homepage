@@ -3,5 +3,40 @@
     "es": "Déjenos un mensaje",
     "en": "Leave a message",
     "fr": "Contactez-nous"
+  },
+  "NO": {
+    "es": "Nombre",
+    "en": "Name",
+    "fr": "Nom"
+  },
+  "EM": {
+    "es": "E-mail",
+    "en": "E-mail",
+    "fr": "E-mail"
+  },
+  "TE": {
+    "es": "Teléfono",
+    "en": "Phone",
+    "fr": "Téléphone"
+  },
+  "DM": {
+    "es": "Mensaje (max: 500 caracteres)",
+    "en": "Message (max: 500 chars)",
+    "fr": "Message (max: 500 chars)"
+  },
+  "EN": {
+    "es": "Enviar",
+    "en": "Send",
+    "fr": "Envoyer"
+  },
+  "SU": {
+    "es": "Mensaje Enviado con éxito",
+    "en": "Your message was succesfully sent",
+    "fr": "Votre message a été envoyé"
+  },
+  "ER": {
+    "es": "Se ha producido un error al enviar el mensaje",
+    "en": "There has been an error and your message was not sent",
+    "fr": "On n'a pas pu envoyer votre message du a un erreur"
   }
 }

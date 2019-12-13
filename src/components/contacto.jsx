@@ -41,8 +41,9 @@ class Contacto extends Form {
   schema = Joi.object(this.objSchema);
 
   doSubmit = async () => {
+    const { lan } = this.props;
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
-    console.log(this.state.data);
+    // console.log(this.state.data);
     try {
       const { data } = await http.post(
         apiDataEndPoint + "login/mensaje/",
@@ -52,7 +53,7 @@ class Contacto extends Form {
       console.log(data);
 
       if (data.status === "recibido") {
-        toast.success("Mensaje Enviado con éxito", {
+        toast.success(t.SU[lan], {
           position: toast.POSITION.TOP_RIGHT
         });
 
@@ -61,7 +62,7 @@ class Contacto extends Form {
         });
       }
     } catch (error) {
-      toast.error("Se ha producido un error al enviar el mensaje", {
+      toast.error(t.ER[lan], {
         position: toast.POSITION.TOP_RIGHT
       });
     }
@@ -70,15 +71,15 @@ class Contacto extends Form {
   render() {
     const { lan } = this.props;
     return (
-      <div className="row">
-        <div className="col-12 ubicacion">
+      <div className="row  d-flex justify-content-center bg-dark text-light pt-5">
+        <div className="col-11 ubicacion  bg-light m-0 p-0">
           <MapaIndesan
             coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
             coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
             zoom={6}
           ></MapaIndesan>
         </div>
-        <div className="col-12 col-md-6  p-5 bg-dark text-light ">
+        <div className="col-12 col-md-6  p-5 bg-darkt text-light ">
           <Direcciones lan={lan}></Direcciones>
         </div>
         <div className="col-12 col-md-6 mb-5">
@@ -88,15 +89,11 @@ class Contacto extends Form {
                 <h3 className="text-center">{t.ME[lan]}</h3>
                 <hr />
                 <form onSubmit={this.handleSubmit}>
-                  {this.renderInput("nombre", "Nombre")}
-                  {this.renderInput("email", "Email")}
-                  {this.renderInput("telefono", "Telefono")}
-                  {this.renderArea(
-                    "mensaje",
-                    "Mensaje (máximo 500 caracteres)",
-                    "5"
-                  )}
-                  {this.renderButton("Enviar")}
+                  {this.renderInput("nombre", t.NO[lan])}
+                  {this.renderInput("email", t.EM[lan])}
+                  {this.renderInput("telefono", t.TE[lan])}
+                  {this.renderArea("mensaje", t.DM[lan], "5")}
+                  {this.renderButton(t.EN[lan])}
                 </form>
               </div>
             </div>

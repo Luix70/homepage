@@ -23,7 +23,7 @@ const Footer = props => {
       </div> */}
 
       {/* <div className="bg-dark text-light col-xs-12 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration"> */}
-      <div className="bg-dark text-light col-12  container pt-3 pb-5 nodecoration">
+      <div className="bg-dark text-light col-12  container p-5 pb-5 nodecoration">
         <h5 className="lead">{t.CN[lan]}</h5>
         <MobileView>
           <Whatsapp
