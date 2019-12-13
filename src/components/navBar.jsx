@@ -95,8 +95,13 @@ const NavBar = props => {
               ></CollectionsDropDown>
             </div>
             <div className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"/contact"}>
                 {t.CON[lan]}
+              </Link>
+            </div>
+            <div className="nav-item">
+              <Link className="nav-link" to={"/about"}>
+                {t.AB[lan]}
               </Link>
             </div>
             {usuario ? (

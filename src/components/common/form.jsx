@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Joi from "@hapi/joi";
 import Input from "./input";
+import TextArea from "./textarea";
 class Form extends Component {
   state = {
     data: {},
@@ -79,6 +80,19 @@ class Form extends Component {
     return (
       <Input
         type={type}
+        value={data[name]}
+        onChange={this.handleChange}
+        name={name}
+        label={label}
+        error={errors[name]}
+      />
+    );
+  }
+  renderArea(name, label, lines) {
+    const { data, errors } = this.state;
+    return (
+      <TextArea
+        lines={lines}
         value={data[name]}
         onChange={this.handleChange}
         name={name}

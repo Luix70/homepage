@@ -4,6 +4,7 @@
   "CON": { "es": "Contacto", "en": "Contact", "fr": "Contacter" },
   "LI": { "es": "Login", "en": "Login", "fr": "Login" },
   "LO": { "es": "Logout", "en": "Logout", "fr": "Logout" },
+  "AB": { "es": "Empresa", "en": "About us", "fr": "A propos" },
   "TU": {
     "CL": { "es": "CLIENTE", "fr": "CLIENT", "en": "CUSTOMER" },
     "RE": {

@@ -17,6 +17,8 @@ import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
 import "./OldWeb.css";
+import Contacto from "./components/contacto.jsx";
+import About from "./components/about.jsx";
 
 class App extends Component {
   state = {
@@ -123,6 +125,18 @@ class App extends Component {
               <Route
                 path="/ar"
                 render={props => <AreaReservada usuario={usuario} {...props} />}
+              />
+              <Route
+                path="/about"
+                render={props => (
+                  <About usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/contact"
+                render={props => (
+                  <Contacto usuario={usuario} lan={lan} {...props} />
+                )}
               />
               <Route path="/login" render={props => <LoginForm {...props} />} />
               <Route

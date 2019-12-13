@@ -13,7 +13,7 @@ const CollectionSlider = props => {
       id="carouselColecciones"
       className="carousel slide"
       data-ride="carousel"
-      data-interval="500000"
+      data-interval="5000"
     >
       <div className="carousel-inner">
         {cols.map(col => {
