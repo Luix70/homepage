@@ -71,15 +71,15 @@ class Contacto extends Form {
   render() {
     const { lan } = this.props;
     return (
-      <div className="row  d-flex justify-content-center bg-dark text-light pt-5">
-        <div className="col-11 ubicacion  bg-light m-0 p-0">
+      <div className="row  d-flex justify-content-center  pt-5">
+        <div className="col-11 ubicacion   m-0 p-0">
           <MapaIndesan
             coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
             coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
             zoom={6}
           ></MapaIndesan>
         </div>
-        <div className="col-12 col-md-6  p-5 bg-darkt text-light ">
+        <div className="col-12 col-md-6  p-5  ">
           <Direcciones lan={lan}></Direcciones>
         </div>
         <div className="col-12 col-md-6 mb-5">
