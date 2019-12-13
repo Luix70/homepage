@@ -209,3 +209,7 @@ ol.carousel-indicators li.active {
   min-width: 70vw !important;
   max-width: 80vw !important;
 }
+
+.ubicacion {
+  min-height: 400px;
+}

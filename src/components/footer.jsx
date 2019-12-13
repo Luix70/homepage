@@ -12,16 +12,18 @@ import {
 import { MobileView } from "react-device-detect";
 
 import t from "./footer.lit.json";
-import Direcciones from "./common/direcciones.jsx";
+// import Direcciones from "./common/direcciones.jsx";
 
 const Footer = props => {
   const { lan } = props;
   return (
     <div className="row w-100 mx-0 bg-dark">
-      <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
+      {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
         <Direcciones lan={lan}></Direcciones>
-      </div>
-      <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration">
+      </div> */}
+
+      {/* <div className="bg-dark text-light col-xs-12 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration"> */}
+      <div className="bg-dark text-light col-12  container pt-3 pb-5 nodecoration">
         <h5 className="lead">{t.CN[lan]}</h5>
         <MobileView>
           <Whatsapp

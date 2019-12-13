@@ -5,7 +5,9 @@ import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import { toast } from "react-toastify";
 import t from "./contacto.lit.json";
+
 import Direcciones from "./common/direcciones";
+import MapaIndesan from "./common/mapaIndesan";
 
 class Contacto extends Form {
   state = {
@@ -69,6 +71,13 @@ class Contacto extends Form {
     const { lan } = this.props;
     return (
       <div className="row">
+        <div className="col-12 ubicacion">
+          <MapaIndesan
+            coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
+            coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
+            zoom={6}
+          ></MapaIndesan>
+        </div>
         <div className="col-12 col-md-6  p-5 bg-dark text-light ">
           <Direcciones lan={lan}></Direcciones>
         </div>
