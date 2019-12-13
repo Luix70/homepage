@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
-class MapaIndesan extends Component {
+class Mapa extends Component {
   render() {
     const { coordenadasCentro, coordenadasMarker, zoom } = this.props;
 
     return (
-      <div className="h-100 w-100">
+      <div>
         <Map
           google={this.props.google}
           zoom={zoom}
@@ -19,4 +19,4 @@ class MapaIndesan extends Component {
 }
 export default GoogleApiWrapper({
   apiKey: "AIzaSyCDq6JWDWB7aNTdAnuBhAzNByYC70SsCL4"
-})(MapaIndesan);
+})(Mapa);

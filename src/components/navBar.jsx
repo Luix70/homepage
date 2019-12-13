@@ -99,11 +99,7 @@ const NavBar = props => {
                 {t.CON[lan]}
               </Link>
             </div>
-            <div className="nav-item">
-              <Link className="nav-link" to={"/about"}>
-                {t.AB[lan]}
-              </Link>
-            </div>
+
             {usuario ? (
               <React.Fragment>
                 <div className="nav-item">

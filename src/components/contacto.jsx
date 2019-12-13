@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import t from "./contacto.lit.json";
 
 import Direcciones from "./common/direcciones";
-import MapaIndesan from "./common/mapaIndesan";
+import Mapa from "./common/mapa";
 
 class Contacto extends Form {
   state = {
@@ -71,15 +71,21 @@ class Contacto extends Form {
   render() {
     const { lan } = this.props;
     return (
-      <div className="row  d-flex justify-content-center  pt-5">
-        <div className="col-11 ubicacion   m-0 p-0">
-          <MapaIndesan
-            coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
-            coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
-            zoom={6}
-          ></MapaIndesan>
+      <div className="row ">
+        <div className="col-12 m-0 p-0">
+          <img
+            src="/resources/img/fachada.jpg"
+            className="img-fluid w-100 h-auto"
+            alt="Nuestra empresa"
+          />
+          <div className="row lead font-italic p-5 text-center d-flex justify-content-center">
+            <div className="col-8">{t.BS[lan]}</div>
+          </div>
         </div>
         <div className="col-12 col-md-6  p-5  ">
+          <div className="lead py-5 text-start d-flex justify-content-center">
+            <div className="col-12">{t.BIO[lan]}</div>
+          </div>
           <Direcciones lan={lan}></Direcciones>
         </div>
         <div className="col-12 col-md-6 mb-5">
@@ -98,6 +104,13 @@ class Contacto extends Form {
               </div>
             </div>
           </div>
+        </div>
+        <div className="col-12 ubicacion  m-0 p-0">
+          <Mapa
+            coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
+            coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
+            zoom={6}
+          ></Mapa>
         </div>
       </div>
     );
