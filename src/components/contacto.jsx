@@ -50,7 +50,7 @@ class Contacto extends Form {
         this.state.data
       );
 
-      console.log(data);
+      //console.log(data);
 
       if (data.status === "recibido") {
         toast.success(t.SU[lan], {
@@ -79,7 +79,7 @@ class Contacto extends Form {
             alt="Nuestra empresa"
           />
           <div className="row lead font-italic p-5 text-center d-flex justify-content-center">
-            <div className="col-8">{t.BS[lan]}</div>
+            <div className="col-10">{t.BS[lan]}</div>
           </div>
         </div>
         <div className="col-12 col-md-6  p-5  ">
@@ -107,9 +107,9 @@ class Contacto extends Form {
         </div>
         <div className="col-12 ubicacion  m-0 p-0">
           <Mapa
-            coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
+            coordenadasCentro={{ lat: "39.5971847", lng: " -1.5" }}
             coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
-            zoom={6}
+            zoom={7}
           ></Mapa>
         </div>
       </div>
