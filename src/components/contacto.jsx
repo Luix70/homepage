@@ -8,7 +8,6 @@ import t from "./contacto.lit.json";
 
 import Direcciones from "./common/direcciones";
 import Mapa from "./common/mapa";
-import { Link } from "react-router-dom";
 
 class Contacto extends Form {
   state = {
@@ -106,9 +105,9 @@ class Contacto extends Form {
             </div>
           </div>
         </div>
-        <div className="col-12 ubicacion  m-0 p-0">
+        <div className="col-12 ubicacion  m-0 p-0 ">
           <a
-            className="pl-4"
+            className="ml-4 mb-1 btn btn-primary"
             href="https://www.google.com/maps/place/Indesan,+S.L./@38.5971805,-1.0955072,17z/data=!4m5!3m4!1s0xd63fcf996d48fdd:0x7bdf775feba5bc57!8m2!3d38.5971805!4d-1.0933185"
             target="_blank"
             rel="noopener noreferrer"
