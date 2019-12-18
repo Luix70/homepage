@@ -1,0 +1,457 @@
+{
+  "_id": ObjectId("5c06b22c66fd0a2ef46f89ac"),
+  "mod": "armonia",
+  "thumbnail": "Armonia_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Belleza y equilibrio",
+    "en": "Beauty and balance",
+    "fr": "Beauté et equilibre",
+    "_id": ObjectId("5c38c14aa5ae4e4411beaa9a")
+  },
+  "desc": {
+    "es": "La simplicidad estructural de los elementos de esta colección ofrece un juego equilibrado entre belleza\ny resistencia para crear ambientes cálidos y acogedores.",
+    "en": "\nThe structural simplicity of the elements of this collection offers a balanced game between beauty\nand resistance to create warm and welcoming environments.",
+    "fr": "La simplicité structurelle des éléments de cette collection offre un jeu équilibré entre beauté\net la résistance pour créer des environnements chaleureux et accueillants.",
+    "_id": ObjectId("5c38c14aa5ae4e4411beaa9b")
+  },
+  "tags": {
+    "es": "Tapa de madera, cristal o porcelánico",
+    "fr": "Plateau verre, céramique ou plaqué bois",
+    "en": "Wooden, glass or ceramic tabletop"
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE COMEDOR",
+        "en": "Dinner tables",
+        "fr": "TABLES DE SALLE À MANGER"
+      },
+      "articulos": [
+        {
+          "cod": "21A",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
+            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 when opened)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
+          },
+          "imagenes": ["21A_1_dim.svg", "21A_2_dim.svg", "21A_3_dim.svg"]
+        },
+        {
+          "cod": "210",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
+            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 when opened)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
+          },
+          "imagenes": ["210_1_dim.svg", "210_2_dim.svg", "210_3_dim.svg"]
+        },
+        {
+          "cod": "21P",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 when opened)",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
+          },
+          "imagenes": [
+            "21P_1_dim.svg",
+            "21P_2_dim.svg",
+            "21P_3_dim.svg",
+            "21P_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "211",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
+            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 when opened)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
+          },
+          "imagenes": ["211_1_dim.svg", "211_2_dim.svg", "211_3_dim.svg"]
+        },
+        {
+          "cod": "21H",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 when opened)",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
+          },
+          "imagenes": [
+            "21H_1_dim.svg",
+            "21H_2_dim.svg",
+            "21H_3_dim.svg",
+            "21H_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica. Mesas de comedor",
+        "en": "Tecnical info. Dining Tables",
+        "fr": "Détails. Tables de salle à manger"
+      },
+      "items": [
+        {
+          "es": "La placa metálica de unión se puede colocar oculta si se solicita expresamente (por defecto se colocará vista).",
+          "en": "The metallic plate can be hidden if requested expressly (by default it will be visible).",
+          "fr": "Il y a la possibilité de monter cachée la platine métallique entre la ceinture et les pieds si l’on demande expressément (par défaut elle sera visible)"
+        },
+        {
+          "es": "Ruedas ocultas en las patas de la parte extensible.",
+          "en": "Hidden wheels in the legs of the moveable side of the table",
+          "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture."
+        },
+        {
+          "fr": "Pour les tables en verre ou céramique, les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau.",
+          "es": "En mesas con tapa de cristal o porcelánico, los extensibles serán de madera lacados en mate, color a juego.",
+          "en": "In tables with glass or ceramic tops, extensions will be lacquered matte matching the top."
+        },
+        {
+          "fr": "Ouverture de la table par glissières télescopiques en acier avec de roulements.",
+          "es": "Apertura mediante guías de acero telescópicas con patines a bolas.",
+          "en": "Opening by ball-bearing steel runners."
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. Mesas de Comedor",
+        "en": "Finishings. Dinner tables",
+        "fr": "FINITIONS. Tables de salle à manger"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados",
+            "en": "Finishings",
+            "fr": "Finitions"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris céramique ",
+            "es": "Porcelánicos",
+            "en": "Ceramic"
+          },
+          "subtitulo": {
+            "es": "(3mm sobre cristal de 8mm)",
+            "en": "(3mm, over 8mm glass)",
+            "fr": "(3 mm, collé sur verre de 8 mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Noir",
+              "es": "Negro",
+              "en": "Black"
+            },
+            {
+              "fr": "Blanc",
+              "es": "Blanco",
+              "en": "White"
+            },
+            {
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca",
+              "es": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "es": "Gris Nature",
+              "en": "Gris Nature",
+              "fr": "Gris Nature"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass "
+          },
+          "subtitulo": {
+            "es": "(Grosor: 10mm)",
+            "en": "(Tempered: 10mm)",
+            "fr": "(Verre de sécurité. Épaisseur: 10mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "Extra White"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "Sand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE CENTRO ELEVABLES",
+        "en": "Lif-Top Coffee Tables",
+        "fr": "TABLES BASSES RELEVABLES"
+      },
+      "articulos": [
+        {
+          "cod": "21B",
+          "desc": {
+            "es": "Mesa centro de 105 X 55 X 40#Elevable a 57 cm",
+            "en": "Coffee table 105 X 55 X 40 # Raised:57 cm",
+            "fr": "TABLE BASSE 105 x 55 x 40 # RELEVABLE à 57"
+          },
+          "imagenes": ["21B_1_dim.svg", "21B_2_dim.svg", "21B_3_dim.svg"]
+        },
+        {
+          "cod": "21E",
+          "desc": {
+            "es": "Mesa centro de 115 X 65 X 40 # Elevable a 57 cm",
+            "en": "Coffee table 115 X 65 X 40 # Lifted 57 cm",
+            "fr": "TABLE BASSE 115 x 65 x 40#RELEVABLE à 57"
+          },
+          "imagenes": ["21E_1_dim.svg", "21E_2_dim.svg", "21E_3_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica. Mesas de centro",
+        "en": "Tecnical info. Cofee tables",
+        "fr": "Détails. Tables basses"
+      },
+      "items": [
+        {
+          "es": "La placa metálica de unión se puede colocar oculta si se solicita expresamente (por defecto se colocará vista).",
+          "en": "The metallic plate can be hidden if requested expressly (by default it will be visible).",
+          "fr": "Il y a la possibilité de monter cachée la platine métallique entre la ceinture et les pieds si l’on demande expressément (par défaut elle sera visible)"
+        },
+        {
+          "es": "Sistema de elevación en acero cromado, con accionamiento asistido.",
+          "en": "Lift-top mechanism in chromed steel. Spring-assisted lifting ",
+          "fr": "Tables relevables à l’aide de ressorts."
+        },
+        {
+          "fr": "OPTION: Ensemble 4 roues",
+          "es": "OPCIONAL: Juego de cuatro ruedas",
+          "en": "OPTION: Set of four wheels"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. Mesas de Centro",
+        "en": "Finishings. Coffee tables",
+        "fr": "FINITIONS. Tables de salle à manger"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados",
+            "en": "Finishings",
+            "fr": "Finitions"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris céramique ",
+            "es": "Porcelánicos",
+            "en": "Ceramic"
+          },
+          "subtitulo": {
+            "es": "(3mm sobre cristal de 5mm)",
+            "en": "(3mm, over 5mm glass)",
+            "fr": "(3 mm, collé sur verre de 5 mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Noir",
+              "es": "Negro",
+              "en": "Black"
+            },
+            {
+              "fr": "Blanc",
+              "es": "Blanco",
+              "en": "White"
+            },
+            {
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca",
+              "es": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "es": "Gris Nature",
+              "en": "Gris Nature",
+              "fr": "Gris Nature"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass "
+          },
+          "subtitulo": {
+            "es": "(Grosor: 8mm)",
+            "en": "(Tempered: 8mm)",
+            "fr": "(Verre de sécurité. Épaisseur: 8mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "Extra White"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "Sand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_armonia_es.pdf",
+            "fr": "Tecnico_armonia_fr.pdf",
+            "en": "Tecnico_armonia_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Armonia",
+            "fr": "Brochure Armonia",
+            "en": "Armonia Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_armonia.pdf",
+            "fr": "cat_armonia.pdf",
+            "en": "cat_armonia.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 2.12Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 2.12Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 2.12Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "armonia.zip",
+            "en": "armonia.zip",
+            "fr": "armonia.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}
