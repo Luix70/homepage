@@ -17,7 +17,7 @@ const SeccionMedia = prop => {
           <div class="embed-responsive  embed-responsive-16by9 ">
             <iframe
               class="embed-responsive-item"
-              title="Videio"
+              title="Video"
               src={folder + seccion.archivo}
               allowfullscreen
             ></iframe>
