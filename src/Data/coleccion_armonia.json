@@ -27,7 +27,7 @@
       "tipo": "grupo",
       "titulo": {
         "es": "MESAS DE COMEDOR",
-        "en": "Dinner tables",
+        "en": "dining tables",
         "fr": "TABLES DE SALLE À MANGER"
       },
       "articulos": [
@@ -35,7 +35,7 @@
           "cod": "21A",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
-            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 when opened)",
+            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
           },
           "imagenes": ["21A_1_dim.svg", "21A_2_dim.svg", "21A_3_dim.svg"]
@@ -44,7 +44,7 @@
           "cod": "210",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
-            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 when opened)",
+            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
           },
           "imagenes": ["210_1_dim.svg", "210_2_dim.svg", "210_3_dim.svg"]
@@ -53,7 +53,7 @@
           "cod": "21P",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
-            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 when opened)",
+            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
           },
           "imagenes": [
@@ -67,7 +67,7 @@
           "cod": "211",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
-            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 when opened)",
+            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
           },
           "imagenes": ["211_1_dim.svg", "211_2_dim.svg", "211_3_dim.svg"]
@@ -76,7 +76,7 @@
           "cod": "21H",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
-            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 when opened)",
+            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
           },
           "imagenes": [
@@ -92,7 +92,7 @@
       "tipo": "tecnico",
       "titulo": {
         "es": "Información técnica. Mesas de comedor",
-        "en": "Tecnical info. Dining Tables",
+        "en": "technical info. Dining Tables",
         "fr": "Détails. Tables de salle à manger"
       },
       "items": [
@@ -122,7 +122,7 @@
       "tipo": "opciones",
       "titulo": {
         "es": "OPCIONES DE ACABADO. Mesas de Comedor",
-        "en": "Finishings. Dinner tables",
+        "en": "Finishings. dining tables",
         "fr": "FINITIONS. Tables de salle à manger"
       },
       "subopciones": [
@@ -230,7 +230,7 @@
       "tipo": "grupo",
       "titulo": {
         "es": "MESAS DE CENTRO ELEVABLES",
-        "en": "Lif-Top Coffee Tables",
+        "en": "Lift-Top Coffee Tables",
         "fr": "TABLES BASSES RELEVABLES"
       },
       "articulos": [
@@ -258,7 +258,7 @@
       "tipo": "tecnico",
       "titulo": {
         "es": "Información técnica. Mesas de centro",
-        "en": "Tecnical info. Cofee tables",
+        "en": "Technical info. Cofee tables",
         "fr": "Détails. Tables basses"
       },
       "items": [
@@ -283,7 +283,7 @@
       "tipo": "opciones",
       "titulo": {
         "es": "OPCIONES DE ACABADO. Mesas de Centro",
-        "en": "Finishings. Coffee tables",
+        "en": "Finishings (Coffee tables)",
         "fr": "FINITIONS. Tables de salle à manger"
       },
       "subopciones": [
@@ -317,7 +317,7 @@
             },
             {
               "es": "Lacados",
-              "en": "Lacquered, Glossy or matte",
+              "en": "Lacquered (glossy or matte)",
               "fr": "Laqué mat ou brillant"
             }
           ]
