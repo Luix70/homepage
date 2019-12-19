@@ -1,89 +1,89 @@
 {
-  "_id": ObjectId("5c06b30366fd0a2ef46f89b2"),
-  "mod": "geo",
-  "thumbnail": "Geo_tn.jpg",
-  "__v": 0,
+  "_id": ObjectId("5c112e4f1766f52bfc4f688f"),
+  "thumbnail": "Nordic_tn.jpg",
   "activa": true,
+  "mod": "nordic",
   "captions": {
-    "es": "La fuerza de la Tierra",
-    "en": "The Power of the Earth",
-    "fr": "La force de la terre",
-    "_id": ObjectId("5c53fee88a2312811016da5b")
+    "es": "De lo más natural",
+    "en": "Nature at its most",
+    "fr": "La nature à son meilleur",
+    "_id": ObjectId("5c5404958a231811016da60f")
   },
+  "__v": 0,
   "desc": {
-    "es": "Estructura minimalista de gran robustez que ofrece al usuario unas superficies de cristal, madera o cerámica y alma de metal. La combinacion perfecta de los elementos.",
-    "en": "Minimalist structure of great robustness that offers the user glass, wood or ceramic surfaces and metal soul. The perfect combination of the elements.",
-    "fr": "Structure minimaliste d'une grande robustesse offrant aux utilisateurs des surfaces en verre, en bois ou en céramique et une âme en métal. La combinaison parfaite des éléments.",
-    "_id": ObjectId("5c53fee88a2312811016da5b")
+    "es": "La esencia del diseño nórdico y el carácter mediterráneo en una colección que propone un retorno a los valores naturales.",
+    "en": "The essence of Nordic design and Mediterranean character in a collection that aims to a return to natural values",
+    "fr": "L'essence du design nordique et du caractère méditerranéen dans une collection qui propose un retour aux valeurs naturelles",
+    "_id": ObjectId("5c5404958a231811016da610")
   },
+  "tec_thumbnail": "tec_thumbnail.jpg",
   "tags": {
-    "es": "Tapa cristal, porcelánico o madera. Haya o Roble.",
-    "en": "Tapa cristal, porcelánico o madera. Ancho 90. Haya o Roble.",
-    "fr": "Plateau verre, céramique ou plaqué bois."
+    "es": "Tapa de cristal, porcelánico o madera.Haya o Roble",
+    "fr": "Plateau verre, céramique ou plaqué bois.",
+    "en": "Plateau verre, céramique ou plaqué bois."
   },
-  "tec_thumbnail": "tec_thumbnail.JPG",
   "secciones": [
     {
       "tipo": "grupo",
       "titulo": {
-        "es": "Mesas de Comedor. Ancho 90",
+        "es": "Mesas de Comedor. Ancho 90. Patas de Haya",
         "en": "Dinner tables. Width 90cm",
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 90"
       },
       "articulos": [
         {
-          "cod": "209A",
+          "cod": "208A",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
             "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
           },
-          "imagenes": ["209A_1_dim.svg", "209A_2_dim.svg", "209A_3_dim.svg"]
+          "imagenes": ["208A_1_dim.svg", "208A_2_dim.svg", "208A_3_dim.svg"]
         },
         {
-          "cod": "2090",
+          "cod": "2080",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
             "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
           },
-          "imagenes": ["2090_1_dim.svg", "2090_2_dim.svg", "2090_3_dim.svg"]
+          "imagenes": ["2080_1_dim.svg", "2080_2_dim.svg", "2080_3_dim.svg"]
         },
         {
-          "cod": "209P",
+          "cod": "208P",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
             "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
           },
           "imagenes": [
-            "209P_1_dim.svg",
-            "209P_2_dim.svg",
-            "209P_3_dim.svg",
-            "209P_4_dim.svg"
+            "208P_1_dim.svg",
+            "208P_2_dim.svg",
+            "208P_3_dim.svg",
+            "208P_4_dim.svg"
           ]
         },
         {
-          "cod": "2091",
+          "cod": "2081",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
             "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
           },
-          "imagenes": ["2091_1_dim.svg", "2091_2_dim.svg", "2091_3_dim.svg"]
+          "imagenes": ["2081_1_dim.svg", "2081_2_dim.svg", "2081_3_dim.svg"]
         },
         {
-          "cod": "209H",
+          "cod": "208H",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
             "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
           },
           "imagenes": [
-            "209H_1_dim.svg",
-            "209H_2_dim.svg",
-            "209H_3_dim.svg",
-            "209H_4_dim.svg"
+            "208H_1_dim.svg",
+            "208H_2_dim.svg",
+            "208H_3_dim.svg",
+            "208H_4_dim.svg"
           ]
         }
       ]
@@ -93,78 +93,93 @@
       "subtipo": "imagen",
       "archivo": "Dimensiones_90.jpg",
       "titulo": {
-        "es": "dimensiones",
-        "en": "dimensions",
-        "fr": "dimensions"
+        "es": "",
+        "en": "",
+        "fr": ""
       },
       "pie": {
-        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2090)",
-        "en": "EXTERNAL AND INTERNAL DIMENSIONS(REF: 2090)",
-        "fr": "DIMENSIONS INTERNES (RÉF: 2090)"
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 2080)"
       }
     },
     {
       "tipo": "grupo",
       "titulo": {
-        "es": "Mesas de comedor. Ancho 100",
+        "es": "Mesas de comedor. Ancho 100. Patas de Haya",
         "en": "Dining Tables. Width 100cm",
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
         {
-          "cod": "2090+",
+          "cod": "2080+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
             "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
           },
-          "imagenes": ["2090+_1_dim.svg", "2090+_2_dim.svg", "2090+_3_dim.svg"]
+          "imagenes": ["2080+_1_dim.svg", "2080+_2_dim.svg", "2080+_3_dim.svg"]
         },
         {
-          "cod": "2091+",
+          "cod": "2081+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 100 # (Abierta 230 x 100)",
             "en": "70 cm EXTENSION # 160 x 100 cm # (230 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 100 # (Ouverte: 230 x 100 )"
           },
-          "imagenes": ["2091+_1_dim.svg", "2091+_2_dim.svg", "2091+_3_dim.svg"]
+          "imagenes": ["2081+_1_dim.svg", "2081+_2_dim.svg", "2081+_3_dim.svg"]
         },
         {
-          "cod": "209B+",
+          "cod": "208B+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 # (Abierta 250 x 100)",
             "en": "70 cm EXTENSION # 180 x 100 cm # (250 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 180 x 100 # (Ouverte: 250 x 100 )"
           },
-          "imagenes": ["209B+_1_dim.svg", "209B+_2_dim.svg", "209B+_3_dim.svg"]
+          "imagenes": ["208B+_1_dim.svg", "208B+_2_dim.svg", "208B+_3_dim.svg"]
         },
         {
-          "cod": "209C+",
+          "cod": "208C+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 # (Abierta 270 x 100)",
             "en": "70 cm EXTENSION # 200 x 100 cm # (270 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 200 x 100 # (Ouverte: 270 x 100 )"
           },
-          "imagenes": ["209C+_1_dim.svg", "209C+_2_dim.svg", "209C+_3_dim.svg"]
+          "imagenes": ["208C+_1_dim.svg", "208C+_2_dim.svg", "208C+_3_dim.svg"]
         }
       ]
     },
     {
+      "tipo": "media",
+      "subtipo": "imagen",
+      "archivo": "Dimensiones_100.jpg",
+      "titulo": {
+        "es": "",
+        "en": "",
+        "fr": ""
+      },
+      "pie": {
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080+)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080+)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 2080+)"
+      }
+    },
+    {
       "tipo": "grupo",
       "titulo": {
-        "es": "MESAS DE CENTRO",
+        "es": "MESA DE CENTRO elevable. Patas de haya",
         "en": "Coffee Tables",
         "fr": "TABLES BASSES"
       },
       "articulos": [
         {
-          "cod": "209E",
+          "cod": "208E",
           "desc": {
             "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
             "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
             "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
           },
-          "imagenes": ["209E_1_dim.svg", "209E_2_dim.svg", "209E_3_dim.svg"]
+          "imagenes": ["208E_1_dim.svg", "208E_2_dim.svg", "208E_3_dim.svg"]
         }
       ]
     },
@@ -208,7 +223,7 @@
       "subopciones": [
         {
           "titulo": {
-            "es": "Mesas de Comedor",
+            "es": "COMEDOR",
             "en": "Dining tables",
             "fr": "SALLE À MANGER"
           },
@@ -228,7 +243,7 @@
         },
         {
           "titulo": {
-            "es": "Mesas de Centro",
+            "es": "CENTRO",
             "en": "Coffee tables",
             "fr": "TABLE BASSE"
           },
@@ -259,7 +274,7 @@
         {
           "titulo": {
             "es": "Acabados tapa",
-            "en": "Tabletop finishings",
+            "en": "[EN]Acabados tapa",
             "fr": "Finitions plateau"
           },
           "subtitulo": "",
@@ -366,37 +381,37 @@
             "en": "Datasheet"
           },
           "archivo": {
-            "es": "Tecnico_geo_es.pdf",
-            "fr": "Tecnico_geo_fr.pdf",
-            "en": "Tecnico_geo_en.pdf"
+            "es": "Tecnico_nordic_es.pdf",
+            "fr": "Tecnico_nordic_fr.pdf",
+            "en": "Tecnico_nordic_en.pdf"
           },
           "loginRequired": true,
           "comun": false
         },
         {
           "nombreDocumento": {
-            "es": "Cuadernilo geo",
-            "fr": "Brochure geo",
-            "en": "geo Collection Brochure"
+            "es": "Cuadernilo Nordic",
+            "fr": "Brochure Nordic",
+            "en": "Nordic Collection Brochure"
           },
           "archivo": {
-            "es": "cat_geo.pdf",
-            "fr": "cat_geo.pdf",
-            "en": "cat_geo.pdf"
+            "es": "cat_nordic.pdf",
+            "fr": "cat_nordic.pdf",
+            "en": "cat_nordic.pdf"
           },
           "loginRequired": false,
           "comun": false
         },
         {
           "nombreDocumento": {
-            "fr": "Images (.jpg, 5.34Mo, compressé ZIP)",
-            "es": "Fotos (.jpg, 5.34Mb, comprimido ZIP)",
-            "en": "Pictures (.jpg,5.346Mb, ZIP compressed)"
+            "fr": "Images (.jpg, 4.9Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 4.9Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg,4.9Mb, ZIP compressed)"
           },
           "archivo": {
-            "es": "geo.zip",
-            "en": "geo.zip",
-            "fr": "geo.zip"
+            "es": "nordic.zip",
+            "en": "nordic.zip",
+            "fr": "nordic.zip"
           },
           "loginRequired": false,
           "comun": false
