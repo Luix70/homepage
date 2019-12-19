@@ -83,8 +83,12 @@ class Contacto extends Form {
           </div>
         </div>
         <div className="col-12 col-md-6  p-5  ">
-          <div className="lead py-5 text-start d-flex justify-content-center">
-            <div className="col-12">{t.BIO[lan]}</div>
+          <div className=" h4 text-justify font-weight-lighter pb-5 text-start d-flex justify-content-center">
+            <div className="col-12">
+              <h3 className="mt-0">{t.BT[lan]}</h3>
+              <hr />
+              {t.BIO[lan]}
+            </div>
           </div>
           <Direcciones lan={lan}></Direcciones>
         </div>
