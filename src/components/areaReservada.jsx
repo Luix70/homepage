@@ -33,22 +33,35 @@ class AreaReservada extends Component {
 
   render() {
     const { usuario } = this.props;
+    console.log(this.state.listaRepresentantes);
+    if (this.state.listaRepresentantes === []) return null;
+    const repres = this.state.listaRepresentantes.length;
+    const anchoLista = repres > 1 ? "col-12 col-lg-9" : "col-12";
     return (
       <React.Fragment>
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
-          <MenuRepresentantes
-            onItemSelect={this.handleListGroupClick}
-            listaRepresentantes={this.state.listaRepresentantes}
-            selectedRepre={this.state.selectedRepre}
-            FechaConsulta={this.state.FechaConsulta}
-            FechaCache={
-              this.state.resultConsulta
-                ? this.state.resultConsulta.FechaCache
-                : ""
-            }
-          />
-          <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
+          {this.state.listaRepresentantes.length > 1 ? (
+            <div className="col-12 col-lg-3">
+              <MenuRepresentantes
+                onItemSelect={this.handleListGroupClick}
+                listaRepresentantes={this.state.listaRepresentantes}
+                selectedRepre={this.state.selectedRepre}
+                FechaConsulta={this.state.FechaConsulta}
+                FechaCache={
+                  this.state.resultConsulta
+                    ? this.state.resultConsulta.FechaCache
+                    : ""
+                }
+              />
+            </div>
+          ) : null}
+
+          {!this.state.resultconsulta ? (
+            <div className={anchoLista}>
+              <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
+            </div>
+          ) : null}
         </div>
       </React.Fragment>
     );
