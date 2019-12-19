@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c336437f1f70d5e4cf57ae5"),
+  "thumbnail": "Limite_tn.jpg",
+  "activa": true,
+  "captions": {
+    "es": "Abriendo caminos",
+    "en": "Leading the way",
+    "fr": "Créer tendance",
+    "_id": ObjectId("5c54122c8a231811016da6cc")
+  },
+  "desc": {
+    "es": "Una colección sin límite que puede estar presente en cualquier tipo de ambiente, desde el más\nsencillo al más sofisticado, ya que ofrece múltiples combinaciones de acabados y materiales.",
+    "en": "A collection without limit that can be present in any type of environment, from the simplest to the most sophisticated, as it offers multiple combinations of finishings and materials.",
+    "fr": "Une collection sans limite qui peut être présente dans tout type d’ambiance, du plus simple au plus sophistiqué, en offrant de multiples combinaisons de finitions et de matériaux.",
+    "_id": ObjectId("5c54122c8a231811016da6cd")
+  },
+  "mod": "limite",
+  "__v": 0,
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de madera",
+    "fr": "Plateau bois",
+    "en": "Wooden tabletop"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernillo Limite",
+            "fr": "Brochure Limite",
+            "en": "Limite Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_limite.pdf",
+            "fr": "cat_limite.pdf",
+            "en": "cat_limite.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 12 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 12 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 12 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "limite.zip",
+            "en": "limite.zip",
+            "fr": "limite.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}
