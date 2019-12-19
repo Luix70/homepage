@@ -11,28 +11,13 @@ class MenuRepresentantes extends Component {
     } = this.props;
 
     return (
-      <div className="col-3 smallprint">
-        <div className="row">
-          <ListGroup
-            onItemSelect={onItemSelect}
-            itemList={listaRepresentantes}
-            itemId="codrep" //identificador del elemento
-            itemValue="nombre" // valor que se mostrará
-            selectedItem={selectedRepre}
-          />
-        </div>
-
-        {/* <div style={{ paddingLeft: "2em" }} className="row">
-            {FechaConsulta === ""
-              ? ""
-              : "Consulta: " + new Date(FechaConsulta).toLocaleTimeString()}
-
-            {"  "}
-            {FechaConsulta === ""
-              ? ""
-              : "/ Caché: " + new Date(FechaCache).toLocaleTimeString()}
-          </div> */}
-      </div>
+      <ListGroup
+        onItemSelect={onItemSelect}
+        itemList={listaRepresentantes}
+        itemId="codrep" //identificador del elemento
+        itemValue="nombre" // valor que se mostrará
+        selectedItem={selectedRepre}
+      />
     );
   }
 }

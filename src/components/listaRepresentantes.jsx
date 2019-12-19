@@ -8,10 +8,10 @@ class ListaRepresentantes extends Component {
     const { resultConsulta } = this.props;
     if (!resultConsulta || resultConsulta.representantes.length === 0)
       return null;
-    console.log(
-      "renderizada lista de representantes " +
-        (resultConsulta ? resultConsulta.representantes.length : 0)
-    );
+    // console.log(
+    //   "renderizada lista de representantes " +
+    //     (resultConsulta ? resultConsulta.representantes.length : 0)
+    //);
     return (
       <React.Fragment>
         {resultConsulta === null ? (

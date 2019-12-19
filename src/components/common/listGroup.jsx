@@ -7,9 +7,10 @@ class ListGroup extends Component {
     itemList: [],
     onItemSelect: {},
     defaultItemClass:
-      "list-group-item d-flex justify-content-between align-items-center menu-lateral",
+      "list-group-item d-flex justify-content-between align-items-center menu-lateral small",
     paginaActual: 1,
-    itemsPerPage: 9
+    itemsPerPage: 9,
+    desplegado: true
   };
 
   handlePageClicked = page => {
@@ -38,18 +39,24 @@ class ListGroup extends Component {
     ];
 
     return (
-      <div>
-        <div>
-          <Pagination
-            itemCount={itemList.length}
-            currentPage={this.state.paginaActual}
-            itemsPerPage={this.state.itemsPerPage}
-            pageClicked={this.handlePageClicked}
-          />
+      <div className="row m-0 p-0 w-100">
+        <div className="d-flex w-100 justify-content-center align-items-center m-0 p-0 pt-3">
+          {this.state.desplegado ? (
+            <Pagination
+              itemCount={itemList.length}
+              currentPage={this.state.paginaActual}
+              itemsPerPage={this.state.itemsPerPage}
+              pageClicked={this.handlePageClicked}
+            />
+          ) : (
+            <span>Seleccionar Representante</span>
+          )}
         </div>
-        <div>
+        <div
+          className={this.state.desplegado ? "w-100 d-block" : "w-100 d-none"}
+        >
           <ul
-            className="list-group list-group-flush  "
+            className="list-group list-group-flush w-100   "
             style={{ cursor: "pointer" }}
           >
             {itemsToShow.map(item => {

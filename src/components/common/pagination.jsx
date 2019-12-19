@@ -9,7 +9,7 @@ const Pagination = ({ itemCount, currentPage, itemsPerPage, pageClicked }) => {
 
   //console.log(itemCount, currentPage, itemsPerPage, pageClicked);
   return (
-    <nav aria-label="Page navigation example">
+    <nav aria-label="Page navigation example" className="m-0 p-0">
       <ul className="pagination">
         <li
           key="0"
