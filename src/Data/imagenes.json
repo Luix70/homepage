@@ -1429,40 +1429,6 @@
 
 /* 43 */
 {
-    "_id" : ObjectId("5c3724e30dce5522ec9bfcb7"),
-    "colecciones" : [ 
-        "eco"
-    ],
-    "pieFoto" : {
-        "es" : "08-2095.jpg. Coleccion: eco",
-        "en" : "08-2095.jpg. Collection: eco",
-        "fr" : "08-2095.jpg. Collection: eco",
-        "_id" : ObjectId("5c3724e30dce5522ec9bfcba")
-    },
-    "nombre_tn" : "tn_08-2095.JPG",
-    "nombre_img" : "08-2095.jpg",
-    "nombre_img_hr" : "08-2095.tif",
-    "folder" : "eco",
-    "modelos" : [ 
-        {
-            "cod_modelo" : "SM",
-            "desc" : {
-                "es" : "es_caption",
-                "en" : "en_caption",
-                "fr" : "fr_caption",
-                "_id" : ObjectId("5c3724e30dce5522ec9bfcb8")
-            },
-            "_id" : ObjectId("5c3724e30dce5522ec9bfcb9")
-        }
-    ],
-    "instrucciones" : "...",
-    "tecnico" : "...",
-    "video" : "...",
-    "__v" : 0
-}
-
-/* 44 */
-{
     "_id" : ObjectId("5c3724e30dce5522ec9bfcd0"),
     "colecciones" : [ 
         "eco"
@@ -1495,7 +1461,7 @@
     "__v" : 0
 }
 
-/* 45 */
+/* 44 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfce9"),
     "colecciones" : [ 
@@ -1521,6 +1487,40 @@
                 "_id" : ObjectId("5c3724e30dce5522ec9bfcea")
             },
             "_id" : ObjectId("5c3724e30dce5522ec9bfceb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcb7"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "08-2095.jpg. Coleccion: eco",
+        "en" : "08-2095.jpg. Collection: eco",
+        "fr" : "08-2095.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcba")
+    },
+    "nombre_tn" : "tn_08-2095.JPG",
+    "nombre_img" : "08-2095.jpg",
+    "nombre_img_hr" : "08-2095.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcb8")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcb9")
         }
     ],
     "instrucciones" : "...",
@@ -1700,7 +1700,7 @@
     "__v" : 0
 }
 
-/* 1 */
+/* 51 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd1b"),
     "colecciones" : [ 
@@ -1734,7 +1734,7 @@
     "__v" : 0
 }
 
-/* 2 */
+/* 52 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd34"),
     "colecciones" : [ 
@@ -1768,7 +1768,7 @@
     "__v" : 0
 }
 
-/* 3 */
+/* 53 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd4d"),
     "colecciones" : [ 
@@ -1802,7 +1802,7 @@
     "__v" : 0
 }
 
-/* 4 */
+/* 54 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd66"),
     "colecciones" : [ 
@@ -1836,7 +1836,7 @@
     "__v" : 0
 }
 
-/* 5 */
+/* 55 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd7f"),
     "colecciones" : [ 
@@ -1870,7 +1870,7 @@
     "__v" : 0
 }
 
-/* 6 */
+/* 56 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd98"),
     "colecciones" : [ 
@@ -1904,7 +1904,7 @@
     "__v" : 0
 }
 
-/* 7 */
+/* 57 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdb1"),
     "colecciones" : [ 
@@ -1938,7 +1938,7 @@
     "__v" : 0
 }
 
-/* 8 */
+/* 58 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdca"),
     "colecciones" : [ 
@@ -1972,7 +1972,7 @@
     "__v" : 0
 }
 
-/* 9 */
+/* 59 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfde3"),
     "colecciones" : [ 
@@ -2006,7 +2006,7 @@
     "__v" : 0
 }
 
-/* 10 */
+/* 60 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdfc"),
     "colecciones" : [ 
@@ -2040,7 +2040,7 @@
     "__v" : 0
 }
 
-/* 11 */
+/* 61 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe15"),
     "colecciones" : [ 
@@ -2074,7 +2074,7 @@
     "__v" : 0
 }
 
-/* 12 */
+/* 62 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe92"),
     "colecciones" : [ 
@@ -2108,7 +2108,7 @@
     "__v" : 0
 }
 
-/* 13 */
+/* 63 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfeab"),
     "colecciones" : [ 
@@ -2142,7 +2142,7 @@
     "__v" : 0
 }
 
-/* 14 */
+/* 64 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfec4"),
     "colecciones" : [ 
@@ -2176,7 +2176,7 @@
     "__v" : 0
 }
 
-/* 15 */
+/* 65 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfedd"),
     "colecciones" : [ 
@@ -2210,7 +2210,7 @@
     "__v" : 0
 }
 
-/* 16 */
+/* 66 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd0c"),
     "colecciones" : [ 
@@ -2244,7 +2244,7 @@
     "__v" : 0
 }
 
-/* 17 */
+/* 67 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd25"),
     "colecciones" : [ 
@@ -2278,7 +2278,7 @@
     "__v" : 0
 }
 
-/* 18 */
+/* 68 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd3e"),
     "colecciones" : [ 
@@ -2312,7 +2312,7 @@
     "__v" : 0
 }
 
-/* 19 */
+/* 69 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd57"),
     "colecciones" : [ 
@@ -2346,7 +2346,7 @@
     "__v" : 0
 }
 
-/* 20 */
+/* 70 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcc6"),
     "colecciones" : [ 
@@ -2380,7 +2380,7 @@
     "__v" : 0
 }
 
-/* 21 */
+/* 71 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcdf"),
     "colecciones" : [ 
@@ -2414,7 +2414,7 @@
     "__v" : 0
 }
 
-/* 22 */
+/* 72 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfca3"),
     "colecciones" : [ 
@@ -2448,7 +2448,7 @@
     "__v" : 0
 }
 
-/* 23 */
+/* 73 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcbc"),
     "colecciones" : [ 
@@ -2482,7 +2482,7 @@
     "__v" : 0
 }
 
-/* 24 */
+/* 74 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcf8"),
     "colecciones" : [ 
@@ -2516,7 +2516,7 @@
     "__v" : 0
 }
 
-/* 25 */
+/* 75 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd11"),
     "colecciones" : [ 
@@ -2550,7 +2550,7 @@
     "__v" : 0
 }
 
-/* 26 */
+/* 76 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd2a"),
     "colecciones" : [ 
@@ -2584,7 +2584,7 @@
     "__v" : 0
 }
 
-/* 27 */
+/* 77 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd43"),
     "colecciones" : [ 
@@ -2618,7 +2618,7 @@
     "__v" : 0
 }
 
-/* 28 */
+/* 78 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd5c"),
     "colecciones" : [ 
@@ -2652,7 +2652,7 @@
     "__v" : 0
 }
 
-/* 29 */
+/* 79 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd75"),
     "colecciones" : [ 
@@ -2686,7 +2686,7 @@
     "__v" : 0
 }
 
-/* 30 */
+/* 80 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcd5"),
     "colecciones" : [ 
@@ -2720,7 +2720,7 @@
     "__v" : 0
 }
 
-/* 31 */
+/* 81 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcee"),
     "colecciones" : [ 
@@ -2754,7 +2754,7 @@
     "__v" : 0
 }
 
-/* 32 */
+/* 82 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd70"),
     "colecciones" : [ 
@@ -2788,7 +2788,7 @@
     "__v" : 0
 }
 
-/* 33 */
+/* 83 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd89"),
     "colecciones" : [ 
@@ -2822,7 +2822,7 @@
     "__v" : 0
 }
 
-/* 34 */
+/* 84 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfda2"),
     "colecciones" : [ 
@@ -2856,7 +2856,7 @@
     "__v" : 0
 }
 
-/* 35 */
+/* 85 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfc99"),
     "colecciones" : [ 
@@ -2890,7 +2890,7 @@
     "__v" : 0
 }
 
-/* 36 */
+/* 86 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcb2"),
     "colecciones" : [ 
@@ -2924,7 +2924,7 @@
     "__v" : 0
 }
 
-/* 37 */
+/* 87 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd8e"),
     "colecciones" : [ 
@@ -2958,7 +2958,7 @@
     "__v" : 0
 }
 
-/* 38 */
+/* 88 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfda7"),
     "colecciones" : [ 
@@ -2992,7 +2992,7 @@
     "__v" : 0
 }
 
-/* 39 */
+/* 89 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdc0"),
     "colecciones" : [ 
@@ -3026,41 +3026,7 @@
     "__v" : 0
 }
 
-/* 40 */
-{
-    "_id" : ObjectId("5c3724e30dce5522ec9bfdd9"),
-    "colecciones" : [ 
-        "kita"
-    ],
-    "pieFoto" : {
-        "es" : "KITA (3).jpg. Coleccion: kita",
-        "en" : "KITA (3).jpg. Collection: kita",
-        "fr" : "KITA (3).jpg. Collection: kita",
-        "_id" : ObjectId("5c3724e30dce5522ec9bfddc")
-    },
-    "nombre_tn" : "tn_KITA_3_.JPG",
-    "nombre_img" : "KITA_3_.jpg",
-    "nombre_img_hr" : "KITA_3_.tif",
-    "folder" : "kita",
-    "modelos" : [ 
-        {
-            "cod_modelo" : "SM",
-            "desc" : {
-                "es" : "es_caption",
-                "en" : "en_caption",
-                "fr" : "fr_caption",
-                "_id" : ObjectId("5c3724e30dce5522ec9bfdda")
-            },
-            "_id" : ObjectId("5c3724e30dce5522ec9bfddb")
-        }
-    ],
-    "instrucciones" : "...",
-    "tecnico" : "...",
-    "video" : "...",
-    "__v" : 0
-}
-
-/* 41 */
+/* 90 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe0b"),
     "colecciones" : [ 
@@ -3094,7 +3060,41 @@
     "__v" : 0
 }
 
-/* 42 */
+/* 91 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdd9"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (3).jpg. Coleccion: kita",
+        "en" : "KITA (3).jpg. Collection: kita",
+        "fr" : "KITA (3).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfddc")
+    },
+    "nombre_tn" : "tn_KITA_3_.JPG",
+    "nombre_img" : "KITA_3_.jpg",
+    "nombre_img_hr" : "KITA_3_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdda")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfddb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 92 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe24"),
     "colecciones" : [ 
@@ -3128,7 +3128,7 @@
     "__v" : 0
 }
 
-/* 43 */
+/* 93 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd07"),
     "colecciones" : [ 
@@ -3162,7 +3162,7 @@
     "__v" : 0
 }
 
-/* 44 */
+/* 94 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd20"),
     "colecciones" : [ 
@@ -3196,7 +3196,7 @@
     "__v" : 0
 }
 
-/* 45 */
+/* 95 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd39"),
     "colecciones" : [ 
@@ -3230,7 +3230,7 @@
     "__v" : 0
 }
 
-/* 46 */
+/* 96 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd52"),
     "colecciones" : [ 
@@ -3264,7 +3264,7 @@
     "__v" : 0
 }
 
-/* 47 */
+/* 97 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd6b"),
     "colecciones" : [ 
@@ -3298,7 +3298,7 @@
     "__v" : 0
 }
 
-/* 48 */
+/* 98 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfccb"),
     "colecciones" : [ 
@@ -3332,7 +3332,7 @@
     "__v" : 0
 }
 
-/* 49 */
+/* 99 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfce4"),
     "colecciones" : [ 
@@ -3366,7 +3366,7 @@
     "__v" : 0
 }
 
-/* 50 */
+/* 100 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfcfd"),
     "colecciones" : [ 
@@ -3400,7 +3400,7 @@
     "__v" : 0
 }
 
-/* 1 */
+/* 101 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd16"),
     "colecciones" : [ 
@@ -3434,7 +3434,7 @@
     "__v" : 0
 }
 
-/* 2 */
+/* 102 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd2f"),
     "colecciones" : [ 
@@ -3468,7 +3468,7 @@
     "__v" : 0
 }
 
-/* 3 */
+/* 103 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd84"),
     "colecciones" : [ 
@@ -3502,7 +3502,7 @@
     "__v" : 0
 }
 
-/* 4 */
+/* 104 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd9d"),
     "colecciones" : [ 
@@ -3536,7 +3536,7 @@
     "__v" : 0
 }
 
-/* 5 */
+/* 105 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdb6"),
     "colecciones" : [ 
@@ -3570,7 +3570,7 @@
     "__v" : 0
 }
 
-/* 6 */
+/* 106 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdcf"),
     "colecciones" : [ 
@@ -3604,7 +3604,7 @@
     "__v" : 0
 }
 
-/* 7 */
+/* 107 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe1a"),
     "colecciones" : [ 
@@ -3638,7 +3638,7 @@
     "__v" : 0
 }
 
-/* 8 */
+/* 108 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe01"),
     "colecciones" : [ 
@@ -3672,7 +3672,7 @@
     "__v" : 0
 }
 
-/* 9 */
+/* 109 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfef6"),
     "colecciones" : [ 
@@ -3706,7 +3706,7 @@
     "__v" : 0
 }
 
-/* 10 */
+/* 110 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff0f"),
     "colecciones" : [ 
@@ -3740,7 +3740,7 @@
     "__v" : 0
 }
 
-/* 11 */
+/* 111 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff28"),
     "colecciones" : [ 
@@ -3774,7 +3774,7 @@
     "__v" : 0
 }
 
-/* 12 */
+/* 112 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff8c"),
     "colecciones" : [ 
@@ -3808,7 +3808,7 @@
     "__v" : 0
 }
 
-/* 13 */
+/* 113 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff73"),
     "colecciones" : [ 
@@ -3842,7 +3842,7 @@
     "__v" : 0
 }
 
-/* 14 */
+/* 114 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff41"),
     "colecciones" : [ 
@@ -3876,7 +3876,7 @@
     "__v" : 0
 }
 
-/* 15 */
+/* 115 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff5a"),
     "colecciones" : [ 
@@ -3910,7 +3910,7 @@
     "__v" : 0
 }
 
-/* 16 */
+/* 116 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe88"),
     "colecciones" : [ 
@@ -3944,7 +3944,7 @@
     "__v" : 0
 }
 
-/* 17 */
+/* 117 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdbb"),
     "colecciones" : [ 
@@ -3978,7 +3978,7 @@
     "__v" : 0
 }
 
-/* 18 */
+/* 118 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdd4"),
     "colecciones" : [ 
@@ -4012,7 +4012,7 @@
     "__v" : 0
 }
 
-/* 19 */
+/* 119 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe83"),
     "colecciones" : [ 
@@ -4046,7 +4046,7 @@
     "__v" : 0
 }
 
-/* 20 */
+/* 120 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe1f"),
     "colecciones" : [ 
@@ -4080,7 +4080,7 @@
     "__v" : 0
 }
 
-/* 21 */
+/* 121 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe06"),
     "colecciones" : [ 
@@ -4114,7 +4114,7 @@
     "__v" : 0
 }
 
-/* 22 */
+/* 122 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd48"),
     "colecciones" : [ 
@@ -4148,7 +4148,7 @@
     "__v" : 0
 }
 
-/* 23 */
+/* 123 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd61"),
     "colecciones" : [ 
@@ -4182,7 +4182,7 @@
     "__v" : 0
 }
 
-/* 24 */
+/* 124 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfea1"),
     "colecciones" : [ 
@@ -4216,7 +4216,7 @@
     "__v" : 0
 }
 
-/* 25 */
+/* 125 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfeba"),
     "colecciones" : [ 
@@ -4250,7 +4250,7 @@
     "__v" : 0
 }
 
-/* 26 */
+/* 126 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfed3"),
     "colecciones" : [ 
@@ -4284,7 +4284,7 @@
     "__v" : 0
 }
 
-/* 27 */
+/* 127 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe9c"),
     "colecciones" : [ 
@@ -4318,7 +4318,7 @@
     "__v" : 0
 }
 
-/* 28 */
+/* 128 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfeb5"),
     "colecciones" : [ 
@@ -4352,7 +4352,7 @@
     "__v" : 0
 }
 
-/* 29 */
+/* 129 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfece"),
     "colecciones" : [ 
@@ -4386,7 +4386,7 @@
     "__v" : 0
 }
 
-/* 30 */
+/* 130 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfeec"),
     "colecciones" : [ 
@@ -4420,7 +4420,7 @@
     "__v" : 0
 }
 
-/* 31 */
+/* 131 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff37"),
     "colecciones" : [ 
@@ -4454,7 +4454,7 @@
     "__v" : 0
 }
 
-/* 32 */
+/* 132 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff05"),
     "colecciones" : [ 
@@ -4488,7 +4488,7 @@
     "__v" : 0
 }
 
-/* 33 */
+/* 133 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff1e"),
     "colecciones" : [ 
@@ -4522,7 +4522,7 @@
     "__v" : 0
 }
 
-/* 34 */
+/* 134 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff50"),
     "colecciones" : [ 
@@ -4556,7 +4556,7 @@
     "__v" : 0
 }
 
-/* 35 */
+/* 135 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff69"),
     "colecciones" : [ 
@@ -4590,7 +4590,7 @@
     "__v" : 0
 }
 
-/* 36 */
+/* 136 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff82"),
     "colecciones" : [ 
@@ -4624,7 +4624,7 @@
     "__v" : 0
 }
 
-/* 37 */
+/* 137 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfeb0"),
     "colecciones" : [ 
@@ -4658,7 +4658,7 @@
     "__v" : 0
 }
 
-/* 38 */
+/* 138 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe97"),
     "colecciones" : [ 
@@ -4692,7 +4692,7 @@
     "__v" : 0
 }
 
-/* 39 */
+/* 139 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd7a"),
     "colecciones" : [ 
@@ -4726,7 +4726,7 @@
     "__v" : 0
 }
 
-/* 40 */
+/* 140 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfd93"),
     "colecciones" : [ 
@@ -4760,7 +4760,7 @@
     "__v" : 0
 }
 
-/* 41 */
+/* 141 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdac"),
     "colecciones" : [ 
@@ -4794,7 +4794,7 @@
     "__v" : 0
 }
 
-/* 42 */
+/* 142 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdc5"),
     "colecciones" : [ 
@@ -4828,7 +4828,7 @@
     "__v" : 0
 }
 
-/* 43 */
+/* 143 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdde"),
     "colecciones" : [ 
@@ -4862,7 +4862,7 @@
     "__v" : 0
 }
 
-/* 44 */
+/* 144 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfdf7"),
     "colecciones" : [ 
@@ -4896,7 +4896,7 @@
     "__v" : 0
 }
 
-/* 45 */
+/* 145 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe10"),
     "colecciones" : [ 
@@ -4930,7 +4930,7 @@
     "__v" : 0
 }
 
-/* 46 */
+/* 146 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfec9"),
     "colecciones" : [ 
@@ -4964,7 +4964,7 @@
     "__v" : 0
 }
 
-/* 47 */
+/* 147 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfee2"),
     "colecciones" : [ 
@@ -4998,7 +4998,7 @@
     "__v" : 0
 }
 
-/* 48 */
+/* 148 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfefb"),
     "colecciones" : [ 
@@ -5032,7 +5032,7 @@
     "__v" : 0
 }
 
-/* 49 */
+/* 149 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff14"),
     "colecciones" : [ 
@@ -5066,7 +5066,7 @@
     "__v" : 0
 }
 
-/* 50 */
+/* 150 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff2d"),
     "colecciones" : [ 
@@ -5100,7 +5100,7 @@
     "__v" : 0
 }
 
-/* 1 */
+/* 151 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff46"),
     "colecciones" : [ 
@@ -5134,7 +5134,7 @@
     "__v" : 0
 }
 
-/* 2 */
+/* 152 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff5f"),
     "colecciones" : [ 
@@ -5168,7 +5168,7 @@
     "__v" : 0
 }
 
-/* 3 */
+/* 153 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff78"),
     "colecciones" : [ 
@@ -5202,7 +5202,7 @@
     "__v" : 0
 }
 
-/* 4 */
+/* 154 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff91"),
     "colecciones" : [ 
@@ -5236,7 +5236,7 @@
     "__v" : 0
 }
 
-/* 5 */
+/* 155 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff9b"),
     "colecciones" : [ 
@@ -5270,7 +5270,7 @@
     "__v" : 0
 }
 
-/* 6 */
+/* 156 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfe8d"),
     "colecciones" : [ 
@@ -5304,7 +5304,7 @@
     "__v" : 0
 }
 
-/* 7 */
+/* 157 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfea6"),
     "colecciones" : [ 
@@ -5338,7 +5338,7 @@
     "__v" : 0
 }
 
-/* 8 */
+/* 158 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfebf"),
     "colecciones" : [ 
@@ -5372,7 +5372,7 @@
     "__v" : 0
 }
 
-/* 9 */
+/* 159 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfed8"),
     "colecciones" : [ 
@@ -5406,7 +5406,7 @@
     "__v" : 0
 }
 
-/* 10 */
+/* 160 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfef1"),
     "colecciones" : [ 
@@ -5440,41 +5440,7 @@
     "__v" : 0
 }
 
-/* 11 */
-{
-    "_id" : ObjectId("5c3724e30dce5522ec9bff55"),
-    "colecciones" : [ 
-        "totem"
-    ],
-    "pieFoto" : {
-        "es" : "Image 1519.jpg. Coleccion: totem",
-        "en" : "Image 1519.jpg. Collection: totem",
-        "fr" : "Image 1519.jpg. Collection: totem",
-        "_id" : ObjectId("5c3724e30dce5522ec9bff58")
-    },
-    "nombre_tn" : "tn_Image1519.JPG",
-    "nombre_img" : "Image1519.jpg",
-    "nombre_img_hr" : "Image1519.tif",
-    "folder" : "totem",
-    "modelos" : [ 
-        {
-            "cod_modelo" : "SM",
-            "desc" : {
-                "es" : "es_caption",
-                "en" : "en_caption",
-                "fr" : "fr_caption",
-                "_id" : ObjectId("5c3724e30dce5522ec9bff56")
-            },
-            "_id" : ObjectId("5c3724e30dce5522ec9bff57")
-        }
-    ],
-    "instrucciones" : "...",
-    "tecnico" : "...",
-    "video" : "...",
-    "__v" : 0
-}
-
-/* 12 */
+/* 161 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff23"),
     "colecciones" : [ 
@@ -5508,7 +5474,7 @@
     "__v" : 0
 }
 
-/* 13 */
+/* 162 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff3c"),
     "colecciones" : [ 
@@ -5542,7 +5508,7 @@
     "__v" : 0
 }
 
-/* 14 */
+/* 163 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff0a"),
     "colecciones" : [ 
@@ -5576,7 +5542,41 @@
     "__v" : 0
 }
 
-/* 15 */
+/* 164 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff55"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1519.jpg. Coleccion: totem",
+        "en" : "Image 1519.jpg. Collection: totem",
+        "fr" : "Image 1519.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff58")
+    },
+    "nombre_tn" : "tn_Image1519.JPG",
+    "nombre_img" : "Image1519.jpg",
+    "nombre_img_hr" : "Image1519.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff56")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff57")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 165 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bfee7"),
     "colecciones" : [ 
@@ -5610,7 +5610,7 @@
     "__v" : 0
 }
 
-/* 16 */
+/* 166 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff00"),
     "colecciones" : [ 
@@ -5644,7 +5644,7 @@
     "__v" : 0
 }
 
-/* 17 */
+/* 167 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff6e"),
     "colecciones" : [ 
@@ -5678,7 +5678,7 @@
     "__v" : 0
 }
 
-/* 18 */
+/* 168 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff87"),
     "colecciones" : [ 
@@ -5712,7 +5712,7 @@
     "__v" : 0
 }
 
-/* 19 */
+/* 169 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bffa0"),
     "colecciones" : [ 
@@ -5746,7 +5746,7 @@
     "__v" : 0
 }
 
-/* 20 */
+/* 170 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff19"),
     "colecciones" : [ 
@@ -5780,75 +5780,7 @@
     "__v" : 0
 }
 
-/* 21 */
-{
-    "_id" : ObjectId("5c3724e30dce5522ec9bff4b"),
-    "colecciones" : [ 
-        "totem"
-    ],
-    "pieFoto" : {
-        "es" : "Image 1510.jpg. Coleccion: totem",
-        "en" : "Image 1510.jpg. Collection: totem",
-        "fr" : "Image 1510.jpg. Collection: totem",
-        "_id" : ObjectId("5c3724e30dce5522ec9bff4e")
-    },
-    "nombre_tn" : "tn_Image1510.JPG",
-    "nombre_img" : "Image1510.jpg",
-    "nombre_img_hr" : "Image1510.tif",
-    "folder" : "totem",
-    "modelos" : [ 
-        {
-            "cod_modelo" : "SM",
-            "desc" : {
-                "es" : "es_caption",
-                "en" : "en_caption",
-                "fr" : "fr_caption",
-                "_id" : ObjectId("5c3724e30dce5522ec9bff4c")
-            },
-            "_id" : ObjectId("5c3724e30dce5522ec9bff4d")
-        }
-    ],
-    "instrucciones" : "...",
-    "tecnico" : "...",
-    "video" : "...",
-    "__v" : 0
-}
-
-/* 22 */
-{
-    "_id" : ObjectId("5c3724e30dce5522ec9bff32"),
-    "colecciones" : [ 
-        "tao"
-    ],
-    "pieFoto" : {
-        "es" : "_MG_9923.jpg. Coleccion: tao",
-        "en" : "_MG_9923.jpg. Collection: tao",
-        "fr" : "_MG_9923.jpg. Collection: tao",
-        "_id" : ObjectId("5c3724e30dce5522ec9bff35")
-    },
-    "nombre_tn" : "tn__MG_9923.JPG",
-    "nombre_img" : "_MG_9923.jpg",
-    "nombre_img_hr" : "_MG_9923.TIF",
-    "folder" : "tao",
-    "modelos" : [ 
-        {
-            "cod_modelo" : "SM",
-            "desc" : {
-                "es" : "es_caption",
-                "en" : "en_caption",
-                "fr" : "fr_caption",
-                "_id" : ObjectId("5c3724e30dce5522ec9bff33")
-            },
-            "_id" : ObjectId("5c3724e30dce5522ec9bff34")
-        }
-    ],
-    "instrucciones" : "...",
-    "tecnico" : "...",
-    "video" : "...",
-    "__v" : 0
-}
-
-/* 23 */
+/* 171 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff64"),
     "colecciones" : [ 
@@ -5882,7 +5814,75 @@
     "__v" : 0
 }
 
-/* 24 */
+/* 172 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff4b"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1510.jpg. Coleccion: totem",
+        "en" : "Image 1510.jpg. Collection: totem",
+        "fr" : "Image 1510.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff4e")
+    },
+    "nombre_tn" : "tn_Image1510.JPG",
+    "nombre_img" : "Image1510.jpg",
+    "nombre_img_hr" : "Image1510.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff4c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff4d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 173 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff32"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "_MG_9923.jpg. Coleccion: tao",
+        "en" : "_MG_9923.jpg. Collection: tao",
+        "fr" : "_MG_9923.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff35")
+    },
+    "nombre_tn" : "tn__MG_9923.JPG",
+    "nombre_img" : "_MG_9923.jpg",
+    "nombre_img_hr" : "_MG_9923.TIF",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff33")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff34")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 174 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff7d"),
     "colecciones" : [ 
@@ -5916,7 +5916,7 @@
     "__v" : 0
 }
 
-/* 25 */
+/* 175 */
 {
     "_id" : ObjectId("5c3724e30dce5522ec9bff96"),
     "colecciones" : [ 
@@ -5949,4 +5949,3 @@
     "video" : "...",
     "__v" : 0
 }
-
