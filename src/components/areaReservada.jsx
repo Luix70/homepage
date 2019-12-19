@@ -33,7 +33,7 @@ class AreaReservada extends Component {
 
   render() {
     const { usuario } = this.props;
-    console.log(this.state.listaRepresentantes);
+
     if (this.state.listaRepresentantes === []) return null;
     const repres = this.state.listaRepresentantes.length;
     const anchoLista = repres > 1 ? "col-12 col-lg-9" : "col-12";

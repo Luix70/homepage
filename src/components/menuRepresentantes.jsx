@@ -5,9 +5,9 @@ class MenuRepresentantes extends Component {
     const {
       onItemSelect,
       listaRepresentantes,
-      selectedRepre,
-      FechaConsulta,
-      FechaCache
+      selectedRepre
+      // ,FechaConsulta,
+      // FechaCache
     } = this.props;
 
     return (
@@ -21,16 +21,17 @@ class MenuRepresentantes extends Component {
             selectedItem={selectedRepre}
           />
         </div>
-        <div style={{ paddingLeft: "2em" }} className="row">
-          {FechaConsulta === ""
-            ? ""
-            : "Consulta: " + new Date(FechaConsulta).toLocaleTimeString()}
 
-          {"  "}
-          {FechaConsulta === ""
-            ? ""
-            : "/ Caché: " + new Date(FechaCache).toLocaleTimeString()}
-        </div>
+        {/* <div style={{ paddingLeft: "2em" }} className="row">
+            {FechaConsulta === ""
+              ? ""
+              : "Consulta: " + new Date(FechaConsulta).toLocaleTimeString()}
+
+            {"  "}
+            {FechaConsulta === ""
+              ? ""
+              : "/ Caché: " + new Date(FechaCache).toLocaleTimeString()}
+          </div> */}
       </div>
     );
   }
