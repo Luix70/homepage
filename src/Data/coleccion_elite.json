@@ -1,0 +1,20 @@
+{
+  "_id": ObjectId("5c3363d0f1f70d5e4cf57ad5"),
+  "thumbnail": "Elite_tn.jpg",
+  "activa": false,
+  "captions": {
+    "es": "Elegancia y confort",
+    "en": "Elegance and comfort",
+    "fr": "Elégance et confort",
+    "_id": ObjectId("5c5411528a231811016da6bd")
+  },
+  "desc": {
+    "es": "La esencia de la decoración consiste en elegir piezas concebidas para huir de modas pasajeras. Elite es una colección de sencillez formal, que aporta distinción y elegancia al salón y con un diseño actual para siempre.",
+    "en": "The essence of the decoration consists of choosing pieces designed to escape momentary fads. Elite is a collection of formal simplicity, which brings distinction and elegance to the room and with a forever modern design.",
+    "fr": "L'essence de la décoration consiste à choisir des pièces conçues pour échapper à la mode. Elite est une collection de simplicité formelle, qui apporte distinction et élégance à la pièce et avec un design toujours tendance.",
+    "_id": ObjectId("5c5411528a231811016da6be")
+  },
+  "mod": "elite",
+  "__v": 0,
+  "tec_thumbnail": "tec_thumbnail.JPG"
+}
