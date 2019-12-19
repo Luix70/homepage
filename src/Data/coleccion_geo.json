@@ -8,13 +8,13 @@
     "es": "La fuerza de la Tierra",
     "en": "The Power of the Earth",
     "fr": "La force de la terre",
-    "_id": ObjectId("5c53fee88a2312811016da5b5")
+    "_id": ObjectId("5c53fee88a2312811016da5b")
   },
   "desc": {
     "es": "Estructura minimalista de gran robustez que ofrece al usuario unas superficies de cristal, madera o cerámica y alma de metal. La combinacion perfecta de los elementos.",
     "en": "Minimalist structure of great robustness that offers the user glass, wood or ceramic surfaces and metal soul. The perfect combination of the elements.",
     "fr": "Structure minimaliste d'une grande robustesse offrant aux utilisateurs des surfaces en verre, en bois ou en céramique et une âme en métal. La combinaison parfaite des éléments.",
-    "_id": ObjectId("5c53fee88a2312811016da5b6")
+    "_id": ObjectId("5c53fee88a2312811016da5b")
   },
   "tags": {
     "es": "Tapa cristal, porcelánico o madera. Haya o Roble.",
@@ -35,7 +35,7 @@
           "cod": "209A",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
-            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
+            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
           },
           "imagenes": ["209A_1_dim.svg", "209A_2_dim.svg", "209A_3_dim.svg"]
@@ -44,7 +44,7 @@
           "cod": "2090",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
-            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
+            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
           },
           "imagenes": ["2090_1_dim.svg", "2090_2_dim.svg", "2090_3_dim.svg"]
@@ -53,7 +53,7 @@
           "cod": "209P",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
-            "en": "[EN]2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
           },
           "imagenes": [
@@ -67,7 +67,7 @@
           "cod": "2091",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
-            "en": "[EN]1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
+            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
           },
           "imagenes": ["2091_1_dim.svg", "2091_2_dim.svg", "2091_3_dim.svg"]
@@ -76,7 +76,7 @@
           "cod": "209H",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
-            "en": "[EN]2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 extended)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
           },
           "imagenes": [
@@ -99,7 +99,7 @@
       },
       "pie": {
         "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2090)",
-        "en": "[EN]DIMENSIONES INTERNAS Y EXTERNAS (REF: 2090)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS(REF: 2090)",
         "fr": "DIMENSIONS INTERNES (RÉF: 2090)"
       }
     },
@@ -107,7 +107,7 @@
       "tipo": "grupo",
       "titulo": {
         "es": "Mesas de comedor. Ancho 100",
-        "en": "Dinning Tables. Width 100cm",
+        "en": "Dining Tables. Width 100cm",
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
@@ -115,7 +115,7 @@
           "cod": "2090+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
-            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 140 x 100 #  (Abierta 210 x 100)",
+            "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
           },
           "imagenes": ["2090+_1_dim.svg", "2090+_2_dim.svg", "2090+_3_dim.svg"]
@@ -124,7 +124,7 @@
           "cod": "2091+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 100 # (Abierta 230 x 100)",
-            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 160 x 100 #  (Abierta 230 x 100)",
+            "en": "70 cm EXTENSION # 160 x 100 cm # (230 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 100 # (Ouverte: 230 x 100 )"
           },
           "imagenes": ["2091+_1_dim.svg", "2091+_2_dim.svg", "2091+_3_dim.svg"]
@@ -133,7 +133,7 @@
           "cod": "209B+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 # (Abierta 250 x 100)",
-            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 180 x 100 #  (Abierta 250 x 100)",
+            "en": "70 cm EXTENSION # 180 x 100 cm # (250 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 180 x 100 # (Ouverte: 250 x 100 )"
           },
           "imagenes": ["209B+_1_dim.svg", "209B+_2_dim.svg", "209B+_3_dim.svg"]
@@ -142,7 +142,7 @@
           "cod": "209C+",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 # (Abierta 270 x 100)",
-            "en": "[EN]1 EXTENSIBLE DE 70 #  Mesa de 200 x 100 #  (Abierta 270 x 100)",
+            "en": "70 cm EXTENSION # 200 x 100 cm # (270 x 100 extended)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 200 x 100 # (Ouverte: 270 x 100 )"
           },
           "imagenes": ["209C+_1_dim.svg", "209C+_2_dim.svg", "209C+_3_dim.svg"]
@@ -161,7 +161,7 @@
           "cod": "209E",
           "desc": {
             "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
-            "en": "[EN]MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
+            "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
             "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
           },
           "imagenes": ["209E_1_dim.svg", "209E_2_dim.svg", "209E_3_dim.svg"]
@@ -170,7 +170,7 @@
           "cod": "2092",
           "desc": {
             "es": "MESA DE CENTRO 115 x 65 x 40 ",
-            "en": "[EN]MESA DE CENTRO 115 x 65 x 40 ",
+            "en": "FIXED COFFEE TABLE 115 x 65 x 40 ",
             "fr": "TABLE BASSE 115 x 65 x 40 "
           },
           "imagenes": ["2092_1_dim.svg", "2092_2_dim.svg"]
@@ -179,7 +179,7 @@
           "cod": "2093",
           "desc": {
             "es": "MESA DE CENTRO 90 x 90 x 40 ",
-            "en": "[EN]MESA DE CENTRO 90 x 90 x 40 ",
+            "en": "FIXED COFFEE TABLE 90 x 90 x 40 ",
             "fr": "TABLE BASSE 90 x 90 x 40 "
           },
           "imagenes": ["2093_1_dim.svg"]
@@ -188,7 +188,7 @@
           "cod": "2094",
           "desc": {
             "es": " MESA DE RINCÓN 65 x 65 x 40",
-            "en": "[EN] MESA DE RINCÓN 65 x 65 x 40",
+            "en": "END TABLE 65 x 65 x 40",
             "fr": " TABLE BASSE 65 x 65 x 40"
           },
           "imagenes": ["2094_1_dim.svg"]
@@ -199,29 +199,29 @@
       "tipo": "tecnico",
       "titulo": {
         "es": "Información Técnica",
-        "en": "[EN]Información Técnica",
+        "en": "TECHNICAL INFO",
         "fr": "Détails"
       },
       "items": [
         {
           "es": "PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
-          "en": "[EN]PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
+          "en": "Legs made of beech wood. Top made of veneered MDF board ",
           "fr": "Pieds en chêne massif (vernis) ou hêtre massif (laqués). Plateau en panneau de fibres plaqué bois (vernis) ou melamine (laqués)."
         },
         {
           "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
-          "en": "[EN]Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
+          "en": "Opening by ball-bearing aluminum runners",
           "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
         },
         {
           "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau.",
           "es": "Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
-          "en": "[EN]Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa."
+          "en": "In tables with glass or ceramic tops, extensions will be lacquered matte matching the top."
         },
         {
           "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture.",
           "es": "Ruedas ocultas en las patas de la parte extensible.",
-          "en": "[EN]Ruedas ocultas en las patas de la parte extensible."
+          "en": "Hidden wheels in the legs of the moveable side of the table"
         }
       ]
     },
@@ -229,14 +229,14 @@
       "tipo": "opciones",
       "titulo": {
         "es": "Opciones Adicionales",
-        "en": "[EN]Opciones Adicionales",
+        "en": "Additional options",
         "fr": "OPTIONS SUPPLÉMMENTAIRES"
       },
       "subopciones": [
         {
           "titulo": {
             "es": "Mesas de Comedor",
-            "en": "[EN] Mesas de Comedor",
+            "en": "Dining tables",
             "fr": "SALLE À MANGER"
           },
           "subtitulo": "",
@@ -244,21 +244,21 @@
             {
               "fr": "TABLE FIXE (sans allonges)",
               "es": "MESA FIJA (sin extensibles)",
-              "en": "[EN] MESA FIJA (sin extensibles)"
+              "en": "Fixed length table (no extensions)"
             }
           ]
         },
         {
           "titulo": {
             "es": "Mesas de Centro",
-            "en": "[Mesas de Centro]",
+            "en": "Coffee tables",
             "fr": "TABLE BASSE"
           },
           "subtitulo": "",
           "opciones": [
             {
               "es": "Juego de cuatro ruedas",
-              "en": "[EN]ENSEMBLE 4 ROUES",
+              "en": "Four wheel set",
               "fr": "ENSEMBLE 4 ROUES"
             }
           ]
@@ -269,14 +269,14 @@
       "tipo": "opciones",
       "titulo": {
         "es": "OPCIONES DE ACABADO",
-        "en": "[EN] OPCIONES DE ACABADO",
+        "en": "Finishings",
         "fr": "FINITIONS"
       },
       "subopciones": [
         {
           "titulo": {
             "es": "Acabados tapa",
-            "en": "[EN]Acabados tapa",
+            "en": "Tabletop finishings",
             "fr": "Finitions plateau"
           },
           "subtitulo": "",
@@ -284,31 +284,26 @@
             {
               "fr": "Placage en bois naturel",
               "es": "Chapas naturales",
-              "en": "[EN]Chapas naturales"
+              "en": "Natural wood veneers"
             },
             {
               "es": "    -Nogal Americano",
               "fr": "    -Noyer",
-              "en": "[EN]    -Nogal Americano"
+              "en": "    -Walnut"
             },
             {
               "es": "    -Cerezo",
-              "en": "[EN]    -Cerezo",
+              "en": "    -Cherry",
               "fr": "    -Merisier"
             },
             {
-              "en": "[EN]    -Roble",
+              "en": "    -Oak",
               "es": "    -Roble",
               "fr": "    -Chêne"
             },
             {
-              "es": "    -Roble Nudoso",
-              "en": "[EN]    -Roble Nudoso",
-              "fr": "    -Chêne Noueux"
-            },
-            {
               "es": "Lacados",
-              "en": "[EN]Lacados",
+              "en": "Lacquered, Glossy or matte",
               "fr": "Laqué mat ou brillant"
             }
           ]
@@ -317,11 +312,11 @@
           "titulo": {
             "fr": "Coloris céramique ",
             "es": "Porcelánicos",
-            "en": "[EN]Porcelánicos"
+            "en": "Ceramic tops"
           },
           "subtitulo": {
             "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
-            "en": "[EN](Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
+            "en": "(Dining tables: 3mm on 8mm glass)#(Coffee tables: 3mm on 5mm glass )",
             "fr": "(3 mm, collé sur verre de 8 mm)"
           },
           "opciones": [
@@ -356,23 +351,23 @@
           "titulo": {
             "fr": "Coloris verre ",
             "es": "Cristales ",
-            "en": "[EN] Cristales "
+            "en": "Glass tops "
           },
           "subtitulo": {
             "es": "(Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
-            "en": "[EN](Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
+            "en": "(Dining tables: 10mm)#(Coffee tables: 8mm)",
             "fr": "(Verre de sécurité. Épaisseur: 10mm)"
           },
           "opciones": [
             {
               "fr": "Extra-Blanc",
               "es": "Extra Blanco",
-              "en": "[EN]Extra Blanco"
+              "en": "Extra White"
             },
             {
               "fr": "Sable",
               "es": "Arena",
-              "en": "[EN]Arena"
+              "en": "Sand"
             }
           ]
         }

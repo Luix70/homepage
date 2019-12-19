@@ -107,7 +107,7 @@
       "tipo": "grupo",
       "titulo": {
         "es": "Mesas de comedor. Ancho 100",
-        "en": "Dinning Tables. Width 100cm",
+        "en": "Dining Tables. Width 100cm",
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
@@ -161,7 +161,7 @@
           "cod": "81E",
           "desc": {
             "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
-            "en": "LIFT-TOP COFFEE TABLE115 x 65 x 40 # RAISED: 58",
+            "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
             "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
           },
           "imagenes": ["81E_1_dim.svg", "81E_2_dim.svg", "81E_3_dim.svg"]
@@ -205,7 +205,7 @@
       "items": [
         {
           "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
-          "en": "opening by ball-bearing aluminum runners",
+          "en": "Opening by ball-bearing aluminum runners",
           "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
         },
         {
@@ -239,7 +239,7 @@
             {
               "fr": "TABLE FIXE (sans allonges)",
               "es": "MESA FIJA (sin extensibles)",
-              "en": "Fixed table (no extensions)"
+              "en": "Fixed length table (no extensions)"
             }
           ]
         },
