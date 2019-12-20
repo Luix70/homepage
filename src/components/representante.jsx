@@ -51,9 +51,9 @@ class Representante extends Component {
 
     return (
       <React.Fragment>
-        <div className="row encab-representante">
+        {/* <div className="row encab-representante">
           <span>Representante: {repres.nombre}</span>
-        </div>
+        </div> */}
 
         <Table
           listaOrdenada={listaOrdenada}

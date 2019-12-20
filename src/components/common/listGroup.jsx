@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import paginate from "../../utils/paginate";
 import _ from "lodash";
 import Pagination from "./pagination";
+
 class ListGroup extends Component {
   state = {
     itemList: [],
@@ -10,11 +11,25 @@ class ListGroup extends Component {
       "list-group-item d-flex justify-content-between align-items-center menu-lateral small",
     paginaActual: 1,
     itemsPerPage: 9,
-    desplegado: true
+    desplegado: false,
+    search: ""
   };
 
   handlePageClicked = page => {
     this.setState({ paginaActual: page });
+  };
+
+  toggleDesplegado = () => {
+    this.setState({ desplegado: !this.state.desplegado });
+  };
+
+  handleSearch = crit => {
+    const search = crit.target.value;
+    this.setState({ search });
+  };
+
+  clearSearch = () => {
+    this.setState({ search: "" });
   };
 
   render() {
@@ -26,30 +41,74 @@ class ListGroup extends Component {
       selectedItem
     } = this.props;
 
-    //console.log("listgroup " + selectedItem);
-    const itemsOrdenados = _.orderBy(itemList, ["nombre"], ["asc"]);
+    const { search } = this.state;
+    const itemsFiltrados = itemList.filter(item =>
+      item.nombre.toUpperCase().includes(search.toUpperCase())
+    );
+    //console.log(itemsFiltrados);
+    const itemsOrdenados = _.orderBy(itemsFiltrados, ["nombre"], ["asc"]);
     const itemsToShow = [
-      { codrep: 0, nombre: "Seleccionar Todo" },
+      { codrep: 0, nombre: "--TODOS--" },
       ...paginate(
         itemsOrdenados,
         this.state.paginaActual,
         this.state.itemsPerPage
       ),
-      { codrep: -1, nombre: "Borrar Selección" }
+      { codrep: -1, nombre: "--NINGUNO--" }
     ];
 
     return (
       <div className="row m-0 p-0 w-100">
-        <div className="d-flex w-100 justify-content-center align-items-center m-0 p-0 pt-3">
+        <div className="d-flex w-100 justify-content-center align-items-center m-0 p-1  ">
           {this.state.desplegado ? (
-            <Pagination
-              itemCount={itemList.length}
-              currentPage={this.state.paginaActual}
-              itemsPerPage={this.state.itemsPerPage}
-              pageClicked={this.handlePageClicked}
-            />
+            <div className="d-flex w-100 justify-content-between align-items-center m-0 p-1 ">
+              <div>
+                <Pagination
+                  itemCount={itemsFiltrados.length}
+                  currentPage={this.state.paginaActual}
+                  itemsPerPage={this.state.itemsPerPage}
+                  pageClicked={this.handlePageClicked}
+                />
+                <div className="d-inline">
+                  <form action="" className="form-inline">
+                    <input
+                      type="text"
+                      className="form-control pr-0 mr-0 d-inline"
+                      id="searchString"
+                      aria-describedby="Buscar Repres"
+                      placeholder="Buscar Repres."
+                      onChange={this.handleSearch}
+                      value={search}
+                    />
+                    <button
+                      className="x-small btn btn-primary d-inline ml-2 px-2 py-0 "
+                      onClick={this.clearSearch}
+                    >
+                      X
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
           ) : (
-            <span>Seleccionar Representante</span>
+            <div className="d-flex w-100 justify-content-between align-items-center m-0 p-1 ">
+              <span className="p-2">
+                {"Representante: " +
+                  (selectedItem === -1
+                    ? "NINGUNO"
+                    : selectedItem === 0
+                    ? "TODOS"
+                    : itemList.find(item => {
+                        return item.codrep === selectedItem;
+                      }).nombre)}
+              </span>
+              <button
+                className="btn btn-primary m-0 p-2"
+                onClick={this.toggleDesplegado}
+              >
+                Seleccionar Representante
+              </button>
+            </div>
           )}
         </div>
         <div
@@ -78,6 +137,7 @@ class ListGroup extends Component {
                 <li
                   onClick={() => {
                     onItemSelect(item);
+                    this.setState({ desplegado: false });
                   }}
                   key={item[itemId]}
                   className={claseItem}

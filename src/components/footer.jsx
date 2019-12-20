@@ -29,7 +29,7 @@ const Footer = props => {
           <Whatsapp
             solid
             medium
-            link="https://indesan.org"
+            link="https://indesan.com"
             message="Compartir en Whatsapp"
           ></Whatsapp>
         </MobileView>
@@ -37,49 +37,49 @@ const Footer = props => {
         <Facebook
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Facebook"
         ></Facebook>
 
         <Twitter
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Twitter"
         ></Twitter>
 
         <Pinterest
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Pinterest"
         ></Pinterest>
 
         <Mail
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Mail"
         ></Mail>
 
         <Telegram
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Telegram"
         ></Telegram>
 
         <Tumblr
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Tumblr"
         ></Tumblr>
 
         <Linkedin
           solid
           medium
-          link="https://indesan.org"
+          link="https://indesan.com"
           message="Compartir en Linkedin"
         ></Linkedin>
         <h5 className="lead">{t.SN[lan]}</h5>

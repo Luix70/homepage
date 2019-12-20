@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
-import MenuRepresentantes from "./menuRepresentantes";
+import ListGroup from "./common/listGroup";
 
 class AreaReservada extends Component {
   state = {
     resultConsulta: null,
     listaRepresentantes: [],
     FechaConsulta: "",
-    selectedRepre: 0,
+    selectedRepre: -1,
     usuario: null
   };
   handleListGroupClick = async repre => {
@@ -25,40 +25,36 @@ class AreaReservada extends Component {
   async componentDidMount() {
     this.setState({
       listaRepresentantes: await getRepres(),
+
       usuario: this.props.usuario
     });
 
-    this.handleListGroupClick({ codrep: 0 });
+    this.handleListGroupClick({ codrep: -1 });
   }
 
   render() {
     const { usuario } = this.props;
 
     if (this.state.listaRepresentantes === []) return null;
-    const repres = this.state.listaRepresentantes.length;
-    const anchoLista = repres > 1 ? "col-12 col-lg-9" : "col-12";
+
     return (
       <React.Fragment>
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
           {this.state.listaRepresentantes.length > 1 ? (
-            <div className="col-12 col-lg-3">
-              <MenuRepresentantes
+            <div className="col-12">
+              <ListGroup
                 onItemSelect={this.handleListGroupClick}
-                listaRepresentantes={this.state.listaRepresentantes}
-                selectedRepre={this.state.selectedRepre}
-                FechaConsulta={this.state.FechaConsulta}
-                FechaCache={
-                  this.state.resultConsulta
-                    ? this.state.resultConsulta.FechaCache
-                    : ""
-                }
+                itemList={this.state.listaRepresentantes}
+                itemId="codrep" //identificador del elemento
+                itemValue="nombre" // valor que se mostrará
+                selectedItem={this.state.selectedRepre}
               />
             </div>
           ) : null}
 
           {!this.state.resultconsulta ? (
-            <div className={anchoLista}>
+            <div className="col-12">
               <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
             </div>
           ) : null}
