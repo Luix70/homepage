@@ -25,11 +25,14 @@ class AreaReservada extends Component {
   async componentDidMount() {
     this.setState({
       listaRepresentantes: await getRepres(),
-
       usuario: this.props.usuario
     });
 
-    this.handleListGroupClick({ codrep: -1 });
+    if (this.state.listaRepresentantes.length === 1) {
+      this.handleListGroupClick({ codrep: 0 });
+    } else {
+      this.handleListGroupClick({ codrep: -1 });
+    }
   }
 
   render() {
