@@ -1,0 +1,426 @@
+{
+  "_id": ObjectId("5c14f918f0375b6f821b9c36"),
+  "thumbnail": "Activa_tn.jpg",
+  "activa": true,
+  "mod": "activa",
+  "captions": {
+    "es": "La fuerza del contraste",
+    "en": "The power of contrast",
+    "fr": "La force du contraste",
+    "_id": ObjectId("5c5410088a231811016da69f")
+  },
+  "__v": 0,
+  "desc": {
+    "es": "Modernidad y elegancia entre metal y madera, un modelo funcional y sofisticado regulable en altura y\napertura, donde mesa de centro y comedor se funden en una, para optimizar el espacio.",
+    "en": "Modernity and elegance between metal and wood, a functional and sophisticated model adjustable in height and size, where coffee table and dining room merge into one to optimize space.",
+    "fr": "Modernité et élégance entre le métal et le bois, modèle fonctionnel et sophistiqué à hauteur et ouverture variables, où table à manger et salle à manger se fondent pour optimiser l’espace.",
+    "_id": ObjectId("5c5410088a231811016da6a0")
+  },
+  "tags": {
+    "es": "Centro-comedor. Tapa madera. Altura variable",
+    "en": "COFFE TABLE CONVERTIBLE IN DINING TABLE. VARIABLE HEIGHT",
+    "fr": "Table basse transformable en table de salle à manger."
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "ELEVACIÓN MOTOR ELÉCTRICO. MANDO A DISTANCIA",
+        "en": "AUTOMATIC LIFT BY ELECTRIC MOTOR AND REMOTE CONTROL",
+        "fr": "RELEVAGE PAR MOTEUR ÉLECTRIQUE TÉLÉCOMMANDÉ"
+      },
+      "articulos": [
+        {
+          "cod": "900",
+          "desc": {
+            "es": "Mesa de 120 x 70 x 38#Abierta: 167 y 214 (x 70)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 70 x 38#EXTENDED: 167 AND 214 (x 70)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 70 x 38#Ouverte: 167 et 214 (x 70)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "90x.svg",
+            "900_1_dim.svg",
+            "900_2_dim.svg",
+            "900_3_dim.svg",
+            "900_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "910",
+          "desc": {
+            "es": "Mesa de 120 x 80 x 38#Abierta: 167 y 214 (x 80)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 80 x 38#EXTENDED: 167 AND 214 (x 80)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 80 x 38#Ouverte: 167 et 214 (x 80)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "90x.svg",
+            "910_1_dim.svg",
+            "910_2_dim.svg",
+            "910_3_dim.svg",
+            "910_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "media",
+      "subtipo": "video",
+      "archivo": "activa_video.webm",
+      "titulo": {
+        "es": "",
+        "en": "",
+        "fr": ""
+      },
+      "pie": {
+        "es": "Funcionamiento de la elevación automática",
+        "en": "Automatic elevation demonstration",
+        "fr": "Fonctionnement du relevage télécommandé"
+      }
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "ELEVACIÓN MANUAL ASISTIDA",
+        "en": "ASSISTED MANUAL LIFTING",
+        "fr": "RELEVAGE MANUEL ASSISTÉ"
+      },
+      "articulos": [
+        {
+          "cod": "901",
+          "desc": {
+            "es": "Mesa de 120 x 70 x 38#Abierta: 167 y 214 (x 70)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 70 x 38#EXTENDED: 167 AND 214 (x 70)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 70 x 38#Ouverte: 167 et 214 (x 70)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "900_1_dim.svg",
+            "900_2_dim.svg",
+            "900_3_dim.svg",
+            "900_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "911",
+          "desc": {
+            "es": "Mesa de 120 x 80 x 38#Abierta: 167 y 214 (x 80)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 80 x 38#EXTENDED: 167 AND 214 (x 80)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 80 x 38#Ouverte: 167 et 214 (x 80)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "910_1_dim.svg",
+            "910_2_dim.svg",
+            "910_3_dim.svg",
+            "910_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "media",
+      "subtipo": "imagen",
+      "archivo": "activa_man.JPG",
+      "titulo": {
+        "es": "",
+        "en": "",
+        "fr": ""
+      },
+      "pie": {
+        "es": "Elevación asistida mediante muelles de acero y sistema de bloqueo en 5 posiciones distintas (Modelos 901, 911 y 920)",
+        "en": "Assisted lifting by steel springs and 5 different blocking positions (Modelos 901, 911 y 920)",
+        "fr": "Relevage assisté par des ressorts en acier et blocage à 5 hauteurs. (Modèles 901, 911 et 920)"
+      }
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica. Modelos: 900,901,910,911",
+        "en": "Technical Info. Models: 900,901,910,911",
+        "fr": "Détails (Modèles: 900,901,910,911) "
+      },
+      "items": [
+        {
+          "es": "Apertura mediante guías de acero bidireccionales de apertura simétrica con patines a bolas.",
+          "en": "Opening by symmetrical, ball-bearing steel runners",
+          "fr": "Ouverture symétrique par glissières en aceir avec des roulements en nylon et acier."
+        },
+        {
+          "es": "Pie articulado con ruedas ocultas de goma.",
+          "en": "Articulated pedestal with hidden rubber wheels",
+          "fr": "Pied articulé en acier avec des roues cachées."
+        },
+        {
+          "fr": "Hauteur ceinture: 12cm",
+          "es": "Altura faldón tapa: 12 cm.",
+          "en": "Sides height: 12cm"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. Modelos: 900,901,910,911",
+        "en": "Finishings. Models: 900,901,910,911",
+        "fr": "FINITIONS. Modèles: 900,901,910,911"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados Tapa",
+            "en": "Tabletop Finishings",
+            "fr": "Finitions Plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Acabados Pies",
+            "en": "Pedestal Finishings",
+            "fr": "Finitions Piétement"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Acier chromé",
+              "es": "Acero Cromado",
+              "en": "Chromed steel"
+            },
+            {
+              "es": "Lacado Texturizado Vulcano Roca ",
+              "fr": "Laqué texturé Vulcano Roca",
+              "en": "Textured paint Vulcano Roca "
+            },
+            {
+              "es": "Lacado Texturizado Nieve",
+              "en": "Textured paint Snow",
+              "fr": "Laqué texturé Neige"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "ELEVACIÓN MANUAL ASISTIDA",
+        "en": "Assisted Manual Lifting",
+        "fr": "RELEVAGE MANUEL ASSISTÉ"
+      },
+      "articulos": [
+        {
+          "cod": "920",
+          "desc": {
+            "es": "Mesa de 115 x 65 x 40#Abierta: 90 y 115 (x 115)#Altura variable: 40 a 75",
+            "en": "TABLE 115 x 65 x 38#EXTENDED: 90 AND 115 (x 115)#VARIABLE HEIGHT: 40 TO 75",
+            "fr": "Fermée: 115 x 65 x 40#Ouverte: 90 et 115 (x 115)#Hauteur réglable: 40 à 75"
+          },
+          "imagenes": [
+            "920_1_dim.svg",
+            "920_2_dim.svg",
+            "920_3_dim.svg",
+            "920_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica. Modelo 920",
+        "en": "Technical Info. Model 920",
+        "fr": "Détails. Modèle 920"
+      },
+      "items": [
+        {
+          "es": "Apertura mediante guías de madera-metal.",
+          "en": "Opening by mixed wood/metal runners",
+          "fr": "Ouverture par glissières en bois massif."
+        },
+        {
+          "es": "Pie articulado con ruedas ocultas de goma.",
+          "en": "Articulated pedestal with hidden rubber wheels",
+          "fr": "Pied articulé en acier avec des roues cachées."
+        },
+        {
+          "fr": "Hauteur ceinture: 10.5 cm",
+          "es": "Altura faldón tapa: 10.5 cm.",
+          "en": "Sides height: 10.5 cm"
+        },
+        {
+          "fr": "Rallonges à l’italienne escamotables dans le sens de la longueur.",
+          "es": "Extensibles -a la italiana- en el costado mayor",
+          "en": "-Italian Style- Extensions sideways"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. Modelo 920",
+        "en": "Finishings. Model 920",
+        "fr": "FINITIONS. Modèle 920"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados Tapa",
+            "en": "Tabletop Finishings",
+            "fr": "Finitions Plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Acabados Pies",
+            "en": "Pedestal Finishings",
+            "fr": "Finitions Piétement"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Acier chromé",
+              "es": "Acero Cromado",
+              "en": "Chromed steel"
+            },
+            {
+              "es": "Lacado Texturizado Vulcano Roca ",
+              "fr": "Laqué texturé Vulcano Roca",
+              "en": "Textured paint Vulcano Roca "
+            },
+            {
+              "es": "Lacado Texturizado Nieve",
+              "en": "Textured paint Snow",
+              "fr": "Laqué texturé Neige"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_activa_es.pdf",
+            "fr": "Tecnico_activa_fr.pdf",
+            "en": "Tecnico_activa_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Activa",
+            "fr": "Brochure Activa",
+            "en": "Activa Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_activa.pdf",
+            "fr": "cat_activa.pdf",
+            "en": "cat_activa.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 3.16 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 3.16 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 3.16Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "activa.zip",
+            "en": "activa.zip",
+            "fr": "activa.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

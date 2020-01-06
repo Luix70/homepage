@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c112fba1766f52bfc4f68a1"),
+  "thumbnail": "Kita_tn.jpg",
+  "activa": true,
+  "mod": "kita",
+  "captions": {
+    "es": "La mesa de centro esencial.",
+    "en": "The essential coffee table.",
+    "fr": "Rien que l'essentiel",
+    "_id": ObjectId("5c541b828a231811016da9b3")
+  },
+  "__v": 0,
+  "desc": {
+    "es": "Una mesa elevable que ofrece máxima funcionalidad con un mínimo de recursos. Madera y metal",
+    "en": "An adjustable-height table that offers maximum functionality with a minimum of resources. Wood and metal",
+    "fr": "Une table relevable offrant un maximum de fonctionnalités avec un minimum de ressources. Bois et métal",
+    "_id": ObjectId("5c541b828a231811016da9b4")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de madera. Pie metálico",
+    "en": "Wooden top. Metallic pedestal",
+    "fr": "Plateau plaqué en bois. Piétement métallique"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernillo Kita",
+            "fr": "Brochure Kita",
+            "en": "Kita Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_kita.pdf",
+            "fr": "cat_kita.pdf",
+            "en": "cat_kita.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 1.04 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 1.04 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 1.04 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "kita.zip",
+            "en": "kita.zip",
+            "fr": "kita.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

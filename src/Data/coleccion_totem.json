@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c06b3c266fd0a2ef46f89bc"),
+  "mod": "totem",
+  "thumbnail": "Totem_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Firmeza en sus materiales",
+    "en": "Firmness in their materials",
+    "fr": "Fermeté dans ses matériaux",
+    "_id": ObjectId("5c5403ee8a231811016da600")
+  },
+  "desc": {
+    "es": "Es una colección que se inspira en formas que evocan a una importante cultura, cuyo legado fué la robustez\nde la artesanía hecha a mano con líneas simples de gran fuerza y personalidad.",
+    "en": "It is a collection that is inspired by forms that evoke an important culture, whose legacy was the robustness\nof handmade craftsmanship with simple lines of great strength and personality.",
+    "fr": "C’est une collection qui s’inspire de formes évoquant une culture importante, dont l’héritage était la robustesse.\nde fabrication artisanale avec des lignes simples de grande force et de personnalité.",
+    "_id": ObjectId("5c5403ee8a231811016da601")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de cristal, madera o porcelánico.",
+    "fr": "Plateau bois, verre ou céramique",
+    "en": "Wooden, glass or ceramique tabletop"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Totem",
+            "fr": "Brochure Totem",
+            "en": "Collection Totem Brochure"
+          },
+          "archivo": {
+            "es": "cat_totem.pdf",
+            "fr": "cat_totem.pdf",
+            "en": "cat_totem.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 2.69 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 2.69 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 2.69 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "totem.zip",
+            "en": "totem.zip",
+            "fr": "totem.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

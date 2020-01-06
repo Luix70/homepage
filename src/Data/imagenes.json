@@ -1,0 +1,5951 @@
+/* 1 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbd1"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "ACTIVA (1).jpg. Coleccion: activa",
+        "en" : "ACTIVA (1).jpg. Collection: activa",
+        "fr" : "ACTIVA (1).jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbd4")
+    },
+    "nombre_tn" : "tn_ACTIVA_1_.JPG",
+    "nombre_img" : "ACTIVA_1_.jpg",
+    "nombre_img_hr" : "ACTIVA_1_.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbd2")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbd3")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbd6"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "ACTIVA (2).jpg. Coleccion: activa",
+        "en" : "ACTIVA (2).jpg. Collection: activa",
+        "fr" : "ACTIVA (2).jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbd9")
+    },
+    "nombre_tn" : "tn_ACTIVA_2_.JPG",
+    "nombre_img" : "ACTIVA_2_.jpg",
+    "nombre_img_hr" : "ACTIVA_2_.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbd7")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbd8")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbdb"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "ACTIVA (3).jpg. Coleccion: activa",
+        "en" : "ACTIVA (3).jpg. Collection: activa",
+        "fr" : "ACTIVA (3).jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbde")
+    },
+    "nombre_tn" : "tn_ACTIVA_3_.JPG",
+    "nombre_img" : "ACTIVA_3_.jpg",
+    "nombre_img_hr" : "ACTIVA_3_.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbdc")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbdd")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbe0"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "ACTIVA (4).jpg. Coleccion: activa",
+        "en" : "ACTIVA (4).jpg. Collection: activa",
+        "fr" : "ACTIVA (4).jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbe3")
+    },
+    "nombre_tn" : "tn_ACTIVA_4_.JPG",
+    "nombre_img" : "ACTIVA_4_.jpg",
+    "nombre_img_hr" : "ACTIVA_4_.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbe1")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbe2")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbe5"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "ACTIVA (5).jpg. Coleccion: activa",
+        "en" : "ACTIVA (5).jpg. Collection: activa",
+        "fr" : "ACTIVA (5).jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbe8")
+    },
+    "nombre_tn" : "tn_ACTIVA_5_.JPG",
+    "nombre_img" : "ACTIVA_5_.jpg",
+    "nombre_img_hr" : "ACTIVA_5_.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbe6")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbe7")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbea"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0543.jpg. Coleccion: activa",
+        "en" : "Image 0543.jpg. Collection: activa",
+        "fr" : "Image 0543.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbed")
+    },
+    "nombre_tn" : "tn_Image0543.JPG",
+    "nombre_img" : "Image0543.jpg",
+    "nombre_img_hr" : "Image0543.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbeb")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbec")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbef"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0545.jpg. Coleccion: activa",
+        "en" : "Image 0545.jpg. Collection: activa",
+        "fr" : "Image 0545.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbf2")
+    },
+    "nombre_tn" : "tn_Image0545.JPG",
+    "nombre_img" : "Image0545.jpg",
+    "nombre_img_hr" : "Image0545.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbf0")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbf1")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbf4"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0548.jpg. Coleccion: activa",
+        "en" : "Image 0548.jpg. Collection: activa",
+        "fr" : "Image 0548.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbf7")
+    },
+    "nombre_tn" : "tn_Image0548.JPG",
+    "nombre_img" : "Image0548.jpg",
+    "nombre_img_hr" : "Image0548.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbf5")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbf6")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbf9"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0549.jpg. Coleccion: activa",
+        "en" : "Image 0549.jpg. Collection: activa",
+        "fr" : "Image 0549.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfbfc")
+    },
+    "nombre_tn" : "tn_Image0549.JPG",
+    "nombre_img" : "Image0549.jpg",
+    "nombre_img_hr" : "Image0549.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbfa")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfbfb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc12"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "ARMONIA(1).jpg. Coleccion: armonia",
+        "en" : "ARMONIA(1).jpg. Collection: armonia",
+        "fr" : "ARMONIA(1).jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc15")
+    },
+    "nombre_tn" : "tn_ARMONIA_1_.JPG",
+    "nombre_img" : "ARMONIA_1_.jpg",
+    "nombre_img_hr" : "ARMONIA_1_.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc13")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc14")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc2b"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2472.jpg. Coleccion: armonia",
+        "en" : "Image 2472.jpg. Collection: armonia",
+        "fr" : "Image 2472.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc2e")
+    },
+    "nombre_tn" : "tn_Image2472.JPG",
+    "nombre_img" : "Image2472.jpg",
+    "nombre_img_hr" : "Image2472.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc2c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc2d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc44"),
+    "colecciones" : [ 
+        "aura"
+    ],
+    "pieFoto" : {
+        "es" : "AURA (1).jpg. Coleccion: aura",
+        "en" : "AURA (1).jpg. Collection: aura",
+        "fr" : "AURA (1).jpg. Collection: aura",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc47")
+    },
+    "nombre_tn" : "tn_AURA_1_.JPG",
+    "nombre_img" : "AURA_1_.jpg",
+    "nombre_img_hr" : "AURA_1_.tif",
+    "folder" : "aura",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc45")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc46")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc5d"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1154.jpg. Coleccion: box",
+        "en" : "Image 1154.jpg. Collection: box",
+        "fr" : "Image 1154.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc60")
+    },
+    "nombre_tn" : "tn_Image1154.JPG",
+    "nombre_img" : "Image1154.jpg",
+    "nombre_img_hr" : "Image1154.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc5e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc5f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc76"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (2).jpg. Coleccion: cross",
+        "en" : "CROSS (2).jpg. Collection: cross",
+        "fr" : "CROSS (2).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc79")
+    },
+    "nombre_tn" : "tn_CROSS_2_.JPG",
+    "nombre_img" : "CROSS_2_.jpg",
+    "nombre_img_hr" : "CROSS_2_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc77")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc78")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc8f"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (7).jpg. Coleccion: cross",
+        "en" : "CROSS (7).jpg. Collection: cross",
+        "fr" : "CROSS (7).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc92")
+    },
+    "nombre_tn" : "tn_CROSS_7_.JPG",
+    "nombre_img" : "CROSS_7_.jpg",
+    "nombre_img_hr" : "CROSS_7_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc90")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc91")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfca8"),
+    "colecciones" : [ 
+        "demos", 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "DEMOS(3).jpg. Coleccion: demos",
+        "en" : "DEMOS(3).jpg. Collection: demos",
+        "fr" : "DEMOS(3).jpg. Collection: demos",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcab")
+    },
+    "nombre_tn" : "tn_DEMOS_3_.JPG",
+    "nombre_img" : "DEMOS_3_.jpg",
+    "nombre_img_hr" : "DEMOS_3_.tif",
+    "folder" : "demos",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfca9")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcaa")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcc1"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "08-2101.jpg. Coleccion: eco",
+        "en" : "08-2101.jpg. Collection: eco",
+        "fr" : "08-2101.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcc4")
+    },
+    "nombre_tn" : "tn_08-2101.JPG",
+    "nombre_img" : "08-2101.jpg",
+    "nombre_img_hr" : "08-2101.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcc2")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcc3")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcda"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0309.jpg. Coleccion: eco",
+        "en" : "Image 0309.jpg. Collection: eco",
+        "fr" : "Image 0309.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcdd")
+    },
+    "nombre_tn" : "tn_Image0309.JPG",
+    "nombre_img" : "Image0309.jpg",
+    "nombre_img_hr" : "Image0309.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcdb")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcdc")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfbfe"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1202.jpg. Coleccion: activa",
+        "en" : "Image 1202.jpg. Collection: activa",
+        "fr" : "Image 1202.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc01")
+    },
+    "nombre_tn" : "tn_Image1202.JPG",
+    "nombre_img" : "Image1202.jpg",
+    "nombre_img_hr" : "Image1202.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfbff")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc00")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc17"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2316.jpg. Coleccion: armonia",
+        "en" : "Image 2316.jpg. Collection: armonia",
+        "fr" : "Image 2316.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc1a")
+    },
+    "nombre_tn" : "tn_Image2316.JPG",
+    "nombre_img" : "Image2316.jpg",
+    "nombre_img_hr" : "Image2316.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc18")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc19")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc30"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2473.jpg. Coleccion: armonia",
+        "en" : "Image 2473.jpg. Collection: armonia",
+        "fr" : "Image 2473.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc33")
+    },
+    "nombre_tn" : "tn_Image2473.JPG",
+    "nombre_img" : "Image2473.jpg",
+    "nombre_img_hr" : "Image2473.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc31")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc32")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc49"),
+    "colecciones" : [ 
+        "aura"
+    ],
+    "pieFoto" : {
+        "es" : "AURA (2).jpg. Coleccion: aura",
+        "en" : "AURA (2).jpg. Collection: aura",
+        "fr" : "AURA (2).jpg. Collection: aura",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc4c")
+    },
+    "nombre_tn" : "tn_AURA_2_.JPG",
+    "nombre_img" : "AURA_2_.jpg",
+    "nombre_img_hr" : "AURA_2_.tif",
+    "folder" : "aura",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc4a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc4b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc62"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1169.jpg. Coleccion: box",
+        "en" : "Image 1169.jpg. Collection: box",
+        "fr" : "Image 1169.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc65")
+    },
+    "nombre_tn" : "tn_Image1169.JPG",
+    "nombre_img" : "Image1169.jpg",
+    "nombre_img_hr" : "Image1169.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc63")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc64")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc7b"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (3).jpg. Coleccion: cross",
+        "en" : "CROSS (3).jpg. Collection: cross",
+        "fr" : "CROSS (3).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc7e")
+    },
+    "nombre_tn" : "tn_CROSS_3_.JPG",
+    "nombre_img" : "CROSS_3_.jpg",
+    "nombre_img_hr" : "CROSS_3_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc7c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc7d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc03"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1203.jpg. Coleccion: activa",
+        "en" : "Image 1203.jpg. Collection: activa",
+        "fr" : "Image 1203.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc06")
+    },
+    "nombre_tn" : "tn_Image1203.JPG",
+    "nombre_img" : "Image1203.jpg",
+    "nombre_img_hr" : "Image1203.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc04")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc05")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc26"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2468.jpg. Coleccion: armonia",
+        "en" : "Image 2468.jpg. Collection: armonia",
+        "fr" : "Image 2468.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc29")
+    },
+    "nombre_tn" : "tn_Image2468.JPG",
+    "nombre_img" : "Image2468.jpg",
+    "nombre_img_hr" : "Image2468.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc27")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc28")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc3f"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2481.jpg. Coleccion: armonia",
+        "en" : "Image 2481.jpg. Collection: armonia",
+        "fr" : "Image 2481.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc42")
+    },
+    "nombre_tn" : "tn_Image2481.JPG",
+    "nombre_img" : "Image2481.jpg",
+    "nombre_img_hr" : "Image2481.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc40")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc41")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc58"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1153.jpg. Coleccion: box",
+        "en" : "Image 1153.jpg. Collection: box",
+        "fr" : "Image 1153.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc5b")
+    },
+    "nombre_tn" : "tn_Image1153.JPG",
+    "nombre_img" : "Image1153.jpg",
+    "nombre_img_hr" : "Image1153.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc59")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc5a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc71"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (1).jpg. Coleccion: cross",
+        "en" : "CROSS (1).jpg. Collection: cross",
+        "fr" : "CROSS (1).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc74")
+    },
+    "nombre_tn" : "tn_CROSS_1_.JPG",
+    "nombre_img" : "CROSS_1_.jpg",
+    "nombre_img_hr" : "CROSS_1_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc72")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc73")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc08"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1220.jpg. Coleccion: activa",
+        "en" : "Image 1220.jpg. Collection: activa",
+        "fr" : "Image 1220.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc0b")
+    },
+    "nombre_tn" : "tn_Image1220.JPG",
+    "nombre_img" : "Image1220.jpg",
+    "nombre_img_hr" : "Image1220.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc09")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc0a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc1c"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2318.jpg. Coleccion: armonia",
+        "en" : "Image 2318.jpg. Collection: armonia",
+        "fr" : "Image 2318.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc1f")
+    },
+    "nombre_tn" : "tn_Image2318.JPG",
+    "nombre_img" : "Image2318.jpg",
+    "nombre_img_hr" : "Image2318.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc1d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc1e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc35"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2474.jpg. Coleccion: armonia",
+        "en" : "Image 2474.jpg. Collection: armonia",
+        "fr" : "Image 2474.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc38")
+    },
+    "nombre_tn" : "tn_Image2474.JPG",
+    "nombre_img" : "Image2474.jpg",
+    "nombre_img_hr" : "Image2474.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc36")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc37")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc4e"),
+    "colecciones" : [ 
+        "aura"
+    ],
+    "pieFoto" : {
+        "es" : "AURA (3).jpg. Coleccion: aura",
+        "en" : "AURA (3).jpg. Collection: aura",
+        "fr" : "AURA (3).jpg. Collection: aura",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc51")
+    },
+    "nombre_tn" : "tn_AURA_3_.JPG",
+    "nombre_img" : "AURA_3_.jpg",
+    "nombre_img_hr" : "AURA_3_.tif",
+    "folder" : "aura",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc4f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc50")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc67"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1222.jpg. Coleccion: box",
+        "en" : "Image 1222.jpg. Collection: box",
+        "fr" : "Image 1222.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc6a")
+    },
+    "nombre_tn" : "tn_Image1222.JPG",
+    "nombre_img" : "Image1222.jpg",
+    "nombre_img_hr" : "Image1222.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc68")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc69")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc80"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (4).jpg. Coleccion: cross",
+        "en" : "CROSS (4).jpg. Collection: cross",
+        "fr" : "CROSS (4).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc83")
+    },
+    "nombre_tn" : "tn_CROSS_4_.JPG",
+    "nombre_img" : "CROSS_4_.jpg",
+    "nombre_img_hr" : "CROSS_4_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc81")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc82")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc0d"),
+    "colecciones" : [ 
+        "activa"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1221.jpg. Coleccion: activa",
+        "en" : "Image 1221.jpg. Collection: activa",
+        "fr" : "Image 1221.jpg. Collection: activa",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc10")
+    },
+    "nombre_tn" : "tn_Image1221.JPG",
+    "nombre_img" : "Image1221.jpg",
+    "nombre_img_hr" : "Image1221.tif",
+    "folder" : "activa",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc0e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc0f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc21"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2465.jpg. Coleccion: armonia",
+        "en" : "Image 2465.jpg. Collection: armonia",
+        "fr" : "Image 2465.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc24")
+    },
+    "nombre_tn" : "tn_Image2465.JPG",
+    "nombre_img" : "Image2465.jpg",
+    "nombre_img_hr" : "Image2465.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc22")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc23")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc3a"),
+    "colecciones" : [ 
+        "armonia"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2477.jpg. Coleccion: armonia",
+        "en" : "Image 2477.jpg. Collection: armonia",
+        "fr" : "Image 2477.jpg. Collection: armonia",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc3d")
+    },
+    "nombre_tn" : "tn_Image2477.JPG",
+    "nombre_img" : "Image2477.jpg",
+    "nombre_img_hr" : "Image2477.tif",
+    "folder" : "armonia",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc3b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc3c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc53"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1081.jpg. Coleccion: box",
+        "en" : "Image 1081.jpg. Collection: box",
+        "fr" : "Image 1081.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc56")
+    },
+    "nombre_tn" : "tn_Image1081.JPG",
+    "nombre_img" : "Image1081.jpg",
+    "nombre_img_hr" : "Image1081.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc54")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc55")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc6c"),
+    "colecciones" : [ 
+        "box"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1225.jpg. Coleccion: box",
+        "en" : "Image 1225.jpg. Collection: box",
+        "fr" : "Image 1225.jpg. Collection: box",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc6f")
+    },
+    "nombre_tn" : "tn_Image1225.JPG",
+    "nombre_img" : "Image1225.jpg",
+    "nombre_img_hr" : "Image1225.tif",
+    "folder" : "box",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc6d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc6e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc85"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (5).jpg. Coleccion: cross",
+        "en" : "CROSS (5).jpg. Collection: cross",
+        "fr" : "CROSS (5).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc88")
+    },
+    "nombre_tn" : "tn_CROSS_5_.JPG",
+    "nombre_img" : "CROSS_5_.jpg",
+    "nombre_img_hr" : "CROSS_5_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc86")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc87")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc9e"),
+    "colecciones" : [ 
+        "demos"
+    ],
+    "pieFoto" : {
+        "es" : "DEMOS(1).jpg. Coleccion: demos",
+        "en" : "DEMOS(1).jpg. Collection: demos",
+        "fr" : "DEMOS(1).jpg. Collection: demos",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfca1")
+    },
+    "nombre_tn" : "tn_DEMOS_1_.JPG",
+    "nombre_img" : "DEMOS_1_.jpg",
+    "nombre_img_hr" : "DEMOS_1_.tif",
+    "folder" : "demos",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc9f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfca0")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcd0"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0305.jpg. Coleccion: eco",
+        "en" : "Image 0305.jpg. Collection: eco",
+        "fr" : "Image 0305.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcd3")
+    },
+    "nombre_tn" : "tn_Image0305.JPG",
+    "nombre_img" : "Image0305.jpg",
+    "nombre_img_hr" : "Image0305.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcd1")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcd2")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfce9"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1125.jpg. Coleccion: eco",
+        "en" : "Image 1125.jpg. Collection: eco",
+        "fr" : "Image 1125.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcec")
+    },
+    "nombre_tn" : "tn_Image1125.JPG",
+    "nombre_img" : "Image1125.jpg",
+    "nombre_img_hr" : "Image1125.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcea")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfceb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcb7"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "08-2095.jpg. Coleccion: eco",
+        "en" : "08-2095.jpg. Collection: eco",
+        "fr" : "08-2095.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcba")
+    },
+    "nombre_tn" : "tn_08-2095.JPG",
+    "nombre_img" : "08-2095.jpg",
+    "nombre_img_hr" : "08-2095.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcb8")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcb9")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd02"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (4).jpg. Coleccion: geo",
+        "en" : "GEO (4).jpg. Collection: geo",
+        "fr" : "GEO (4).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd05")
+    },
+    "nombre_tn" : "tn_GEO_4_.JPG",
+    "nombre_img" : "GEO_4_.jpg",
+    "nombre_img_hr" : "GEO_4_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd03")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd04")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcf3"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (1).jpg. Coleccion: geo",
+        "en" : "GEO (1).jpg. Collection: geo",
+        "fr" : "GEO (1).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcf6")
+    },
+    "nombre_tn" : "tn_GEO_1_.JPG",
+    "nombre_img" : "GEO_1_.jpg",
+    "nombre_img_hr" : "GEO_1_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcf4")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcf5")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc94"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (8).jpg. Coleccion: cross",
+        "en" : "CROSS (8).jpg. Collection: cross",
+        "fr" : "CROSS (8).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc97")
+    },
+    "nombre_tn" : "tn_CROSS_8_.JPG",
+    "nombre_img" : "CROSS_8_.jpg",
+    "nombre_img_hr" : "CROSS_8_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc95")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc96")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcad"),
+    "colecciones" : [ 
+        "demos", 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "DEMOS(4).jpg. Coleccion: demos",
+        "en" : "DEMOS(4).jpg. Collection: demos",
+        "fr" : "DEMOS(4).jpg. Collection: demos",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcb0")
+    },
+    "nombre_tn" : "tn_DEMOS_4_.JPG",
+    "nombre_img" : "DEMOS_4_.jpg",
+    "nombre_img_hr" : "DEMOS_4_.tif",
+    "folder" : "demos",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcae")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcaf")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc8a"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (6).jpg. Coleccion: cross",
+        "en" : "CROSS (6).jpg. Collection: cross",
+        "fr" : "CROSS (6).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc8d")
+    },
+    "nombre_tn" : "tn_CROSS_6_.JPG",
+    "nombre_img" : "CROSS_6_.jpg",
+    "nombre_img_hr" : "CROSS_6_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc8b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc8c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd1b"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2158.jpg. Coleccion: geo",
+        "en" : "Image 2158.jpg. Collection: geo",
+        "fr" : "Image 2158.jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd1e")
+    },
+    "nombre_tn" : "tn_Image2158.JPG",
+    "nombre_img" : "Image2158.jpg",
+    "nombre_img_hr" : "Image2158.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd1c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd1d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd34"),
+    "colecciones" : [ 
+        "greta"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0776.jpg. Coleccion: greta",
+        "en" : "Image 0776.jpg. Collection: greta",
+        "fr" : "Image 0776.jpg. Collection: greta",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd37")
+    },
+    "nombre_tn" : "tn_Image0776.JPG",
+    "nombre_img" : "Image0776.jpg",
+    "nombre_img_hr" : "Image0776.tif",
+    "folder" : "greta",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd35")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd36")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd4d"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0326.jpg. Coleccion: hydra",
+        "en" : "08-0326.jpg. Collection: hydra",
+        "fr" : "08-0326.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd50")
+    },
+    "nombre_tn" : "tn_08-0326.JPG",
+    "nombre_img" : "08-0326.jpg",
+    "nombre_img_hr" : "08-0326.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd4e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd4f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd66"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1039.jpg. Coleccion: hydra",
+        "en" : "Image 1039.jpg. Collection: hydra",
+        "fr" : "Image 1039.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd69")
+    },
+    "nombre_tn" : "tn_Image 1039.JPG",
+    "nombre_img" : "Image 1039.jpg",
+    "nombre_img_hr" : "Image 1039.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd67")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd68")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd7f"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Imagen 005.jpg. Coleccion: hydra",
+        "en" : "Imagen 005.jpg. Collection: hydra",
+        "fr" : "Imagen 005.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd82")
+    },
+    "nombre_tn" : "tn_Imagen 005.JPG",
+    "nombre_img" : "Imagen 005.jpg",
+    "nombre_img_hr" : "Imagen 005.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd80")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd81")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd98"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0600.jpg. Coleccion: intempo",
+        "en" : "Image 0600.jpg. Collection: intempo",
+        "fr" : "Image 0600.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd9b")
+    },
+    "nombre_tn" : "tn_Image0600.JPG",
+    "nombre_img" : "Image0600.jpg",
+    "nombre_img_hr" : "Image0600.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd99")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd9a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdb1"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0616.jpg. Coleccion: intempo",
+        "en" : "Image 0616.jpg. Collection: intempo",
+        "fr" : "Image 0616.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdb4")
+    },
+    "nombre_tn" : "tn_Image0616.JPG",
+    "nombre_img" : "Image0616.jpg",
+    "nombre_img_hr" : "Image0616.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdb2")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdb3")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdca"),
+    "colecciones" : [ 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "KEPLER (5).jpg. Coleccion: kepler",
+        "en" : "KEPLER (5).jpg. Collection: kepler",
+        "fr" : "KEPLER (5).jpg. Collection: kepler",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdcd")
+    },
+    "nombre_tn" : "tn_KEPLER_5_.JPG",
+    "nombre_img" : "KEPLER_5_.jpg",
+    "nombre_img_hr" : "KEPLER_5_.tif",
+    "folder" : "kepler",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdcb")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdcc")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfde3"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (5).jpg. Coleccion: kita",
+        "en" : "KITA (5).jpg. Collection: kita",
+        "fr" : "KITA (5).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfde6")
+    },
+    "nombre_tn" : "tn_KITA_5_.JPG",
+    "nombre_img" : "KITA_5_.jpg",
+    "nombre_img_hr" : "KITA_5_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfde4")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfde5")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdfc"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "661 nogal.jpg. Coleccion: limite",
+        "en" : "661 nogal.jpg. Collection: limite",
+        "fr" : "661 nogal.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdff")
+    },
+    "nombre_tn" : "tn_661nogal.JPG",
+    "nombre_img" : "661nogal.jpg",
+    "nombre_img_hr" : "661nogal.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdfd")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdfe")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe15"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66P nogal 1 tramo abierto.jpg. Coleccion: limite",
+        "en" : "66P nogal 1 tramo abierto.jpg. Collection: limite",
+        "fr" : "66P nogal 1 tramo abierto.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe18")
+    },
+    "nombre_tn" : "tn_66Pnogal1tramoabierto.JPG",
+    "nombre_img" : "66Pnogal1tramoabierto.jpg",
+    "nombre_img_hr" : "66Pnogal1tramoabierto.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe16")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe17")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe92"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0664.jpg. Coleccion: limite",
+        "en" : "Image 0664.jpg. Collection: limite",
+        "fr" : "Image 0664.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe95")
+    },
+    "nombre_tn" : "tn_Image0664.JPG",
+    "nombre_img" : "Image0664.jpg",
+    "nombre_img_hr" : "Image0664.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe93")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe94")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfeab"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0570.jpg. Coleccion: mytable",
+        "en" : "Image 0570.jpg. Collection: mytable",
+        "fr" : "Image 0570.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfeae")
+    },
+    "nombre_tn" : "tn_Image0570.JPG",
+    "nombre_img" : "Image0570.jpg",
+    "nombre_img_hr" : "Image0570.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfeac")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfead")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfec4"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2191.jpg. Coleccion: mytable",
+        "en" : "Image 2191.jpg. Collection: mytable",
+        "fr" : "Image 2191.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfec7")
+    },
+    "nombre_tn" : "tn_Image2191.JPG",
+    "nombre_img" : "Image2191.jpg",
+    "nombre_img_hr" : "Image2191.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfec5")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfec6")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfedd"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0318.jpg. Coleccion: nordic",
+        "en" : "Image 0318.jpg. Collection: nordic",
+        "fr" : "Image 0318.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfee0")
+    },
+    "nombre_tn" : "tn_Image0318.JPG",
+    "nombre_img" : "Image0318.jpg",
+    "nombre_img_hr" : "Image0318.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfede")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfedf")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd0c"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (6).jpg. Coleccion: geo",
+        "en" : "GEO (6).jpg. Collection: geo",
+        "fr" : "GEO (6).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd0f")
+    },
+    "nombre_tn" : "tn_GEO_6_.JPG",
+    "nombre_img" : "GEO_6_.jpg",
+    "nombre_img_hr" : "GEO_6_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd0d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd0e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd25"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2163-1.jpg. Coleccion: geo",
+        "en" : "Image 2163-1.jpg. Collection: geo",
+        "fr" : "Image 2163-1.jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd28")
+    },
+    "nombre_tn" : "tn_Image2163-1.JPG",
+    "nombre_img" : "Image2163-1.jpg",
+    "nombre_img_hr" : "Image2163-1.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd26")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd27")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd3e"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0305.jpg. Coleccion: hydra",
+        "en" : "08-0305.jpg. Collection: hydra",
+        "fr" : "08-0305.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd41")
+    },
+    "nombre_tn" : "tn_08-0305.JPG",
+    "nombre_img" : "08-0305.jpg",
+    "nombre_img_hr" : "08-0305.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd3f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd40")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd57"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0344.jpg. Coleccion: hydra",
+        "en" : "08-0344.jpg. Collection: hydra",
+        "fr" : "08-0344.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd5a")
+    },
+    "nombre_tn" : "tn_08-0344.JPG",
+    "nombre_img" : "08-0344.jpg",
+    "nombre_img_hr" : "08-0344.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd58")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd59")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcc6"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0298.jpg. Coleccion: eco",
+        "en" : "Image 0298.jpg. Collection: eco",
+        "fr" : "Image 0298.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcc9")
+    },
+    "nombre_tn" : "tn_Image0298.JPG",
+    "nombre_img" : "Image0298.jpg",
+    "nombre_img_hr" : "Image0298.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcc7")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcc8")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcdf"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0330.jpg. Coleccion: eco",
+        "en" : "Image 0330.jpg. Collection: eco",
+        "fr" : "Image 0330.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfce2")
+    },
+    "nombre_tn" : "tn_Image0330.JPG",
+    "nombre_img" : "Image0330.jpg",
+    "nombre_img_hr" : "Image0330.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfce0")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfce1")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfca3"),
+    "colecciones" : [ 
+        "demos"
+    ],
+    "pieFoto" : {
+        "es" : "DEMOS(2).jpg. Coleccion: demos",
+        "en" : "DEMOS(2).jpg. Collection: demos",
+        "fr" : "DEMOS(2).jpg. Collection: demos",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfca6")
+    },
+    "nombre_tn" : "tn_DEMOS_2_.JPG",
+    "nombre_img" : "DEMOS_2_.jpg",
+    "nombre_img_hr" : "DEMOS_2_.tif",
+    "folder" : "demos",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfca4")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfca5")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcbc"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "08-2100.jpg. Coleccion: eco",
+        "en" : "08-2100.jpg. Collection: eco",
+        "fr" : "08-2100.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcbf")
+    },
+    "nombre_tn" : "tn_08-2100.JPG",
+    "nombre_img" : "08-2100.jpg",
+    "nombre_img_hr" : "08-2100.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcbd")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcbe")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcf8"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (2).jpg. Coleccion: geo",
+        "en" : "GEO (2).jpg. Collection: geo",
+        "fr" : "GEO (2).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcfb")
+    },
+    "nombre_tn" : "tn_GEO_2_.JPG",
+    "nombre_img" : "GEO_2_.jpg",
+    "nombre_img_hr" : "GEO_2_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcf9")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcfa")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd11"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (7).jpg. Coleccion: geo",
+        "en" : "GEO (7).jpg. Collection: geo",
+        "fr" : "GEO (7).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd14")
+    },
+    "nombre_tn" : "tn_GEO_7_.JPG",
+    "nombre_img" : "GEO_7_.jpg",
+    "nombre_img_hr" : "GEO_7_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd12")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd13")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd2a"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2168-1.jpg. Coleccion: geo",
+        "en" : "Image 2168-1.jpg. Collection: geo",
+        "fr" : "Image 2168-1.jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd2d")
+    },
+    "nombre_tn" : "tn_Image2168-1.JPG",
+    "nombre_img" : "Image2168-1.jpg",
+    "nombre_img_hr" : "Image2168-1.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd2b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd2c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd43"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0313.jpg. Coleccion: hydra",
+        "en" : "08-0313.jpg. Collection: hydra",
+        "fr" : "08-0313.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd46")
+    },
+    "nombre_tn" : "tn_08-0313.JPG",
+    "nombre_img" : "08-0313.jpg",
+    "nombre_img_hr" : "08-0313.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd44")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd45")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd5c"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1023.jpg. Coleccion: hydra",
+        "en" : "Image 1023.jpg. Collection: hydra",
+        "fr" : "Image 1023.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd5f")
+    },
+    "nombre_tn" : "tn_Image 1023.JPG",
+    "nombre_img" : "Image 1023.jpg",
+    "nombre_img_hr" : "Image 1023.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd5d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd5e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd75"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Imagen 002.jpg. Coleccion: hydra",
+        "en" : "Imagen 002.jpg. Collection: hydra",
+        "fr" : "Imagen 002.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd78")
+    },
+    "nombre_tn" : "tn_Imagen 002.JPG",
+    "nombre_img" : "Imagen 002.jpg",
+    "nombre_img_hr" : "Imagen 002.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd76")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd77")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcd5"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0307.jpg. Coleccion: eco",
+        "en" : "Image 0307.jpg. Collection: eco",
+        "fr" : "Image 0307.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcd8")
+    },
+    "nombre_tn" : "tn_Image0307.JPG",
+    "nombre_img" : "Image0307.jpg",
+    "nombre_img_hr" : "Image0307.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcd6")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcd7")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcee"),
+    "colecciones" : [ 
+        "elite"
+    ],
+    "pieFoto" : {
+        "es" : "ELITE.jpg. Coleccion: elite",
+        "en" : "ELITE.jpg. Collection: elite",
+        "fr" : "ELITE.jpg. Collection: elite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcf1")
+    },
+    "nombre_tn" : "tn_ELITE.JPG",
+    "nombre_img" : "ELITE.jpg",
+    "nombre_img_hr" : "ELITE.tif",
+    "folder" : "elite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcef")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcf0")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd70"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Imagen 001.jpg. Coleccion: hydra",
+        "en" : "Imagen 001.jpg. Collection: hydra",
+        "fr" : "Imagen 001.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd73")
+    },
+    "nombre_tn" : "tn_Imagen 001.JPG",
+    "nombre_img" : "Imagen 001.jpg",
+    "nombre_img_hr" : "Imagen 001.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd71")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd72")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 83 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd89"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0588.jpg. Coleccion: intempo",
+        "en" : "Image 0588.jpg. Collection: intempo",
+        "fr" : "Image 0588.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd8c")
+    },
+    "nombre_tn" : "tn_Image0588.JPG",
+    "nombre_img" : "Image0588.jpg",
+    "nombre_img_hr" : "Image0588.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd8a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd8b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 84 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfda2"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0604.jpg. Coleccion: intempo",
+        "en" : "Image 0604.jpg. Collection: intempo",
+        "fr" : "Image 0604.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfda5")
+    },
+    "nombre_tn" : "tn_Image0604.JPG",
+    "nombre_img" : "Image0604.jpg",
+    "nombre_img_hr" : "Image0604.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfda3")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfda4")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 85 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfc99"),
+    "colecciones" : [ 
+        "cross"
+    ],
+    "pieFoto" : {
+        "es" : "CROSS (9).jpg. Coleccion: cross",
+        "en" : "CROSS (9).jpg. Collection: cross",
+        "fr" : "CROSS (9).jpg. Collection: cross",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfc9c")
+    },
+    "nombre_tn" : "tn_CROSS_9_.JPG",
+    "nombre_img" : "CROSS_9_.jpg",
+    "nombre_img_hr" : "CROSS_9_.tif",
+    "folder" : "cross",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfc9a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfc9b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 86 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcb2"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "08-2081.jpg. Coleccion: eco",
+        "en" : "08-2081.jpg. Collection: eco",
+        "fr" : "08-2081.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcb5")
+    },
+    "nombre_tn" : "tn_08-2081.JPG",
+    "nombre_img" : "08-2081.jpg",
+    "nombre_img_hr" : "08-2081.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcb3")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcb4")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 87 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd8e"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0594.jpg. Coleccion: intempo",
+        "en" : "Image 0594.jpg. Collection: intempo",
+        "fr" : "Image 0594.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd91")
+    },
+    "nombre_tn" : "tn_Image0594.JPG",
+    "nombre_img" : "Image0594.jpg",
+    "nombre_img_hr" : "Image0594.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd8f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd90")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 88 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfda7"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0605.jpg. Coleccion: intempo",
+        "en" : "Image 0605.jpg. Collection: intempo",
+        "fr" : "Image 0605.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdaa")
+    },
+    "nombre_tn" : "tn_Image0605.JPG",
+    "nombre_img" : "Image0605.jpg",
+    "nombre_img_hr" : "Image0605.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfda8")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfda9")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 89 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdc0"),
+    "colecciones" : [ 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "KEPLER (3).jpg. Coleccion: kepler",
+        "en" : "KEPLER (3).jpg. Collection: kepler",
+        "fr" : "KEPLER (3).jpg. Collection: kepler",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdc3")
+    },
+    "nombre_tn" : "tn_KEPLER_3_.JPG",
+    "nombre_img" : "KEPLER_3_.jpg",
+    "nombre_img_hr" : "KEPLER_3_.tif",
+    "folder" : "kepler",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdc1")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdc2")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 90 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe0b"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66a nogal silueta.jpg. Coleccion: limite",
+        "en" : "66a nogal silueta.jpg. Collection: limite",
+        "fr" : "66a nogal silueta.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe0e")
+    },
+    "nombre_tn" : "tn_66anogalsilueta.JPG",
+    "nombre_img" : "66anogalsilueta.jpg",
+    "nombre_img_hr" : "66anogalsilueta.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe0c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe0d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 91 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdd9"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (3).jpg. Coleccion: kita",
+        "en" : "KITA (3).jpg. Collection: kita",
+        "fr" : "KITA (3).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfddc")
+    },
+    "nombre_tn" : "tn_KITA_3_.JPG",
+    "nombre_img" : "KITA_3_.jpg",
+    "nombre_img_hr" : "KITA_3_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdda")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfddb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 92 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe24"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66P nogal.jpg. Coleccion: limite",
+        "en" : "66P nogal.jpg. Collection: limite",
+        "fr" : "66P nogal.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe27")
+    },
+    "nombre_tn" : "tn_66Pnogal.JPG",
+    "nombre_img" : "66Pnogal.jpg",
+    "nombre_img_hr" : "66Pnogal.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe25")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe26")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 93 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd07"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (5).jpg. Coleccion: geo",
+        "en" : "GEO (5).jpg. Collection: geo",
+        "fr" : "GEO (5).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd0a")
+    },
+    "nombre_tn" : "tn_GEO_5_.JPG",
+    "nombre_img" : "GEO_5_.jpg",
+    "nombre_img_hr" : "GEO_5_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd08")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd09")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 94 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd20"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2161.jpg. Coleccion: geo",
+        "en" : "Image 2161.jpg. Collection: geo",
+        "fr" : "Image 2161.jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd23")
+    },
+    "nombre_tn" : "tn_Image2161.JPG",
+    "nombre_img" : "Image2161.jpg",
+    "nombre_img_hr" : "Image2161.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd21")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd22")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 95 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd39"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0304.jpg. Coleccion: hydra",
+        "en" : "08-0304.jpg. Collection: hydra",
+        "fr" : "08-0304.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd3c")
+    },
+    "nombre_tn" : "tn_08-0304.JPG",
+    "nombre_img" : "08-0304.jpg",
+    "nombre_img_hr" : "08-0304.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd3a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd3b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 96 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd52"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0335.jpg. Coleccion: hydra",
+        "en" : "08-0335.jpg. Collection: hydra",
+        "fr" : "08-0335.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd55")
+    },
+    "nombre_tn" : "tn_08-0335.JPG",
+    "nombre_img" : "08-0335.jpg",
+    "nombre_img_hr" : "08-0335.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd53")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd54")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 97 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd6b"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1046.jpg. Coleccion: hydra",
+        "en" : "Image 1046.jpg. Collection: hydra",
+        "fr" : "Image 1046.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd6e")
+    },
+    "nombre_tn" : "tn_Image 1046.JPG",
+    "nombre_img" : "Image 1046.jpg",
+    "nombre_img_hr" : "Image 1046.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd6c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd6d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 98 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfccb"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0301.jpg. Coleccion: eco",
+        "en" : "Image 0301.jpg. Collection: eco",
+        "fr" : "Image 0301.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfcce")
+    },
+    "nombre_tn" : "tn_Image0301.JPG",
+    "nombre_img" : "Image0301.jpg",
+    "nombre_img_hr" : "Image0301.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfccc")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfccd")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 99 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfce4"),
+    "colecciones" : [ 
+        "eco"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0331.jpg. Coleccion: eco",
+        "en" : "Image 0331.jpg. Collection: eco",
+        "fr" : "Image 0331.jpg. Collection: eco",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfce7")
+    },
+    "nombre_tn" : "tn_Image0331.JPG",
+    "nombre_img" : "Image0331.jpg",
+    "nombre_img_hr" : "Image0331.tif",
+    "folder" : "eco",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfce5")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfce6")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 100 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfcfd"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (3).jpg. Coleccion: geo",
+        "en" : "GEO (3).jpg. Collection: geo",
+        "fr" : "GEO (3).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd00")
+    },
+    "nombre_tn" : "tn_GEO_3_.JPG",
+    "nombre_img" : "GEO_3_.jpg",
+    "nombre_img_hr" : "GEO_3_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfcfe")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfcff")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 101 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd16"),
+    "colecciones" : [ 
+        "geo"
+    ],
+    "pieFoto" : {
+        "es" : "GEO (8).jpg. Coleccion: geo",
+        "en" : "GEO (8).jpg. Collection: geo",
+        "fr" : "GEO (8).jpg. Collection: geo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd19")
+    },
+    "nombre_tn" : "tn_GEO_8_.JPG",
+    "nombre_img" : "GEO_8_.jpg",
+    "nombre_img_hr" : "GEO_8_.tif",
+    "folder" : "geo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd17")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd18")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 102 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd2f"),
+    "colecciones" : [ 
+        "greta"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0774.jpg. Coleccion: greta",
+        "en" : "Image 0774.jpg. Collection: greta",
+        "fr" : "Image 0774.jpg. Collection: greta",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd32")
+    },
+    "nombre_tn" : "tn_Image0774.JPG",
+    "nombre_img" : "Image0774.jpg",
+    "nombre_img_hr" : "Image0774.tif",
+    "folder" : "greta",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd30")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd31")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 103 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd84"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Imagen 006.jpg. Coleccion: hydra",
+        "en" : "Imagen 006.jpg. Collection: hydra",
+        "fr" : "Imagen 006.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd87")
+    },
+    "nombre_tn" : "tn_Imagen 006.JPG",
+    "nombre_img" : "Imagen 006.jpg",
+    "nombre_img_hr" : "Imagen 006.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd85")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd86")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 104 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd9d"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0602.jpg. Coleccion: intempo",
+        "en" : "Image 0602.jpg. Collection: intempo",
+        "fr" : "Image 0602.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfda0")
+    },
+    "nombre_tn" : "tn_Image0602.JPG",
+    "nombre_img" : "Image0602.jpg",
+    "nombre_img_hr" : "Image0602.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd9e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd9f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 105 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdb6"),
+    "colecciones" : [ 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "KEPLER (1).jpg. Coleccion: kepler",
+        "en" : "KEPLER (1).jpg. Collection: kepler",
+        "fr" : "KEPLER (1).jpg. Collection: kepler",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdb9")
+    },
+    "nombre_tn" : "tn_KEPLER_1_.JPG",
+    "nombre_img" : "KEPLER_1_.jpg",
+    "nombre_img_hr" : "KEPLER_1_.tif",
+    "folder" : "kepler",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdb7")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdb8")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 106 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdcf"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (1).jpg. Coleccion: kita",
+        "en" : "KITA (1).jpg. Collection: kita",
+        "fr" : "KITA (1).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdd2")
+    },
+    "nombre_tn" : "tn_KITA_1_.JPG",
+    "nombre_img" : "KITA_1_.jpg",
+    "nombre_img_hr" : "KITA_1_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdd0")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdd1")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 107 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe1a"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66P nogal 2 tramos abiertos lateral.jpg. Coleccion: limite",
+        "en" : "66P nogal 2 tramos abiertos lateral.jpg. Collection: limite",
+        "fr" : "66P nogal 2 tramos abiertos lateral.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe1d")
+    },
+    "nombre_tn" : "tn_66Pnogal2tramosabiertoslateral.JPG",
+    "nombre_img" : "66Pnogal2tramosabiertoslateral.jpg",
+    "nombre_img_hr" : "66Pnogal2tramosabiertoslateral.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe1b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe1c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 108 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe01"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66A nogal abierta silueta.jpg. Coleccion: limite",
+        "en" : "66A nogal abierta silueta.jpg. Collection: limite",
+        "fr" : "66A nogal abierta silueta.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe04")
+    },
+    "nombre_tn" : "tn_66Anogalabiertasilueta.JPG",
+    "nombre_img" : "66Anogalabiertasilueta.jpg",
+    "nombre_img_hr" : "66Anogalabiertasilueta.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe02")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe03")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 109 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfef6"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0328.jpg. Coleccion: nordic",
+        "en" : "Image 0328.jpg. Collection: nordic",
+        "fr" : "Image 0328.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfef9")
+    },
+    "nombre_tn" : "tn_Image0328.JPG",
+    "nombre_img" : "Image0328.jpg",
+    "nombre_img_hr" : "Image0328.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfef7")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfef8")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 110 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff0f"),
+    "colecciones" : [ 
+        "ondas"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0772.jpg. Coleccion: ondas",
+        "en" : "Image 0772.jpg. Collection: ondas",
+        "fr" : "Image 0772.jpg. Collection: ondas",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff12")
+    },
+    "nombre_tn" : "tn_Image0772.JPG",
+    "nombre_img" : "Image0772.jpg",
+    "nombre_img_hr" : "Image0772.tif",
+    "folder" : "ondas",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff10")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff11")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 111 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff28"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0785.jpg. Coleccion: tao",
+        "en" : "Image 0785.jpg. Collection: tao",
+        "fr" : "Image 0785.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff2b")
+    },
+    "nombre_tn" : "tn_Image0785.JPG",
+    "nombre_img" : "Image0785.jpg",
+    "nombre_img_hr" : "Image0785.tif",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff29")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff2a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 112 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff8c"),
+    "colecciones" : [ 
+        "zenit"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1091.jpg. Coleccion: zenit",
+        "en" : "Image 1091.jpg. Collection: zenit",
+        "fr" : "Image 1091.jpg. Collection: zenit",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff8f")
+    },
+    "nombre_tn" : "tn_Image1091.jpg",
+    "nombre_img" : "Image1091.jpg",
+    "nombre_img_hr" : "Image1091.tif",
+    "folder" : "zenit",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff8d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff8e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 113 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff73"),
+    "colecciones" : [ 
+        "zen"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0540.jpg. Coleccion: zen",
+        "en" : "Image 0540.jpg. Collection: zen",
+        "fr" : "Image 0540.jpg. Collection: zen",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff76")
+    },
+    "nombre_tn" : "tn_Image0540.JPG",
+    "nombre_img" : "Image0540.jpg",
+    "nombre_img_hr" : "Image0540.tif",
+    "folder" : "zen",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff74")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff75")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 114 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff41"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1500.jpg. Coleccion: totem",
+        "en" : "Image 1500.jpg. Collection: totem",
+        "fr" : "Image 1500.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff44")
+    },
+    "nombre_tn" : "tn_Image1500.JPG",
+    "nombre_img" : "Image1500.jpg",
+    "nombre_img_hr" : "Image1500.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff42")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff43")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 115 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff5a"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1523.jpg. Coleccion: totem",
+        "en" : "Image 1523.jpg. Collection: totem",
+        "fr" : "Image 1523.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff5d")
+    },
+    "nombre_tn" : "tn_Image1523.JPG",
+    "nombre_img" : "Image1523.jpg",
+    "nombre_img_hr" : "Image1523.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff5b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff5c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 116 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe88"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0657.jpg. Coleccion: limite",
+        "en" : "Image 0657.jpg. Collection: limite",
+        "fr" : "Image 0657.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe8b")
+    },
+    "nombre_tn" : "tn_Image0657.JPG",
+    "nombre_img" : "Image0657.jpg",
+    "nombre_img_hr" : "Image0657.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe89")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe8a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 117 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdbb"),
+    "colecciones" : [ 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "KEPLER (2).jpg. Coleccion: kepler",
+        "en" : "KEPLER (2).jpg. Collection: kepler",
+        "fr" : "KEPLER (2).jpg. Collection: kepler",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdbe")
+    },
+    "nombre_tn" : "tn_KEPLER_2_.JPG",
+    "nombre_img" : "KEPLER_2_.jpg",
+    "nombre_img_hr" : "KEPLER_2_.tif",
+    "folder" : "kepler",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdbc")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdbd")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 118 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdd4"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (2).jpg. Coleccion: kita",
+        "en" : "KITA (2).jpg. Collection: kita",
+        "fr" : "KITA (2).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdd7")
+    },
+    "nombre_tn" : "tn_KITA_2_.JPG",
+    "nombre_img" : "KITA_2_.jpg",
+    "nombre_img_hr" : "KITA_2_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdd5")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdd6")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 119 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe83"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0653.jpg. Coleccion: limite",
+        "en" : "Image 0653.jpg. Collection: limite",
+        "fr" : "Image 0653.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe86")
+    },
+    "nombre_tn" : "tn_Image0653.JPG",
+    "nombre_img" : "Image0653.jpg",
+    "nombre_img_hr" : "Image0653.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe84")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe85")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 120 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe1f"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66P nogal 2 tramos abiertos.jpg. Coleccion: limite",
+        "en" : "66P nogal 2 tramos abiertos.jpg. Collection: limite",
+        "fr" : "66P nogal 2 tramos abiertos.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe22")
+    },
+    "nombre_tn" : "tn_66Pnogal2tramosabiertos.JPG",
+    "nombre_img" : "66Pnogal2tramosabiertos.jpg",
+    "nombre_img_hr" : "66Pnogal2tramosabiertos.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe20")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe21")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 121 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe06"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66a nogal abierta.jpg. Coleccion: limite",
+        "en" : "66a nogal abierta.jpg. Collection: limite",
+        "fr" : "66a nogal abierta.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe09")
+    },
+    "nombre_tn" : "tn_66anogalabierta.JPG",
+    "nombre_img" : "66anogalabierta.jpg",
+    "nombre_img_hr" : "66anogalabierta.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe07")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe08")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 122 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd48"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "08-0320.jpg. Coleccion: hydra",
+        "en" : "08-0320.jpg. Collection: hydra",
+        "fr" : "08-0320.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd4b")
+    },
+    "nombre_tn" : "tn_08-0320.JPG",
+    "nombre_img" : "08-0320.jpg",
+    "nombre_img_hr" : "08-0320.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd49")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd4a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 123 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd61"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1029.jpg. Coleccion: hydra",
+        "en" : "Image 1029.jpg. Collection: hydra",
+        "fr" : "Image 1029.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd64")
+    },
+    "nombre_tn" : "tn_Image 1029.JPG",
+    "nombre_img" : "Image 1029.jpg",
+    "nombre_img_hr" : "Image 1029.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd62")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd63")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 124 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfea1"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0556.jpg. Coleccion: mytable",
+        "en" : "Image 0556.jpg. Collection: mytable",
+        "fr" : "Image 0556.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfea4")
+    },
+    "nombre_tn" : "tn_Image0556.JPG",
+    "nombre_img" : "Image0556.jpg",
+    "nombre_img_hr" : "Image0556.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfea2")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfea3")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 125 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfeba"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2189.jpg. Coleccion: mytable",
+        "en" : "Image 2189.jpg. Collection: mytable",
+        "fr" : "Image 2189.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfebd")
+    },
+    "nombre_tn" : "tn_Image2189.JPG",
+    "nombre_img" : "Image2189.jpg",
+    "nombre_img_hr" : "Image2189.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfebb")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfebc")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 126 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfed3"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0314.jpg. Coleccion: nordic",
+        "en" : "Image 0314.jpg. Collection: nordic",
+        "fr" : "Image 0314.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfed6")
+    },
+    "nombre_tn" : "tn_Image0314.JPG",
+    "nombre_img" : "Image0314.jpg",
+    "nombre_img_hr" : "Image0314.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfed4")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfed5")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 127 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe9c"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0554.jpg. Coleccion: mytable",
+        "en" : "Image 0554.jpg. Collection: mytable",
+        "fr" : "Image 0554.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe9f")
+    },
+    "nombre_tn" : "tn_Image0554.JPG",
+    "nombre_img" : "Image0554.jpg",
+    "nombre_img_hr" : "Image0554.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe9d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe9e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 128 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfeb5"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0581.jpg. Coleccion: mytable",
+        "en" : "Image 0581.jpg. Collection: mytable",
+        "fr" : "Image 0581.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfeb8")
+    },
+    "nombre_tn" : "tn_Image0581.JPG",
+    "nombre_img" : "Image0581.jpg",
+    "nombre_img_hr" : "Image0581.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfeb6")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfeb7")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 129 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfece"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2246.jpg. Coleccion: mytable",
+        "en" : "Image 2246.jpg. Collection: mytable",
+        "fr" : "Image 2246.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfed1")
+    },
+    "nombre_tn" : "tn_Image2246.JPG",
+    "nombre_img" : "Image2246.jpg",
+    "nombre_img_hr" : "Image2246.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfecf")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfed0")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 130 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfeec"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0324.jpg. Coleccion: nordic",
+        "en" : "Image 0324.jpg. Collection: nordic",
+        "fr" : "Image 0324.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfeef")
+    },
+    "nombre_tn" : "tn_Image0324.JPG",
+    "nombre_img" : "Image0324.jpg",
+    "nombre_img_hr" : "Image0324.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfeed")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfeee")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 131 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff37"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "_MG_9924.jpg. Coleccion: tao",
+        "en" : "_MG_9924.jpg. Collection: tao",
+        "fr" : "_MG_9924.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff3a")
+    },
+    "nombre_tn" : "tn__MG_9924.JPG",
+    "nombre_img" : "_MG_9924.jpg",
+    "nombre_img_hr" : "_MG_9924.TIF",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff38")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff39")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 132 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff05"),
+    "colecciones" : [ 
+        "norma"
+    ],
+    "pieFoto" : {
+        "es" : "NORMA(3).jpg. Coleccion: norma",
+        "en" : "NORMA(3).jpg. Collection: norma",
+        "fr" : "NORMA(3).jpg. Collection: norma",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff08")
+    },
+    "nombre_tn" : "tn_NORMA(3).JPG",
+    "nombre_img" : "NORMA(3).jpg",
+    "nombre_img_hr" : "NORMA(3).tif",
+    "folder" : "norma",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff06")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff07")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 133 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff1e"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0783.jpg. Coleccion: tao",
+        "en" : "Image 0783.jpg. Collection: tao",
+        "fr" : "Image 0783.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff21")
+    },
+    "nombre_tn" : "tn_Image0783.JPG",
+    "nombre_img" : "Image0783.jpg",
+    "nombre_img_hr" : "Image0783.tif",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff1f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff20")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 134 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff50"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1514.jpg. Coleccion: totem",
+        "en" : "Image 1514.jpg. Collection: totem",
+        "fr" : "Image 1514.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff53")
+    },
+    "nombre_tn" : "tn_Image1514.JPG",
+    "nombre_img" : "Image1514.jpg",
+    "nombre_img_hr" : "Image1514.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff51")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff52")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 135 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff69"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2326.jpg. Coleccion: totem",
+        "en" : "Image 2326.jpg. Collection: totem",
+        "fr" : "Image 2326.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff6c")
+    },
+    "nombre_tn" : "tn_Image2326.JPG",
+    "nombre_img" : "Image2326.jpg",
+    "nombre_img_hr" : "Image2326.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff6a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff6b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 136 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff82"),
+    "colecciones" : [ 
+        "zen"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2249.jpg. Coleccion: zen",
+        "en" : "Image 2249.jpg. Collection: zen",
+        "fr" : "Image 2249.jpg. Collection: zen",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff85")
+    },
+    "nombre_tn" : "tn_Image2249.JPG",
+    "nombre_img" : "Image2249.jpg",
+    "nombre_img_hr" : "Image2249.tif",
+    "folder" : "zen",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff83")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff84")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 137 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfeb0"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0579.jpg. Coleccion: mytable",
+        "en" : "Image 0579.jpg. Collection: mytable",
+        "fr" : "Image 0579.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfeb3")
+    },
+    "nombre_tn" : "tn_Image0579.JPG",
+    "nombre_img" : "Image0579.jpg",
+    "nombre_img_hr" : "Image0579.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfeb1")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfeb2")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 138 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe97"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "LIMITE(1).jpg. Coleccion: limite",
+        "en" : "LIMITE(1).jpg. Collection: limite",
+        "fr" : "LIMITE(1).jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe9a")
+    },
+    "nombre_tn" : "tn_LIMITE_1_.JPG",
+    "nombre_img" : "LIMITE_1_.jpg",
+    "nombre_img_hr" : "LIMITE_1_.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe98")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe99")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 139 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd7a"),
+    "colecciones" : [ 
+        "hydra"
+    ],
+    "pieFoto" : {
+        "es" : "Imagen 004.jpg. Coleccion: hydra",
+        "en" : "Imagen 004.jpg. Collection: hydra",
+        "fr" : "Imagen 004.jpg. Collection: hydra",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd7d")
+    },
+    "nombre_tn" : "tn_Imagen 004.JPG",
+    "nombre_img" : "Imagen 004.jpg",
+    "nombre_img_hr" : "Imagen 004.tif",
+    "folder" : "hydra",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd7b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd7c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 140 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfd93"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0595.jpg. Coleccion: intempo",
+        "en" : "Image 0595.jpg. Collection: intempo",
+        "fr" : "Image 0595.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfd96")
+    },
+    "nombre_tn" : "tn_Image0595.JPG",
+    "nombre_img" : "Image0595.jpg",
+    "nombre_img_hr" : "Image0595.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfd94")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfd95")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 141 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdac"),
+    "colecciones" : [ 
+        "intempo"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0612.jpg. Coleccion: intempo",
+        "en" : "Image 0612.jpg. Collection: intempo",
+        "fr" : "Image 0612.jpg. Collection: intempo",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdaf")
+    },
+    "nombre_tn" : "tn_Image0612.JPG",
+    "nombre_img" : "Image0612.jpg",
+    "nombre_img_hr" : "Image0612.tif",
+    "folder" : "intempo",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdad")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdae")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 142 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdc5"),
+    "colecciones" : [ 
+        "kepler"
+    ],
+    "pieFoto" : {
+        "es" : "KEPLER (4).jpg. Coleccion: kepler",
+        "en" : "KEPLER (4).jpg. Collection: kepler",
+        "fr" : "KEPLER (4).jpg. Collection: kepler",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdc8")
+    },
+    "nombre_tn" : "tn_KEPLER_4_.JPG",
+    "nombre_img" : "KEPLER_4_.jpg",
+    "nombre_img_hr" : "KEPLER_4_.tif",
+    "folder" : "kepler",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdc6")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdc7")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 143 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdde"),
+    "colecciones" : [ 
+        "kita"
+    ],
+    "pieFoto" : {
+        "es" : "KITA (4).jpg. Coleccion: kita",
+        "en" : "KITA (4).jpg. Collection: kita",
+        "fr" : "KITA (4).jpg. Collection: kita",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfde1")
+    },
+    "nombre_tn" : "tn_KITA_4_.JPG",
+    "nombre_img" : "KITA_4_.jpg",
+    "nombre_img_hr" : "KITA_4_.tif",
+    "folder" : "kita",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfddf")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfde0")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 144 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfdf7"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "661 nogal extendido.jpg. Coleccion: limite",
+        "en" : "661 nogal extendido.jpg. Collection: limite",
+        "fr" : "661 nogal extendido.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfdfa")
+    },
+    "nombre_tn" : "tn_661nogalextendido.JPG",
+    "nombre_img" : "661nogalextendido.jpg",
+    "nombre_img_hr" : "661nogalextendido.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfdf8")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfdf9")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 145 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe10"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "66a nogal.jpg. Coleccion: limite",
+        "en" : "66a nogal.jpg. Collection: limite",
+        "fr" : "66a nogal.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe13")
+    },
+    "nombre_tn" : "tn_66anogal.JPG",
+    "nombre_img" : "66anogal.jpg",
+    "nombre_img_hr" : "66anogal.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe11")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe12")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 146 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfec9"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2193.jpg. Coleccion: mytable",
+        "en" : "Image 2193.jpg. Collection: mytable",
+        "fr" : "Image 2193.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfecc")
+    },
+    "nombre_tn" : "tn_Image2193.JPG",
+    "nombre_img" : "Image2193.jpg",
+    "nombre_img_hr" : "Image2193.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfeca")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfecb")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 147 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfee2"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0320.jpg. Coleccion: nordic",
+        "en" : "Image 0320.jpg. Collection: nordic",
+        "fr" : "Image 0320.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfee5")
+    },
+    "nombre_tn" : "tn_Image0320.JPG",
+    "nombre_img" : "Image0320.jpg",
+    "nombre_img_hr" : "Image0320.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfee3")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfee4")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 148 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfefb"),
+    "colecciones" : [ 
+        "norma"
+    ],
+    "pieFoto" : {
+        "es" : "NORMA(1).jpg. Coleccion: norma",
+        "en" : "NORMA(1).jpg. Collection: norma",
+        "fr" : "NORMA(1).jpg. Collection: norma",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfefe")
+    },
+    "nombre_tn" : "tn_NORMA(1).JPG",
+    "nombre_img" : "NORMA(1).jpg",
+    "nombre_img_hr" : "NORMA(1).tif",
+    "folder" : "norma",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfefc")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfefd")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 149 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff14"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0766.jpg. Coleccion: tao",
+        "en" : "Image 0766.jpg. Collection: tao",
+        "fr" : "Image 0766.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff17")
+    },
+    "nombre_tn" : "tn_Image0766.JPG",
+    "nombre_img" : "Image0766.jpg",
+    "nombre_img_hr" : "Image0766.tif",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff15")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff16")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 150 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff2d"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "_MG_9915.jpg. Coleccion: tao",
+        "en" : "_MG_9915.jpg. Collection: tao",
+        "fr" : "_MG_9915.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff30")
+    },
+    "nombre_tn" : "tn__MG_9915.JPG",
+    "nombre_img" : "_MG_9915.jpg",
+    "nombre_img_hr" : "_MG_9915.TIF",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff2e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff2f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 151 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff46"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1504.jpg. Coleccion: totem",
+        "en" : "Image 1504.jpg. Collection: totem",
+        "fr" : "Image 1504.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff49")
+    },
+    "nombre_tn" : "tn_Image1504.JPG",
+    "nombre_img" : "Image1504.jpg",
+    "nombre_img_hr" : "Image1504.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff47")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff48")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 152 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff5f"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2320.jpg. Coleccion: totem",
+        "en" : "Image 2320.jpg. Collection: totem",
+        "fr" : "Image 2320.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff62")
+    },
+    "nombre_tn" : "tn_Image2320.JPG",
+    "nombre_img" : "Image2320.jpg",
+    "nombre_img_hr" : "Image2320.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff60")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff61")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 153 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff78"),
+    "colecciones" : [ 
+        "zen"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0541.jpg. Coleccion: zen",
+        "en" : "Image 0541.jpg. Collection: zen",
+        "fr" : "Image 0541.jpg. Collection: zen",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff7b")
+    },
+    "nombre_tn" : "tn_Image0541.JPG",
+    "nombre_img" : "Image0541.jpg",
+    "nombre_img_hr" : "Image0541.tif",
+    "folder" : "zen",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff79")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff7a")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 154 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff91"),
+    "colecciones" : [ 
+        "zenit"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1093.jpg. Coleccion: zenit",
+        "en" : "Image 1093.jpg. Collection: zenit",
+        "fr" : "Image 1093.jpg. Collection: zenit",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff94")
+    },
+    "nombre_tn" : "tn_Image1093.jpg",
+    "nombre_img" : "Image1093.jpg",
+    "nombre_img_hr" : "Image1093.tif",
+    "folder" : "zenit",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff92")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff93")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 155 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff9b"),
+    "colecciones" : [ 
+        "zenit"
+    ],
+    "pieFoto" : {
+        "es" : "ZENIT(1).jpg. Coleccion: zenit",
+        "en" : "ZENIT(1).jpg. Collection: zenit",
+        "fr" : "ZENIT(1).jpg. Collection: zenit",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff9e")
+    },
+    "nombre_tn" : "tn_ZENIT_1_.jpg",
+    "nombre_img" : "ZENIT_1_.jpg",
+    "nombre_img_hr" : "ZENIT_1_.tif",
+    "folder" : "zenit",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff9c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff9d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 156 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfe8d"),
+    "colecciones" : [ 
+        "limite"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0660.jpg. Coleccion: limite",
+        "en" : "Image 0660.jpg. Collection: limite",
+        "fr" : "Image 0660.jpg. Collection: limite",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfe90")
+    },
+    "nombre_tn" : "tn_Image0660.JPG",
+    "nombre_img" : "Image0660.jpg",
+    "nombre_img_hr" : "Image0660.tif",
+    "folder" : "limite",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfe8e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfe8f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 157 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfea6"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0562.jpg. Coleccion: mytable",
+        "en" : "Image 0562.jpg. Collection: mytable",
+        "fr" : "Image 0562.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfea9")
+    },
+    "nombre_tn" : "tn_Image0562.JPG",
+    "nombre_img" : "Image0562.jpg",
+    "nombre_img_hr" : "Image0562.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfea7")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfea8")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 158 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfebf"),
+    "colecciones" : [ 
+        "mytable"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2190.jpg. Coleccion: mytable",
+        "en" : "Image 2190.jpg. Collection: mytable",
+        "fr" : "Image 2190.jpg. Collection: mytable",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfec2")
+    },
+    "nombre_tn" : "tn_Image2190.JPG",
+    "nombre_img" : "Image2190.jpg",
+    "nombre_img_hr" : "Image2190.tif",
+    "folder" : "mytable",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfec0")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfec1")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 159 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfed8"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0316.jpg. Coleccion: nordic",
+        "en" : "Image 0316.jpg. Collection: nordic",
+        "fr" : "Image 0316.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfedb")
+    },
+    "nombre_tn" : "tn_Image0316.JPG",
+    "nombre_img" : "Image0316.jpg",
+    "nombre_img_hr" : "Image0316.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfed9")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfeda")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 160 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfef1"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0326.jpg. Coleccion: nordic",
+        "en" : "Image 0326.jpg. Collection: nordic",
+        "fr" : "Image 0326.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfef4")
+    },
+    "nombre_tn" : "tn_Image0326.JPG",
+    "nombre_img" : "Image0326.jpg",
+    "nombre_img_hr" : "Image0326.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfef2")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfef3")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 161 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff23"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0784.jpg. Coleccion: tao",
+        "en" : "Image 0784.jpg. Collection: tao",
+        "fr" : "Image 0784.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff26")
+    },
+    "nombre_tn" : "tn_Image0784.JPG",
+    "nombre_img" : "Image0784.jpg",
+    "nombre_img_hr" : "Image0784.tif",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff24")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff25")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 162 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff3c"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1495.jpg. Coleccion: totem",
+        "en" : "Image 1495.jpg. Collection: totem",
+        "fr" : "Image 1495.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff3f")
+    },
+    "nombre_tn" : "tn_Image1495.JPG",
+    "nombre_img" : "Image1495.jpg",
+    "nombre_img_hr" : "Image1495.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff3d")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff3e")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 163 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff0a"),
+    "colecciones" : [ 
+        "ondas"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0768.jpg. Coleccion: ondas",
+        "en" : "Image 0768.jpg. Collection: ondas",
+        "fr" : "Image 0768.jpg. Collection: ondas",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff0d")
+    },
+    "nombre_tn" : "tn_Image0768.JPG",
+    "nombre_img" : "Image0768.jpg",
+    "nombre_img_hr" : "Image0768.tif",
+    "folder" : "ondas",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff0b")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff0c")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 164 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff55"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1519.jpg. Coleccion: totem",
+        "en" : "Image 1519.jpg. Collection: totem",
+        "fr" : "Image 1519.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff58")
+    },
+    "nombre_tn" : "tn_Image1519.JPG",
+    "nombre_img" : "Image1519.jpg",
+    "nombre_img_hr" : "Image1519.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff56")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff57")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 165 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bfee7"),
+    "colecciones" : [ 
+        "nordic"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0322.jpg. Coleccion: nordic",
+        "en" : "Image 0322.jpg. Collection: nordic",
+        "fr" : "Image 0322.jpg. Collection: nordic",
+        "_id" : ObjectId("5c3724e30dce5522ec9bfeea")
+    },
+    "nombre_tn" : "tn_Image0322.JPG",
+    "nombre_img" : "Image0322.jpg",
+    "nombre_img_hr" : "Image0322.tif",
+    "folder" : "nordic",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bfee8")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bfee9")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 166 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff00"),
+    "colecciones" : [ 
+        "norma"
+    ],
+    "pieFoto" : {
+        "es" : "NORMA(2).jpg. Coleccion: norma",
+        "en" : "NORMA(2).jpg. Collection: norma",
+        "fr" : "NORMA(2).jpg. Collection: norma",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff03")
+    },
+    "nombre_tn" : "tn_NORMA(2).JPG",
+    "nombre_img" : "NORMA(2).jpg",
+    "nombre_img_hr" : "NORMA(2).tif",
+    "folder" : "norma",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff01")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff02")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 167 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff6e"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2328.jpg. Coleccion: totem",
+        "en" : "Image 2328.jpg. Collection: totem",
+        "fr" : "Image 2328.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff71")
+    },
+    "nombre_tn" : "tn_Image2328.JPG",
+    "nombre_img" : "Image2328.jpg",
+    "nombre_img_hr" : "Image2328.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff6f")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff70")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 168 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff87"),
+    "colecciones" : [ 
+        "zen"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2254.jpg. Coleccion: zen",
+        "en" : "Image 2254.jpg. Collection: zen",
+        "fr" : "Image 2254.jpg. Collection: zen",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff8a")
+    },
+    "nombre_tn" : "tn_Image2254.JPG",
+    "nombre_img" : "Image2254.jpg",
+    "nombre_img_hr" : "Image2254.tif",
+    "folder" : "zen",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff88")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff89")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 169 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bffa0"),
+    "colecciones" : [ 
+        "zenit"
+    ],
+    "pieFoto" : {
+        "es" : "ZENIT(2).jpg. Coleccion: zenit",
+        "en" : "ZENIT(2).jpg. Collection: zenit",
+        "fr" : "ZENIT(2).jpg. Collection: zenit",
+        "_id" : ObjectId("5c3724e30dce5522ec9bffa3")
+    },
+    "nombre_tn" : "tn_ZENIT_2_.jpg",
+    "nombre_img" : "ZENIT_2_.jpg",
+    "nombre_img_hr" : "ZENIT_2_.tif",
+    "folder" : "zenit",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bffa1")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bffa2")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 170 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff19"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0767.jpg. Coleccion: tao",
+        "en" : "Image 0767.jpg. Collection: tao",
+        "fr" : "Image 0767.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff1c")
+    },
+    "nombre_tn" : "tn_Image0767.JPG",
+    "nombre_img" : "Image0767.jpg",
+    "nombre_img_hr" : "Image0767.tif",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff1a")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff1b")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 171 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff64"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 2324.jpg. Coleccion: totem",
+        "en" : "Image 2324.jpg. Collection: totem",
+        "fr" : "Image 2324.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff67")
+    },
+    "nombre_tn" : "tn_Image2324.JPG",
+    "nombre_img" : "Image2324.jpg",
+    "nombre_img_hr" : "Image2324.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff65")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff66")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 172 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff4b"),
+    "colecciones" : [ 
+        "totem"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1510.jpg. Coleccion: totem",
+        "en" : "Image 1510.jpg. Collection: totem",
+        "fr" : "Image 1510.jpg. Collection: totem",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff4e")
+    },
+    "nombre_tn" : "tn_Image1510.JPG",
+    "nombre_img" : "Image1510.jpg",
+    "nombre_img_hr" : "Image1510.tif",
+    "folder" : "totem",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff4c")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff4d")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 173 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff32"),
+    "colecciones" : [ 
+        "tao"
+    ],
+    "pieFoto" : {
+        "es" : "_MG_9923.jpg. Coleccion: tao",
+        "en" : "_MG_9923.jpg. Collection: tao",
+        "fr" : "_MG_9923.jpg. Collection: tao",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff35")
+    },
+    "nombre_tn" : "tn__MG_9923.JPG",
+    "nombre_img" : "_MG_9923.jpg",
+    "nombre_img_hr" : "_MG_9923.TIF",
+    "folder" : "tao",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff33")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff34")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 174 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff7d"),
+    "colecciones" : [ 
+        "zen"
+    ],
+    "pieFoto" : {
+        "es" : "Image 0542.jpg. Coleccion: zen",
+        "en" : "Image 0542.jpg. Collection: zen",
+        "fr" : "Image 0542.jpg. Collection: zen",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff80")
+    },
+    "nombre_tn" : "tn_Image0542.JPG",
+    "nombre_img" : "Image0542.jpg",
+    "nombre_img_hr" : "Image0542.tif",
+    "folder" : "zen",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff7e")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff7f")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}
+
+/* 175 */
+{
+    "_id" : ObjectId("5c3724e30dce5522ec9bff96"),
+    "colecciones" : [ 
+        "zenit"
+    ],
+    "pieFoto" : {
+        "es" : "Image 1094.jpg. Coleccion: zenit",
+        "en" : "Image 1094.jpg. Collection: zenit",
+        "fr" : "Image 1094.jpg. Collection: zenit",
+        "_id" : ObjectId("5c3724e30dce5522ec9bff99")
+    },
+    "nombre_tn" : "tn_Image1094.jpg",
+    "nombre_img" : "Image1094.jpg",
+    "nombre_img_hr" : "Image1094.tif",
+    "folder" : "zenit",
+    "modelos" : [ 
+        {
+            "cod_modelo" : "SM",
+            "desc" : {
+                "es" : "es_caption",
+                "en" : "en_caption",
+                "fr" : "fr_caption",
+                "_id" : ObjectId("5c3724e30dce5522ec9bff97")
+            },
+            "_id" : ObjectId("5c3724e30dce5522ec9bff98")
+        }
+    ],
+    "instrucciones" : "...",
+    "tecnico" : "...",
+    "video" : "...",
+    "__v" : 0
+}

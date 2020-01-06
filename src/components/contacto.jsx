@@ -50,7 +50,7 @@ class Contacto extends Form {
         this.state.data
       );
 
-      console.log(data);
+      //console.log(data);
 
       if (data.status === "recibido") {
         toast.success(t.SU[lan], {
@@ -79,12 +79,16 @@ class Contacto extends Form {
             alt="Nuestra empresa"
           />
           <div className="row lead font-italic p-5 text-center d-flex justify-content-center">
-            <div className="col-8">{t.BS[lan]}</div>
+            <div className="col-10">{t.BS[lan]}</div>
           </div>
         </div>
         <div className="col-12 col-md-6  p-5  ">
-          <div className="lead py-5 text-start d-flex justify-content-center">
-            <div className="col-12">{t.BIO[lan]}</div>
+          <div className=" h4 text-justify font-weight-lighter pb-5 text-start d-flex justify-content-center">
+            <div className="col-12">
+              <h3 className="mt-0">{t.BT[lan]}</h3>
+              <hr />
+              {t.BIO[lan]}
+            </div>
           </div>
           <Direcciones lan={lan}></Direcciones>
         </div>
@@ -105,11 +109,19 @@ class Contacto extends Form {
             </div>
           </div>
         </div>
-        <div className="col-12 ubicacion  m-0 p-0">
+        <div className="col-12 ubicacion  m-0 p-0 ">
+          <a
+            className="ml-2 mb-0 pb-0  btn btn-link"
+            href="https://www.google.com/maps/place/Indesan,+S.L./@38.5971805,-1.0955072,17z/data=!4m5!3m4!1s0xd63fcf996d48fdd:0x7bdf775feba5bc57!8m2!3d38.5971805!4d-1.0933185"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.GM[lan]}
+          </a>
           <Mapa
-            coordenadasCentro={{ lat: "40.5971847", lng: " -2" }}
+            coordenadasCentro={{ lat: "39.5971847", lng: " -1.5" }}
             coordenadasMarker={{ lat: "38.5971847", lng: "-1.0933061" }}
-            zoom={6}
+            zoom={7}
           ></Mapa>
         </div>
       </div>

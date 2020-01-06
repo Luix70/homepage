@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c34784b5aacdc0f1469f3b5"),
+  "thumbnail": "Demos_tn.jpg",
+  "activa": true,
+  "captions": {
+    "es": "El auxiliar esencial",
+    "en": "The essential coffee table",
+    "fr": "L'auxiliaire indispensable",
+    "_id": ObjectId("5c541c278a231811016daad8")
+  },
+  "desc": {
+    "es": "Una mesa elevable que ofrece máxima funcionalidad con un mínimo de recursos. Madera y metal ",
+    "en": "A lift-top table that offers maximum functionality with a minimum of resources. Wood and metal",
+    "fr": "Une table rélevable offrant un maximum de fonctionnalités avec un minimum de ressources. Bois et métal",
+    "_id": ObjectId("5c541c278a231811016daad9")
+  },
+  "mod": "demos",
+  "__v": 0,
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de madera. Pie metálico",
+    "fr": "Plateau plaqué en bois. Piétement métallique",
+    "en": "Wooden top. Metallic legs"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Demos",
+            "fr": "Brochure Demos",
+            "en": "Demos Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_demos.pdf",
+            "fr": "cat_demos.pdf",
+            "en": "cat_demos.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 1.43 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 1.43 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 1.43 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "demos.zip",
+            "en": "demos.zip",
+            "fr": "demos.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
-import MenuRepresentantes from "./menuRepresentantes";
+import ListGroup from "./common/listGroup";
 
 class AreaReservada extends Component {
   state = {
     resultConsulta: null,
     listaRepresentantes: [],
     FechaConsulta: "",
-    selectedRepre: 0,
+    selectedRepre: -1,
     usuario: null
   };
   handleListGroupClick = async repre => {
@@ -28,27 +28,39 @@ class AreaReservada extends Component {
       usuario: this.props.usuario
     });
 
-    this.handleListGroupClick({ codrep: 0 });
+    if (this.state.listaRepresentantes.length === 1) {
+      this.handleListGroupClick({ codrep: 0 });
+    } else {
+      this.handleListGroupClick({ codrep: -1 });
+    }
   }
 
   render() {
     const { usuario } = this.props;
+
+    if (this.state.listaRepresentantes === []) return null;
+
     return (
       <React.Fragment>
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
-          <MenuRepresentantes
-            onItemSelect={this.handleListGroupClick}
-            listaRepresentantes={this.state.listaRepresentantes}
-            selectedRepre={this.state.selectedRepre}
-            FechaConsulta={this.state.FechaConsulta}
-            FechaCache={
-              this.state.resultConsulta
-                ? this.state.resultConsulta.FechaCache
-                : ""
-            }
-          />
-          <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
+          {this.state.listaRepresentantes.length > 1 ? (
+            <div className="col-12">
+              <ListGroup
+                onItemSelect={this.handleListGroupClick}
+                itemList={this.state.listaRepresentantes}
+                itemId="codrep" //identificador del elemento
+                itemValue="nombre" // valor que se mostrará
+                selectedItem={this.state.selectedRepre}
+              />
+            </div>
+          ) : null}
+
+          {!this.state.resultconsulta ? (
+            <div className="col-12">
+              <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
+            </div>
+          ) : null}
         </div>
       </React.Fragment>
     );

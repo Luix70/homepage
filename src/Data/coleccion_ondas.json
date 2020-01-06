@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c06b3b166fd0a2ef46f89ba"),
+  "mod": "ondas",
+  "thumbnail": "Ondas_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Estilo depurado",
+    "en": "Refined style",
+    "fr": "Style raffiné",
+    "_id": ObjectId("5c5400e68a231811016da5d3")
+  },
+  "desc": {
+    "es": "La simplicidad geométrica puesta al servicio de la función en una coleccion de mesas redondas de pie central.",
+    "en": "The geometric simplicity placed at the service of the function in a collection of round tables with a pedestal base.",
+    "fr": "La simplicité géométrique mise au service de la fonction dans une collection de tables rondes à pied central.",
+    "_id": ObjectId("5c5400e68a231811016da5d4")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de madera. Pie central",
+    "fr": "Plateau plaqué en bois. Pied central",
+    "en": "Wooden tabletop and pedestal"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Ondas",
+            "fr": "Brochure Ondas",
+            "en": "Ondas Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_ondas.pdf",
+            "fr": "cat_ondas.pdf",
+            "en": "cat_ondas.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 514 Ko, compressé ZIP)",
+            "es": "Fotos (.jpg, 514 Kb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 514 Kb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "ondas.zip",
+            "en": "ondas.zip",
+            "fr": "ondas.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

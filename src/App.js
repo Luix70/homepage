@@ -5,6 +5,7 @@ import jwt_decode from "jwt-decode";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
+import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
@@ -16,8 +17,6 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
-import "./OldWeb.css";
-import Contacto from "./components/contacto.jsx";
 
 class App extends Component {
   state = {

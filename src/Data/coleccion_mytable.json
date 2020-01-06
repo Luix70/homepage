@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c06b32266fd0a2ef46f89b4"),
+  "mod": "intempo",
+  "thumbnail": "Intempo_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Permanecer en el tiempo",
+    "en": "Stay timeless",
+    "fr": "Rester dans le temps",
+    "_id": ObjectId("5c5401938a231811016da5e2")
+  },
+  "desc": {
+    "es": "Materiales innovadores y acabados para una\ncolección que transmite una sensibilidad abierta al espíritu de nuestra época y\n que perdura en el tiempo.",
+    "en": "Innovative materials and finishes for a\ncollection that transmits an open sensitivity to the spirit of our time and\nthat lasts in time.",
+    "fr": "Matériaux et finitions innovants pour un\ncollection qui transmet une sensibilité ouverte à l'esprit de notre temps et\nqui dure dans le temps.",
+    "_id": ObjectId("5c5401938a231811016da5e3")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa de cristal, madera o porcelánico. Apliques de acero.",
+    "fr": "Plateau en verre, en bois ou céramique avec des élements métalliques",
+    "en": "Glass, wood or ceramic tabletop with metallic components"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo InTempo",
+            "fr": "Brochure InTempo",
+            "en": "InTempo Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_intempo.pdf",
+            "fr": "cat_intempo.pdf",
+            "en": "cat_intempo.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 1.90 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 1.90 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 1.90 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "intempo.zip",
+            "en": "intempo.zip",
+            "fr": "intempo.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

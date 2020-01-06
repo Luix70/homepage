@@ -5,7 +5,7 @@ const ThumbNail = props => {
   return (
     <div
       key={imagen.nombre_tn}
-      className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0 mx-0"
+      className="col-xs-12 col-sm-6 col-md-4 col-lg-3  px-0 mx-0"
     >
       <img
         className={"w-100"}

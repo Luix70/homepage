@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c12a5363832b53f50199394"),
+  "thumbnail": "Zenit_tn.jpg",
+  "activa": true,
+  "mod": "zenit",
+  "captions": {
+    "es": "Evolución",
+    "en": "Evolution",
+    "fr": "Évolution",
+    "_id": ObjectId("5c541bd98a231811016daa96")
+  },
+  "__v": 0,
+  "desc": {
+    "es": "Es una colección funcional y moderna que es la perfecta aliada para acompañarte en tus mejores momentos, ya que dispone de una tapa elevable que te permite utilizarla cómodamente en tus ratos de ocio y\nrelax.",
+    "en": "A functional and modern collection that is the perfect ally for you in your best moments. Its lift-top allows you to use it comfortably in your leisure time.",
+    "fr": "C’est une collection fonctionnelle et moderne qui est le parfait allié pour vous accompagner dans vos meilleurs moments, car il a un plateau rélevable qui vous permet de l’utiliser confortablement pendant votre temps libre.",
+    "_id": ObjectId("5c541bd98a231811016daa97")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa madera",
+    "en": "Wooden tabletop",
+    "fr": "Plateau plaqué bois"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Zenit",
+            "fr": "Brochure Zenit",
+            "en": "Zenit Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_zenit.pdf",
+            "fr": "cat_zenit.pdf",
+            "en": "cat_zenit.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 522 Ko, compressé ZIP)",
+            "es": "Fotos (.jpg, 522 Kb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 522 Kb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "zenit.zip",
+            "en": "zenit.zip",
+            "fr": "zenit.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

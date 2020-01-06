@@ -7,11 +7,22 @@ const SeccionMedia = prop => {
         <h3>{seccion.titulo[lan].toUpperCase()}</h3>
       </div>
       <div className="col-12 text-center ">
-        <img
-          src={folder + seccion.archivo}
-          alt={seccion.archivo}
-          className="img-fluid"
-        />
+        {seccion.subtipo === "imagen" ? (
+          <img
+            src={folder + seccion.archivo}
+            alt={seccion.archivo}
+            className="img-fluid"
+          />
+        ) : (
+          <div class="embed-responsive  embed-responsive-16by9 ">
+            <iframe
+              class="embed-responsive-item"
+              title="Video"
+              src={folder + seccion.archivo}
+              allowfullscreen
+            ></iframe>
+          </div>
+        )}
       </div>
       <div className="col-12 text-center ">
         <span>{seccion.pie[lan]}</span>

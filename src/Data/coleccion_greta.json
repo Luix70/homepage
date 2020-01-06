@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c06b31a66fd0a2ef46f89b3"),
+  "mod": "greta",
+  "thumbnail": "Greta_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Nuevas Sensaciones",
+    "en": "New Sensations",
+    "fr": "Nouvelles sensations",
+    "_id": ObjectId("5c5400968a231811016da5c4")
+  },
+  "desc": {
+    "es": "La simplicidad geométrica puesta al servicio de la función en una coleccion de mesas redondas de pie central.",
+    "en": "The geometric simplicity placed at the service of the function in a collection of round tables with a pedestal base.",
+    "fr": "La simplicité géométrique mise au service de la fonction dans une collection de tables rondes à pied central.",
+    "_id": ObjectId("5c5400968a231811016da5c5")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa madera",
+    "fr": "Plateau plaqué en bois",
+    "en": "Wooden tabletop"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Greta",
+            "fr": "Brochure Greta",
+            "en": "Greta Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_greta.pdf",
+            "fr": "cat_greta.pdf",
+            "en": "cat_greta.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 445 Ko, compressé ZIP)",
+            "es": "Fotos (.jpg, 445 Kb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 445 Kb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "greta.zip",
+            "en": "greta.zip",
+            "fr": "greta.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

@@ -41,13 +41,23 @@
   },
   "BS": {
     "es": "Juventud y experiencia. Tradicion y Modernidad. Lo que otros ven como contradicción, en INDESAN lo interpretamos como complementariedad y la convertimos en productos adecuados a todas las necesidades",
-    "en": "Youth vs experience. Tradition vs Modernity. What others see as a contradictions, at INDESAN, we interpret it as complementaries and use it to make products adapted to all needs ",
+    "en": "Youth vs experience. Tradition vs Modernity. What others see as a contradictions, at INDESAN, we see it as complementaries and use it to make products adapted to all needs ",
     "fr": "Jeunesse vers expérience. Tradition vers modernité. Ce que les autres voient comme une contradiction, chez INDESAN, nous l'interprétons comme complémentarité et on l'utilise pour faire des produits adaptés à tous les besoins"
   },
 
+  "BT": {
+    "es": "Sobre Nosotros",
+    "en": "About Us ",
+    "fr": "À propos de nous"
+  },
   "BIO": {
     "es": "Somos una empresa de caracter familiar fundada en el Sureste Español en 1994, especializada en la fabricación de mesas de comedor de linea moderna y reconocida internacionalmente por la calidad de nuestros acabados",
     "en": "We are a family business established in the Spanish Southeast in 1994, specialized in the manufacture of dining tables of modern line and internationally recognized for the quality of our finishes ",
-    "fr": "Nous sommes une entreprise familiale fondée dans le sud-est espagnol en 1994, spécialisée dans la fabrication de tables à manger de ligne moderne et reconnue internationalement pour la qualité de nos finitions"
+    "fr": "Nous sommes une societé familiale fondée dans le sud-est espagnol en 1994, spécialisée dans la fabrication de tables à manger de ligne moderne et reconnue internationalement pour la qualité de nos finitions"
+  },
+  "GM": {
+    "es": "Abrir en Google Maps",
+    "en": "Open in Google Maps",
+    "fr": "Ouvrir dans Google Maps"
   }
 }

@@ -1,0 +1,425 @@
+{
+  "_id": ObjectId("5c06b2ca66fd0a2ef46f89af"),
+  "mod": "cross",
+  "thumbnail": "Cross_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "Alma de acero",
+    "en": "Steel soul",
+    "fr": "Esprit d'acier",
+    "_id": ObjectId("5c53fdf88a231811016da54e")
+  },
+  "desc": {
+    "es": "Materiales naturales y texturas orgánicas sobre una estructura de acero diáfana con la comodidad de las mesas de pie central y gran estabilidad.",
+    "en": "Natural materials and organic textures on a diaphanous steel structure with the comfort of the central standing tables and great stability.",
+    "fr": "Des matériaux naturels et des textures organiques sur une structure en acier diaphane avec le confort des tables centrales et une grande stabilité.",
+    "_id": ObjectId("5c53fdf88a231811016da54f")
+  },
+  "tags": {
+    "es": "Pie metálico central",
+    "fr": "Pied central métallique",
+    "en": "Metallic pedestal tables"
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE COMEDOR ANCHO 90. Tapa de cristal o porcelánico",
+        "en": "DINING tables. Width: 90 cm. Glass or ceramic tops",
+        "fr": "TABLES DE SALLE À MANGER LARGEUR 90. Plateau verre ou cèramique"
+      },
+      "articulos": [
+        {
+          "cod": "3040",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 135 x 90 x 76 # (Abierta 182 y 229 x 90 )",
+            "en": "2x47 cm EXTENSIONS # 135 x 90 x 76 Table# (extended 182/229 x 90 )",
+            "fr": "2 RALLONGES DE 47 # Fermée: 135 x 90 x 76 # (Ouverte: 182 y 229 x 90 )"
+          },
+          "imagenes": ["3040_2_dim.svg", "3040_3_dim.svg", "3040_4_dim.svg"]
+        },
+        {
+          "cod": "3041",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 160 x 90 x 76 # (Abierta 207 y 254 x 90 )",
+            "en": "2x47 cm EXTENSIONS # 160 x 90 x 76 Table# (extended 207/254 x 90 )",
+            "fr": "2 RALLONGES DE 47# Fermée: 160 x 90 x 76  # (Ouverte: 207 y 254 x 90  )"
+          },
+          "imagenes": ["3041_2_dim.svg", "3041_3_dim.svg", "3041_4_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "INFORMACIÓN TÉCNICA. MESAS TAPA DE CRISTAL O POCELÁNICO",
+        "en": "Technical info. Ceramic or Glass Top Tables",
+        "fr": "DÉTAILS. TABLES PLATEAU VERRE OU CÈRAMIQUE"
+      },
+      "items": [
+        {
+          "es": "Apertura mediante guías de acero bidireccionales de apertura simétrica con patines a bolas.",
+          "en": "Opening by symmetrical, ball-bearing steel runners",
+          "fr": "Ouverture symétrique par glissières en acier avec des roulements de nylon et acier."
+        },
+        {
+          "es": "Sistema de bloqueo en las todas las posiciones (tanto cerrada como extendida).",
+          "en": "Blocking system at extended and closed positions",
+          "fr": "Système de blocage dans les positions ouverte et fermée."
+        },
+        {
+          "fr": "Rallonges et ceinture bois laqué, assorties au plateau.",
+          "es": "Extensibles y costados de madera lacados en mate, color a juego de la tapa.",
+          "en": "Extensions and top sides lacquered matte matching the top."
+        },
+        {
+          "fr": "Piétement en acier texturé.",
+          "es": "Base en acero texturado",
+          "en": "Pedestal in painted steel (textured)"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. MESAS CRISTAL O PORCELÁNICO",
+        "en": "Finishings. Ceramic or Glass Top Tables",
+        "fr": "FINITIONS. TABLES PLATEAU VERRE OU CÈRAMIQUE"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "ACABADOS PIE",
+            "en": "Pedestal Finsishings",
+            "fr": "FINITIONS PIÉTEMENT"
+          },
+          "subtitulo": {
+            "es": "Lacados TEXTURIZADOS",
+            "en": "Textured painting",
+            "fr": "Laqués texturés"
+          },
+          "opciones": [
+            {
+              "es": "Vulcano Roca",
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "en": "Gray Nature",
+              "es": "Gris Nature",
+              "fr": "Gris Nature"
+            },
+            {
+              "es": "Blanco",
+              "en": "White",
+              "fr": "Blanc"
+            },
+            {
+              "es": "Nieve",
+              "en": "Snow",
+              "fr": "Neige"
+            },
+            {
+              "es": "Negro",
+              "en": "Black",
+              "fr": "Noir"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris céramique ",
+            "es": "Porcelánicos",
+            "en": "Ceramic tops"
+          },
+          "subtitulo": {
+            "es": "(Grosor: 3mm)",
+            "en": "( 3mm thick)",
+            "fr": "(ÉPAISSEUR 3MM)"
+          },
+          "opciones": [
+            {
+              "fr": "Noir",
+              "es": "Negro",
+              "en": "Black"
+            },
+            {
+              "fr": "Blanc",
+              "es": "Blanco",
+              "en": "White"
+            },
+            {
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca",
+              "es": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "es": "Gris Nature",
+              "en": "Gris Nature",
+              "fr": "Gris Nature"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass tops "
+          },
+          "subtitulo": {
+            "es": "(Grosor: 4mm)",
+            "en": "(4mm thick) ",
+            "fr": "(Épaisseur: 4mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "Extra White"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "Sand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE COMEDOR ANCHO 90 ó 98. Tapa de madera",
+        "en": "Dinner tables. Width: 90 or 98 cm. Wooden tops",
+        "fr": "TABLES DE SALLE À MANGER LARGEUR 90 ou 98. Plateau plaqué bois"
+      },
+      "articulos": [
+        {
+          "cod": "3070",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 135 x 90 x 76 # (Abierta 182 y 229 x 90 )",
+            "en": "2x47 cm EXTENSIONS # 135 x 90 x 76 Table# (extended 182/229 x 90 )",
+            "fr": "2 RALLONGES DE 47 # Fermée: 135 x 90 x 76 # (Ouverte: 182 y 229 x 90 )"
+          },
+          "imagenes": ["3070_2_dim.svg", "3070_3_dim.svg", "3070_4_dim.svg"]
+        },
+        {
+          "cod": "3071",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 160 x 90 x 76 # (Abierta 207 y 254 x 90 )",
+            "en": "2x47 cm EXTENSIONS # 160 x 90 x 76 Table# (extended 207/254 x 90 )",
+            "fr": "2 RALLONGES DE 47# Fermée: 160 x 90 x 76  # (Ouverte: 207 y 254 x 90  )"
+          },
+          "imagenes": ["3071_2_dim.svg", "3071_3_dim.svg", "3071_4_dim.svg"]
+        },
+        {
+          "cod": "3072",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 180 x 98 x 76 # (Abierta 227 y 274 x 98 )",
+            "en": "2x47 cm EXTENSIONS # 180 x 98 x 76 Table# (extended 227/274 x 90 )",
+            "fr": "2 RALLONGES DE 47# Fermée: 180 x 98 x 76  # (Ouverte: 227 y 274 x 98  )"
+          },
+          "imagenes": ["3072_2_dim.svg", "3072_3_dim.svg", "3072_4_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "INFORMACIÓN TÉCNICA. MESAS TAPA DE MADERA",
+        "en": "Technical Info. Wooden top tables",
+        "fr": "DÉTAILS. TABLES PLATEAU PLAQUÉ BOIS"
+      },
+      "items": [
+        {
+          "es": "Apertura mediante guías de acero bidireccionales de apertura simétrica con patines a bolas.",
+          "en": "Opening by symmetrical, ball-bearing steel runners",
+          "fr": "Ouverture symétrique par glissières en acier avec des roulements de nylon et acier."
+        },
+        {
+          "es": "Sistema de bloqueo en las todas las posiciones (tanto cerrada como extendida).",
+          "en": "Blocking system at extended and closed positions",
+          "fr": "Système de blocage dans les positions ouverte et fermée."
+        },
+
+        {
+          "fr": "Piétement en acier texturé.",
+          "es": "Base en acero texturado",
+          "en": "Pedestal in painted steel (textured)"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. MESAS DE MADERA",
+        "en": "Finishings. Wooden top tables",
+        "fr": "FINITIONS. TABLES PLATEAU PLAQUÉ BOIS"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "ACABADOS PIE",
+            "en": "Pedestal Finsihings",
+            "fr": "FINITIONS PIÉTEMENT"
+          },
+          "subtitulo": {
+            "es": "Lacados TEXTURIZADOS",
+            "en": "Textured Painting",
+            "fr": "Laqués texturés"
+          },
+          "opciones": [
+            {
+              "es": "Vulcano Roca",
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "en": "Gray Nature",
+              "es": "Gris Nature",
+              "fr": "Gris Nature"
+            },
+            {
+              "es": "Blanco",
+              "en": "White",
+              "fr": "Blanc"
+            },
+            {
+              "es": "Nieve",
+              "en": "Snow",
+              "fr": "Neige"
+            },
+            {
+              "es": "Negro",
+              "en": "Black",
+              "fr": "Noir"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Acabados Tapa",
+            "en": "Tabletop Finishings",
+            "fr": "Finitions Plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_cross_es.pdf",
+            "fr": "Tecnico_cross_fr.pdf",
+            "en": "Tecnico_cross_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Cross",
+            "fr": "Brochure Cross",
+            "en": "Cross Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_cross.pdf",
+            "fr": "cat_cross.pdf",
+            "en": "cat_cross.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 3.65 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 3.65 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 3.65 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "cross.zip",
+            "en": "cross.zip",
+            "fr": "cross.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

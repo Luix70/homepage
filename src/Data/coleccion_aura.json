@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c06b23d66fd0a2ef46f89ad"),
+  "mod": "aura",
+  "thumbnail": "Aura_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "La cuadratura del círculo",
+    "en": "The square of the circle",
+    "fr": "Le carré du cercle",
+    "_id": ObjectId("5c53fda08a231811016da53b")
+  },
+  "desc": {
+    "es": "Su combinacion armoniosa de formas y materiales la convierten en ideal para  cualquier ambiente.",
+    "en": "Its harmonious combination of shapes and materials make it ideal for any environment.",
+    "fr": "Sa combinaison harmonieuse de formes et de matériaux le rend idéal pour tout environnement.",
+    "_id": ObjectId("5c53fda08a231811016da53c")
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa madera. Pie metálico",
+    "fr": "Plateau plaqué en bois. Piétement métallique",
+    "en": "Wooden tabletop. Metallic pedestal"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Aura",
+            "fr": "Brochure Aura",
+            "en": "Aura Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_aura.pdf",
+            "fr": "cat_aura.pdf",
+            "en": "cat_aura.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 994 Ko, compressé ZIP)",
+            "es": "Fotos (.jpg, 994 Kb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 994 Kb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "aura.zip",
+            "en": "aura.zip",
+            "fr": "aura.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

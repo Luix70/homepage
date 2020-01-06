@@ -1,0 +1,240 @@
+{
+  "_id": ObjectId("5c3360645b8ef86aac7fdb31"),
+  "thumbnail": "Kepler_tn.jpg",
+  "tec_thumbnail": "tn_KEPLER_1_.JPG",
+  "activa": true,
+  "captions": {
+    "es": "El mundo de las ideas",
+    "en": "The world of ideas",
+    "fr": "Le monde des idées",
+    "_id": ObjectId("5d3eb9b5cce52a0677179815")
+  },
+  "desc": {
+    "es": "La geometría rige el diseño de la colección con formas inusuales que aportan la suavidad de sus curvas. El dominio de la mente sobre la materia.",
+    "en": "The geometry governs the design of the collection with unusual forms that bring the smoothness of their curves.The predominance of the mind over matter.",
+    "fr": "La géométrie régit la conception de la collection avec des formes inhabituelles qui apportent la finesse de leurs courbes. La prédominance de l'esprit sur la matière.",
+    "_id": ObjectId("5d3eb9b5cce52a0677179816")
+  },
+  "mod": "kepler",
+  "__v": 0,
+  "tags": {
+    "es": "Tapa de madera y patas metálicas",
+    "fr": "Plateau plaqué en bois. Piétement métallique",
+    "en": "Wooden top. Metal legs"
+  },
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE CENTRO",
+        "en": "COFFEE TABLES",
+        "fr": "TABLES BASSES"
+      },
+      "articulos": [
+        {
+          "cod": "307E",
+          "desc": {
+            "es": "Elíptica 115 X 65 X 43 # (Elevable a 60)",
+            "en": "Elliptic lift-top table 115 X 65 X 43 # (Lifted: 60)",
+            "fr": "Table elliptique 115 x 65 x 43 # Relevable à 60"
+          },
+          "imagenes": ["307E-1_dim.svg", "307E-2_dim.svg", "307E-3_dim.svg"]
+        },
+        {
+          "cod": "3074",
+          "desc": {
+            "es": "Mesa de centro Ø80# Altura 40",
+            "en": "Coffee table Ø80# Height 40",
+            "fr": "Table basse ronde Ø80# hauteur 40."
+          },
+          "imagenes": ["3074_dim.svg"]
+        },
+        {
+          "cod": "3075",
+          "desc": {
+            "es": "Mesa de centro Ø60# Altura 46",
+            "en": "Coffee table# Ø60 Height 46",
+            "fr": "Table basse ronde# Ø60 hauteur 46."
+          },
+          "imagenes": ["3075_dim.svg"]
+        },
+        {
+          "cod": "3076",
+          "desc": {
+            "es": "Mesa de centro Ø40# Altura 52",
+            "en": "Coffee table Ø40# Height 52",
+            "fr": "Table basse ronde Ø40# hauteur 52."
+          },
+          "imagenes": ["3076_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica.",
+        "en": "Technical Info.",
+        "fr": "Détails."
+      },
+      "items": [
+        {
+          "es": "Sistema de elevacion en acero cromado, con accionamiento asistido (307E)",
+          "en": "Chromed steel assisted lifting mechanism (307E)",
+          "fr": "Tables relevables à l’aide de ressorts (307E)."
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO.",
+        "en": "Finishings ",
+        "fr": "FINITIONS. "
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados Tapa",
+            "en": "Tabletop Finishings",
+            "fr": "Finitions Plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "FINITIONS piétement ",
+            "es": "ACABADOS PATA",
+            "en": "BASE FINISHINGS"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Acier chromé",
+              "es": "Acabado Cromo",
+              "en": "Chromed Steel"
+            },
+            {
+              "fr": "Laqué texturé Vulcano Roca",
+              "es": "Lacado Texturizado Vulcano Roca",
+              "en": "Textured Paint. Vulcano Roca"
+            },
+            {
+              "fr": "Laqué texturé Neige",
+              "en": "Textured Paint. Snow white",
+              "es": "Lacado Texturizado Nieve"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "FINITIONS CEINTURE (307E)",
+            "es": "ACABADOS ARO (307E)",
+            "en": "BODY FINISHING (307E) "
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "TOUJOURS Laquée",
+              "es": "Lacados (SIEMPRE)",
+              "en": "Always Textured Paint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_kepler_es.pdf",
+            "fr": "Tecnico_kepler_fr.pdf",
+            "en": "Tecnico_kepler_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Kepler",
+            "fr": "Brochure Kepler",
+            "en": "Kepler Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_kepler.pdf",
+            "fr": "cat_kepler.pdf",
+            "en": "cat_kepler.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 1.91Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 1.91Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 1.91Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "kepler.zip",
+            "en": "kepler.zip",
+            "fr": "kepler.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

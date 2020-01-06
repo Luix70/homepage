@@ -10,6 +10,7 @@ class Mapa extends Component {
           google={this.props.google}
           zoom={zoom}
           initialCenter={coordenadasCentro}
+          onClick={this.onMapClicked}
         >
           <Marker position={coordenadasMarker}></Marker>
         </Map>

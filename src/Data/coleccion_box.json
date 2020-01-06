@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c33a3f6d709453630c901ab"),
+  "thumbnail": "Box_tn.jpg",
+  "activa": true,
+  "captions": {
+    "es": "Funcional y moderno",
+    "en": "Functional and modern",
+    "fr": "Fonctionnel et moderne",
+    "_id": ObjectId("5c5415938a231811016da6ea")
+  },
+  "desc": {
+    "es": "Infinitas posibilidades a tener en cuenta en la decoración del hogar. \nBox es una colección de mesas de gran estilo con pequeños habitáculos para el almacenaje, que aportan un toque de distinción al salón y te permite tenerlo organizado a tu gusto.",
+    "en": "Endless possibilities to take into account in home decoration.\nBox is a collection of tables of great style with small rooms for storage, which bring a touch of distinction to the room and allows you to have it organized to your liking.",
+    "fr": "Possibilités infinies à prendre en compte dans la décoration de la maison.\nBox est une collection de tables de grand style avec de petites pièces pour le rangement, qui apportent une touche de distinction à la pièce et vous permettent de l’organiser à votre goût.",
+    "_id": ObjectId("5c5415938a231811016da6eb")
+  },
+  "mod": "box",
+  "__v": 0,
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Diseño modular",
+    "en": "Modular Design",
+    "fr": "Conception modulaire"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Box",
+            "fr": "Brochure Box",
+            "en": "Box Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_box.pdf",
+            "fr": "cat_box.pdf",
+            "en": "cat_box.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 1.06 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 1.06 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 1.06 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "box.zip",
+            "en": "box.zip",
+            "fr": "box.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

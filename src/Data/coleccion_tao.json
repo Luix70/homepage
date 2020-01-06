@@ -1,0 +1,79 @@
+{
+  "_id": ObjectId("5c3373d05acad968835ab70e"),
+  "thumbnail": "Tao_tn.jpg",
+  "activa": true,
+  "captions": {
+    "es": "Gestion del espacio y el tiempo",
+    "en": "Time and space management",
+    "fr": "Management de l'espace et du temps",
+    "_id": ObjectId("5c541c0c8a231811016daac9")
+  },
+  "desc": {
+    "es": "La versatilidad llevada a su máximo exponente. Un complemento indispensable en cualquier espacio en el que se requiera adaptabilidad.",
+    "en": "The versatility carried to its greatest exponent. An indispensable complement in any space in which adaptability is required.",
+    "fr": "La polyvalence portée au maximum. Un complément indispensable dans tout espace dans lequel une adaptabilité est requise.",
+    "_id": ObjectId("5c541c0c8a231811016daaca")
+  },
+  "mod": "tao",
+  "__v": 0,
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "en": "Table convertible console.",
+    "es": "Mesa comedor-consola extensible",
+    "fr": "Console transformable en table de salle à manger"
+  },
+  "secciones": [
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Tao",
+            "fr": "Brochure Tao",
+            "en": "Ondas Collection Tao"
+          },
+          "archivo": {
+            "es": "cat_tao.pdf",
+            "fr": "cat_tao.pdf",
+            "en": "cat_tao.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 2.01 Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 2.01 Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg, 2.01 Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "tao.zip",
+            "en": "tao.zip",
+            "fr": "tao.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}

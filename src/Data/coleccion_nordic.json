@@ -1,0 +1,441 @@
+{
+  "_id": ObjectId("5c112e4f1766f52bfc4f688f"),
+  "thumbnail": "Nordic_tn.jpg",
+  "activa": true,
+  "mod": "nordic",
+  "captions": {
+    "es": "De lo más natural",
+    "en": "Nature at its most",
+    "fr": "La nature à son meilleur",
+    "_id": ObjectId("5c5404958a231811016da60f")
+  },
+  "__v": 0,
+  "desc": {
+    "es": "La esencia del diseño nórdico y el carácter mediterráneo en una colección que propone un retorno a los valores naturales.",
+    "en": "The essence of Nordic design and Mediterranean character in a collection that aims to a return to natural values",
+    "fr": "L'essence du design nordique et du caractère méditerranéen dans une collection qui propose un retour aux valeurs naturelles",
+    "_id": ObjectId("5c5404958a231811016da610")
+  },
+  "tec_thumbnail": "tec_thumbnail.jpg",
+  "tags": {
+    "es": "Tapa de cristal, porcelánico o madera.Haya o Roble",
+    "fr": "Plateau verre, céramique ou plaqué bois.",
+    "en": "Plateau verre, céramique ou plaqué bois."
+  },
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de Comedor. Ancho 90. Patas de Haya",
+        "en": "Dinner tables. Width 90cm",
+        "fr": "TABLES DE SALLE À MANGER. LARGEUR 90"
+      },
+      "articulos": [
+        {
+          "cod": "208A",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
+            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
+          },
+          "imagenes": ["208A_1_dim.svg", "208A_2_dim.svg", "208A_3_dim.svg"]
+        },
+        {
+          "cod": "2080",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
+            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
+          },
+          "imagenes": ["2080_1_dim.svg", "2080_2_dim.svg", "2080_3_dim.svg"]
+        },
+        {
+          "cod": "208P",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 extended)",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
+          },
+          "imagenes": [
+            "208P_1_dim.svg",
+            "208P_2_dim.svg",
+            "208P_3_dim.svg",
+            "208P_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "2081",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
+            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
+          },
+          "imagenes": ["2081_1_dim.svg", "2081_2_dim.svg", "2081_3_dim.svg"]
+        },
+        {
+          "cod": "208H",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
+            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 extended)",
+            "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
+          },
+          "imagenes": [
+            "208H_1_dim.svg",
+            "208H_2_dim.svg",
+            "208H_3_dim.svg",
+            "208H_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "media",
+      "subtipo": "imagen",
+      "archivo": "Dimensiones_90.jpg",
+      "titulo": {
+        "es": "",
+        "en": "",
+        "fr": ""
+      },
+      "pie": {
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 2080)"
+      }
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de comedor. Ancho 100. Patas de Haya",
+        "en": "Dining Tables. Width 100cm",
+        "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
+      },
+      "articulos": [
+        {
+          "cod": "2080+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
+            "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
+          },
+          "imagenes": ["2080+_1_dim.svg", "2080+_2_dim.svg", "2080+_3_dim.svg"]
+        },
+        {
+          "cod": "2081+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 100 # (Abierta 230 x 100)",
+            "en": "70 cm EXTENSION # 160 x 100 cm # (230 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 100 # (Ouverte: 230 x 100 )"
+          },
+          "imagenes": ["2081+_1_dim.svg", "2081+_2_dim.svg", "2081+_3_dim.svg"]
+        },
+        {
+          "cod": "208B+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 # (Abierta 250 x 100)",
+            "en": "70 cm EXTENSION # 180 x 100 cm # (250 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 180 x 100 # (Ouverte: 250 x 100 )"
+          },
+          "imagenes": ["208B+_1_dim.svg", "208B+_2_dim.svg", "208B+_3_dim.svg"]
+        },
+        {
+          "cod": "208C+",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 # (Abierta 270 x 100)",
+            "en": "70 cm EXTENSION # 200 x 100 cm # (270 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 200 x 100 # (Ouverte: 270 x 100 )"
+          },
+          "imagenes": ["208C+_1_dim.svg", "208C+_2_dim.svg", "208C+_3_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "media",
+      "subtipo": "imagen",
+      "archivo": "Dimensiones_100.jpg",
+      "titulo": {
+        "es": "",
+        "en": "",
+        "fr": ""
+      },
+      "pie": {
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080+)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080+)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 2080+)"
+      }
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESA DE CENTRO elevable. Patas de haya",
+        "en": "Coffee Tables",
+        "fr": "TABLES BASSES"
+      },
+      "articulos": [
+        {
+          "cod": "208E",
+          "desc": {
+            "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
+            "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
+            "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
+          },
+          "imagenes": ["208E_1_dim.svg", "208E_2_dim.svg", "208E_3_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información Técnica",
+        "en": "TECHNICAL INFO",
+        "fr": "Détails"
+      },
+      "items": [
+        {
+          "es": "PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
+          "en": "Legs made of beech wood. Top made of veneered MDF board ",
+          "fr": "Pieds en chêne massif (vernis) ou hêtre massif (laqués). Plateau en panneau de fibres plaqué bois (vernis) ou melamine (laqués)."
+        },
+        {
+          "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
+          "en": "Opening by ball-bearing aluminum runners",
+          "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
+        },
+        {
+          "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau.",
+          "es": "Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
+          "en": "In tables with glass or ceramic tops, extensions will be lacquered matte matching the top."
+        },
+        {
+          "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture.",
+          "es": "Ruedas ocultas en las patas de la parte extensible.",
+          "en": "Hidden wheels in the legs of the moveable side of the table"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "Opciones Adicionales",
+        "en": "Additional options",
+        "fr": "OPTIONS SUPPLÉMMENTAIRES"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "COMEDOR",
+            "en": "Dining tables",
+            "fr": "SALLE À MANGER"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "TABLE FIXE (sans allonges)",
+              "es": "MESA FIJA (sin extensibles)",
+              "en": "Fixed length table (no extensions)"
+            },
+            {
+              "fr": "",
+              "es": "PATAS MADERA DE ROBLE",
+              "en": "Legs in oak wood"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "CENTRO",
+            "en": "Coffee tables",
+            "fr": "TABLE BASSE"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "es": "Juego de cuatro ruedas",
+              "en": "Set of Four wheels",
+              "fr": "ENSEMBLE 4 ROUES"
+            },
+            {
+              "fr": "",
+              "es": "PATAS MADERA DE ROBLE",
+              "en": "Legs in oak wood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO",
+        "en": "Finishings",
+        "fr": "FINITIONS"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados tapa",
+            "en": "[EN]Acabados tapa",
+            "fr": "Finitions plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "es": "    -Cerezo",
+              "en": "    -Cherry",
+              "fr": "    -Merisier"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris céramique ",
+            "es": "Porcelánicos",
+            "en": "Ceramic tops"
+          },
+          "subtitulo": {
+            "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
+            "en": "(Dining tables: 3mm on 8mm glass)#(Coffee tables: 3mm on 5mm glass )",
+            "fr": "(3 mm, collé sur verre de 8 mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Noir",
+              "es": "Negro",
+              "en": "Black"
+            },
+            {
+              "fr": "Blanc",
+              "es": "Blanco",
+              "en": "White"
+            },
+            {
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca",
+              "es": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "es": "Gris Nature",
+              "en": "Gris Nature",
+              "fr": "Gris Nature"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass tops "
+          },
+          "subtitulo": {
+            "es": "(Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
+            "en": "(Dining tables: 10mm)#(Coffee tables: 8mm)",
+            "fr": "(Verre de sécurité. Épaisseur: 10mm)"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "Extra White"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "Sand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_nordic_es.pdf",
+            "fr": "Tecnico_nordic_fr.pdf",
+            "en": "Tecnico_nordic_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo Nordic",
+            "fr": "Brochure Nordic",
+            "en": "Nordic Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_nordic.pdf",
+            "fr": "cat_nordic.pdf",
+            "en": "cat_nordic.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 4.9Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 4.9Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg,4.9Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "nordic.zip",
+            "en": "nordic.zip",
+            "fr": "nordic.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}
