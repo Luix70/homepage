@@ -3,36 +3,28 @@ import React from "react";
 import Operacion from "./operacion";
 const Cliente = ({ cliente: cli }) => {
   return (
-    <table>
-      <tbody>
-        <tr className="bg-primary" key={cli.codigo}>
-          <td className="codCliente">
-            <strong>{cli.codigo}</strong>
-          </td>
-          <td>
-            <em>
-              {cli.rzs} ( {cli.poblacion})
-            </em>
-          </td>
-          <td className="numped">Docs: {cli.totalDocumentos}</td>
-          <td className="numped">&nbsp;</td>
-        </tr>
-        <tr key={cli.codigo + "-ops"}>
-          <td colSpan="4" style={{ width: "100%" }}>
-            <table className="table table-dark table-sm table-borderless">
-              <tbody>
-                {cli.documentos.map(doc => (
-                  <Operacion
-                    key={doc.tipodoc + doc.codigodoc}
-                    documento={doc}
-                  />
-                ))}
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <React.Fragment>
+      <div className="row bg-info" key={cli.codigo}>
+        <div className="col-3">
+          <strong>{cli.codigo}</strong>
+        </div>
+        <div className="col-7">
+          <em>
+            {cli.rzs} ( {cli.poblacion})
+          </em>
+        </div>
+        <div className="col-2">Docs: {cli.totalDocumentos}</div>
+      </div>
+      <div className="row" key={cli.codigo + "-ops"}>
+        <table className="table table-sm table-borderless">
+          <tbody>
+            {cli.documentos.map(doc => (
+              <Operacion key={doc.tipodoc + doc.codigodoc} documento={doc} />
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </React.Fragment>
   );
 };
 

@@ -10,7 +10,7 @@ const Table = ({
 }) => {
   return (
     <React.Fragment>
-      <table className="table table-dark ">
+      <table className="table ">
         <TableHeader
           sortColumn={sortColumn}
           onSort={onSort}
