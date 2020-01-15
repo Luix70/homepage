@@ -25,11 +25,11 @@ class ListGroup extends Component {
 
   handleSearch = crit => {
     const search = crit.target.value;
-    this.setState({ search });
+    this.setState({ search, paginaActual: 1 });
   };
 
   clearSearch = () => {
-    this.setState({ search: "" });
+    this.setState({ search: "", paginaActual: 1 });
   };
 
   render() {
