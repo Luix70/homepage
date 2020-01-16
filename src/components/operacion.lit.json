@@ -1,0 +1,17 @@
+{
+  "BR": {
+    "es": "Bruto: ",
+    "en": "Net Worth: ",
+    "fr": "Total HT: "
+  },
+  "DA": {
+    "es": "Fecha: ",
+    "en": "Date: ",
+    "fr": "Date: "
+  },
+  "RE": {
+    "es": "Ref: ",
+    "en": "Ref: ",
+    "fr": "Cmque: "
+  }
+}

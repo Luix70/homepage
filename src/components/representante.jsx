@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import _ from "lodash";
 import Table from "./common/table";
 import Cliente from "./cliente";
+import t from "./representante.lit.json";
+
 class Representante extends Component {
   state = {
     sortColumn: { path: "codigo", order: "asc" }
@@ -22,7 +24,7 @@ class Representante extends Component {
   };
 
   render() {
-    const { repres } = this.props;
+    const { repres, lan } = this.props;
     const { sortColumn } = this.state;
     const listaclientes = repres.Clientes;
     //console.log(repres.Clientes);
@@ -39,13 +41,13 @@ class Representante extends Component {
     const listaCampos = [
       {
         path: "codigo",
-        label: "Cod",
-        content: item => <Cliente key={item.codigo} cliente={item} />,
+        label: t.CO[lan],
+        content: item => <Cliente key={item.codigo} cliente={item} lan={lan} />,
         colSpan: "4",
         width: "15%"
       },
-      { path: "rzs", label: "Cliente", colSpan: "0", width: "60%" },
-      { path: "totalDocumentos", label: "Docs", colSpan: "0", width: "15%" },
+      { path: "rzs", label: t.CL[lan], colSpan: "0", width: "60%" },
+      { path: "totalDocumentos", label: t.DO[lan], colSpan: "0", width: "15%" },
       { path: "dummy", label: " ", colSpan: "0", width: "10%" }
     ];
 
@@ -61,6 +63,7 @@ class Representante extends Component {
           campoClave={"codigo"}
           sortColumn={sortColumn}
           onSort={this.handleSortCustomers}
+          lan={lan}
         />
       </React.Fragment>
     );

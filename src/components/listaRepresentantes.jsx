@@ -5,7 +5,7 @@ class ListaRepresentantes extends Component {
     return true;
   }
   render() {
-    const { resultConsulta } = this.props;
+    const { resultConsulta, lan } = this.props;
     if (!resultConsulta || resultConsulta.representantes.length === 0)
       return null;
     // console.log(
@@ -22,6 +22,7 @@ class ListaRepresentantes extends Component {
               key={repre.codrep}
               repres={repre}
               onSort={this.handleSortCustomers}
+              lan={lan}
             />
           ))
         )}

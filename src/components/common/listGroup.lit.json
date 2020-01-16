@@ -1,0 +1,27 @@
+{
+  "TO": {
+    "es": "--TODOS--",
+    "en": "--ALL--",
+    "fr": "--TOUS--"
+  },
+  "NI": {
+    "es": "--NINGUNO--",
+    "en": "--NONE--",
+    "fr": "--AUCUN--"
+  },
+  "BR": {
+    "es": "Buscar Repres.",
+    "fr": "Chercher Repres.",
+    "en": "Find Repres."
+  },
+  "RE": {
+    "es": "Representante",
+    "fr": "Representant",
+    "en": "Representative"
+  },
+  "SR": {
+    "es": "Seleccionar Representante",
+    "fr": "Selectionner Representant",
+    "en": "Select Representative"
+  }
+}

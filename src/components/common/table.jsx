@@ -6,7 +6,8 @@ const Table = ({
   listaCampos,
   campoClave,
   sortColumn,
-  onSort
+  onSort,
+  lan
 }) => {
   return (
     <React.Fragment>
@@ -15,12 +16,14 @@ const Table = ({
           sortColumn={sortColumn}
           onSort={onSort}
           listaCampos={listaCampos}
+          lan={lan}
         />
 
         <TableBody
           listaElementos={listaOrdenada}
           listaCampos={listaCampos}
           campoClave={campoClave}
+          lan={lan}
         />
       </table>
     </React.Fragment>

@@ -122,7 +122,9 @@ class App extends Component {
               />
               <Route
                 path="/ar"
-                render={props => <AreaReservada usuario={usuario} {...props} />}
+                render={props => (
+                  <AreaReservada usuario={usuario} lan={lan} {...props} />
+                )}
               />
 
               <Route

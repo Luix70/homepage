@@ -36,7 +36,7 @@ class AreaReservada extends Component {
   }
 
   render() {
-    const { usuario } = this.props;
+    const { usuario, lan } = this.props;
 
     if (this.state.listaRepresentantes === []) return null;
 
@@ -52,13 +52,17 @@ class AreaReservada extends Component {
                 itemId="codrep" //identificador del elemento
                 itemValue="nombre" // valor que se mostrará
                 selectedItem={this.state.selectedRepre}
+                lan={lan}
               />
             </div>
           ) : null}
 
           {!this.state.resultconsulta ? (
             <div className="col-12">
-              <ListaRepresentantes resultConsulta={this.state.resultConsulta} />
+              <ListaRepresentantes
+                resultConsulta={this.state.resultConsulta}
+                lan={lan}
+              />
             </div>
           ) : null}
         </div>
