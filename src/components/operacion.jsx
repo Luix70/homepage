@@ -29,7 +29,7 @@ const Operacion = ({ documento: doc }) => {
           </div>
         </div>
       </div>
-      <div className="card-body small">
+      <div className="card-body small bg-warning">
         <div className="row">
           <div className="col-1">&nbsp;</div>
           <div className="col-11">
