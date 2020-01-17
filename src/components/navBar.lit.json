@@ -7,7 +7,7 @@
     "fr": "Contacter / A propos"
   },
   "LI": { "es": "Login", "en": "Login", "fr": "Login" },
-  "LO": { "es": "Logout", "en": "Logout", "fr": "Logout" },
+  "LO": { "es": "Cerrar Sesion", "en": "Logout", "fr": "Sortir" },
   "AB": { "es": "Empresa", "en": "About us", "fr": "A propos" },
   "TU": {
     "CL": { "es": "CLIENTE", "fr": "CLIENT", "en": "CUSTOMER" },
