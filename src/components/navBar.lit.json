@@ -21,6 +21,11 @@
       "fr": "ADMINISTRATEUR",
       "en": "ADMINISTRATOR"
     },
+    "SR": {
+      "es": "Coordinador",
+      "fr": "Coordinateur",
+      "en": "Coordinator"
+    },
     "WM": { "es": "WEBMASTER", "fr": "WEBMASTER", "en": "WEBMASTER" }
   }
 }
