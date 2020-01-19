@@ -66,7 +66,9 @@ class App extends Component {
 
   handleLogout = () => {
     console.log("handle logout");
-    sessionStorage.setItem("apiToken", "");
+    sessionStorage.removeItem("cachedData");
+    sessionStorage.removeItem("apiToken");
+    sessionStorage.removeItem("nombreUsuario");
     this.setState({ usuario: null });
   };
 
@@ -122,7 +124,9 @@ class App extends Component {
               />
               <Route
                 path="/ar"
-                render={props => <AreaReservada usuario={usuario} {...props} />}
+                render={props => (
+                  <AreaReservada usuario={usuario} lan={lan} {...props} />
+                )}
               />
 
               <Route

@@ -1,0 +1,5 @@
+{
+  "CL": { "es": "Cliente", "fr": "Client", "en": "Customer" },
+  "CO": { "es": "Cód.", "fr": "Code", "en": "Code" },
+  "DO": { "es": "Docs", "fr": "Docs", "en": "Docs" }
+}

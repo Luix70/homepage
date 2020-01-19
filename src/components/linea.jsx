@@ -3,27 +3,29 @@ import React from "react";
 const Linea = ({ linea }) => {
   return (
     <React.Fragment>
-      <tr>
-        <td className="celdaCoart">{linea.coart}</td>
-        <td className="celdaDesc">{linea.descripcion}</td>
-        <td
+      <div className="row">
+        <div className="col-1">
+          <strong>{linea.coart}</strong>
+        </div>
+        <div className="col-9">{linea.descripcion}</div>
+        <div
           className={
             linea.cantidad === 1 || linea.cantidad === 0
-              ? "celdaPrecio"
-              : "celdaPrecio multiple"
+              ? "col-2 text-right"
+              : "col-2 text-right text-danger"
           }
         >
           {linea.cantidad === 1 ? "" : linea.cantidad + " x "}
           {linea.precio !== 0
             ? Number.parseFloat(linea.precio).toFixed(2) + " €"
             : ""}
-        </td>
-      </tr>
-      <tr>
-        <td className="celdaCoart">&nbsp;</td>
-        <td className="celdaRef_linea">{linea.ref_linea}</td>
-        <td className="celdaPrecio">&nbsp;</td>
-      </tr>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-1">&nbsp;</div>
+        <div className="col-9 text-muted pl-4">{linea.ref_linea}</div>
+        <div className="col-1">&nbsp;</div>
+      </div>
     </React.Fragment>
   );
 };

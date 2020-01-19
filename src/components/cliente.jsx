@@ -1,38 +1,32 @@
 import React from "react";
 // al ser una SFC no se requiere importar Component
 import Operacion from "./operacion";
-const Cliente = ({ cliente: cli }) => {
+const Cliente = ({ cliente: cli, lan }) => {
   return (
-    <table>
-      <tbody>
-        <tr className="bg-primary" key={cli.codigo}>
-          <td className="codCliente">
-            <strong>{cli.codigo}</strong>
-          </td>
-          <td>
-            <em>
-              {cli.rzs} ( {cli.poblacion})
-            </em>
-          </td>
-          <td className="numped">Docs: {cli.totalDocumentos}</td>
-          <td className="numped">&nbsp;</td>
-        </tr>
-        <tr key={cli.codigo + "-ops"}>
-          <td colSpan="4" style={{ width: "100%" }}>
-            <table className="table table-dark table-sm table-borderless">
-              <tbody>
-                {cli.documentos.map(doc => (
-                  <Operacion
-                    key={doc.tipodoc + doc.codigodoc}
-                    documento={doc}
-                  />
-                ))}
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <React.Fragment>
+      <div className="row bg-secondary text-light" key={cli.codigo}>
+        <div className="col-2">
+          <strong>{cli.codigo}</strong>
+        </div>
+        <div className="col-8">
+          <em>
+            {cli.rzs} ( {cli.poblacion})
+          </em>
+        </div>
+        <div className="col-2">Docs: {cli.totalDocumentos}</div>
+      </div>
+      <div className="row" key={cli.codigo + "-ops"}>
+        <div className="col-12 mt-3">
+          {cli.documentos.map(doc => (
+            <Operacion
+              key={doc.tipodoc + doc.codigodoc}
+              documento={doc}
+              lan={lan}
+            />
+          ))}
+        </div>
+      </div>
+    </React.Fragment>
   );
 };
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import _ from "lodash";
 
 class TableBody extends Component {
-  renderCell(item, campo) {
+  renderCell(item, campo, lan) {
     if (campo.colSpan === "0") return null;
 
     if (campo.content)
@@ -19,13 +19,13 @@ class TableBody extends Component {
     );
   }
   render() {
-    const { listaElementos, listaCampos, campoClave } = this.props;
+    const { listaElementos, listaCampos, campoClave, lan } = this.props;
     //hacemos un doble mapeo para las filas (listaElementos) y las columnas (listaCampos)
     return (
       <tbody>
         {listaElementos.map(item => (
           <tr key={item[campoClave]}>
-            {listaCampos.map(campo => this.renderCell(item, campo))}
+            {listaCampos.map(campo => this.renderCell(item, campo, lan))}
           </tr>
         ))}
       </tbody>

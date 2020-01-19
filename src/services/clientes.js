@@ -1,9 +1,23 @@
 import _ from "lodash";
 import httpService from "./httpService";
+import { getLan } from "./datosWeb";
 import config from "../config.json";
-
+import { toast } from "react-toastify";
+import t from "./clientes.lit.json";
 export default async function getClientes(repre) {
   var result = await getData();
+  var lan = getLan();
+  console.log(lan, JSON.stringify(result) === "{}");
+  if (JSON.stringify(result) === "{}") {
+    //window.location = "/login";
+    console.log("pasa por aqui");
+    toast.error(t.TO[lan]);
+    sessionStorage.removeItem("cachedData");
+    sessionStorage.removeItem("apiToken");
+    sessionStorage.removeItem("nombreUsuario");
+
+    return result;
+  }
   if (repre.codrep === 0) return result;
   var reps = [...result.representantes];
 
@@ -16,7 +30,18 @@ export default async function getClientes(repre) {
 export async function getRepres() {
   // TODO :  invocar a un metodo que devuelva solamente los representantes
   var result = await getData();
+  var lan = getLan();
+  console.log(lan, JSON.stringify(result) === "{}");
+  if (JSON.stringify(result) === "{}") {
+    //window.location = "/login";
+    console.log("pasa por aqui");
+    toast.error(t.TO[lan]);
+    sessionStorage.removeItem("cachedData");
+    sessionStorage.removeItem("apiToken");
+    sessionStorage.removeItem("nombreUsuario");
 
+    return result;
+  }
   try {
     return result.representantes.map(repre => {
       return _.pick(repre, ["codrep", "nombre", "totalClientes"]);
@@ -35,7 +60,7 @@ async function getData() {
   // If cache is older than 25 min we retrieve another batch
   if (
     cachedData !== null &&
-    Math.abs(new Date(cachedData.FechaCache) - Date.now()) / (1000 * 60) < 25
+    Math.abs(new Date(cachedData.FechaCache) - Date.now()) / (1000 * 60) < 1
   ) {
     //console.log("cached " + new Date(cachedData.FechaCache));
     return cachedData;

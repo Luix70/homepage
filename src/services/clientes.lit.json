@@ -1,0 +1,7 @@
+{
+  "TO": {
+    "es": "La sesión ha caducado. A continuación serás redirigido al formulario de login",
+    "fr": "Votre session a expiré. Vous allez être redirigé automatiquement vers la page de Login",
+    "en": "Session timed out. You will be redirected to the login page"
+  }
+}

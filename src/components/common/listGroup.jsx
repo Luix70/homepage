@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import paginate from "../../utils/paginate";
 import _ from "lodash";
 import Pagination from "./pagination";
-
+import t from "./listGroup.lit.json";
 class ListGroup extends Component {
   state = {
     itemList: [],
@@ -25,11 +25,11 @@ class ListGroup extends Component {
 
   handleSearch = crit => {
     const search = crit.target.value;
-    this.setState({ search });
+    this.setState({ search, paginaActual: 1 });
   };
 
   clearSearch = () => {
-    this.setState({ search: "" });
+    this.setState({ search: "", paginaActual: 1 });
   };
 
   render() {
@@ -38,7 +38,8 @@ class ListGroup extends Component {
       onItemSelect,
       itemId,
       itemValue,
-      selectedItem
+      selectedItem,
+      lan
     } = this.props;
 
     const { search } = this.state;
@@ -48,13 +49,13 @@ class ListGroup extends Component {
     //console.log(itemsFiltrados);
     const itemsOrdenados = _.orderBy(itemsFiltrados, ["nombre"], ["asc"]);
     const itemsToShow = [
-      { codrep: 0, nombre: "--TODOS--" },
+      { codrep: 0, nombre: t.TO[lan] },
       ...paginate(
         itemsOrdenados,
         this.state.paginaActual,
         this.state.itemsPerPage
       ),
-      { codrep: -1, nombre: "--NINGUNO--" }
+      { codrep: -1, nombre: t.NI[lan] }
     ];
 
     return (
@@ -76,7 +77,7 @@ class ListGroup extends Component {
                       className="form-control pr-0 mr-0 d-inline"
                       id="searchString"
                       aria-describedby="Buscar Repres"
-                      placeholder="Buscar Repres."
+                      placeholder={t.BR[lan]}
                       onChange={this.handleSearch}
                       value={search}
                     />
@@ -93,11 +94,12 @@ class ListGroup extends Component {
           ) : (
             <div className="d-flex w-100 justify-content-between align-items-center m-0 p-1 ">
               <span className="p-2">
-                {"Representante: " +
+                {t.RE[lan] +
+                  ": " +
                   (selectedItem === -1
-                    ? "NINGUNO"
+                    ? t.NI[lan]
                     : selectedItem === 0
-                    ? "TODOS"
+                    ? t.TO[lan]
                     : itemList.find(item => {
                         return item.codrep === selectedItem;
                       }).nombre)}
@@ -106,7 +108,7 @@ class ListGroup extends Component {
                 className="btn btn-primary m-0 p-2"
                 onClick={this.toggleDesplegado}
               >
-                Seleccionar Representante
+                {t.SR[lan]}
               </button>
             </div>
           )}
