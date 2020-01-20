@@ -12,6 +12,7 @@ import LoginForm from "./components/loginForm";
 import Scans from "./components/scans";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
+import "semantic-ui-css/semantic.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./Custom.css";
