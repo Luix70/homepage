@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import { Dropdown } from "semantic-ui-react";
 import MaterialIcon from "react-google-material-icons";
 import t from "./navBar.lit.json";
 import CollectionsDropDown from "./common/collectionsDropDown.jsx";
@@ -15,6 +16,12 @@ const NavBar = props => {
     toggleEdit,
     modoEdit
   } = props;
+
+  const countryOptions = [
+    { key: "es", value: "es", flag: "es", text: "Es" },
+    { key: "en", value: "en", flag: "uk", text: "En" },
+    { key: "fr", value: "fr", flag: "fr", text: "Fr" }
+  ];
 
   // const { windowWidth, windowHeight, BSBreak } = props;
   // console.log(windowWidth, windowHeight, BSBreak);
@@ -37,16 +44,6 @@ const NavBar = props => {
     } else {
       toast.error("El usuario no está identificado");
     }
-  }
-
-  function badgeStyle(badgeLan) {
-    const baseBadgeStyle = "badge badge-pill mr-2 mt-0 py-2 ";
-    const activBadgeStyle = " badge-secondary";
-    const inactivBadgeStyle = " badge-light";
-
-    return lan === badgeLan
-      ? baseBadgeStyle + activBadgeStyle
-      : baseBadgeStyle + inactivBadgeStyle;
   }
 
   function userStyle(badgeUser) {
@@ -94,7 +91,7 @@ const NavBar = props => {
                 cols={cols}
               ></CollectionsDropDown>
             </div>
-            <div className="nav-item">
+            <div>
               <Link className="nav-link" to={"/contact"}>
                 {t.CON[lan]}
               </Link>
@@ -126,31 +123,25 @@ const NavBar = props => {
               </Link>
             </div> */}
 
-            <div className="nav-item  idiomas  d-flex position-absolute align-items-center">
-              <Link
-                to={"#"}
-                className={badgeStyle("es")}
-                onClick={() => handleLanguage("es")}
-              >
-                ES
-              </Link>
-              <Link
-                to={"#"}
-                className={badgeStyle("en")}
-                onClick={() => handleLanguage("en")}
-              >
-                EN
-              </Link>
-              <Link
-                to={"#"}
-                className={badgeStyle("fr")}
-                onClick={() => handleLanguage("fr")}
-              >
-                FR
-              </Link>
+            <div className="nav-item  idiomas  d-flex position-absolute align-items-center justify-conent-between">
               <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
                 <MaterialIcon icon="person" size={24} />
               </Link>
+
+              <Dropdown
+                button
+                className="icon"
+                floating
+                labeled
+                icon="world"
+                options={countryOptions}
+                search
+                text={lan}
+                onChange={(e, d) => {
+                  handleLanguage(d.value);
+                }}
+              />
+
               {usuario && usuario.TipoEntidad === "WM" ? (
                 <Link
                   to={"#"}
