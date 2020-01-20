@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import Linea from "./linea";
 import { Link } from "react-router-dom";
 import t from "./operacion.lit.json";
+import MaterialIcon from "react-google-material-icons";
 // al ser una SFC no se requiere importar Component
 class Operacion extends Component {
   state = {};
@@ -34,6 +36,33 @@ class Operacion extends Component {
                 {Number.parseFloat(doc.Importebruto).toFixed(2)}{" "}
               </b>
               €
+            </div>
+
+            <div className="dropdown p-0 ">
+              <button
+                className="btn btn-secondary btn-sm dropdown-toggle p-1 pb-0"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <MaterialIcon icon="info" size={24} />
+              </button>
+              <div
+                className="dropdown-menu dropdown-menu-right "
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item" href="#">
+                  Ocultar
+                </a>
+                <a className="dropdown-item" href="#">
+                  Artículos
+                </a>
+                <a className="dropdown-item" href="#">
+                  Estado
+                </a>
+              </div>
             </div>
           </div>
         </div>
