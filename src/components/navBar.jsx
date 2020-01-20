@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Dropdown } from "semantic-ui-react";
+import FlagIcon from "./common/FlagIcon";
 import MaterialIcon from "react-google-material-icons";
 import t from "./navBar.lit.json";
 import CollectionsDropDown from "./common/collectionsDropDown.jsx";
@@ -14,14 +15,9 @@ const NavBar = props => {
     handleLogout,
     cols,
     toggleEdit,
-    modoEdit
+    modoEdit,
+    windowWidth
   } = props;
-
-  const countryOptions = [
-    { key: "es", value: "es", flag: "es", text: "Es" },
-    { key: "en", value: "en", flag: "uk", text: "En" },
-    { key: "fr", value: "fr", flag: "fr", text: "Fr" }
-  ];
 
   // const { windowWidth, windowHeight, BSBreak } = props;
   // console.log(windowWidth, windowHeight, BSBreak);
@@ -81,17 +77,21 @@ const NavBar = props => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse justify-content-around align-items-middle"
+          className="collapse navbar-collapse justify-content-between align-items-center"
           id="toggler"
         >
-          <div className="navbar-nav mr-auto ">
-            <div className="nav-item">
+          <div className="navbar-nav  ">
+            <div className="nav-item pr-0">
               <CollectionsDropDown
                 label={t.COL[lan]}
                 cols={cols}
               ></CollectionsDropDown>
             </div>
-            <div>
+            <div
+              data-toggle={windowWidth <= 768 ? "collapse" : ""}
+              data-target="#toggler"
+              aria-controls="toggler"
+            >
               <Link className="nav-link" to={"/contact"}>
                 {t.CON[lan]}
               </Link>
@@ -99,62 +99,100 @@ const NavBar = props => {
 
             {usuario ? (
               <React.Fragment>
-                <div className="nav-item">
+                <div
+                  className="nav-item"
+                  data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                  data-target="#toggler"
+                  aria-controls="toggler"
+                >
                   <Link className="nav-link" to={"/ar"}>
                     {t.AU[lan]}
                   </Link>
                 </div>
-                <div className="nav-item">
+                <div
+                  className="nav-item"
+                  data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                  data-target="#toggler"
+                  aria-controls="toggler"
+                >
                   <Link className="nav-link" to={"#"} onClick={handleLogout}>
                     {t.LO[lan]}
                   </Link>
                 </div>
               </React.Fragment>
             ) : (
-              <div className="nav-item">
+              <div
+                className="nav-item"
+                data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                data-target="#toggler"
+                aria-controls="toggler"
+              >
                 <Link className="nav-link" to={"/login"}>
                   {t.LI[lan]}
                 </Link>
               </div>
             )}
-            {/* <div className="nav-item">
-              <Link className="nav-link" to={"/"}>
-                {windowWidth + " x " + windowHeight + " (" + BSBreak + ")"}
+          </div>
+
+          <div className="nav-item  idiomas d-flex justify-content-end align-items-center">
+            <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
+              <MaterialIcon icon="person" size={24} />
+            </Link>
+
+            {usuario && usuario.TipoEntidad === "WM" ? (
+              <Link
+                to={"#"}
+                onClick={toggleEdit}
+                className={
+                  modoEdit
+                    ? "badge badge-pill mr-2 mt-0 p-1 badge-danger"
+                    : "badge badge-pill mr-2 mt-0 p-1 badge-light"
+                }
+              >
+                <MaterialIcon icon="edit" className="text-light" size={16} />
               </Link>
-            </div> */}
+            ) : null}
 
-            <div className="nav-item  idiomas  d-flex position-absolute align-items-center justify-conent-between">
-              <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
-                <MaterialIcon icon="person" size={24} />
-              </Link>
-
-              <Dropdown
-                button
-                className="icon"
-                floating
-                labeled
-                icon="world"
-                options={countryOptions}
-                search
-                text={lan}
-                onChange={(e, d) => {
-                  handleLanguage(d.value);
-                }}
-              />
-
-              {usuario && usuario.TipoEntidad === "WM" ? (
-                <Link
-                  to={"#"}
-                  onClick={toggleEdit}
-                  className={
-                    modoEdit
-                      ? "badge badge-pill mr-2 mt-0 p-1 badge-danger"
-                      : "badge badge-pill mr-2 mt-0 p-1 badge-light"
-                  }
+            <div className="dropdown mr-2 ">
+              <button
+                className="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                {lan}
+              </button>
+              <div
+                className="dropdown-menu dropdown-menu-right "
+                aria-labelledby="dropdownMenuButton"
+                data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                data-target="#toggler"
+                aria-controls="toggler"
+              >
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleLanguage("es")}
                 >
-                  <MaterialIcon icon="edit" className="text-light" size={16} />
-                </Link>
-              ) : null}
+                  <FlagIcon code="es" /> Español
+                </a>
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleLanguage("en")}
+                >
+                  <FlagIcon code="gb" /> English
+                </a>
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleLanguage("fr")}
+                >
+                  <FlagIcon code="fr" /> Français
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -1,0 +1,9 @@
+{
+  "TI": { "es": "Iniciar Sesión", "fr": "Identifiez-vous", "en": "Sign-in" },
+  "US": {
+    "es": "Usuario (email)",
+    "fr": "Nom d'utilisateur (e-mail)",
+    "en": "User (email)"
+  },
+  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" }
+}

@@ -12,7 +12,7 @@ import LoginForm from "./components/loginForm";
 import Scans from "./components/scans";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
-import "semantic-ui-css/semantic.min.css";
+
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./Custom.css";
@@ -21,7 +21,7 @@ import "./Social.css";
 
 class App extends Component {
   state = {
-    lan: "",
+    lan: "es",
     listaColecciones: [],
     windowWidth: 0,
     windowHeight: 0,
@@ -37,7 +37,7 @@ class App extends Component {
       sessionStorage.setItem("lan", payload.Idioma.toLowerCase());
       sessionStorage.setItem("nombreUsuario", payload.NombreUsuario);
     } catch {
-      sessionStorage.setItem("lan", "");
+      //sessionStorage.setItem("lan", "");
       sessionStorage.setItem("nombreUsuario", "");
     }
 
@@ -136,7 +136,10 @@ class App extends Component {
                   <Contacto usuario={usuario} lan={lan} {...props} />
                 )}
               />
-              <Route path="/login" render={props => <LoginForm {...props} />} />
+              <Route
+                path="/login"
+                render={props => <LoginForm lan={lan} {...props} />}
+              />
               <Route
                 exact
                 path="/"

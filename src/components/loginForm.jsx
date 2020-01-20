@@ -3,7 +3,7 @@ import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
-
+import t from "./loginForm.lit.json";
 class LoginForm extends Form {
   state = { data: { username: "", password: "" }, errors: {} };
 
@@ -39,16 +39,17 @@ class LoginForm extends Form {
   };
 
   render() {
+    const { lan } = this.props;
     return (
       <div className="d-flex mt-5 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
           <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
-            <h1 className="text-center">Login</h1>
+            <h1 className="text-center">{t.TI[lan]}</h1>
             <hr />
             <form onSubmit={this.handleSubmit}>
-              {this.renderInput("username", "Usuario")}
-              {this.renderInput("password", "Contraseña", "password")}
-              {this.renderButton("Login")}
+              {this.renderInput("username", t.US[lan])}
+              {this.renderInput("password", t.PA[lan], "password")}
+              {this.renderButton(t.TI[lan])}
             </form>
           </div>
         </div>
