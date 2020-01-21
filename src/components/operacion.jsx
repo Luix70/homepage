@@ -27,7 +27,7 @@ class Operacion extends Component {
 
             <div className="ml-3">
               {t.DA[lan]}
-              {doc.fechapedido.replace(" 0:00:00", "")}
+              {doc.fechadoc.replace(" 0:00:00", "")}
             </div>
             <div className="ml-3">
               {" "}

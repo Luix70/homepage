@@ -3,8 +3,18 @@ import t from "./estadoOperacion.lit.json";
 import MaterialIcon from "react-google-material-icons";
 
 function actualizarEstados(estados, doc) {
+  console.log(doc);
   for (var i = 0; i < estados.length; i++) {
-    console.log(doc);
+    switch (estados[i].estado) {
+      case "RE":
+        estados[i].fecha = doc.fechapedido;
+        break;
+      case "CO":
+        console.log(doc.fechaConfirmacion);
+        break;
+
+      default:
+    }
   }
 }
 
