@@ -13,5 +13,15 @@
     "es": "Ref: ",
     "en": "Ref: ",
     "fr": "Cmque: "
+  },
+  "AR": {
+    "es": "Artículos: ",
+    "en": "Articles: ",
+    "fr": "Articles: "
+  },
+  "ES": {
+    "es": "Estado: ",
+    "en": "Process: ",
+    "fr": "État: "
   }
 }

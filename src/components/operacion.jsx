@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Linea from "./linea";
 import { Link } from "react-router-dom";
 import t from "./operacion.lit.json";
-
+import EstadoOperacion from "./estadoOperacion";
 // al ser una SFC no se requiere importar Component
 class Operacion extends Component {
   state = { expanded: false };
@@ -11,7 +11,7 @@ class Operacion extends Component {
     this.setState({ expanded: !this.state.expanded });
   };
   render() {
-    const { documento: doc, lan } = this.props;
+    const { doc, lan } = this.props;
     const { expanded } = this.state;
     return (
       <div className="card mb-3">
@@ -40,25 +40,35 @@ class Operacion extends Component {
                 {Number.parseFloat(doc.Importebruto).toFixed(2)}{" "}
               </b>
               €
+              <button
+                className={
+                  "btn custom-btn-circle " +
+                  (expanded ? "btn-primary" : "btn-secondary")
+                }
+                onClick={this.toggleExpanded}
+              >
+                <strong>{expanded ? "- i" : "+ i"} </strong>
+              </button>
             </div>
-
-            <button
-              className={
-                "btn btn-circle " + (expanded ? "btn-primary" : "btn-secondary")
-              }
-              onClick={this.toggleExpanded}
-            >
-              <strong>{expanded ? "- i" : "+ i"} </strong>
-            </button>
           </div>
         </div>
-        <div className={"card-body small " + (expanded ? "" : "d-none")}>
-          <div className="row">
-            <div className="col-1">&nbsp;</div>
-            <div className="col-11">
+        <div className={"card-body small p-0 " + (expanded ? "" : "d-none")}>
+          <div className="row bg-light-gray m-0  p-4">
+            <div className="col-12">
+              <h5 className="text-primary">{t.AR[lan]}</h5>
+            </div>
+            <div className="col-12">
               {doc.lineas.map(linea => (
                 <Linea key={linea.codLinea} linea={linea} />
               ))}
+            </div>
+          </div>
+          <div className="row m-0 bg-lighter-gray p-4">
+            <div className="col-12">
+              <h5 className="text-primary">{t.ES[lan]}</h5>
+            </div>
+            <div className="col-12">
+              <EstadoOperacion doc={doc} lan={lan}></EstadoOperacion>
             </div>
           </div>
         </div>

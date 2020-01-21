@@ -1,0 +1,42 @@
+{
+  "RE": {
+    "es": "Registrado: ",
+    "en": "Registered: ",
+    "fr": "Enregistrée: "
+  },
+  "CO": {
+    "es": "Confirmado: ",
+    "en": "Confirmed: ",
+    "fr": "Confirmée: "
+  },
+  "PR": {
+    "es": "En fabricación: ",
+    "en": "In Process: ",
+    "fr": "En cours: "
+  },
+  "TE": {
+    "es": "Terminado: ",
+    "en": "Finished: ",
+    "fr": "Finie: "
+  },
+  "EN": {
+    "es": "Enviado: ",
+    "en": "Shipped: ",
+    "fr": "Livrée en agence: "
+  },
+  "FA": {
+    "es": "Facturado: ",
+    "en": "Invoiced: ",
+    "fr": "Facturée: "
+  },
+  "ES": {
+    "es": "FASE",
+    "en": "PHASE ",
+    "fr": "ÉTAPE "
+  },
+  "DO": {
+    "es": "DOCS ASOCIADOS ",
+    "en": "ASSOCIATED DOCS ",
+    "fr": "DOCUMENTS ASSOCIÉS "
+  }
+}

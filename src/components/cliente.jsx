@@ -18,11 +18,7 @@ const Cliente = ({ cliente: cli, lan }) => {
       <div className="row" key={cli.codigo + "-ops"}>
         <div className="col-12 mt-3">
           {cli.documentos.map(doc => (
-            <Operacion
-              key={doc.tipodoc + doc.codigodoc}
-              documento={doc}
-              lan={lan}
-            />
+            <Operacion key={doc.tipodoc + doc.codigodoc} doc={doc} lan={lan} />
           ))}
         </div>
       </div>
