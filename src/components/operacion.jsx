@@ -3,12 +3,16 @@ import React, { Component } from "react";
 import Linea from "./linea";
 import { Link } from "react-router-dom";
 import t from "./operacion.lit.json";
-import MaterialIcon from "react-google-material-icons";
+
 // al ser una SFC no se requiere importar Component
 class Operacion extends Component {
-  state = {};
+  state = { expanded: false };
+  toggleExpanded = () => {
+    this.setState({ expanded: !this.state.expanded });
+  };
   render() {
     const { documento: doc, lan } = this.props;
+    const { expanded } = this.state;
     return (
       <div className="card mb-3">
         <div className="card-header  bd-highlight text-primary">
@@ -38,35 +42,17 @@ class Operacion extends Component {
               €
             </div>
 
-            <div className="dropdown p-0 ">
-              <button
-                className="btn btn-secondary btn-sm dropdown-toggle p-1 pb-0"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <MaterialIcon icon="info" size={24} />
-              </button>
-              <div
-                className="dropdown-menu dropdown-menu-right "
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item" href="#">
-                  Ocultar
-                </a>
-                <a className="dropdown-item" href="#">
-                  Artículos
-                </a>
-                <a className="dropdown-item" href="#">
-                  Estado
-                </a>
-              </div>
-            </div>
+            <button
+              className={
+                "btn btn-circle " + (expanded ? "btn-primary" : "btn-secondary")
+              }
+              onClick={this.toggleExpanded}
+            >
+              <strong>{expanded ? "- i" : "+ i"} </strong>
+            </button>
           </div>
         </div>
-        <div className="card-body small ">
+        <div className={"card-body small " + (expanded ? "" : "d-none")}>
           <div className="row">
             <div className="col-1">&nbsp;</div>
             <div className="col-11">

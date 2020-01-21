@@ -134,7 +134,12 @@ const NavBar = props => {
             )}
           </div>
 
-          <div className="nav-item  idiomas d-flex justify-content-end align-items-center">
+          <div
+            className="nav-item  idiomas d-flex justify-content-end align-items-center"
+            data-toggle={windowWidth <= 768 ? "collapse" : ""}
+            data-target="#toggler"
+            aria-controls="toggler"
+          >
             <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
               <MaterialIcon icon="person" size={24} />
             </Link>
