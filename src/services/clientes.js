@@ -1,17 +1,16 @@
 import _ from "lodash";
 import httpService from "./httpService";
-import { getLan } from "./datosWeb";
+
 import config from "../config.json";
-import { toast } from "react-toastify";
-import t from "./clientes.lit.json";
+
 export default async function getClientes(repre) {
   var result = await getData();
-  var lan = getLan();
-  console.log(lan, JSON.stringify(result) === "{}");
+
+  //console.log(lan, JSON.stringify(result) === "{}");
   if (JSON.stringify(result) === "{}") {
     //window.location = "/login";
     console.log("pasa por aqui");
-    toast.error(t.TO[lan]);
+
     sessionStorage.removeItem("cachedData");
     sessionStorage.removeItem("apiToken");
     sessionStorage.removeItem("nombreUsuario");
@@ -30,12 +29,10 @@ export default async function getClientes(repre) {
 export async function getRepres() {
   // TODO :  invocar a un metodo que devuelva solamente los representantes
   var result = await getData();
-  var lan = getLan();
-  console.log(lan, JSON.stringify(result) === "{}");
+
+  //console.log(lan, JSON.stringify(result) === "{}");
   if (JSON.stringify(result) === "{}") {
     //window.location = "/login";
-    console.log("pasa por aqui");
-    toast.error(t.TO[lan]);
     sessionStorage.removeItem("cachedData");
     sessionStorage.removeItem("apiToken");
     sessionStorage.removeItem("nombreUsuario");

@@ -5,7 +5,6 @@ import MaterialIcon from "react-google-material-icons";
 function actualizarEstados(estados, doc) {
   for (var i = 0; i < estados.length; i++) {
     console.log(doc);
-    
   }
 }
 
@@ -69,6 +68,7 @@ const EstadoOperacion = props => {
       {estados.map(estado => {
         return (
           <li
+            key={estado.estado}
             className={
               "list-group-item border-0" +
               (estado.cumplido ? " " : " bg-lighter-gray text-muted")
