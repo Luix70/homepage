@@ -1,29 +1,18 @@
 import React, { Component } from "react";
+import MaterialIcon from "react-google-material-icons";
 
 class DocView extends Component {
   state = {};
   render() {
-    const { tipo, ruta, onClick } = this.props;
+    const { tipo, ruta, onClick, td, cd } = this.props;
     return (
-      <div className="card docThumbnail p-0 m-2 ">
-        <div>
-          <img src={"/docindesan_min.jpg"} className="card-img-top" alt="" />
-          <div className="bg-secondary m-0 p-0 pb-2 card-body text-white row">
-            <div className="col-12 text-center">
-              <h5 className="lead ">{tipo}</h5>
-            </div>
-
-            <div className="col-12 text-center">
-              <button
-                onClick={() => onClick(ruta, tipo)}
-                className="btn btn-primary "
-              >
-                Descargar
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <button
+        onClick={() => onClick(ruta, tipo, td, cd)}
+        className="btn btn-outline  d-flex"
+      >
+        <MaterialIcon icon="picture_as_pdf" size={20}></MaterialIcon>
+        {tipo}
+      </button>
     );
   }
 }

@@ -8,7 +8,7 @@ class Scans extends Component {
   componentDidMount = async () => {
     const { cd, td } = this.props.match.params;
 
-    const scans = await getScans(td, cd, 3);
+    const scans = await getScans(td, cd);
     this.setState({ scans: scans, cd: cd, td: td });
   };
 

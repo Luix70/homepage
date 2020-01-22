@@ -66,7 +66,8 @@ async function getData() {
       const token = sessionStorage.getItem("apiToken");
 
       const { data: liveData } = await httpService.get(nEndPoint, {
-        headers: { Authorization: `Bearer ${token}` }
+        headers: { Authorization: `Bearer ${token}` },
+        timeout: 15000
       });
 
       const nData = JSON.parse(liveData);

@@ -1,8 +1,21 @@
 import React from "react";
-
-const Linea = ({ linea }) => {
+import t from "./linea.lit.json";
+const Linea = ({ linea, isNew, lan }) => {
   return (
     <React.Fragment>
+      {isNew ? (
+        <React.Fragment>
+          <div className="pb-1 mt-3 font-weight-bold border-bottom text-primary border-primary">
+            {"P-" +
+              linea.pedido +
+              ". (" +
+              linea.fechapedido +
+              "). " +
+              t.RE[lan] +
+              linea.referencia}
+          </div>
+        </React.Fragment>
+      ) : null}
       <div className="row">
         <div className="col-1">
           <strong>{linea.coart}</strong>

@@ -1,28 +1,34 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import Linea from "./linea";
-import { Link } from "react-router-dom";
+
 import t from "./operacion.lit.json";
 import EstadoOperacion from "./estadoOperacion";
+import getScans from "../services/archivos";
+
 // al ser una SFC no se requiere importar Component
 class Operacion extends Component {
-  state = { expanded: false };
-  toggleExpanded = () => {
-    this.setState({ expanded: !this.state.expanded });
+  state = { expanded: false, scans: null };
+  toggleExpanded = async () => {
+    if (!this.state.expanded && !this.state.scans) {
+      const { doc } = this.props;
+      const scans = await getScans(doc.tipodoc, doc.codigodoc);
+      this.setState({ scans, expanded: !this.state.expanded });
+    } else {
+      this.setState({ expanded: !this.state.expanded });
+    }
   };
   render() {
     const { doc, lan } = this.props;
-    const { expanded } = this.state;
+    const { expanded, scans } = this.state;
+    console.log(doc);
+    var olddoc = 0;
     return (
       <div className="card mb-3">
-        <div className="card-header  bd-highlight text-primary">
+        <div className="card-header  bd-highlight text-primary py-1 px-2">
           <div className="d-flex justify-content-between">
             <div>
-              <strong>
-                <Link to={`/scans/${doc.tipodoc}/${doc.codigodoc}`}>
-                  {doc.tipodoc + " - " + doc.codigodoc}
-                </Link>{" "}
-              </strong>
+              <strong>{doc.tipodoc + " - " + doc.codigodoc}</strong>
             </div>
 
             <div className="ml-3">
@@ -58,9 +64,22 @@ class Operacion extends Component {
               <h5 className="text-primary">{t.AR[lan]}</h5>
             </div>
             <div className="col-12">
-              {doc.lineas.map(linea => (
-                <Linea key={linea.codLinea} linea={linea} />
-              ))}
+              {doc.lineas.map(linea => {
+                var newdoc = linea.pedido;
+                var isNew = false;
+                if (newdoc !== olddoc) {
+                  isNew = true;
+                  olddoc = newdoc;
+                }
+                return (
+                  <Linea
+                    key={linea.codLinea}
+                    linea={linea}
+                    isNew={isNew}
+                    lan={lan}
+                  />
+                );
+              })}
             </div>
           </div>
           <div className="row m-0 bg-lighter-gray p-4">
@@ -68,7 +87,11 @@ class Operacion extends Component {
               <h5 className="text-primary">{t.ES[lan]}</h5>
             </div>
             <div className="col-12">
-              <EstadoOperacion doc={doc} lan={lan}></EstadoOperacion>
+              <EstadoOperacion
+                doc={doc}
+                lan={lan}
+                scans={scans}
+              ></EstadoOperacion>
             </div>
           </div>
         </div>
