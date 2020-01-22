@@ -232,3 +232,7 @@ ol.carousel-indicators li.active {
 .bg-lighter-gray {
   background-color: rgba(240, 240, 240, 1) !important;
 }
+
+.icon-muted i {
+  color: rgba(200, 200, 200, 1);
+}

@@ -9,7 +9,7 @@ export default async function getClientes(repre) {
   //console.log(lan, JSON.stringify(result) === "{}");
   if (JSON.stringify(result) === "{}") {
     //window.location = "/login";
-    console.log("pasa por aqui");
+    //console.log("pasa por aqui");
 
     sessionStorage.removeItem("cachedData");
     sessionStorage.removeItem("apiToken");
