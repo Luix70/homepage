@@ -48,16 +48,18 @@ class Operacion extends Component {
             </div>
             <div className="col-12 text-secondary pl-4 ">
               {" "}
-              {t.RE[lan]} {doc.referencia}
+              <strong>{t.RE[lan]}</strong> {doc.referencia}
             </div>
           </div>
         </div>
-        <div className={"card-body small p-0 " + (expanded ? "" : "d-none")}>
+        <div
+          className={"card-body small py-0 px-0 " + (expanded ? "" : "d-none")}
+        >
           <div className="row bg-light-gray m-0  p-2">
-            <div className="col-12">
+            <div className="col-12 p-0">
               <h5 className="text-primary">{t.AR[lan]}</h5>
             </div>
-            <div className="col-12">
+            <div className="col-12 px-1">
               {doc.lineas.map(linea => {
                 var newdoc = linea.pedido;
                 var isNew = false;
@@ -77,10 +79,10 @@ class Operacion extends Component {
             </div>
           </div>
           <div className="row m-0 bg-lighter-gray p-2">
-            <div className="col-12">
+            <div className="col-12 px-1">
               <h5 className="text-primary">{t.ES[lan]}</h5>
             </div>
-            <div className="col-12">
+            <div className="col-12 px-0">
               <EstadoOperacion
                 doc={doc}
                 lan={lan}

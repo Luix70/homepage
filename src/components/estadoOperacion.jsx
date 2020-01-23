@@ -54,7 +54,7 @@ function actualizarEstados(estados, doc, scans) {
           estados[i].cumplido = true;
           estados[i].fecha =
             formatFecha(doc.fechaConfirmacion, false) +
-            " (" +
+            " -> (" +
             (doc.confirmadoA || "Fax") +
             ")";
         }
@@ -182,7 +182,7 @@ const EstadoOperacion = props => {
             }
           >
             <div className="row m-0 ">
-              <div className="col-12 col-md-6 m-0 p-2 border-bottom d-flex align-items-center">
+              <div className="col-12 col-md-6 m-0 p-2 px-0 border-bottom d-flex align-items-center">
                 <div
                   className={
                     " custom-btn-circle m-0 mr-2 d-inline border border-dark p-1 " +
@@ -191,7 +191,12 @@ const EstadoOperacion = props => {
                 >
                   <MaterialIcon icon={estado.icono} size={16}></MaterialIcon>
                 </div>
-                {t[estado.estado][lan]} <strong>{estado.fecha}</strong>
+                <div>
+                  <span className="mr-1">{t[estado.estado][lan]} </span>{" "}
+                  <span>
+                    <strong>{estado.fecha}</strong>
+                  </span>
+                </div>
               </div>
               <div className="col-12 col-md-6 bg-lighter-gray p-2 pl-5 border-bottom">
                 {estado.docs.length > 0 ? (

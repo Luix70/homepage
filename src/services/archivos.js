@@ -11,7 +11,7 @@ export default async function getScans(tipodoc, codigodoc) {
 
 async function getData(tipodoc, codigodoc) {
   const nEndPoint = `${config.DataEndPoint}JScans?cd=${codigodoc}&td=${tipodoc}`;
-  console.log(nEndPoint);
+  //console.log(nEndPoint);
   try {
     const { data: liveData } = await httpService.get(nEndPoint);
 
