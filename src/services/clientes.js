@@ -67,7 +67,7 @@ async function getData() {
 
       const { data: liveData } = await httpService.get(nEndPoint, {
         headers: { Authorization: `Bearer ${token}` },
-        timeout: 15000
+        timeout: 30000
       });
 
       const nData = JSON.parse(liveData);

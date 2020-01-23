@@ -20,9 +20,9 @@
     "fr": "Finie: "
   },
   "EN": {
-    "es": "Enviado: ",
-    "en": "Shipped: ",
-    "fr": "Livrée en agence: "
+    "es": "Envío: ",
+    "en": "Shipping: ",
+    "fr": "Livraison: "
   },
   "FA": {
     "es": "Facturado: ",
@@ -93,5 +93,10 @@
     "es": "Facturas: ",
     "en": "Invoices: ",
     "fr": "Factures "
+  },
+  "40": {
+    "es": "Confirmaciones: ",
+    "en": "Confirmations: ",
+    "fr": "Confirmations: "
   }
 }
