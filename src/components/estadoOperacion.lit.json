@@ -38,5 +38,55 @@
     "es": "DOCS ASOCIADOS ",
     "en": "ASSOCIATED DOCS ",
     "fr": "DOCUMENTS ASSOCIÉS "
+  },
+  "1": {
+    "es": "Pedidos: ",
+    "en": "Orders: ",
+    "fr": "Commandes: "
+  },
+  "2": {
+    "es": "Albaranes: ",
+    "en": "Waybills: ",
+    "fr": "Bull. de livraison: "
+  },
+  "3": {
+    "es": "Facturas: ",
+    "en": "Invoices: ",
+    "fr": "Factures "
+  },
+  "8": {
+    "es": "Confirmaciones: ",
+    "en": "Confirmations: ",
+    "fr": "Confirmations: "
+  },
+  "11": {
+    "es": "Solicitudes de Informacion: ",
+    "en": "Requests for info: ",
+    "fr": "Demandes d'info: "
+  },
+  "21": {
+    "es": "Avisos de Cobro: ",
+    "en": "Notice of payment: ",
+    "fr": "Demande de payement: "
+  },
+  "26": {
+    "es": "Ordenes de recogida: ",
+    "en": "Collection orders: ",
+    "fr": "Demande de reprise: "
+  },
+  "28": {
+    "es": "Confirmaciones: ",
+    "en": "Confirmations: ",
+    "fr": "Confirmations: "
+  },
+  "29": {
+    "es": "Facturas Proforma: ",
+    "en": "Proforma invoices: ",
+    "fr": "Factures Proforma: "
+  },
+  "34": {
+    "es": "Facturas: ",
+    "en": "Invoices: ",
+    "fr": "Factures "
   }
 }

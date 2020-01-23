@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import Linea from "./linea";
-
 import t from "./operacion.lit.json";
 import EstadoOperacion from "./estadoOperacion";
 import getScans from "../services/archivos";
@@ -21,31 +20,18 @@ class Operacion extends Component {
   render() {
     const { doc, lan } = this.props;
     const { expanded, scans } = this.state;
-    console.log(doc);
+    //console.log(doc);
     var olddoc = 0;
     return (
       <div className="card mb-3">
-        <div className="card-header  bd-highlight text-primary py-1 px-2">
-          <div className="d-flex justify-content-between">
-            <div>
-              <strong>{doc.tipodoc + " - " + doc.codigodoc}</strong>
+        <div className="card-header  bd-highlight text-primary py-0 px-2 ">
+          <div className="row py-1">
+            <div className="col-8  d-flex align-items-center">
+              <strong>{doc.tipodoc + " - " + doc.codigodoc}</strong>&nbsp;
+              {"(" + doc.fechadoc.replace(" 0:00:00", "") + ") "}
             </div>
 
-            <div className="ml-3">
-              {t.DA[lan]}
-              {doc.fechadoc.replace(" 0:00:00", "")}
-            </div>
-            <div className="ml-3">
-              {" "}
-              {t.RE[lan]} {doc.referencia}
-            </div>
-
-            <div className="ml-3 text-right">
-              <b>
-                {t.BR[lan]}
-                {Number.parseFloat(doc.Importebruto).toFixed(2)}{" "}
-              </b>
-              €
+            <div className="col-4  d-flex align-items-center flex-row-reverse">
               <button
                 className={
                   "btn custom-btn-circle " +
@@ -55,11 +41,19 @@ class Operacion extends Component {
               >
                 <strong>{expanded ? "- i" : "+ i"} </strong>
               </button>
+              €
+              <span className="mx-1">
+                <b>{Number.parseFloat(doc.Importebruto).toFixed(2)} </b>
+              </span>{" "}
+            </div>
+            <div className="col-12 text-secondary pl-4 ">
+              {" "}
+              {t.RE[lan]} {doc.referencia}
             </div>
           </div>
         </div>
         <div className={"card-body small p-0 " + (expanded ? "" : "d-none")}>
-          <div className="row bg-light-gray m-0  p-4">
+          <div className="row bg-light-gray m-0  p-2">
             <div className="col-12">
               <h5 className="text-primary">{t.AR[lan]}</h5>
             </div>
@@ -82,7 +76,7 @@ class Operacion extends Component {
               })}
             </div>
           </div>
-          <div className="row m-0 bg-lighter-gray p-4">
+          <div className="row m-0 bg-lighter-gray p-2">
             <div className="col-12">
               <h5 className="text-primary">{t.ES[lan]}</h5>
             </div>

@@ -169,7 +169,7 @@ const EstadoOperacion = props => {
   ];
 
   actualizarEstados(estados, doc, scans);
-
+  //console.log(estados);
   return (
     <ul className="list-group border-0">
       {estados.map(estado => {
@@ -177,23 +177,26 @@ const EstadoOperacion = props => {
           <li
             key={estado.estado}
             className={
-              "list-group-item border-0  m-0 p-1" +
+              "list-group-item border-0  m-0 p-0 border-bottom" +
               (estado.cumplido ? " " : " bg-lighter-gray text-muted")
             }
           >
-            <div className="row m-0 p-0">
-              <div className="col-6  m-0 p-0">
-                <button
+            <div className="row m-0 ">
+              <div className="col-12 col-md-6 m-0 p-2 border-bottom d-flex align-items-center">
+                <div
                   className={
-                    "btn btn-outline-dark custom-btn-circle m-0 mr-2 " +
+                    " custom-btn-circle m-0 mr-2 d-inline border border-dark p-1 " +
                     (estado.cumplido ? " " : " icon-muted border-0")
                   }
                 >
-                  <MaterialIcon icon={estado.icono} size={20}></MaterialIcon>
-                </button>
+                  <MaterialIcon icon={estado.icono} size={16}></MaterialIcon>
+                </div>
                 {t[estado.estado][lan]} <strong>{estado.fecha}</strong>
               </div>
-              <div className="col-6 ">
+              <div className="col-12 col-md-6 bg-lighter-gray p-2 pl-5 border-bottom">
+                {estado.docs.length > 0 ? (
+                  <span>{t[estado.docs[0].codTipo][lan]}</span>
+                ) : null}
                 {estado.docs.map(scan => {
                   return (
                     <DocView
