@@ -39,6 +39,11 @@
     "en": "ASSOCIATED DOCS ",
     "fr": "DOCUMENTS ASSOCIÉS "
   },
+  "PV": {
+    "es": " (PREVISTO) ",
+    "en": " (ESTIMATED) ",
+    "fr": " (PRÉVU) "
+  },
   "1": {
     "es": "Pedidos: ",
     "en": "Orders: ",

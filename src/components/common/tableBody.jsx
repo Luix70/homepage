@@ -7,13 +7,13 @@ class TableBody extends Component {
 
     if (campo.content)
       return (
-        <td key={campo.path} colSpan={campo.colSpan}>
+        <td key={campo.path} colSpan={campo.colSpan} className="py-0 m-0">
           {campo.content(item)}
         </td>
       );
     //campo.content es una función, y se la llama con el argumento item
     return (
-      <td key={campo.path} colSpan={campo.colSpan}>
+      <td key={campo.path} colSpan={campo.colSpan} className="py-0 m-0">
         {_.get(item, campo.path)}
       </td>
     );
@@ -24,7 +24,7 @@ class TableBody extends Component {
     return (
       <tbody>
         {listaElementos.map(item => (
-          <tr key={item[campoClave]}>
+          <tr key={item[campoClave]} className="py-0 m-0">
             {listaCampos.map(campo => this.renderCell(item, campo, lan))}
           </tr>
         ))}

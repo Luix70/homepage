@@ -10,7 +10,7 @@ class DocView extends Component {
         onClick={() => onClick(ruta, tipo, td, cd)}
         className="btn btn-outline px-1 mx-1 py-0"
       >
-        <MaterialIcon icon="picture_as_pdf" size={20}></MaterialIcon>
+        <MaterialIcon icon="picture_as_pdf" size={40}></MaterialIcon>
       </button>
     );
   }

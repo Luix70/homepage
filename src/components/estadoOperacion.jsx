@@ -32,7 +32,7 @@ function handleClick(ruta, tipo, td, cd) {
   toast.success("Archivo descargado. Revisa las descargas de tu navegador");
 }
 
-function actualizarEstados(estados, doc, scans) {
+function actualizarEstados(estados, doc, scans, lan) {
   //console.log(doc);
 
   for (var i = 0; i < estados.length; i++) {
@@ -94,7 +94,9 @@ function actualizarEstados(estados, doc, scans) {
         } else {
           if (doc.tipodoc !== "P") {
             estados[i].cumplido = true;
-            estados[i].fecha = formatFecha(doc.fechadoc, false);
+            estados[i].fecha = formatFecha(doc.fecha2, false);
+          } else {
+            estados[i].fecha = formatFecha(doc.fecha2, false) + t.PV[lan];
           }
         }
         break;
@@ -168,7 +170,7 @@ const EstadoOperacion = props => {
     }
   ];
 
-  actualizarEstados(estados, doc, scans);
+  actualizarEstados(estados, doc, scans, lan);
   //console.log(estados);
   return (
     <ul className="list-group border-0">
