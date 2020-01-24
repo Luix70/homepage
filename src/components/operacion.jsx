@@ -24,7 +24,10 @@ class Operacion extends Component {
     var olddoc = 0;
     return (
       <div className="card mb-3">
-        <div className="card-header  bd-highlight text-primary py-0 px-2 ">
+        <div
+          className="card-header  bd-highlight text-primary py-0 px-2 "
+          onClick={this.toggleExpanded}
+        >
           <div className="row py-1">
             <div className="col-8  d-flex align-items-center">
               <strong>{doc.tipodoc + " - " + doc.codigodoc}</strong>&nbsp;
@@ -37,7 +40,6 @@ class Operacion extends Component {
                   "btn custom-btn-circle " +
                   (expanded ? "btn-primary" : "btn-secondary")
                 }
-                onClick={this.toggleExpanded}
               >
                 <strong>{expanded ? "- i" : "+ i"} </strong>
               </button>

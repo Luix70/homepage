@@ -9,13 +9,20 @@ import {
   Linkedin,
   Tumblr
 } from "react-social-sharing";
-import { MobileView } from "react-device-detect";
+import {
+  MobileView,
+  BrowserView,
+  isAndroid,
+  isIOS,
+  deviceDetect
+} from "react-device-detect";
 
 import t from "./footer.lit.json";
 // import Direcciones from "./common/direcciones.jsx";
 
 const Footer = props => {
   const { lan } = props;
+  console.log(deviceDetect());
   return (
     <div className="row w-100 mx-0 bg-dark">
       {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
@@ -83,14 +90,46 @@ const Footer = props => {
           message="Compartir en Linkedin"
         ></Linkedin>
         <h5 className="lead">{t.SN[lan]}</h5>
-        <a href="https://www.facebook.com/ComercialIndesan/">
-          <img
-            src={`/resources/img/fb_${lan}.png`}
-            alt="facebook"
-            width="256px"
-            height="auto"
-          />
-        </a>
+        <BrowserView>
+          <a href="https://www.facebook.com/ComercialIndesan/">
+            <img
+              src={`/resources/img/fb_${lan}.png`}
+              alt="facebook"
+              width="256px"
+              height="auto"
+            />
+          </a>
+        </BrowserView>
+        <MobileView>
+          {isAndroid ? (
+            <a href="intent://#Intent;package=com.facebook.katana;scheme=fb://profile/247180775370248;end">
+              <img
+                src={`/resources/img/fb_${lan}.png`}
+                alt="facebook"
+                width="256px"
+                height="auto"
+              />
+            </a>
+          ) : isIOS ? (
+            <a href="fb://profile/247180775370248">
+              <img
+                src={`/resources/img/fb_${lan}.png`}
+                alt="facebook"
+                width="256px"
+                height="auto"
+              />
+            </a>
+          ) : (
+            <a href="https://www.facebook.com/ComercialIndesan/">
+              <img
+                src={`/resources/img/fb_${lan}.png`}
+                alt="facebook"
+                width="256px"
+                height="auto"
+              />
+            </a>
+          )}
+        </MobileView>
       </div>
     </div>
   );
