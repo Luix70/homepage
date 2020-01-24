@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import _ from "lodash";
-import Table from "./common/table";
+
 import Cliente from "./cliente";
-import t from "./representante.lit.json";
+//import t from "./representante.lit.json";
 
 class Representante extends Component {
   state = {
@@ -38,35 +38,9 @@ class Representante extends Component {
       [sortColumn.order]
     );
 
-    const listaCampos = [
-      {
-        path: "codigo",
-        label: t.CO[lan],
-        content: item => <Cliente key={item.codigo} cliente={item} lan={lan} />,
-        colSpan: "4",
-        width: "15%"
-      },
-      { path: "rzs", label: t.CL[lan], colSpan: "0", width: "60%" },
-      { path: "totalDocumentos", label: t.DO[lan], colSpan: "0", width: "15%" },
-      { path: "dummy", label: " ", colSpan: "0", width: "10%" }
-    ];
-
-    return (
-      <React.Fragment>
-        {/* <div className="row encab-representante">
-          <span>Representante: {repres.nombre}</span>
-        </div> */}
-
-        <Table
-          listaOrdenada={listaOrdenada}
-          listaCampos={listaCampos}
-          campoClave={"codigo"}
-          sortColumn={sortColumn}
-          onSort={this.handleSortCustomers}
-          lan={lan}
-        />
-      </React.Fragment>
-    );
+    return listaOrdenada.map(cli => (
+      <Cliente cli={cli} lan={lan} key={cli.codigo}></Cliente>
+    ));
   }
 }
 

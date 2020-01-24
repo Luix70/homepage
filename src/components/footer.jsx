@@ -13,8 +13,7 @@ import {
   MobileView,
   BrowserView,
   isAndroid,
-  isIOS,
-  deviceDetect
+  isIOS //,  deviceDetect
 } from "react-device-detect";
 
 import t from "./footer.lit.json";
@@ -22,7 +21,7 @@ import t from "./footer.lit.json";
 
 const Footer = props => {
   const { lan } = props;
-  console.log(deviceDetect());
+  // console.log(deviceDetect());
   return (
     <div className="row w-100 mx-0 bg-dark">
       {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">

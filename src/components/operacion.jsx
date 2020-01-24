@@ -23,7 +23,7 @@ class Operacion extends Component {
     //console.log(doc);
     var olddoc = 0;
     return (
-      <div className="card mb-3">
+      <div className="card mb-3 ">
         <div
           className="card-header  bd-highlight text-primary py-0 px-2 "
           onClick={this.toggleExpanded}

@@ -44,7 +44,7 @@ const NavBar = props => {
 
   function userStyle(badgeUser) {
     const baseBadgeStyle = "badge badge-pill mr-2 mt-0 py-2 ";
-    const userKnownBadgeStyle = " badge-info";
+    const userKnownBadgeStyle = " badge-primary";
     const userUnknownBadgeStyle = " badge-light";
 
     return badgeUser
