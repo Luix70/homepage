@@ -30,7 +30,7 @@ class Operacion extends Component {
         >
           <div className="row py-1">
             <div className="col-8  d-flex align-items-center">
-              <strong>{doc.tipodoc + " - " + doc.codigodoc}</strong>&nbsp;
+              <strong>{doc.tipodoc + doc.codigodoc}</strong>&nbsp;
               {"(" + doc.fechadoc.replace(" 0:00:00", "") + ") "}
             </div>
 

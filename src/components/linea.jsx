@@ -7,7 +7,7 @@ const Linea = ({ linea, isNew, lan }) => {
         <React.Fragment>
           <div className="row pb-1 px-2 mt-3  border-bottom border-top  text-primary border-light">
             <div className="col-12 col-md-3 font-weight-bold px-1">
-              {"P-" + linea.pedido + ". (" + linea.fechapedido + ") "}
+              {"P" + linea.pedido + ". (" + linea.fechapedido + ") "}
             </div>
             <div className="col-12 col-md-9 font-italic pl-4">
               {t.RE[lan] + linea.referencia}
