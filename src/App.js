@@ -12,7 +12,9 @@ import LoginForm from "./components/loginForm";
 import Scans from "./components/scans";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
-
+import CookieConsent from "react-cookie-consent";
+import Cookies from "js-cookie";
+import t from "./App.lit.json";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import "./Custom.css";
@@ -31,6 +33,14 @@ class App extends Component {
   componentDidMount = async () => {
     const jwt = sessionStorage.getItem("apiToken");
     var payload = null;
+    //primero comprobamos la cookie
+    var co = Cookies.get("CookieConsent");
+
+    if (co === "false") {
+      Cookies.remove("CookieConsent");
+      window.location.reload(false);
+    }
+
     try {
       payload = jwt_decode(jwt);
       //console.log(payload);
@@ -90,6 +100,28 @@ class App extends Component {
     return (
       <div className="container-fluid p-0 m-0 min-vh-100 bg-light ">
         <ToastContainer></ToastContainer>
+        <CookieConsent
+          buttonText={t.AC[lan]}
+          style={{ background: "#2B2B2B" }}
+          buttonStyle={{
+            backgroundColor: "#0275d8",
+            color: "#fff",
+            fontSize: "1em"
+          }}
+          enableDeclineButton
+          onDecline={() => {
+            window.location = "https://google.com";
+          }}
+          declineButtonText={t.CA[lan]}
+          declineButtonStyle={{
+            backgroundColor: "#d9534f",
+            color: "#fff",
+            fontSize: "1em"
+          }}
+          flipButtons
+        >
+          {t.ME[lan]}
+        </CookieConsent>
         <div
           className="row panel w-100 m-0  
          min-vh-100 no-gutters"
