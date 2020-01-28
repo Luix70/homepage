@@ -88,7 +88,7 @@ const NavBar = props => {
               ></CollectionsDropDown>
             </div>
             <div
-              data-toggle={windowWidth <= 768 ? "collapse" : ""}
+              data-toggle={windowWidth < 768 ? "collapse" : ""}
               data-target="#toggler"
               aria-controls="toggler"
             >
@@ -101,7 +101,7 @@ const NavBar = props => {
               <React.Fragment>
                 <div
                   className="nav-item"
-                  data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                  data-toggle={windowWidth < 768 ? "collapse" : ""}
                   data-target="#toggler"
                   aria-controls="toggler"
                 >
@@ -111,7 +111,7 @@ const NavBar = props => {
                 </div>
                 <div
                   className="nav-item"
-                  data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                  data-toggle={windowWidth < 768 ? "collapse" : ""}
                   data-target="#toggler"
                   aria-controls="toggler"
                 >
@@ -123,7 +123,7 @@ const NavBar = props => {
             ) : (
               <div
                 className="nav-item"
-                data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                data-toggle={windowWidth < 768 ? "collapse" : ""}
                 data-target="#toggler"
                 aria-controls="toggler"
               >
@@ -136,7 +136,7 @@ const NavBar = props => {
 
           <div
             className="nav-item  idiomas d-flex justify-content-end align-items-center"
-            data-toggle={windowWidth <= 768 ? "collapse" : ""}
+            data-toggle={windowWidth < 768 ? "collapse" : ""}
             data-target="#toggler"
             aria-controls="toggler"
           >
@@ -172,7 +172,7 @@ const NavBar = props => {
               <div
                 className="dropdown-menu dropdown-menu-right "
                 aria-labelledby="dropdownMenuButton"
-                data-toggle={windowWidth <= 768 ? "collapse" : ""}
+                data-toggle={windowWidth < 768 ? "collapse" : ""}
                 data-target="#toggler"
                 aria-controls="toggler"
               >

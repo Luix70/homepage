@@ -9,7 +9,7 @@ import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
-import Scans from "./components/scans";
+
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
@@ -186,12 +186,6 @@ class App extends Component {
                     {...props}
                   />
                 )}
-              />
-              <Route
-                path="/scans/:td/:cd"
-                component={Scans}
-                modoEdit={modoEdit}
-                usuario={usuario}
               />
 
               <Redirect to="/" />
