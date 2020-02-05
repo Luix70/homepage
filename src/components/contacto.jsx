@@ -52,7 +52,8 @@ class Contacto extends Form {
       var dirApp = apiDataEndPoint;
       var dirMail = apiEndPoint;
 
-      console.log(dirMail);
+      //console.log(dirMail);
+
       const { data } = await http.post(
         dirMail + "/mail/send/",
         this.state.data
@@ -65,7 +66,7 @@ class Contacto extends Form {
       //   this.state.data
       // );
 
-      console.log(data);
+      //console.log(data);
 
       if (data.status === "recibido" || data.status === "success") {
         toast.success(t.SU[lan], {
@@ -74,6 +75,10 @@ class Contacto extends Form {
 
         this.setState({
           data: { email: "", nombre: "", telefono: "", mensaje: "" }
+        });
+      } else {
+        toast.error(t.ER[lan], {
+          position: toast.POSITION.TOP_RIGHT
         });
       }
     } catch (error) {
