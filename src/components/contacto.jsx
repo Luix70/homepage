@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import { apiDataEndPoint, apiEndPoint } from "../config.json";
 import { toast } from "react-toastify";
 import t from "./contacto.lit.json";
 
@@ -45,14 +45,28 @@ class Contacto extends Form {
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
     // console.log(this.state.data);
     try {
+      // Para enviarlo Por correo electronico
+      //
+
+      // eslint-disable-next-line no-unused-vars
+      var dirApp = apiDataEndPoint;
+      var dirMail = apiEndPoint;
+
       const { data } = await http.post(
-        apiDataEndPoint + "login/mensaje/",
+        dirMail + "/mail/send/",
         this.state.data
       );
 
-      //console.log(data);
+      // Para enviarlo a la aplicacion de indesan
+      //
+      // const { data } = await http.post(
+      //   dirApp + "login/mensaje/",
+      //   this.state.data
+      // );
 
-      if (data.status === "recibido") {
+      console.log(data);
+
+      if (data.status === "recibido" || data.status === "success") {
         toast.success(t.SU[lan], {
           position: toast.POSITION.TOP_RIGHT
         });
