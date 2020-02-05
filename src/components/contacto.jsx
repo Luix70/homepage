@@ -52,6 +52,7 @@ class Contacto extends Form {
       var dirApp = apiDataEndPoint;
       var dirMail = apiEndPoint;
 
+      console.log(dirMail);
       const { data } = await http.post(
         dirMail + "/mail/send/",
         this.state.data
