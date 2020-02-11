@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Representante from "./representante";
+import Buscador from "./buscador";
 class ListaRepresentantes extends Component {
   shouldComponentUpdate() {
     return true;
@@ -14,6 +15,8 @@ class ListaRepresentantes extends Component {
     //);
     return (
       <React.Fragment>
+        <Buscador lan={lan} onSearch={this.onSearch}></Buscador>
+
         {resultConsulta === null ? (
           <span>&nbsp;</span>
         ) : (
