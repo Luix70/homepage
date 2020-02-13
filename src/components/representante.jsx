@@ -24,7 +24,7 @@ class Representante extends Component {
   };
 
   render() {
-    const { repres, lan } = this.props;
+    const { repres, lan, criterio, enCurso, facturados } = this.props;
     const { sortColumn } = this.state;
     const listaclientes = repres.Clientes;
     //console.log(repres.Clientes);
@@ -38,9 +38,18 @@ class Representante extends Component {
       [sortColumn.order]
     );
 
-    return listaOrdenada.map(cli => (
-      <Cliente cli={cli} lan={lan} key={cli.codigo}></Cliente>
-    ));
+    return listaOrdenada.map(cli => {
+      return (
+        <Cliente
+          cli={cli}
+          lan={lan}
+          key={cli.codigo}
+          criterio={criterio}
+          enCurso={enCurso}
+          facturados={facturados}
+        ></Cliente>
+      );
+    });
   }
 }
 

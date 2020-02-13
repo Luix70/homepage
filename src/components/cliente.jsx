@@ -1,7 +1,7 @@
 import React from "react";
 // al ser una SFC no se requiere importar Component
 import Operacion from "./operacion";
-const Cliente = ({ cli, lan }) => {
+const Cliente = ({ cli, lan, criterio, enCurso, facturados }) => {
   return (
     <div className="container-fluid">
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
@@ -18,9 +18,19 @@ const Cliente = ({ cli, lan }) => {
       </div>
       <div className="row" key={cli.codigo + "-ops"}>
         <div className="col-12 mt-3 ">
-          {cli.documentos.map(doc => (
-            <Operacion key={doc.tipodoc + doc.codigodoc} doc={doc} lan={lan} />
-          ))}
+          {cli.documentos.map(doc => {
+            //console.log(facturados, enCurso, doc.tipodoc);
+            if (!enCurso && (doc.tipodoc === "P" || doc.tipodoc === "A"))
+              return null;
+            if (!facturados && doc.tipodoc === "F") return null;
+            return (
+              <Operacion
+                key={doc.tipodoc + doc.codigodoc}
+                doc={doc}
+                lan={lan}
+              />
+            );
+          })}
         </div>
       </div>
     </div>
