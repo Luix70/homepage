@@ -28,13 +28,18 @@ class Operacion extends Component {
           className="card-header  bd-highlight text-primary py-0 px-2 "
           onClick={this.toggleExpanded}
         >
-          <div className="row py-1">
+          <div
+            className="row py-1"
+            style={{
+              cursor: "pointer"
+            }}
+          >
             <div className="col-8  d-flex align-items-center">
               <strong>{doc.tipodoc + doc.codigodoc}</strong>&nbsp;
               {"(" + doc.fechadoc.replace(" 0:00:00", "") + ") "}
             </div>
 
-            <div className="col-4  d-flex align-items-center flex-row-reverse">
+            <div className="col-4 d-flex align-items-center flex-row-reverse">
               <button
                 className={
                   "btn custom-btn-circle " +
