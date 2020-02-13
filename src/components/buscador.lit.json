@@ -1,7 +1,12 @@
 {
   "BU": {
-    "es": "BÚSQUEDA",
-    "en": "SEARCH",
-    "fr": "RECHERCHER"
+    "es": "FILTRO",
+    "en": "FILTER",
+    "fr": "FILTRE"
+  },
+  "HI": {
+    "es": "Cliente / Referencia de pedido / Código de artículo",
+    "en": "Customer / Reference / Article Code",
+    "fr": "Contremarque / Cliente / Code d'article"
   }
 }
