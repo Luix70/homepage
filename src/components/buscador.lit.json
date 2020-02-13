@@ -7,6 +7,31 @@
   "HI": {
     "es": "Cliente / Referencia de pedido / Código de artículo",
     "en": "Customer / Reference / Article Code",
-    "fr": "Contremarque / Cliente / Code d'article"
+    "fr": "Contremarque / Client / Code d'article"
+  },
+  "PC": {
+    "es": "Pedidos en curso",
+    "en": "Open Orders",
+    "fr": "Commandes en cours"
+  },
+  "PF": {
+    "es": "Pedidos finalizados",
+    "en": "Archived Orders",
+    "fr": "Commandes finies"
+  },
+  "CB": {
+    "es": "Criterio de búsqueda",
+    "en": "Search Criteria",
+    "fr": "Critère de recherche"
+  },
+  "AF": {
+    "es": "Aplicar Filtro",
+    "en": "Apply Filter",
+    "fr": "Appliquer filtre"
+  },
+  "QF": {
+    "es": "Quitar Filtro",
+    "en": "Remove Filter",
+    "fr": "Supprimmer Filtre"
   }
 }

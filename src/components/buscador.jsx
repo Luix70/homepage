@@ -72,8 +72,9 @@ class Buscador extends Component {
         </div>
 
         <div
-          className={"col-12    " + (expandido ? "d-block" : "d-none")}
-          style={{ backgroundColor: "rgba(200,200,200,1)" }}
+          className={
+            "col-12  bg-secondary  " + (expandido ? "d-block" : "d-none")
+          }
         >
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4 px-5">
@@ -86,7 +87,7 @@ class Buscador extends Component {
                   onChange={this.toggleEnCurso}
                 />
                 <label className="custom-control-label" htmlFor="customSwitch1">
-                  Pedidos en curso
+                  {t.PC[lan]}
                 </label>
               </div>
               <div className="custom-control custom-switch  my-3">
@@ -98,18 +99,18 @@ class Buscador extends Component {
                   onChange={this.toggleFacturados}
                 />
                 <label className="custom-control-label" htmlFor="customSwitch2">
-                  Pedidos finalizados
+                  {t.PF[lan]}
                 </label>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 px-5">
+            <div className="col-12 col-md-6 col-lg-3 px-5">
               <div className="form-group my-3">
                 <input
                   type="text"
                   className="form-control"
                   id="criterioBusq"
                   aria-describedby="criterioBusq"
-                  placeholder="Criterio de búsqueda"
+                  placeholder={t.CB[lan]}
                   onChange={this.saveCriterio}
                   value={this.state.tmpCriterio}
                 ></input>
@@ -117,26 +118,26 @@ class Buscador extends Component {
                   id="emailHelp"
                   className="form-text text-muted font-italic pl-3"
                 >
-                  {t.HI[lan]}
+                  <p className="text-light">{t.HI[lan]}</p>
                 </small>
               </div>
             </div>
-            <div className="col-12 col-lg-4 px-5  d-flex justify-content-around align-items-center">
+            <div className="col-12 col-lg-5 px-5  d-flex justify-content-around align-items-center">
               <div className="form-group w-100 d-flex justify-content-around">
                 <button
                   type="button"
                   className="btn btn-danger  "
                   onClick={this.setFilter}
                 >
-                  Aplicar Filtro
+                  {t.AF[lan]}
                 </button>
 
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-success"
                   onClick={this.clearFilter}
                 >
-                  Quitar Fltro
+                  {t.QF[lan]}
                 </button>
               </div>
             </div>
