@@ -2,58 +2,25 @@ import React, { Component } from "react";
 import MaterialIcon from "react-google-material-icons";
 import t from "./buscador.lit.json";
 class Buscador extends Component {
-  state = {
-    expandido: false,
-    criterio: "",
-    enCurso: true,
-    facturados: true,
-    tmpCriterio: ""
-  };
-  onExpand = () => {
-    const exp = !this.state.expandido;
-    this.setState({ expandido: exp });
-  };
-
-  toggleFacturados = () => {
-    const facturados = !this.state.facturados;
-    this.setState({ facturados });
-  };
-
-  toggleEnCurso = () => {
-    const enCurso = !this.state.enCurso;
-    this.setState({ enCurso });
-  };
-  setFilter = async () => {
-    const criterio = this.state.tmpCriterio;
-
-    await this.setState({ criterio, expandido: false });
-    // console.log(this.state.criterio);
-  };
-
-  clearFilter = () => {
-    this.setState({
-      criterio: "",
-      tmpCriterio: "",
-      enCurso: true,
-      facturados: true,
-      expandido: false
-    });
-  };
-
-  saveCriterio = async event => {
-    const valor = event.target.value;
-
-    await this.setState({ tmpCriterio: valor });
-    //console.log(this.state.tmpCriterio);
-  };
-
   render() {
-    const { expandido, enCurso, facturados, criterio } = this.state;
-    const { lan } = this.props;
+    const {
+      lan,
+      onExpand,
+      toggleEnCurso,
+      toggleFacturados,
+      setFilter,
+      clearFilter,
+      saveCriterio,
+      expandido,
+      criterio,
+      tmpCriterio,
+      enCurso,
+      facturados
+    } = this.props;
     return (
       <div className="row">
         <div
-          onClick={this.onExpand}
+          onClick={onExpand}
           className={
             "col-12 d-flex justify-content-around text-light " +
             (enCurso && facturados && criterio === ""
@@ -84,7 +51,7 @@ class Buscador extends Component {
                   className="custom-control-input"
                   id="customSwitch1"
                   checked={enCurso}
-                  onChange={this.toggleEnCurso}
+                  onChange={toggleEnCurso}
                 />
                 <label className="custom-control-label" htmlFor="customSwitch1">
                   {t.PC[lan]}
@@ -96,7 +63,7 @@ class Buscador extends Component {
                   className="custom-control-input"
                   id="customSwitch2"
                   checked={facturados}
-                  onChange={this.toggleFacturados}
+                  onChange={toggleFacturados}
                 />
                 <label className="custom-control-label" htmlFor="customSwitch2">
                   {t.PF[lan]}
@@ -111,8 +78,8 @@ class Buscador extends Component {
                   id="criterioBusq"
                   aria-describedby="criterioBusq"
                   placeholder={t.CB[lan]}
-                  onChange={this.saveCriterio}
-                  value={this.state.tmpCriterio}
+                  onChange={saveCriterio}
+                  value={tmpCriterio}
                 ></input>
                 <small
                   id="emailHelp"
@@ -127,7 +94,7 @@ class Buscador extends Component {
                 <button
                   type="button"
                   className="btn btn-danger  "
-                  onClick={this.setFilter}
+                  onClick={setFilter}
                 >
                   {t.AF[lan]}
                 </button>
@@ -135,7 +102,7 @@ class Buscador extends Component {
                 <button
                   type="button"
                   className="btn btn-success"
-                  onClick={this.clearFilter}
+                  onClick={clearFilter}
                 >
                   {t.QF[lan]}
                 </button>
