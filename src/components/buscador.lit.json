@@ -5,9 +5,9 @@
     "fr": "FILTRE"
   },
   "HI": {
-    "es": "Cliente / Referencia/ Artículo",
-    "en": "Customer / Reference / Article",
-    "fr": "Contremarque / Client / Article"
+    "es": "Cliente, Referencia, Artículo...",
+    "en": "Customer, Reference, Article...",
+    "fr": "Contremarque, Client, Article..."
   },
   "PC": {
     "es": "Pedidos en curso",

@@ -17,11 +17,13 @@ class Operacion extends Component {
       this.setState({ expanded: !this.state.expanded });
     }
   };
+
   render() {
-    const { doc, lan } = this.props;
+    const { doc, lan, criterioDocs } = this.props;
     const { expanded, scans } = this.state;
-    //console.log(doc);
+
     var olddoc = 0;
+
     return (
       <div className="card mb-3 ">
         <div

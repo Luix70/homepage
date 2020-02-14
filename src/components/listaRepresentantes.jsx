@@ -43,6 +43,8 @@ class ListaRepresentantes extends Component {
     const valor = event.target.value;
 
     await this.setState({ tmpCriterio: valor });
+
+    //console.log(this.state.tmpCriterio);
   };
 
   shouldComponentUpdate() {
