@@ -1,6 +1,7 @@
 import React from "react";
 import t from "./linea.lit.json";
-const Linea = ({ linea, isNew, lan }) => {
+import Highlighter from "react-highlight-words";
+const Linea = ({ linea, isNew, lan, criterioDocs }) => {
   return (
     <React.Fragment>
       {isNew ? (
@@ -17,9 +18,21 @@ const Linea = ({ linea, isNew, lan }) => {
       ) : null}
       <div className="row px-2">
         <div className="col-2 col-md-1 p-0 pl-2">
-          <strong>{linea.coart}</strong>
+          <strong>
+            <Highlighter
+              searchWords={[criterioDocs]}
+              autoEscape={true}
+              textToHighlight={linea.coart}
+            ></Highlighter>
+          </strong>
         </div>
-        <div className="col-7 col-md-9 p-0">{linea.descripcion}</div>
+        <div className="col-7 col-md-9 p-0">
+          <Highlighter
+            searchWords={[criterioDocs]}
+            autoEscape={true}
+            textToHighlight={linea.descripcion}
+          ></Highlighter>
+        </div>
         <div
           className={
             linea.cantidad === 1 || linea.cantidad === 0
@@ -38,7 +51,11 @@ const Linea = ({ linea, isNew, lan }) => {
       <div className="row mb-2">
         <div className="col-2 col-md-1 p-0">&nbsp;</div>
         <div className="col-7 col-md-9 p-0 pl-2 text-muted  font-italic">
-          {linea.ref_linea}
+          <Highlighter
+            searchWords={[criterioDocs]}
+            autoEscape={true}
+            textToHighlight={linea.ref_linea}
+          ></Highlighter>
         </div>
       </div>
     </React.Fragment>

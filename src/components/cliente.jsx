@@ -1,6 +1,7 @@
 import React from "react";
 // al ser una SFC no se requiere importar Component
 import Operacion from "./operacion";
+import Highlighter from "react-highlight-words";
 
 const isInDoc = (doc, criterio, enCurso, facturados) => {
   var InDoc = false;
@@ -50,9 +51,20 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
     <div className="container-fluid">
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
         <div className="col-12 lead">
-          <strong>{rzs}</strong>
+          <strong>
+            {" "}
+            <Highlighter
+              searchWords={[criterio]}
+              autoEscape={true}
+              textToHighlight={rzs}
+            ></Highlighter>{" "}
+          </strong>
           <span className="d-none d-md-inline">
-            {" ( " + poblacion + " ) "}
+            <Highlighter
+              searchWords={[criterio]}
+              autoEscape={true}
+              textToHighlight={" ( " + poblacion + " ) "}
+            ></Highlighter>{" "}
           </span>
         </div>
         <div className="col-12 lead pl-4">
@@ -76,6 +88,7 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
                 key={doc.tipodoc + doc.codigodoc}
                 doc={doc}
                 lan={lan}
+                criterioDocs={criterioDocs}
               />
             );
           })}
