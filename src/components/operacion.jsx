@@ -19,7 +19,7 @@ class Operacion extends Component {
   };
 
   render() {
-    const { doc, lan, criterioDocs } = this.props;
+    const { doc, lan } = this.props;
     const { expanded, scans } = this.state;
 
     var olddoc = 0;
