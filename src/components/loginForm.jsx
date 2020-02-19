@@ -35,7 +35,7 @@ class LoginForm extends Form {
     sessionStorage.removeItem("apiToken");
     sessionStorage.setItem("apiToken", token);
 
-    window.location = "/";
+    window.location = "/ar";
   };
 
   render() {
