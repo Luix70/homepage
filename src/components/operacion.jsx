@@ -4,7 +4,7 @@ import Linea from "./linea";
 import t from "./operacion.lit.json";
 import EstadoOperacion from "./estadoOperacion";
 import getScans from "../services/archivos";
-
+import Highlighter from "react-highlight-words";
 // al ser una SFC no se requiere importar Component
 class Operacion extends Component {
   state = { expanded: false, scans: null };
@@ -19,7 +19,7 @@ class Operacion extends Component {
   };
 
   render() {
-    const { doc, lan } = this.props;
+    const { doc, lan, criterioDocs } = this.props;
     const { expanded, scans } = this.state;
 
     var olddoc = 0;
@@ -57,7 +57,12 @@ class Operacion extends Component {
             </div>
             <div className="col-12 text-secondary pl-4 ">
               {" "}
-              <strong>{t.RE[lan]}</strong> {doc.referencia}
+              <strong>{t.RE[lan]}</strong>{" "}
+              <Highlighter
+                searchWords={[criterioDocs]}
+                autoEscape={true}
+                textToHighlight={" ( " + doc.referencia + " ) "}
+              ></Highlighter>{" "}
             </div>
           </div>
         </div>
@@ -82,6 +87,7 @@ class Operacion extends Component {
                     linea={linea}
                     isNew={isNew}
                     lan={lan}
+                    criterioDocs={criterioDocs}
                   />
                 );
               })}
