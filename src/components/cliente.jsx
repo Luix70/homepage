@@ -47,7 +47,7 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
   var rzs = cli.rzs;
   var nomComercial = cli.nomComercial;
   var poblacion = cli.poblacion;
-  console.log("Hola" + nomComercial);
+  //console.log("Hola" + nomComercial);
   return (
     <div className="container-fluid">
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
