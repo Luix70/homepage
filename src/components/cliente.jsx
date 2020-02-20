@@ -45,8 +45,9 @@ const isInLines = (lineas, criterio) => {
 
 const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
   var rzs = cli.rzs;
+  var nomComercial = cli.nomComercial;
   var poblacion = cli.poblacion;
-  //console.log("Hola" + criterioDocs);
+  console.log("Hola" + nomComercial);
   return (
     <div className="container-fluid">
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
@@ -57,14 +58,23 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
               searchWords={[criterio]}
               autoEscape={true}
               textToHighlight={rzs}
-            ></Highlighter>{" "}
+            ></Highlighter>
           </strong>
+          {nomComercial !== "" ? (
+            <em>
+              <Highlighter
+                searchWords={[criterio]}
+                autoEscape={true}
+                textToHighlight={" ( " + nomComercial + " ) "}
+              ></Highlighter>
+            </em>
+          ) : null}
           <span className="d-none d-md-inline">
             <Highlighter
               searchWords={[criterio]}
               autoEscape={true}
-              textToHighlight={" ( " + poblacion + " ) "}
-            ></Highlighter>{" "}
+              textToHighlight={" - " + poblacion + " - "}
+            ></Highlighter>
           </span>
         </div>
         <div className="col-12 lead pl-4">

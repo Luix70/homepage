@@ -32,6 +32,7 @@ class Representante extends Component {
     const cliCumpleCriterio =
       criterio !== "" &&
       (cli.rzs.toUpperCase().includes(criterio.toUpperCase()) ||
+        cli.nomComercial.toUpperCase().includes(criterio.toUpperCase()) ||
         cli.poblacion.toUpperCase().includes(criterio.toUpperCase()));
 
     if (cliCumpleCriterio) {
@@ -119,7 +120,7 @@ class Representante extends Component {
 
     return listaOrdenada.map(cli => {
       if (this.isInCli(cli, criterio, enCurso, facturados)) {
-        console.log("CriterioDocs: " + this.criterioDocs);
+        //console.log("CriterioDocs: " + this.criterioDocs);
         return (
           <Cliente
             cli={cli}

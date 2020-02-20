@@ -72,21 +72,23 @@ class ListGroup extends Component {
                 />
                 <div className="d-inline">
                   <form action="" className="form-inline">
-                    <input
-                      type="text"
-                      className="form-control pr-0 mr-0 d-inline"
-                      id="searchString"
-                      aria-describedby="Buscar Repres"
-                      placeholder={t.BR[lan]}
-                      onChange={this.handleSearch}
-                      value={search}
-                    />
-                    <button
-                      className="x-small btn btn-primary d-inline ml-2 px-2 py-0 "
-                      onClick={this.clearSearch}
-                    >
-                      X
-                    </button>
+                    <div className="d-flex justify-content-start">
+                      <input
+                        type="text"
+                        className="form-control pr-0 mr-0"
+                        id="searchString"
+                        aria-describedby="Buscar Repres"
+                        placeholder={t.BR[lan]}
+                        onChange={this.handleSearch}
+                        value={search}
+                      />
+                      <button
+                        className="x-small btn btn-primary ml-2 px-3 py-0 "
+                        onClick={this.clearSearch}
+                      >
+                        X
+                      </button>
+                    </div>
                   </form>
                 </div>
               </div>
