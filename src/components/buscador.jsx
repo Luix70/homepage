@@ -2,25 +2,47 @@ import React, { Component } from "react";
 import MaterialIcon from "react-google-material-icons";
 import t from "./buscador.lit.json";
 class Buscador extends Component {
+  state = { expandido: false, tmpFiltro: "" };
+
+  onExpand = () => {
+    const exp = !this.state.expandido;
+    this.setState({ expandido: exp });
+  };
+
+  setFilterLocal = () => {
+    this.setState({ expandido: false });
+    this.props.setFilter(this.state.tmpFiltro);
+  };
+
+  clearFilterLocal = () => {
+    this.setState({ expandido: false, tmpFiltro: "" });
+    this.props.clearFilter();
+  };
+
+  saveCriterio = async event => {
+    const valor = event.target.value;
+
+    this.setState({ tmpFiltro: valor });
+  };
+
   render() {
     const {
       lan,
-      onExpand,
+
       toggleEnCurso,
       toggleFacturados,
-      setFilter,
-      clearFilter,
-      saveCriterio,
-      expandido,
+
       criterio,
-      tmpCriterio,
       enCurso,
       facturados
     } = this.props;
+
+    const { expandido, tmpFiltro } = this.state;
+
     return (
       <div className="row">
         <div
-          onClick={onExpand}
+          onClick={this.onExpand}
           className={
             "col-12 d-flex justify-content-around text-light " +
             (enCurso && facturados && criterio === ""
@@ -78,8 +100,8 @@ class Buscador extends Component {
                   id="criterioBusq"
                   aria-describedby="criterioBusq"
                   placeholder={t.CB[lan]}
-                  onChange={saveCriterio}
-                  value={tmpCriterio}
+                  onChange={this.saveCriterio}
+                  value={tmpFiltro}
                 ></input>
                 <small
                   id="emailHelp"
@@ -94,7 +116,7 @@ class Buscador extends Component {
                 <button
                   type="button"
                   className="btn btn-danger  "
-                  onClick={setFilter}
+                  onClick={this.setFilterLocal}
                 >
                   {t.AF[lan]}
                 </button>
@@ -102,7 +124,7 @@ class Buscador extends Component {
                 <button
                   type="button"
                   className="btn btn-success"
-                  onClick={clearFilter}
+                  onClick={this.clearFilterLocal}
                 >
                   {t.QF[lan]}
                 </button>

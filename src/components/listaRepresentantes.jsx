@@ -3,15 +3,9 @@ import Representante from "./representante";
 import Buscador from "./buscador";
 class ListaRepresentantes extends Component {
   state = {
-    expandido: false,
     criterio: "",
     enCurso: true,
-    facturados: true,
-    tmpCriterio: ""
-  };
-  onExpand = () => {
-    const exp = !this.state.expandido;
-    this.setState({ expandido: exp });
+    facturados: true
   };
 
   toggleFacturados = () => {
@@ -23,28 +17,16 @@ class ListaRepresentantes extends Component {
     const enCurso = !this.state.enCurso;
     this.setState({ enCurso });
   };
-  setFilter = async () => {
-    const criterio = this.state.tmpCriterio;
-
-    await this.setState({ criterio, expandido: false });
+  setFilter = async criterio => {
+    await this.setState({ criterio });
   };
 
   clearFilter = () => {
     this.setState({
       criterio: "",
-      tmpCriterio: "",
       enCurso: true,
-      facturados: true,
-      expandido: false
+      facturados: true
     });
-  };
-
-  saveCriterio = async event => {
-    const valor = event.target.value;
-
-    await this.setState({ tmpCriterio: valor });
-
-    //console.log(this.state.tmpCriterio);
   };
 
   shouldComponentUpdate() {
@@ -54,7 +36,7 @@ class ListaRepresentantes extends Component {
     const { resultConsulta, lan } = this.props;
     const {
       criterio,
-      tmpCriterio,
+
       enCurso,
       facturados,
       expandido
@@ -75,9 +57,7 @@ class ListaRepresentantes extends Component {
           toggleFacturados={this.toggleFacturados}
           setFilter={this.setFilter}
           clearFilter={this.clearFilter}
-          saveCriterio={this.saveCriterio}
           criterio={criterio}
-          tmpCriterio={tmpCriterio}
           enCurso={enCurso}
           facturados={facturados}
           expandido={expandido}
