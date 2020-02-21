@@ -14,7 +14,6 @@ class AreaReservada extends Component {
   };
   handleListGroupClick = async repre => {
     const lr = await getClientes(repre);
-
     this.setState({
       resultConsulta: lr,
       selectedRepre: repre.codrep,
@@ -42,6 +41,19 @@ class AreaReservada extends Component {
 
     return (
       <React.Fragment>
+        <div
+          id="progBar"
+          className="progress d-none"
+          style={{ height: "20px" }}
+        >
+          <div
+            className="progress-bar progress-bar-striped progress-bar-animated"
+            style={{ width: "100%", height: "20px" }}
+          >
+            cargando
+          </div>
+        </div>
+
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
           {this.state.listaRepresentantes.length > 1 ? (

@@ -57,14 +57,14 @@ async function getData() {
   // If cache is older than 25 min we retrieve another batch
   if (
     cachedData !== null &&
-    Math.abs(new Date(cachedData.FechaCache) - Date.now()) / (1000 * 60) < 1
+    Math.abs(new Date(cachedData.FechaCache) - Date.now()) / (1000 * 60) < 10 //antiguedad menor de 10 minutos
   ) {
     //console.log("cached " + new Date(cachedData.FechaCache));
     return cachedData;
   } else {
     try {
       const token = sessionStorage.getItem("apiToken");
-
+      // console.log("retrieved " + new Date(cachedData.FechaCache));
       const { data: liveData } = await httpService.get(nEndPoint, {
         headers: { Authorization: `Bearer ${token}` },
         timeout: 30000
