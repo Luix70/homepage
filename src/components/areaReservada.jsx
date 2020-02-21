@@ -3,7 +3,7 @@ import { Redirect } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
 import ListGroup from "./common/listGroup";
-
+import CircleArrow from "react-scroll-up-button";
 class AreaReservada extends Component {
   state = {
     resultConsulta: null,
@@ -41,6 +41,7 @@ class AreaReservada extends Component {
 
     return (
       <React.Fragment>
+        <CircleArrow />
         <div
           id="progBar"
           className="progress d-none"
