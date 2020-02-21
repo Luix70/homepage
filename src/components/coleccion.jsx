@@ -5,6 +5,7 @@ import ColIntro from "./colIntro";
 import Galeria from "./galeria";
 import Secciones from "./secciones";
 import ColeccionMetaTags from "./common/coleccionMetaTags";
+import CircleArrow from "react-scroll-up-button";
 
 class Coleccion extends Component {
   state = { coleccion: null };
@@ -25,6 +26,7 @@ class Coleccion extends Component {
     } else {
       return (
         <div className="container">
+          <CircleArrow />
           <ColeccionMetaTags
             col={coleccion}
             lan={lan}
