@@ -1,5 +1,5 @@
 {
-  "TI": { "es": "Iniciar Sesión", "fr": "Identifiez-vous", "en": "Sign-in" },
+  "TI": { "es": "Iniciar Sesión", "fr": "Se connecter", "en": "Login" },
   "US": {
     "es": "Usuario (email)",
     "fr": "Nom d'utilisateur (e-mail)",
@@ -7,13 +7,13 @@
   },
   "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
   "OC": {
-    "es": "Olvidé mi contraseña",
+    "es": "Contraseña olvidada",
     "fr": "Mot de passe oublié",
     "en": "Forgotten password"
   },
   "SA": {
-    "es": "Solicitar alta",
-    "fr": "Enregistrement",
+    "es": "Regístrese",
+    "fr": "Inscrivez-vous",
     "en": "Register"
   }
 }

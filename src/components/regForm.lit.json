@@ -1,0 +1,24 @@
+{
+  "TI": {
+    "es": "Formulario de Registro",
+    "fr": "Inscription",
+    "en": "Register Form"
+  },
+  "US": {
+    "es": "Usuario (email)",
+    "fr": "Nom d'utilisateur (e-mail)",
+    "en": "User (email)"
+  },
+  "CI": { "es": "CIF / NIF", "fr": "NIF", "en": "VAT ID" },
+  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
+  "PC": {
+    "es": "Confirmar Contraseña",
+    "fr": "Confirmer mot de passe",
+    "en": "Password Confirmation"
+  },
+  "IN": {
+    "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado   un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
+    "fr": "Si vous êtes déjà client d'INDESAN et l'adresse de boîte electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
+    "en": "If you are already a customer of INDESAN and this email matches the one where we send you the orders confirmations, an email will be sent to you with a link to activate your account."
+  }
+}

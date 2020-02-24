@@ -3,6 +3,7 @@ import Joi from "@hapi/joi";
 import Input from "./input";
 import TextArea from "./textarea";
 import { Link } from "react-router-dom";
+
 class Form extends Component {
   state = {
     data: {},
@@ -75,8 +76,15 @@ class Form extends Component {
       </button>
     );
   }
-  renderLink(label) {
-    return <Link className="btn btn-outline-secondary w-100">{label}</Link>;
+  renderLink(label, link) {
+    return (
+      <Link
+        to={link}
+        className="btn btn-outline-secondary w-100 h-100 d-flex align-items-center justify-content-center"
+      >
+        {label}
+      </Link>
+    );
   }
 
   renderInput(name, label, type = "text") {

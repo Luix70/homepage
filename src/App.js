@@ -9,6 +9,7 @@ import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
+import RegisterForm from "./components/regForm";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
@@ -158,6 +159,12 @@ class App extends Component {
                 path="/ar"
                 render={props => (
                   <AreaReservada usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/registro"
+                render={props => (
+                  <RegisterForm usuario={usuario} lan={lan} {...props} />
                 )}
               />
 
