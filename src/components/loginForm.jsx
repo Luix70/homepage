@@ -47,9 +47,18 @@ class LoginForm extends Form {
             <h1 className="text-center">{t.TI[lan]}</h1>
             <hr />
             <form onSubmit={this.handleSubmit}>
-              {this.renderInput("username", t.US[lan])}
-              {this.renderInput("password", t.PA[lan], "password")}
-              {this.renderButton(t.TI[lan])}
+              <div>
+                {this.renderInput("username", t.US[lan])}
+                {this.renderInput("password", t.PA[lan], "password")}
+              </div>
+              <div className="d-flex justify-content-around align-items-center">
+                {this.renderButton(t.TI[lan])}
+              </div>
+
+              <div className="row mt-3 d-flex justify-content-around align-items-center">
+                <div className="col-6">{this.renderLink(t.OC[lan])}</div>
+                <div className="col-6">{this.renderLink(t.SA[lan])}</div>
+              </div>
             </form>
           </div>
         </div>
