@@ -4,6 +4,7 @@ import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
 import ListGroup from "./common/listGroup";
 import CircleArrow from "react-scroll-up-button";
+
 class AreaReservada extends Component {
   state = {
     resultConsulta: null,
@@ -42,18 +43,6 @@ class AreaReservada extends Component {
     return (
       <React.Fragment>
         <CircleArrow />
-        <div
-          id="progBar"
-          className="progress d-none"
-          style={{ height: "20px" }}
-        >
-          <div
-            className="progress-bar progress-bar-striped progress-bar-animated"
-            style={{ width: "100%", height: "20px" }}
-          >
-            cargando
-          </div>
-        </div>
 
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
