@@ -5,5 +5,15 @@
     "fr": "Nom d'utilisateur (e-mail)",
     "en": "User (email)"
   },
-  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" }
+  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
+  "OC": {
+    "es": "Olvidé mi contraseña",
+    "fr": "Mot de passe oublié",
+    "en": "Forgotten password"
+  },
+  "SA": {
+    "es": "Solicitar alta",
+    "fr": "Enregistrement",
+    "en": "Register"
+  }
 }
