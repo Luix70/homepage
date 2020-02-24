@@ -10,6 +10,7 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.2",
+    "halogen": "^0.2.0",
     "jquery": "^3.4.1",
     "js-cookie": "^2.2.1",
     "jwt-decode": "^2.2.0",
