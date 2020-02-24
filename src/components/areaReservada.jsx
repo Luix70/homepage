@@ -3,12 +3,8 @@ import { Redirect } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
 import ListGroup from "./common/listGroup";
-<<<<<<< HEAD
-import CircleArrow from "react-scroll-up-button";
-=======
 import $ from "jquery";
 import t from "./areaReservada.lit.json";
->>>>>>> loader
 
 class AreaReservada extends Component {
   state = {
@@ -19,14 +15,6 @@ class AreaReservada extends Component {
     usuario: null
   };
   handleListGroupClick = async repre => {
-<<<<<<< HEAD
-    const lr = await getClientes(repre);
-    this.setState({
-      resultConsulta: lr,
-      selectedRepre: repre.codrep,
-      FechaConsulta: lr.FechaConsulta
-    });
-=======
     this.mostrarProgress(true);
 
     setTimeout(async () => {
@@ -52,7 +40,6 @@ class AreaReservada extends Component {
         .addClass("d-block");
       console.log("show");
     }
->>>>>>> loader
   };
 
   async componentDidMount() {
@@ -75,10 +62,6 @@ class AreaReservada extends Component {
 
     return (
       <React.Fragment>
-<<<<<<< HEAD
-        <CircleArrow />
-
-=======
         <div
           className="progress d-block"
           id="progBar"
@@ -91,7 +74,6 @@ class AreaReservada extends Component {
             <h6>{t.PA[lan]}</h6>
           </div>
         </div>
->>>>>>> loader
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
           {this.state.listaRepresentantes.length > 1 ? (
