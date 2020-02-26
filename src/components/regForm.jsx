@@ -31,6 +31,15 @@ class LoginForm extends Form {
         "string.max": t.CL[this.props.lan],
         "string.empty": t.CR[this.props.lan]
       }),
+    cif: Joi.string()
+      .min(8)
+      .max(15)
+      .required()
+      .messages({
+        "string.min": t.NC[this.props.lan],
+        "string.max": t.NL[this.props.lan],
+        "string.empty": t.CR[this.props.lan]
+      }),
     password_confirmation: Joi.string()
       .valid(Joi.ref("password"))
       .required()
@@ -64,7 +73,7 @@ class LoginForm extends Form {
     return (
       <div className="d-flex mt-2 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
-          <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
+          <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 mt-3 px-2">
             <h4 className="text-center">{t.TI[lan]}</h4>
             <hr />
             <form onSubmit={this.handleSubmit}>
@@ -79,8 +88,8 @@ class LoginForm extends Form {
                   this.changeVisibility
                 )}
               </div>
-              <div className="d-flex justify-content-around align-items-center my-2">
-                {this.renderButton(t.TI[lan])}
+              <div className="d-flex justify-content-around align-items-center my-5">
+                {this.renderButton(t.SA[lan])}
               </div>
 
               <div className="row mt-2 d-flex justify-content-around align-items-stretch">

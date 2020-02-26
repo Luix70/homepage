@@ -31,6 +31,16 @@
     "fr": "Le mot de passe doit contenir un maximum de {#limit} caractères",
     "en": "The password must be no more than {#limit} characters long"
   },
+  "NC": {
+    "es": "El CIF/NIF debe contener al menos {#limit} caracteres",
+    "fr": "Le NIF doit contenir au moins {#limit} caractères",
+    "en": "The VAT Number must be at least {#limit} characters long"
+  },
+  "NL": {
+    "es": "El CIF/NIF debe contener no más {#limit} caracteres",
+    "fr": "Le NIF doit contenir un maximum de {#limit} caractères",
+    "en": "The VAT Number must be no more than {#limit} characters long"
+  },
 
   "VE": {
     "es": "No es un email válido",
@@ -41,5 +51,10 @@
     "es": "Campo requerido",
     "fr": "Champ requis",
     "en": "Required field"
+  },
+  "SA": {
+    "es": "Regístrese",
+    "fr": "Inscrivez-vous",
+    "en": "Register"
   }
 }
