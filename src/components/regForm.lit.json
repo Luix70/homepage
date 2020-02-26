@@ -18,7 +18,28 @@
   },
   "IN": {
     "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado   un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
-    "fr": "Si vous êtes déjà client d'INDESAN et l'adresse de boîte electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
-    "en": "If you are already a customer of INDESAN and this email matches the one where we send you the orders confirmations, an email will be sent to you with a link to activate your account."
+    "fr": "Si vous êtes déjà client d'INDESAN et l'adresse electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
+    "en": "If you are already a customer of INDESAN and this email address matches the one where we send you the orders confirmations, an email will be sent to you with a link to activate your account."
+  },
+  "CC": {
+    "es": "La contraseña debe contener al menos {#limit} caracteres",
+    "fr": "Le mot de passe doit contenir au moins {#limit} caractères",
+    "en": "The password must be at least {#limit} characters long"
+  },
+  "CL": {
+    "es": "La contraseña debe contener no más {#limit} caracteres",
+    "fr": "Le mot de passe doit contenir un maximum de {#limit} caractères",
+    "en": "The password must be no more than {#limit} characters long"
+  },
+
+  "VE": {
+    "es": "No es un email válido",
+    "fr": "Ce n'est pas une adresse electronique valide ",
+    "en": "this is not a valid email"
+  },
+  "CR": {
+    "es": "Campo requerido",
+    "fr": "Champ requis",
+    "en": "Required field"
   }
 }

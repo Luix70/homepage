@@ -14,13 +14,19 @@ class LoginForm extends Form {
         tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
       })
       .required()
-      .label("e-mail"),
+      .messages({
+        "string.email": t.VE[this.props.lan],
+        "string.empty": t.CR[this.props.lan]
+      }),
     password: Joi.string()
-
       .min(8)
       .max(30)
       .required()
-      .label("Contraseña")
+      .messages({
+        "string.min": t.CC[this.props.lan],
+        "string.max": t.CL[this.props.lan],
+        "string.empty": t.CR[this.props.lan]
+      })
   };
   schema = Joi.object(this.objSchema);
 

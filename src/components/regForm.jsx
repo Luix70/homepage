@@ -5,7 +5,11 @@ import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./regForm.lit.json";
 class LoginForm extends Form {
-  state = { data: { username: "", password: "" }, errors: {} };
+  state = {
+    data: { username: "", password: "" },
+    errors: {},
+    passVisible: false
+  };
 
   objSchema = {
     username: Joi.string()
@@ -14,25 +18,32 @@ class LoginForm extends Form {
         tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
       })
       .required()
-      .label("e-mail"),
+      .messages({
+        "string.email": t.VE[this.props.lan],
+        "string.empty": t.CR[this.props.lan]
+      }),
     password: Joi.string()
       .min(8)
       .max(30)
       .required()
-      .label("Contraseña")
       .messages({
-        "string.min": `"username" mu corto {#limit}`,
-        "string.max": `"username" mu largo {#limit}`
+        "string.min": t.CC[this.props.lan],
+        "string.max": t.CL[this.props.lan],
+        "string.empty": t.CR[this.props.lan]
       }),
-    password_confirmation: Joi.any()
+    password_confirmation: Joi.string()
       .valid(Joi.ref("password"))
       .required()
       .messages({
-        "any.ref": `contraseñas no coinciden`
+        "string.only": ``,
+        "string.empty": t.CR[this.props.lan]
       })
   };
   schema = Joi.object(this.objSchema);
-
+  changeVisibility = () => {
+    const { passVisible } = this.state;
+    this.setState({ passVisible: !passVisible });
+  };
   doSubmit = async () => {
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
     const { data: token } = await http.post(
@@ -49,6 +60,7 @@ class LoginForm extends Form {
 
   render() {
     const { lan } = this.props;
+    const { passVisible } = this.state;
     return (
       <div className="d-flex mt-2 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
@@ -59,11 +71,12 @@ class LoginForm extends Form {
               <div>
                 {this.renderInput("username", t.US[lan])}
                 {this.renderInput("cif", t.CI[lan])}
-                {this.renderInput("password", t.PA[lan], "password")}
                 {this.renderInput(
-                  "password_confirmation",
-                  t.PC[lan],
-                  "password"
+                  "password",
+                  t.PA[lan],
+                  "password",
+                  passVisible,
+                  this.changeVisibility
                 )}
               </div>
               <div className="d-flex justify-content-around align-items-center my-2">

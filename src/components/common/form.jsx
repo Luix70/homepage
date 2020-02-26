@@ -87,18 +87,33 @@ class Form extends Component {
     );
   }
 
-  renderInput(name, label, type = "text") {
+  renderInput(name, label, type = "text", passVisible, changeVisibility) {
     const { data, errors } = this.state;
-    return (
-      <Input
-        type={type}
-        value={data[name]}
-        onChange={this.handleChange}
-        name={name}
-        label={label}
-        error={errors[name]}
-      />
-    );
+
+    if (type === "text") {
+      return (
+        <Input
+          type={type}
+          value={data[name]}
+          onChange={this.handleChange}
+          name={name}
+          label={label}
+          error={errors[name]}
+        />
+      );
+    }
+    if (type === "password") {
+      return (
+        <Input
+          type={type}
+          value={data[name]}
+          onChange={this.handleChange}
+          name={name}
+          label={label}
+          error={errors[name]}
+        />
+      );
+    }
   }
   renderArea(name, label, lines) {
     const { data, errors } = this.state;
