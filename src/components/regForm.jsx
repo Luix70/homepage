@@ -39,14 +39,16 @@ class LoginForm extends Form {
         "string.min": t.NC[this.props.lan],
         "string.max": t.NL[this.props.lan],
         "string.empty": t.CR[this.props.lan]
-      }),
-    password_confirmation: Joi.string()
-      .valid(Joi.ref("password"))
-      .required()
-      .messages({
-        "string.only": ``,
-        "string.empty": t.CR[this.props.lan]
       })
+
+    //   ,
+    // password_confirmation: Joi.string()
+    //   .valid(Joi.ref("password"))
+    //   .required()
+    //   .messages({
+    //     "string.only": ``,
+    //     "string.empty": t.CR[this.props.lan]
+    //   })
   };
   schema = Joi.object(this.objSchema);
   changeVisibility = () => {

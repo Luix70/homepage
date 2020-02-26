@@ -94,9 +94,9 @@ class Form extends Component {
       return (
         <Input
           type={type}
-          value={data[name]}
+          value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
           onChange={this.handleChange}
-          name={name}
+          name={name || ""} // evita warning del tipo controlled to uncontrolled
           label={label}
           error={errors[name]}
         />
@@ -106,9 +106,9 @@ class Form extends Component {
       return (
         <Input
           type={type}
-          value={data[name]}
+          value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
           onChange={this.handleChange}
-          name={name}
+          name={name || ""} // evita warning del tipo controlled to uncontrolled
           label={label}
           error={errors[name]}
         />
