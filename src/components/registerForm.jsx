@@ -51,8 +51,9 @@ class RegisterForm extends Form {
   };
   schema = Joi.object(this.objSchema);
 
-  doSubmit = async () => {
+  doSubmit = async e => {
     //console.log(apiDataEndPoint + "login/register/", this.state.data);
+
     try {
       const { data } = await http.post(
         apiDataEndPoint + "login/register/",
@@ -63,7 +64,7 @@ class RegisterForm extends Form {
       console.log(error);
     }
 
-    window.location = "/";
+    //window.location = "/";
   };
 
   render() {
