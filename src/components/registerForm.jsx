@@ -3,8 +3,8 @@ import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
-import t from "./regForm.lit.json";
-class LoginForm extends Form {
+import t from "./registerForm.lit.json";
+class RegisterForm extends Form {
   state = {
     data: { username: "", password: "", cif: "" },
     errors: {}
@@ -63,7 +63,7 @@ class LoginForm extends Form {
       console.log(error);
     }
 
-    // window.location = "/";
+    window.location = "/";
   };
 
   render() {
@@ -102,4 +102,4 @@ class LoginForm extends Form {
   }
 }
 
-export default LoginForm;
+export default RegisterForm;

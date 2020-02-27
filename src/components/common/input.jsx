@@ -26,7 +26,7 @@ const Input = props => {
           <div className="input-group-append">
             <button
               onClick={changeVisibility}
-              className="btn btn-outline-secondary p-0 px-2"
+              className="btn btn-outline-secondary p-0 px-2 pt-1"
               type="button"
             >
               {passVisible ? (

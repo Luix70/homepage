@@ -9,7 +9,7 @@ import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
-import RegisterForm from "./components/regForm";
+import RegisterForm from "./components/registerForm";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
