@@ -17,9 +17,9 @@
     "en": "Password Confirmation"
   },
   "IN": {
-    "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado   un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
+    "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
     "fr": "Si vous êtes déjà client d'INDESAN et l'adresse electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
-    "en": "If you are already a customer of INDESAN and this email address matches the one where we send you the orders confirmations, an email will be sent to you with a link to activate your account."
+    "en": "If you are already a customer of INDESAN, and if this email address matches the one where we send you the order confirmations, an email will be sent to you with a link to activate your account."
   },
   "CC": {
     "es": "La contraseña debe contener al menos {#limit} caracteres",

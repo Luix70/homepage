@@ -6,9 +6,8 @@ import { apiDataEndPoint } from "../config.json";
 import t from "./regForm.lit.json";
 class LoginForm extends Form {
   state = {
-    data: { username: "", password: "" },
-    errors: {},
-    passVisible: false
+    data: { username: "", password: "", cif: "" },
+    errors: {}
   };
 
   objSchema = {
@@ -51,22 +50,20 @@ class LoginForm extends Form {
     //   })
   };
   schema = Joi.object(this.objSchema);
-  changeVisibility = () => {
-    const { passVisible } = this.state;
-    this.setState({ passVisible: !passVisible });
-  };
-  doSubmit = async () => {
-    //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
-    const { data: token } = await http.post(
-      apiDataEndPoint + "login/authenticate/",
-      this.state.data
-    );
-    //console.log(token);
-    sessionStorage.removeItem("cachedData");
-    sessionStorage.removeItem("apiToken");
-    sessionStorage.setItem("apiToken", token);
 
-    window.location = "/ar";
+  doSubmit = async () => {
+    //console.log(apiDataEndPoint + "login/register/", this.state.data);
+    try {
+      const { data } = await http.post(
+        apiDataEndPoint + "login/register/",
+        this.state.data
+      );
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+
+    // window.location = "/";
   };
 
   render() {
@@ -90,7 +87,7 @@ class LoginForm extends Form {
                   this.changeVisibility
                 )}
               </div>
-              <div className="d-flex justify-content-around align-items-center my-5">
+              <div className="d-flex justify-content-around align-items-center my-4">
                 {this.renderButton(t.SA[lan])}
               </div>
 

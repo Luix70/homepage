@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 class Form extends Component {
   state = {
     data: {},
-    errors: {}
+    errors: {},
+    passVisible: false
   };
 
   validate = () => {
@@ -49,7 +50,11 @@ class Form extends Component {
 
     this.doSubmit();
   };
-
+  changeVisibility = e => {
+    e.preventDefault();
+    const { passVisible } = this.state;
+    this.setState({ passVisible: !passVisible });
+  };
   handleChange = ({ currentTarget: input }) => {
     //recuperamos el valor de la cuenta del estado
     const data = { ...this.state.data };
@@ -87,33 +92,21 @@ class Form extends Component {
     );
   }
 
-  renderInput(name, label, type = "text", passVisible, changeVisibility) {
-    const { data, errors } = this.state;
+  renderInput(name, label, type = "text") {
+    const { data, errors, passVisible } = this.state;
 
-    if (type === "text") {
-      return (
-        <Input
-          type={type}
-          value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
-          onChange={this.handleChange}
-          name={name || ""} // evita warning del tipo controlled to uncontrolled
-          label={label}
-          error={errors[name]}
-        />
-      );
-    }
-    if (type === "password") {
-      return (
-        <Input
-          type={type}
-          value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
-          onChange={this.handleChange}
-          name={name || ""} // evita warning del tipo controlled to uncontrolled
-          label={label}
-          error={errors[name]}
-        />
-      );
-    }
+    return (
+      <Input
+        type={type}
+        value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
+        onChange={this.handleChange}
+        name={name || ""} // evita warning del tipo controlled to uncontrolled
+        label={label}
+        error={errors[name]}
+        passVisible={passVisible}
+        changeVisibility={this.changeVisibility}
+      />
+    );
   }
   renderArea(name, label, lines) {
     const { data, errors } = this.state;
