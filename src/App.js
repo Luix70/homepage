@@ -20,6 +20,7 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
+import LanRedirect from "./components/lanRedirect";
 
 class App extends Component {
   state = {
@@ -178,6 +179,17 @@ class App extends Component {
                 path="/login"
                 render={props => <LoginForm lan={lan} {...props} />}
               />
+              <Route path="/en">
+                <LanRedirect lan="en" handleLanguage={this.handleLanguage} />
+              </Route>
+
+              <Route path="/es">
+                <LanRedirect lan="es" handleLanguage={this.handleLanguage} />
+              </Route>
+              <Route path="/fr">
+                <LanRedirect lan="fr" handleLanguage={this.handleLanguage} />
+              </Route>
+
               <Route
                 exact
                 path="/"
