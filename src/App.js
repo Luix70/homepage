@@ -10,6 +10,8 @@ import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
+import LanRedirect from "./components/lanRedirect";
+import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
@@ -20,7 +22,6 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
-import LanRedirect from "./components/lanRedirect";
 
 class App extends Component {
   state = {
@@ -168,7 +169,6 @@ class App extends Component {
                   <RegisterForm usuario={usuario} lan={lan} {...props} />
                 )}
               />
-
               <Route
                 path="/contact"
                 render={props => (
@@ -182,7 +182,6 @@ class App extends Component {
               <Route path="/en">
                 <LanRedirect lan="en" handleLanguage={this.handleLanguage} />
               </Route>
-
               <Route path="/es">
                 <LanRedirect lan="es" handleLanguage={this.handleLanguage} />
               </Route>
@@ -190,6 +189,10 @@ class App extends Component {
                 <LanRedirect lan="fr" handleLanguage={this.handleLanguage} />
               </Route>
 
+              <Route
+                path="/activate"
+                render={props => <Activate lan={lan} {...props} />}
+              />
               <Route
                 exact
                 path="/"
@@ -205,7 +208,6 @@ class App extends Component {
                   />
                 )}
               />
-
               <Redirect to="/" />
             </Switch>
           </div>
