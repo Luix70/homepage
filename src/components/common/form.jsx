@@ -61,6 +61,8 @@ class Form extends Component {
     //cambiamos el valor que proceda
     data[input.name] = input.value;
 
+    const result = "";
+
     //ahora comprobamos si con los nuevos valores se ha producido algun error
     //en primer lugar clonamos el estado actual de errors
     const errors = { ...this.state.errors };
@@ -71,7 +73,7 @@ class Form extends Component {
     else delete errors[input.name];
 
     // y actualizamos de nuev el estado
-    this.setState({ data, errors });
+    this.setState({ data, errors, result });
   };
 
   renderButton(label) {

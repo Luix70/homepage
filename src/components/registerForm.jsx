@@ -4,10 +4,12 @@ import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./registerForm.lit.json";
+import { toast } from "react-toastify";
 class RegisterForm extends Form {
   state = {
     data: { username: "", password: "", cif: "" },
-    errors: {}
+    errors: {},
+    result: ""
   };
 
   objSchema = {
@@ -55,13 +57,24 @@ class RegisterForm extends Form {
     //console.log(apiDataEndPoint + "login/register/", this.state.data);
 
     try {
+      var { lan } = this.props;
+      let dataLan = { ...this.state.data };
+      dataLan.lan = lan;
+      //console.log(dataLan);
       const { data } = await http.post(
         apiDataEndPoint + "login/register/",
-        this.state.data
+        dataLan
       );
-      console.log(data);
+      this.setState({ result: data });
+
+      data === "OK"
+        ? toast.success(t["TOAST_SUCCESS"][lan])
+        : toast.error(t["TOAST_FAIL"][lan]);
+      //console.log(data);
     } catch (error) {
-      console.log(error);
+      toast.error(t["TOAST_FAIL"][lan]);
+      this.setState({ result: "CREDENTIAL_FAILED" });
+      //console.log(error);
     }
 
     //window.location = "/";
@@ -69,7 +82,7 @@ class RegisterForm extends Form {
 
   render() {
     const { lan } = this.props;
-    const { passVisible } = this.state;
+    const { passVisible, result } = this.state;
     return (
       <div className="d-flex mt-2 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
@@ -92,8 +105,19 @@ class RegisterForm extends Form {
                 {this.renderButton(t.SA[lan])}
               </div>
 
-              <div className="row mt-2 d-flex justify-content-around align-items-stretch">
-                <span className="small p-2">{t.IN[lan]}</span>
+              <div
+                className={
+                  "row mt-2 d-flex justify-content-around align-items-stretch " +
+                  (result === ""
+                    ? "text-primary"
+                    : result === "OK"
+                    ? "text-success"
+                    : "text-danger")
+                }
+              >
+                <span className="small p-2">
+                  {result === "" ? t.IN[lan] : t[result][lan]}
+                </span>
               </div>
             </form>
           </div>
