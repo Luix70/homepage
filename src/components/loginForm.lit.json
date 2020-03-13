@@ -35,5 +35,25 @@
     "es": "Campo requerido",
     "fr": "Champ requis",
     "en": "Required field"
+  },
+  "NO_CONNECTION": {
+    "es": "No se ha podido contactar con el servidor de autorizaciones. Intentalo más tarde",
+    "en": "Authorization server is not reachable at this moment. Try it again later",
+    "fr": "Impossible de contacter avec le serveur. Réessayez un peu plus tard"
+  },
+  "NO_ACTIVADA": {
+    "es": "La cuenta no está activada. Debe hacer click en el enlace del correo que se le envió. Si no lo ha recibido o no lo encuentra, repita el proceso de Registro o contáctenos a webmaster@indesan.com o en nuestros teléfonos.",
+    "en": "This account hasn't been activated yet. Follow the link in the email that was sent to you. If you didn't receive it, or you are not able to find it, it reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "Votre compte n'est pas encore activé. vous devez suivre le lien dans le e-mail qu'on vous a envoyé afin de l'activer. Contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "BAD_PASSWORD": {
+    "es": "La contraseña no es correcta",
+    "en": "The password you entered is not correct",
+    "fr": "Le mot de passe introduit n'est pas correct"
+  },
+  "NO_USER": {
+    "es": "No existe ningun usuario con ese correo electrónico",
+    "en": "There is no user with that email",
+    "fr": "Cet e-mail ne correspond pas a aucun utilisateur"
   }
 }

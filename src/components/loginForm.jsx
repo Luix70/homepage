@@ -5,7 +5,7 @@ import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./loginForm.lit.json";
 class LoginForm extends Form {
-  state = { data: { username: "", password: "" }, errors: {} };
+  state = { data: { username: "", password: "" }, errors: {}, result: "" };
 
   objSchema = {
     username: Joi.string()
@@ -32,20 +32,34 @@ class LoginForm extends Form {
 
   doSubmit = async () => {
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
-    const { data: token } = await http.post(
-      apiDataEndPoint + "login/authenticate/",
-      this.state.data
-    );
-    //console.log(token);
-    sessionStorage.removeItem("cachedData");
-    sessionStorage.removeItem("apiToken");
-    sessionStorage.setItem("apiToken", token);
 
-    window.location = "/ar";
+    try {
+      const { data: token } = await http.post(
+        apiDataEndPoint + "login/authenticate/",
+        this.state.data
+      );
+
+      if (
+        token === "NO_ACTIVADA" ||
+        token === "BAD_PASSWORD" ||
+        token === "NO_USER"
+      ) {
+        this.setState({ result: token });
+      } else {
+        sessionStorage.removeItem("cachedData");
+        sessionStorage.removeItem("apiToken");
+        sessionStorage.setItem("apiToken", token);
+        this.setState({ result: "" });
+        window.location = "/ar";
+      }
+    } catch (error) {
+      this.setState({ result: "NO_CONNECTION" });
+    }
   };
 
   render() {
     const { lan } = this.props;
+    const { result } = this.state;
     return (
       <div className="d-flex mt-5 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
@@ -68,6 +82,11 @@ class LoginForm extends Form {
                 <div className="col-6">
                   {this.renderLink(t.SA[lan], "/registro")}
                 </div>
+              </div>
+              <div className="row mt-2 d-flex justify-content-around align-items-stretch text-danger">
+                <span className="small p-2">
+                  {result === "" ? null : t[result][lan]}
+                </span>
               </div>
             </form>
           </div>
