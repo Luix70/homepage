@@ -55,5 +55,15 @@
     "es": "No existe ningun usuario con ese correo electrónico",
     "en": "There is no user with that email",
     "fr": "Cet e-mail ne correspond pas a aucun utilisateur"
+  },
+  "TOAST_FAIL": {
+    "es": "Algo ha ido mal",
+    "en": "Something weird happened",
+    "fr": "Quelque chose de bizarre s'est passé  "
+  },
+  "TOAST_SUCCESS": {
+    "es": "Todo OK",
+    "en": "Everything OK",
+    "fr": "Tout s'est bien passé"
   }
 }

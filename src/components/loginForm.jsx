@@ -4,6 +4,7 @@ import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./loginForm.lit.json";
+import { toast } from "react-toastify";
 class LoginForm extends Form {
   state = { data: { username: "", password: "" }, errors: {}, result: "" };
 
@@ -32,6 +33,7 @@ class LoginForm extends Form {
 
   doSubmit = async () => {
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
+    const { lan } = this.props;
 
     try {
       const { data: token } = await http.post(
@@ -44,8 +46,10 @@ class LoginForm extends Form {
         token === "BAD_PASSWORD" ||
         token === "NO_USER"
       ) {
+        toast.error(t.TOAST_FAIL[lan]);
         this.setState({ result: token });
       } else {
+        //toast.error(t.TOAST_SUCCESS[lan]);
         sessionStorage.removeItem("cachedData");
         sessionStorage.removeItem("apiToken");
         sessionStorage.setItem("apiToken", token);
@@ -53,6 +57,7 @@ class LoginForm extends Form {
         window.location = "/ar";
       }
     } catch (error) {
+      toast.error(t.TOAST_FAIL[lan]);
       this.setState({ result: "NO_CONNECTION" });
     }
   };

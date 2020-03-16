@@ -1,0 +1,42 @@
+{
+  "TRYING": {
+    "es": "Contactando con el servidor de activación. Aguarde unos instantes...",
+    "en": "Contacting Activation server. Please be patient ...",
+    "fr": "Veuillez patienter. Nous sommes en train de contacter le serveur d'activations... "
+  },
+  "TOAST_FAIL": {
+    "es": "Algo ha ido mal",
+    "en": "Something weird happened",
+    "fr": "Quelque chose de bizarre s'est passé  "
+  },
+  "TOAST_SUCCESS": {
+    "es": "Todo OK",
+    "en": "Everything OK",
+    "fr": "Tout s'est bien passé"
+  },
+  "ACTIVATION_CODE_NOT_FOUND": {
+    "es": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso",
+    "en": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso",
+    "fr": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso"
+  },
+  "ALREADY_ACTIVATED": {
+    "es": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario.",
+    "en": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario.",
+    "fr": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario."
+  },
+  "CODE_MISMATCH": {
+    "es": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro",
+    "en": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro",
+    "fr": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro"
+  },
+  "ACTIVATION_ERROR": {
+    "es": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema.",
+    "en": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema.",
+    "fr": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema."
+  },
+  "OK": {
+    "es": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio de alta",
+    "en": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio e alta",
+    "fr": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio e alta"
+  }
+}
