@@ -10,6 +10,7 @@ import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
+import RecPassForm from "./components/recPassForm";
 import LanRedirect from "./components/lanRedirect";
 import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
@@ -167,6 +168,12 @@ class App extends Component {
                 path="/registro"
                 render={props => (
                   <RegisterForm usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/recuperacion"
+                render={props => (
+                  <RecPassForm usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
