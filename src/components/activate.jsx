@@ -4,6 +4,7 @@ import t from "./activate.lit.json";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 class Activate extends Component {
   state = { result: "" };
@@ -55,6 +56,25 @@ class Activate extends Component {
               {t[result][lan]}
             </span>
           )}
+        </div>
+        <div className="d-flex justify-content-center mt-5 mx-5 ">
+          {result === "OK" || result === "ALREADY_ACTIVATED" ? (
+            <Link
+              to="/ar"
+              className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
+            >
+              {t.AU[lan]}
+            </Link>
+          ) : null}
+          {result === "CODE_MISMATCH" ||
+          result === "ACTIVATION_CODE_NOT_FOUND" ? (
+            <Link
+              to="/registro"
+              className="btn btn-outline-secondary d-flex align-items-center justify-content-center"
+            >
+              {t.SA[lan]}
+            </Link>
+          ) : null}
         </div>
       </div>
     );

@@ -16,27 +16,33 @@
   },
   "ACTIVATION_CODE_NOT_FOUND": {
     "es": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso",
-    "en": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso",
-    "fr": "No se han encontrado una solicitud de registro para este cliente. Intente repetir el proceso"
+    "en": "An activation code for this customer couldn't be found. Try to repeat the Registration process",
+    "fr": "Aucun code d'activation n'existe pas pour ce client. Essayez de répeter le processus d'isncription"
   },
   "ALREADY_ACTIVATED": {
     "es": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario.",
-    "en": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario.",
-    "fr": "Este cliente ya ha activado su cuenta. Intente entrar normalmente a traves de la opción de Acceso Usuario."
+    "en": "This customer's account has already been activated. Try to access normally using the Access Form",
+    "fr": "Cette compte est déjà activée. Essayez d'accéder en utilisant le formulaire correspondant. "
   },
   "CODE_MISMATCH": {
     "es": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro",
-    "en": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro",
-    "fr": "El codigo con el que ha intentado activar su cuenta no existe o ha caducado. Probablemente se le haya enviado uno posterior. Revise, y si no, repita el proceso de registro"
+    "en": "This code has expired. A later one has probably been sent. Pease check your email and, if necessary, repeat the Register Process",
+    "fr": "Cet code est éxpiré. Très probablement on vous a envoyé un autre code plus récemment. Vérifiez votre e-mail et répetez le processus d'inscription dans le cas contraire"
   },
   "ACTIVATION_ERROR": {
     "es": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema.",
-    "en": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema.",
-    "fr": "Debido a un error técnico desconocido, no se ha podido activar su cuenta. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema."
+    "en": "Due to a technical problem your account couldn't be activated. Try it again later or reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "En raison d'une défaillance technique on n'a pas pu activer votre compte. Essayez de le faire un peu plus tard ou contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
   },
   "OK": {
-    "es": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio de alta",
-    "en": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio e alta",
-    "fr": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario on el correo electrónico y la contraseña con las que se dio e alta"
+    "es": "Se ha activado la cuenta correctamente. A partir de este momento, ya puede acceder al área de usuario con el correo electrónico y la contraseña con las que se dio de alta",
+    "en": "Congratulations. Your account has been activated. From now on, you can use the e-mail and password you supplied to access your Customer Area ",
+    "fr": "Vore compte vient d'être activée. Vous pouvez désormais accéder à votre Espace Clent en employant le e-mail et le mot de passe dont vous vous êtes servi pour vous enregistrer"
+  },
+  "AU": { "es": "Área Usuario", "en": "User Area", "fr": "Espace Client" },
+  "SA": {
+    "es": "Regístrese",
+    "fr": "Inscrivez-vous",
+    "en": "Register"
   }
 }
