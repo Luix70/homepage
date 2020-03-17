@@ -11,20 +11,25 @@ class Activate extends Component {
 
   componentWillMount = async () => {
     let url = this.props.location.search;
+    const { handleLanguage } = this.props;
     let params = queryString.parse(url);
     let ncod = params.cod.replace(/ /g, "+");
     params.cod = ncod;
+    if (params.lan === "") {
+      params.lan = "es";
+    }
+
+    var { lan } = params;
+    handleLanguage(lan);
 
     try {
-      var { lan } = this.props;
-
       //console.log(dataLan);
       const { data } = await http.post(
         apiDataEndPoint + "login/activate/",
         params
       );
 
-      this.setState({ result: data });
+      this.setState({ result: data, lan });
 
       data === "OK"
         ? toast.success(t["TOAST_SUCCESS"][lan])
@@ -38,8 +43,7 @@ class Activate extends Component {
   };
 
   render() {
-    const { lan } = this.props;
-    const { result } = this.state;
+    const { lan, result } = this.state;
 
     return (
       <div>

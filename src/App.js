@@ -198,7 +198,13 @@ class App extends Component {
 
               <Route
                 path="/activate"
-                render={props => <Activate lan={lan} {...props} />}
+                render={props => (
+                  <Activate
+                    lan={lan}
+                    handleLanguage={this.handleLanguage}
+                    {...props}
+                  />
+                )}
               />
               <Route
                 exact
