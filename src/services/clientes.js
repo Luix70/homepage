@@ -49,6 +49,26 @@ export async function getRepres() {
   }
 }
 
+export async function getDatosCliente(codCli) {
+  const nEndPoint = config.apiDataEndPoint + "customers/GetCli/" + codCli;
+
+  try {
+    const token = sessionStorage.getItem("apiToken");
+    // console.log("retrieved " + new Date(cachedData.FechaCache));
+    const { data: liveData } = await httpService.get(nEndPoint, {
+      headers: { Authorization: `Bearer ${token}` },
+      timeout: 30000
+    });
+
+    const nData = JSON.parse(liveData);
+
+    return nData;
+  } catch (error) {
+    console.log("error getData", error);
+    return {};
+  }
+}
+
 async function getData() {
   const nEndPoint = config.apiDataEndPoint + "customers/GetAll";
 

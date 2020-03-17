@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import queryString from "query-string";
 import t from "./activate.lit.json";
+import { Link } from "react-router-dom";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
 
 class Activate extends Component {
   state = { result: "" };

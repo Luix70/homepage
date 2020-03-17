@@ -23,6 +23,7 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
+import DashCliente from "./components/dashCliente";
 
 class App extends Component {
   state = {
@@ -162,6 +163,12 @@ class App extends Component {
                 path="/ar"
                 render={props => (
                   <AreaReservada usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/client"
+                render={props => (
+                  <DashCliente usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
