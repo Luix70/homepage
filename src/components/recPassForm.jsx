@@ -5,6 +5,7 @@ import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./recPassForm.lit.json";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 class RecPassForm extends Form {
   state = { data: { username: "" }, errors: {}, result: "" };
 
@@ -32,21 +33,22 @@ class RecPassForm extends Form {
         apiDataEndPoint + "login/passwordRecovery/",
         dataLan
       );
-
+      console.log(token);
       if (
-        token === "NO_ACTIVADA" ||
-        token === "BAD_PASSWORD" ||
-        token === "NO_USER"
+        token === "CREDENTIAL_NOT_ACTIVATED" ||
+        token === "CREDENTIAL_NOT_EXISTS" ||
+        token === "CREDENTIAL_FAILED" ||
+        token === "EMAIL_FAILED"
       ) {
         toast.error(t.TOAST_FAIL[lan]);
         this.setState({ result: token });
       } else {
-        //toast.error(t.TOAST_SUCCESS[lan]);
+        toast.success(t.TOAST_SUCCESS[lan]);
         sessionStorage.removeItem("cachedData");
         sessionStorage.removeItem("apiToken");
         sessionStorage.setItem("apiToken", token);
-        this.setState({ result: "" });
-        window.location = "/ar";
+        this.setState({ result: "OK" });
+        //window.location = "/ar";
       }
     } catch (error) {
       toast.error(t.TOAST_FAIL[lan]);
@@ -68,10 +70,33 @@ class RecPassForm extends Form {
               <div className="d-flex justify-content-around align-items-center my-5">
                 {this.renderButton(t.SC[lan])}
               </div>
-              <div className="row mt-2 d-flex justify-content-around align-items-stretch text-danger">
+              <div
+                className={
+                  "row mt-2 d-flex justify-content-around align-items-stretch " +
+                  (result === "OK" ? "text-success" : "text-danger")
+                }
+              >
                 <span className="small p-2">
                   {result === "" ? null : t[result][lan]}
                 </span>
+              </div>
+              <div className="d-flex justify-content-center mt-5 mx-5 ">
+                {result === "OK" ? (
+                  <Link
+                    to="/ar"
+                    className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
+                  >
+                    {t.AU[lan]}
+                  </Link>
+                ) : null}
+                {result === "CREDENTIAL_NOT_EXISTS" ? (
+                  <Link
+                    to="/registro"
+                    className="btn btn-outline-secondary d-flex align-items-center justify-content-center"
+                  >
+                    {t.SA[lan]}
+                  </Link>
+                ) : null}
               </div>
             </form>
           </div>

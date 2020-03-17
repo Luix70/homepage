@@ -33,12 +33,12 @@ class AreaReservada extends Component {
       $("#progBar")
         .removeClass("d-block")
         .addClass("d-none");
-      console.log("hide");
+      //console.log("hide");
     } else {
       $("#progBar")
         .removeClass("d-none")
         .addClass("d-block");
-      console.log("show");
+      // console.log("show");
     }
   };
 
