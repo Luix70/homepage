@@ -50,8 +50,8 @@ export async function getRepres() {
 }
 
 export async function getDatosCliente(codCli) {
-  const nEndPoint = config.apiDataEndPoint + "customers/GetCli/" + codCli;
-
+  const nEndPoint = config.apiDataEndPoint + "customers/GetId/" + codCli;
+  console.log(nEndPoint);
   try {
     const token = sessionStorage.getItem("apiToken");
     // console.log("retrieved " + new Date(cachedData.FechaCache));
@@ -59,9 +59,9 @@ export async function getDatosCliente(codCli) {
       headers: { Authorization: `Bearer ${token}` },
       timeout: 30000
     });
-
+    //console.log(liveData);
     const nData = JSON.parse(liveData);
-
+    //console.log(nData);
     return nData;
   } catch (error) {
     console.log("error getData", error);

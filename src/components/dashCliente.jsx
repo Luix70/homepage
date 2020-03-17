@@ -13,7 +13,7 @@ class DashCliente extends Component {
 
   render() {
     const { lan, usuario } = this.props;
-
+    //console.log(this.state.datosCliente);
     return (
       <div className="d-flex justify-content-center mt-5 mx-5 ">
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
