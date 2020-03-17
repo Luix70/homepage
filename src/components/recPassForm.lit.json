@@ -35,9 +35,9 @@
     "fr": "Cet e-mail ne correspond pas a aucun utilisateur"
   },
   "OK": {
-    "es": "Se ha enviado un nuevo juego de contraseñas al correo especificado. A partir de este momento, ya puede acceder al área de usuario con ellas",
-    "en": "A new set of credentials have been sent to your email. From now on, you can use them to access your Customer Area ",
-    "fr": "Un nouveau jeu d'identificateurs ont été envoyés à votre adresse éléctronique. Vous pouvez désormais vous en servir pour accéder à votre Espace Clent"
+    "es": "Se ha enviado un nuevo juego de contraseñas al correo especificado con un enlace para su activación. Deberá proceder a activarlas y a partir de este momento, ya puede acceder al área de usuario con ellas",
+    "en": "A new set of credentials have been sent to your email with a link to activate them. From that moment on, you'll be able to use them to access your Customer Area ",
+    "fr": "Un nouveau jeu d'identificateurs ont été envoyés à votre adresse éléctronique, avec un lien à suivre pour les activer. Vous serez désormais en mesure de vous en servir pour accéder à votre Espace Clent"
   },
   "TOAST_FAIL": {
     "es": "Algo ha ido mal",
