@@ -1,0 +1,16 @@
+{
+  "RS": {
+    "es": "Razón Social",
+    "en": "Corporate Name",
+    "fr": "Raison Sociale"
+  },
+  "NC": {
+    "es": "Nombre Comercial",
+    "en": "Trade Name",
+    "fr": " Dénomination Commerciale"
+  },
+  "AD": { "es": "Direccion", "en": "Address", "fr": " Adresse" },
+  "CI": { "es": "Ciudad", "en": "City", "fr": " Ville" },
+  "PR": { "es": "Provincia", "en": "Country", "fr": " Pays" },
+  "CP": { "es": "C.P.", "en": "Zip", "fr": "C.P." }
+}

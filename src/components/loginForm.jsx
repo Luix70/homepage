@@ -54,7 +54,7 @@ class LoginForm extends Form {
         sessionStorage.removeItem("apiToken");
         sessionStorage.setItem("apiToken", token);
         this.setState({ result: "" });
-        window.location = "/ar";
+        window.location = "/client";
       }
     } catch (error) {
       toast.error(t.TOAST_FAIL[lan]);

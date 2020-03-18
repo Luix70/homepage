@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import t from "./dashCliente.lit.json";
 import { Link, Redirect } from "react-router-dom";
 import { getDatosCliente } from "../services/clientes";
+import FichaCliente from "./common/fichaCliente";
 class DashCliente extends Component {
   state = { datosCliente: {} };
   async componentDidMount() {
@@ -13,16 +14,22 @@ class DashCliente extends Component {
 
   render() {
     const { lan, usuario } = this.props;
-    //console.log(this.state.datosCliente);
+    const { datosCliente } = this.state;
+    console.log(this.state.datosCliente, usuario);
     return (
-      <div className="d-flex justify-content-center mt-5 mx-5 ">
-        {!usuario ? <Redirect to={"/login"}></Redirect> : null}
-        <Link
-          to="/ar"
-          className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
-        >
-          {t.OP[lan]}
-        </Link>
+      <div>
+        <div className="d-flex justify-content-center mt-3 mx-5 ">
+          {!usuario ? <Redirect to={"/login"}></Redirect> : null}
+          <FichaCliente datosCliente={datosCliente} lan={lan}></FichaCliente>
+        </div>
+        <div className="d-flex justify-content-center mt-3 mx-5">
+          <Link
+            to="/ar"
+            className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
+          >
+            {t.OP[lan]}
+          </Link>
+        </div>
       </div>
     );
   }

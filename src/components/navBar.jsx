@@ -105,7 +105,7 @@ const NavBar = props => {
                   data-target="#toggler"
                   aria-controls="toggler"
                 >
-                  <Link className="nav-link" to={"/ar"}>
+                  <Link className="nav-link" to={"/client"}>
                     {t.AU[lan]}
                   </Link>
                 </div>
