@@ -94,7 +94,7 @@ class Form extends Component {
     );
   }
 
-  renderInput(name, label, type = "text") {
+  renderInput(name, label, type = "text", placeholder) {
     const { data, errors, passVisible } = this.state;
 
     return (
@@ -107,6 +107,7 @@ class Form extends Component {
         error={errors[name]}
         passVisible={passVisible}
         changeVisibility={this.changeVisibility}
+        placeholder={placeholder || ""}
       />
     );
   }

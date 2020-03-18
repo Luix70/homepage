@@ -9,7 +9,11 @@
     "fr": "Nom d'utilisateur (e-mail)",
     "en": "User (email)"
   },
-  "CI": { "es": "CIF / NIF", "fr": "NIF", "en": "VAT ID" },
+  "CI": {
+    "es": "CIF / NIF (EJ: BXXXXXXXXX )",
+    "fr": "NIF (FRXXXXXXXXXXX)",
+    "en": "VAT ID"
+  },
   "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
   "PC": {
     "es": "Confirmar Contraseña",

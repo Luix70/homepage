@@ -5,12 +5,15 @@ const FichaCliente = props => {
   const { datosCliente, lan } = props;
   return (
     <form>
+      <div className="form-group d-flex justify-content-center border-bottom">
+        <label className="h3">{t.FC[lan]}</label>
+      </div>
       <div className="form-group">
-        <label htmlFor="inputAddress">{t.RS[lan]}</label>
+        <label htmlFor="inputRzs">{t.RS[lan]}</label>
         <input
           type="text"
           className="form-control"
-          id="inputAddress"
+          id="inputRzs"
           placeholder={datosCliente.Rzs}
           readOnly
         />
@@ -25,6 +28,51 @@ const FichaCliente = props => {
           readOnly
         />
       </div>
+      <div className="form-row">
+        <div className="form-group col-md-4">
+          <label htmlFor="inputCIF">{t.CF[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="inputCIF"
+            placeholder={datosCliente.Cif}
+            readOnly
+          />
+        </div>
+        <div className="form-group col-md-8">
+          <label htmlFor="inputemail">{t.EM[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="inputemail"
+            placeholder={datosCliente.Email}
+            readOnly
+          />
+        </div>
+      </div>
+      <div className="form-row">
+        <div className="form-group col-md-6">
+          <label htmlFor="inputTel">{t.TF[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="inputTel"
+            placeholder={datosCliente.Telef}
+            readOnly
+          />
+        </div>
+        <div className="form-group col-md-6">
+          <label htmlFor="inputFax">{t.FX[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="inputFax"
+            placeholder={datosCliente.Fax}
+            readOnly
+          />
+        </div>
+      </div>
+
       <div className="form-group">
         <label htmlFor="inputAddress">{t.AD[lan]}</label>
         <input
@@ -63,6 +111,46 @@ const FichaCliente = props => {
             className="form-control"
             id="inputZip"
             placeholder={datosCliente.Cp1}
+            readOnly
+          />
+        </div>
+      </div>
+      <div className="form-group">
+        <label>
+          <p className="small text-center font-italic text-info">{t.DC[lan]}</p>
+        </label>
+      </div>
+      <div className="form-group d-flex justify-content-center border-bottom">
+        <label className="h3">{t.FR[lan]}</label>
+      </div>
+      <div className="form-group">
+        <label htmlFor="nombrerep">{t.NR[lan]}</label>
+        <input
+          type="text"
+          className="form-control"
+          id="nombrerep"
+          placeholder={datosCliente.NomRepresentante}
+          readOnly
+        />
+      </div>
+      <div className="form-row">
+        <div className="form-group col-md-4">
+          <label htmlFor="telrep">{t.TF[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="telrep"
+            placeholder={datosCliente.TelRepresentante}
+            readOnly
+          />
+        </div>
+        <div className="form-group col-md-8">
+          <label htmlFor="telrep">{t.EM[lan]}</label>
+          <input
+            type="text"
+            className="form-control"
+            id="telrep"
+            placeholder={datosCliente.EmailRepresentante}
             readOnly
           />
         </div>

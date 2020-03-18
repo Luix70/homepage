@@ -18,16 +18,24 @@ class DashCliente extends Component {
     console.log(this.state.datosCliente, usuario);
     return (
       <div>
-        <div className="d-flex justify-content-center mt-3 mx-5 ">
-          {!usuario ? <Redirect to={"/login"}></Redirect> : null}
-          <FichaCliente datosCliente={datosCliente} lan={lan}></FichaCliente>
-        </div>
-        <div className="d-flex justify-content-center mt-3 mx-5">
+        {!usuario ? <Redirect to={"/login"}></Redirect> : null}
+        <div className="d-flex justify-content-center my-3 mx-5">
           <Link
             to="/ar"
-            className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
+            className="btn btn-outline-primary  d-flex align-items-center justify-content-center"
           >
-            {t.OP[lan]}
+            {t.DT[lan]}
+          </Link>
+        </div>
+        <div className="d-flex justify-content-center mt-3 mx-5 ">
+          <FichaCliente datosCliente={datosCliente} lan={lan}></FichaCliente>
+        </div>
+        <div className="d-flex justify-content-center my-3 mx-5">
+          <Link
+            to="/ar"
+            className="btn btn-outline-primary  d-flex align-items-center justify-content-center"
+          >
+            {t.DT[lan]}
           </Link>
         </div>
       </div>

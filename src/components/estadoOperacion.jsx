@@ -17,7 +17,7 @@ function formatFecha(fecha, formatoIngles) {
   return fecha2;
 }
 
-function handleClick(ruta, tipo, td, cd) {
+function handleClick(ruta, tipo, td, cd, lan) {
   window.location.href =
     config.DataEndPoint +
     "JTransferScan?ruta=" +
@@ -29,7 +29,7 @@ function handleClick(ruta, tipo, td, cd) {
     "&tipoArchivo=" +
     tipo;
 
-  toast.success("Archivo descargado. Revisa las descargas de tu navegador");
+  toast.success(t.SU[lan]);
 }
 
 function actualizarEstados(estados, doc, scans, lan) {
@@ -213,6 +213,7 @@ const EstadoOperacion = props => {
                       onClick={handleClick}
                       td={scan.tipodoc}
                       cd={scan.codigodoc}
+                      lan={lan}
                     ></DocView>
                   );
                 })}
