@@ -105,7 +105,7 @@ const NavBar = props => {
                   data-target="#toggler"
                   aria-controls="toggler"
                 >
-                  <Link className="nav-link" to={"/ar"}>
+                  <Link className="nav-link" to={"/client"}>
                     {t.AU[lan]}
                   </Link>
                 </div>
@@ -140,7 +140,11 @@ const NavBar = props => {
             data-target="#toggler"
             aria-controls="toggler"
           >
-            <Link to={"#"} onClick={showInfo} className={userStyle(usuario)}>
+            <Link
+              to={"/client"}
+              onClick={showInfo}
+              className={userStyle(usuario)}
+            >
               <MaterialIcon icon="person" size={24} />
             </Link>
 

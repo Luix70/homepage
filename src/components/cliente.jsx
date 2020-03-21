@@ -43,6 +43,9 @@ const isInLines = (lineas, criterio) => {
   return inLine;
 };
 
+const headerClick = () => {
+  window.location = "/client";
+};
 const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
   var rzs = cli.rzs;
   var nomComercial = cli.nomComercial;
@@ -51,7 +54,11 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
   return (
     <div className="container-fluid">
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
-        <div className="col-12 lead">
+        <div
+          className="col-12 lead pointer"
+          style={{ cursor: "pointer" }}
+          onClick={headerClick}
+        >
           <strong>
             {" "}
             <Highlighter

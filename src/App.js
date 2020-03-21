@@ -9,6 +9,10 @@ import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
+import RegisterForm from "./components/registerForm";
+import RecPassForm from "./components/recPassForm";
+import LanRedirect from "./components/lanRedirect";
+import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
@@ -19,6 +23,7 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
+import DashCliente from "./components/dashCliente";
 
 class App extends Component {
   state = {
@@ -160,7 +165,24 @@ class App extends Component {
                   <AreaReservada usuario={usuario} lan={lan} {...props} />
                 )}
               />
-
+              <Route
+                path="/client"
+                render={props => (
+                  <DashCliente usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/registro"
+                render={props => (
+                  <RegisterForm usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/recuperacion"
+                render={props => (
+                  <RecPassForm usuario={usuario} lan={lan} {...props} />
+                )}
+              />
               <Route
                 path="/contact"
                 render={props => (
@@ -170,6 +192,26 @@ class App extends Component {
               <Route
                 path="/login"
                 render={props => <LoginForm lan={lan} {...props} />}
+              />
+              <Route path="/en">
+                <LanRedirect lan="en" handleLanguage={this.handleLanguage} />
+              </Route>
+              <Route path="/es">
+                <LanRedirect lan="es" handleLanguage={this.handleLanguage} />
+              </Route>
+              <Route path="/fr">
+                <LanRedirect lan="fr" handleLanguage={this.handleLanguage} />
+              </Route>
+
+              <Route
+                path="/activate"
+                render={props => (
+                  <Activate
+                    lan={lan}
+                    handleLanguage={this.handleLanguage}
+                    {...props}
+                  />
+                )}
               />
               <Route
                 exact
@@ -186,7 +228,6 @@ class App extends Component {
                   />
                 )}
               />
-
               <Redirect to="/" />
             </Switch>
           </div>

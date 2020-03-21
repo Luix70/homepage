@@ -3,7 +3,9 @@ import { Redirect } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
 import ListGroup from "./common/listGroup";
-import CircleArrow from "react-scroll-up-button";
+import $ from "jquery";
+import t from "./areaReservada.lit.json";
+
 class AreaReservada extends Component {
   state = {
     resultConsulta: null,
@@ -13,12 +15,31 @@ class AreaReservada extends Component {
     usuario: null
   };
   handleListGroupClick = async repre => {
-    const lr = await getClientes(repre);
-    this.setState({
-      resultConsulta: lr,
-      selectedRepre: repre.codrep,
-      FechaConsulta: lr.FechaConsulta
-    });
+    this.mostrarProgress(true);
+
+    setTimeout(async () => {
+      const lr = await getClientes(repre);
+      this.setState({
+        resultConsulta: lr,
+        selectedRepre: repre.codrep,
+        FechaConsulta: lr.FechaConsulta
+      });
+      this.mostrarProgress(false);
+    }, 100);
+  };
+
+  mostrarProgress = mostrar => {
+    if (!mostrar) {
+      $("#progBar")
+        .removeClass("d-block")
+        .addClass("d-none");
+      //console.log("hide");
+    } else {
+      $("#progBar")
+        .removeClass("d-none")
+        .addClass("d-block");
+      // console.log("show");
+    }
   };
 
   async componentDidMount() {
@@ -41,20 +62,18 @@ class AreaReservada extends Component {
 
     return (
       <React.Fragment>
-        <CircleArrow />
         <div
+          className="progress d-block"
           id="progBar"
-          className="progress d-none"
-          style={{ height: "20px" }}
+          style={{ width: "100%", height: "40px" }}
         >
           <div
-            className="progress-bar progress-bar-striped progress-bar-animated"
-            style={{ width: "100%", height: "20px" }}
+            className="progress-bar progress-bar-striped progress-bar-danger-animated bg-danger "
+            style={{ width: "100%", height: "40px" }}
           >
-            cargando
+            <h6>{t.PA[lan]}</h6>
           </div>
         </div>
-
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row">
           {this.state.listaRepresentantes.length > 1 ? (

@@ -1,0 +1,109 @@
+{
+  "TI": {
+    "es": "Formulario de Registro",
+    "fr": "Inscription",
+    "en": "Register Form"
+  },
+  "US": {
+    "es": "Usuario (email)",
+    "fr": "Nom d'utilisateur (e-mail)",
+    "en": "User (email)"
+  },
+  "CI": {
+    "es": "CIF / NIF (EJ: BXXXXXXXXX )",
+    "fr": "NIF (FRXXXXXXXXXXX)",
+    "en": "VAT ID"
+  },
+  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
+  "PC": {
+    "es": "Confirmar Contraseña",
+    "fr": "Confirmer mot de passe",
+    "en": "Password Confirmation"
+  },
+  "IN": {
+    "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
+    "fr": "Si vous êtes déjà client d'INDESAN et l'adresse electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
+    "en": "If you are already a customer of INDESAN, and if this email address matches the one where we send you the order confirmations, an email will be sent to you with a link to activate your account."
+  },
+  "CC": {
+    "es": "La contraseña debe contener al menos {#limit} caracteres",
+    "fr": "Le mot de passe doit contenir au moins {#limit} caractères",
+    "en": "The password must be at least {#limit} characters long"
+  },
+  "CL": {
+    "es": "La contraseña debe contener no más {#limit} caracteres",
+    "fr": "Le mot de passe doit contenir un maximum de {#limit} caractères",
+    "en": "The password must be no more than {#limit} characters long"
+  },
+  "NC": {
+    "es": "El CIF/NIF debe contener al menos {#limit} caracteres",
+    "fr": "Le NIF doit contenir au moins {#limit} caractères",
+    "en": "The VAT Number must be at least {#limit} characters long"
+  },
+  "NL": {
+    "es": "El CIF/NIF debe contener no más {#limit} caracteres",
+    "fr": "Le NIF doit contenir un maximum de {#limit} caractères",
+    "en": "The VAT Number must be no more than {#limit} characters long"
+  },
+
+  "VE": {
+    "es": "No es un email válido",
+    "fr": "Ce n'est pas une adresse electronique valide ",
+    "en": "this is not a valid email"
+  },
+  "CR": {
+    "es": "Campo requerido",
+    "fr": "Champ requis",
+    "en": "Required field"
+  },
+  "SA": {
+    "es": "Regístrese",
+    "fr": "Inscrivez-vous",
+    "en": "Register"
+  },
+  "OK": {
+    "es": "Sus credenciales se generaron correctamente y un mensaje de correo electrónico ha sido enviado al email especificado conteniendo un enlace para activar la cuenta. Si no lo recibe, revise en primer lugar su carpeta de SPAM, y póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
+    "en": "Your credentials have been created and we have just sent a message to your email providing a link for the activation. If you don't get it, check your SPAM folder, and reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "Vos identifiants d'accès ont été creés et un e-mail vient d'être envoyé a l'adresse indiquée avec un lien pour les activer. Si vous ne l'avez pas reçu dans quelques instants verifiez d'abord votre dossier de SPAM et contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "CREDENTIAL_EXISTS_ACTIVATED": {
+    "es": "Ya existen las credenciales para este cliente. Intente acceder de nuevo o proceder a RECUPERAR CONTRASEÑA (A traves de la opcion 'Contraseña Olvidada' del formulario de acceso)",
+    "en": "There are credentials already in our database for this customer. Try to LOGIN again, or proceed to RECOVER PASSWORD (Click 'Forgotten Password' at the login form)",
+    "fr": "Il existe déjà un jeu d'identifiants pour ce client dans notre base de données. Essayez d'acceder à nouveau ou de RÉCUPERÉR LE MOT DE PASSE (Á travers l'option 'Mot de passe Oublié' du formulaire d'accèss) "
+  },
+  "USER_UNKNOWN": {
+    "es": "No existe un cliente con ese CIF en nuestra base de datos. Si es Vd cliente de INDESAN póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
+    "en": "There is no customer with that VAT# in our database. If you are customer of INDESAN reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "Il n'y a pas aucun client avec cet TVA dans notre base de données. Si vous êtes client d'INDESAN contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "NO_EMAIL": {
+    "es": "No disponemos de una dirección de correo asociada a su ficha de cliente. Póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
+    "en": "We don't have any e-mail address associated with that customer. Please reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "Nous n'avons pas aucune adresse électronique associée a cet client. Contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "INVALID_EMAIL": {
+    "es": "No hemos podido verificar que la cuenta de correo suministrada pertenece al clientes con ese CIF. Intentelo con otra cuenta de correo de su propiedad o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
+    "en": "We couldn't verify that the e-mail supplied belongs to this customer (it doesn't match with te one we have associated to it). Please try another possible one or reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "On n'a pas pu vérifier que cette adresse électronique correspond a ce client (dans notre base de données il est associé a une autre adresse). Essayez une autre adresse ou Contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "CREDENTIAL_FAILED": {
+    "es": "Debido a un error técnico no se ha podido generar una credencial. Inténtelo más tarde o póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
+    "en": "Due to a technical problem your credentials weren't generated . Try it again later or reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "En raison d'une défaillance technique on n'a pas pu créer un jeu d'identifiants pour vous. Essayez de le faire un peu plus tard ou contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "EMAIL_FAILED": {
+    "es": "Se ha generado correctamente su credencial, pero por un inconveniente técnico no se le ha podido enviar el email de confirmacion. Volveremos a intentarlo en unos minutos. Si no lo recibe (revise su carpeta de SPAM) , póngase en contacto con nosotros a traves de webmaster@indesan.com y o en nuestro teléfono y solucionaremos su problema",
+    "en": "Your credentials have been created, but due to a technical problem an email message could't be sent. We'll try again in a while. If you don't get it (check your SPAM folder) , plesas reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
+    "fr": "Un jeu d'identifiants s'est bien crée, mais en raison d'une défaillance technique on n'a pas pu vous envoyer un e-mail pour les activer. On va essayer de le renvoyer dans quelques instants. Si vous ne le recevez pas ( vérifiez votre dossier de SPAM), contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+  },
+  "TOAST_SUCCESS": {
+    "es": "Todo OK",
+    "en": "Everything OK",
+    "fr": "Tout s'est bien passé"
+  },
+  "TOAST_FAIL": {
+    "es": "Algo ha ido mal",
+    "en": "Something weird happened",
+    "fr": "Quelque chose de bizarre s'est passé  "
+  }
+}

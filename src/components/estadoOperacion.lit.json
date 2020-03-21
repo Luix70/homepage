@@ -98,5 +98,10 @@
     "es": "Confirmaciones: ",
     "en": "Confirmations: ",
     "fr": "Confirmations: "
+  },
+  "SU": {
+    "es": "Archivo descargado. Revisa las descargas de tu navegador",
+    "en": "File succesfully downloaded. Check your browswer's download folder",
+    "fr": "Votre fichier a été téléchergé. Verifiez le dossier de téléchargement de votre navigateur"
   }
 }

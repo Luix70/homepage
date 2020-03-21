@@ -1,0 +1,18 @@
+{
+  "AU": { "es": "Área Usuario", "en": "User Area", "fr": "Espace Client" },
+  "SA": {
+    "es": "Regístrese",
+    "fr": "Inscrivez-vous",
+    "en": "Register"
+  },
+  "OP": {
+    "es": "Ir a operaciones",
+    "fr": "Voir Documents",
+    "en": "Go to Documents"
+  },
+  "DT": {
+    "es": "Ver operaciones en curso y facturas de los últimos 100 dias",
+    "fr": "Voir commandes en cours et factures des dernières 100 jours",
+    "en": "Go to orders in progress and invoices from the last 100 days"
+  }
+}

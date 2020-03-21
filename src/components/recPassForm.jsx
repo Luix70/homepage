@@ -3,10 +3,11 @@ import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
-import t from "./loginForm.lit.json";
+import t from "./recPassForm.lit.json";
 import { toast } from "react-toastify";
-class LoginForm extends Form {
-  state = { data: { username: "", password: "" }, errors: {}, result: "" };
+import { Link } from "react-router-dom";
+class RecPassForm extends Form {
+  state = { data: { username: "" }, errors: {}, result: "" };
 
   objSchema = {
     username: Joi.string()
@@ -18,15 +19,6 @@ class LoginForm extends Form {
       .messages({
         "string.email": t.VE[this.props.lan],
         "string.empty": t.CR[this.props.lan]
-      }),
-    password: Joi.string()
-      .min(8)
-      .max(30)
-      .required()
-      .messages({
-        "string.min": t.CC[this.props.lan],
-        "string.max": t.CL[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
       })
   };
   schema = Joi.object(this.objSchema);
@@ -34,27 +26,29 @@ class LoginForm extends Form {
   doSubmit = async () => {
     //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
     const { lan } = this.props;
-
+    const dataLan = { ...this.state.data };
+    dataLan.lan = lan;
     try {
       const { data: token } = await http.post(
-        apiDataEndPoint + "login/authenticate/",
-        this.state.data
+        apiDataEndPoint + "login/passwordRecovery/",
+        dataLan
       );
-
+      console.log(token);
       if (
-        token === "NO_ACTIVADA" ||
-        token === "BAD_PASSWORD" ||
-        token === "NO_USER"
+        token === "CREDENTIAL_NOT_ACTIVATED" ||
+        token === "CREDENTIAL_NOT_EXISTS" ||
+        token === "CREDENTIAL_FAILED" ||
+        token === "EMAIL_FAILED"
       ) {
         toast.error(t.TOAST_FAIL[lan]);
         this.setState({ result: token });
       } else {
-        //toast.error(t.TOAST_SUCCESS[lan]);
+        toast.success(t.TOAST_SUCCESS[lan]);
         sessionStorage.removeItem("cachedData");
         sessionStorage.removeItem("apiToken");
         sessionStorage.setItem("apiToken", token);
-        this.setState({ result: "" });
-        window.location = "/client";
+        this.setState({ result: "OK" });
+        //window.location = "/ar";
       }
     } catch (error) {
       toast.error(t.TOAST_FAIL[lan]);
@@ -69,29 +63,40 @@ class LoginForm extends Form {
       <div className="d-flex mt-5 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
           <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
-            <h1 className="text-center">{t.TI[lan]}</h1>
+            <h1 className="text-center">{t.SC[lan]}</h1>
             <hr />
             <form onSubmit={this.handleSubmit}>
-              <div>
-                {this.renderInput("username", t.US[lan])}
-                {this.renderInput("password", t.PA[lan], "password")}
-              </div>
+              <div>{this.renderInput("username", t.US[lan])}</div>
               <div className="d-flex justify-content-around align-items-center my-5">
-                {this.renderButton(t.TI[lan])}
+                {this.renderButton(t.SC[lan])}
               </div>
-
-              <div className="row mt-3 d-flex justify-content-around align-items-stretch">
-                <div className="col-6">
-                  {this.renderLink(t.OC[lan], "/recuperacion")}
-                </div>
-                <div className="col-6">
-                  {this.renderLink(t.SA[lan], "/registro")}
-                </div>
-              </div>
-              <div className="row mt-2 d-flex justify-content-around align-items-stretch text-danger">
+              <div
+                className={
+                  "row mt-2 d-flex justify-content-around align-items-stretch " +
+                  (result === "OK" ? "text-success" : "text-danger")
+                }
+              >
                 <span className="small p-2">
                   {result === "" ? null : t[result][lan]}
                 </span>
+              </div>
+              <div className="d-flex justify-content-center mt-5 mx-5 ">
+                {result === "OK" ? (
+                  <Link
+                    to="/ar"
+                    className="btn btn-outline-secondary  d-flex align-items-center justify-content-center"
+                  >
+                    {t.AU[lan]}
+                  </Link>
+                ) : null}
+                {result === "CREDENTIAL_NOT_EXISTS" ? (
+                  <Link
+                    to="/registro"
+                    className="btn btn-outline-secondary d-flex align-items-center justify-content-center"
+                  >
+                    {t.SA[lan]}
+                  </Link>
+                ) : null}
               </div>
             </form>
           </div>
@@ -101,4 +106,4 @@ class LoginForm extends Form {
   }
 }
 
-export default LoginForm;
+export default RecPassForm;

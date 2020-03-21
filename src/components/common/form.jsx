@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import Joi from "@hapi/joi";
 import Input from "./input";
 import TextArea from "./textarea";
+import { Link } from "react-router-dom";
+
 class Form extends Component {
   state = {
     data: {},
-    errors: {}
+    errors: {},
+    passVisible: false
   };
 
   validate = () => {
@@ -47,12 +50,18 @@ class Form extends Component {
 
     this.doSubmit();
   };
-
+  changeVisibility = e => {
+    e.preventDefault();
+    const { passVisible } = this.state;
+    this.setState({ passVisible: !passVisible });
+  };
   handleChange = ({ currentTarget: input }) => {
     //recuperamos el valor de la cuenta del estado
     const data = { ...this.state.data };
     //cambiamos el valor que proceda
     data[input.name] = input.value;
+
+    const result = "";
 
     //ahora comprobamos si con los nuevos valores se ha producido algun error
     //en primer lugar clonamos el estado actual de errors
@@ -64,7 +73,7 @@ class Form extends Component {
     else delete errors[input.name];
 
     // y actualizamos de nuev el estado
-    this.setState({ data, errors });
+    this.setState({ data, errors, result });
   };
 
   renderButton(label) {
@@ -74,17 +83,31 @@ class Form extends Component {
       </button>
     );
   }
+  renderLink(label, link) {
+    return (
+      <Link
+        to={link}
+        className="btn btn-outline-secondary w-100 h-100 d-flex align-items-center justify-content-center"
+      >
+        {label}
+      </Link>
+    );
+  }
 
-  renderInput(name, label, type = "text") {
-    const { data, errors } = this.state;
+  renderInput(name, label, type = "text", placeholder) {
+    const { data, errors, passVisible } = this.state;
+
     return (
       <Input
         type={type}
-        value={data[name]}
+        value={data[name] || ""} // evita warning del tipo controlled to uncontrolled
         onChange={this.handleChange}
-        name={name}
+        name={name || ""} // evita warning del tipo controlled to uncontrolled
         label={label}
         error={errors[name]}
+        passVisible={passVisible}
+        changeVisibility={this.changeVisibility}
+        placeholder={placeholder || ""}
       />
     );
   }
