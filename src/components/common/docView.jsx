@@ -5,6 +5,9 @@ class DocView extends Component {
   state = {};
   render() {
     const { tipo, ruta, onClick, td, cd, lan } = this.props;
+    if (tipo === "Pedido" || tipo === "Albaran") {
+      return null;
+    }
     return (
       <button
         onClick={() => onClick(ruta, tipo, td, cd, lan)}

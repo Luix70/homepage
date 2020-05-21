@@ -111,7 +111,7 @@ function actualizarEstados(estados, doc, scans, lan) {
   }
 }
 
-const EstadoOperacion = props => {
+const EstadoOperacion = (props) => {
   const { doc, lan, scans } = props;
   var estados = [
     {
@@ -121,7 +121,7 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "save",
       tiposScan: [1, 11, 29],
-      docs: []
+      docs: [],
     },
     {
       estado: "CO",
@@ -130,7 +130,7 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "mail_outline",
       tiposScan: [8, 28, 40],
-      docs: []
+      docs: [],
     },
     {
       estado: "PR",
@@ -139,7 +139,7 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "build",
       tiposScan: [],
-      docs: []
+      docs: [],
     },
     {
       estado: "TE",
@@ -148,7 +148,7 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "done",
       tiposScan: [],
-      docs: []
+      docs: [],
     },
     {
       estado: "EN",
@@ -157,7 +157,7 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "local_shipping",
       tiposScan: [2, 21, 25],
-      docs: []
+      docs: [],
     },
     {
       estado: "FA",
@@ -166,15 +166,15 @@ const EstadoOperacion = props => {
       fecha: "",
       icono: "receipt",
       tiposScan: [3, 34],
-      docs: []
-    }
+      docs: [],
+    },
   ];
 
   actualizarEstados(estados, doc, scans, lan);
   //console.log(estados);
   return (
     <ul className="list-group border-0">
-      {estados.map(estado => {
+      {estados.map((estado) => {
         return (
           <li
             key={estado.estado}
@@ -204,7 +204,7 @@ const EstadoOperacion = props => {
                 {estado.docs.length > 0 ? (
                   <span>{t[estado.docs[0].codTipo][lan]}</span>
                 ) : null}
-                {estado.docs.map(scan => {
+                {estado.docs.map((scan) => {
                   return (
                     <DocView
                       key={scan.numerador}

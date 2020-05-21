@@ -56,6 +56,9 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
         <div
           className="col-12 lead pointer"
+          npm
+          audit
+          fix
           style={{ cursor: "pointer" }}
           onClick={headerClick}
         >
@@ -90,7 +93,7 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
       </div>
       <div className="row" key={cli.codigo + "-ops"}>
         <div className="col-12 mt-3 ">
-          {cli.documentos.map(doc => {
+          {cli.documentos.map((doc) => {
             //console.log(facturados, enCurso, doc.tipodoc);
             if (!enCurso && (doc.tipodoc === "P" || doc.tipodoc === "A"))
               return null;
