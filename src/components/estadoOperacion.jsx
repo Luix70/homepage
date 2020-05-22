@@ -5,6 +5,7 @@ import moment from "moment";
 import config from "../config.json";
 import { toast } from "react-toastify";
 import DocView from "./common/docView";
+import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 function formatFecha(fecha, formatoIngles) {
   var fecha2 = fecha.split(" ")[0];
@@ -112,7 +113,7 @@ function actualizarEstados(estados, doc, scans, lan) {
 }
 
 const EstadoOperacion = (props) => {
-  const { doc, lan, scans } = props;
+  const { doc, lan, scans, usuario } = props;
   var estados = [
     {
       estado: "RE",
@@ -202,7 +203,9 @@ const EstadoOperacion = (props) => {
               </div>
               <div className="col-12 col-md-6 bg-lighter-gray p-2 pl-5 border-bottom">
                 {estado.docs.length > 0 &&
-                (estado.estado === "CO" || estado.estado === "FA") ? (
+                (usuario.TipoEntidad !== "CL" ||
+                  estado.estado === "CO" ||
+                  estado.estado === "FA") ? (
                   <span>{t[estado.docs[0].codTipo][lan]}</span>
                 ) : null}
                 {estado.docs.map((scan) => {
@@ -216,6 +219,7 @@ const EstadoOperacion = (props) => {
                       td={scan.tipodoc}
                       cd={scan.codigodoc}
                       lan={lan}
+                      usuario={usuario}
                     ></DocView>
                   );
                 })}

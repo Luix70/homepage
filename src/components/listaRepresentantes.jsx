@@ -5,7 +5,7 @@ class ListaRepresentantes extends Component {
   state = {
     criterio: "",
     enCurso: true,
-    facturados: true
+    facturados: true,
   };
 
   toggleFacturados = () => {
@@ -17,7 +17,7 @@ class ListaRepresentantes extends Component {
     const enCurso = !this.state.enCurso;
     this.setState({ enCurso });
   };
-  setFilter = async criterio => {
+  setFilter = async (criterio) => {
     await this.setState({ criterio });
   };
 
@@ -25,7 +25,7 @@ class ListaRepresentantes extends Component {
     this.setState({
       criterio: "",
       enCurso: true,
-      facturados: true
+      facturados: true,
     });
   };
 
@@ -33,13 +33,13 @@ class ListaRepresentantes extends Component {
     return true;
   }
   render() {
-    const { resultConsulta, lan } = this.props;
+    const { resultConsulta, lan, usuario } = this.props;
     const {
       criterio,
 
       enCurso,
       facturados,
-      expandido
+      expandido,
     } = this.state;
     if (!resultConsulta || resultConsulta.representantes.length === 0)
       return null;
@@ -61,12 +61,13 @@ class ListaRepresentantes extends Component {
           enCurso={enCurso}
           facturados={facturados}
           expandido={expandido}
+          usuario={usuario}
         ></Buscador>
 
         {resultConsulta === null ? (
           <span>&nbsp;</span>
         ) : (
-          resultConsulta.representantes.map(repre => (
+          resultConsulta.representantes.map((repre) => (
             <Representante
               key={repre.codrep}
               repres={repre}
@@ -75,6 +76,7 @@ class ListaRepresentantes extends Component {
               criterio={criterio}
               enCurso={enCurso}
               facturados={facturados}
+              usuario={usuario}
             />
           ))
         )}
