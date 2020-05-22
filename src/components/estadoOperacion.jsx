@@ -201,12 +201,14 @@ const EstadoOperacion = (props) => {
                 </div>
               </div>
               <div className="col-12 col-md-6 bg-lighter-gray p-2 pl-5 border-bottom">
-                {estado.docs.length > 0 ? (
+                {estado.docs.length > 0 &&
+                (estado.estado === "CO" || estado.estado === "FA") ? (
                   <span>{t[estado.docs[0].codTipo][lan]}</span>
                 ) : null}
                 {estado.docs.map((scan) => {
                   return (
                     <DocView
+                      estado={estado.estado}
                       key={scan.numerador}
                       tipo={scan.TipoImagen}
                       ruta={scan.ruta + "\\" + scan.documento}

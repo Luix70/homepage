@@ -4,8 +4,8 @@ import MaterialIcon from "react-google-material-icons";
 class DocView extends Component {
   state = {};
   render() {
-    const { tipo, ruta, onClick, td, cd, lan } = this.props;
-    if (tipo === "Pedido" || tipo === "Albaran") {
+    const { estado, tipo, ruta, onClick, td, cd, lan } = this.props;
+    if (estado !== "CO" && estado !== "FA") {
       return null;
     }
     return (
