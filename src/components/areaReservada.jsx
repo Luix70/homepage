@@ -12,9 +12,9 @@ class AreaReservada extends Component {
     listaRepresentantes: [],
     FechaConsulta: "",
     selectedRepre: -1,
-    usuario: null
+    usuario: null,
   };
-  handleListGroupClick = async repre => {
+  handleListGroupClick = async (repre) => {
     this.mostrarProgress(true);
 
     setTimeout(async () => {
@@ -22,22 +22,18 @@ class AreaReservada extends Component {
       this.setState({
         resultConsulta: lr,
         selectedRepre: repre.codrep,
-        FechaConsulta: lr.FechaConsulta
+        FechaConsulta: lr.FechaConsulta,
       });
       this.mostrarProgress(false);
     }, 100);
   };
 
-  mostrarProgress = mostrar => {
+  mostrarProgress = (mostrar) => {
     if (!mostrar) {
-      $("#progBar")
-        .removeClass("d-block")
-        .addClass("d-none");
+      $("#progBar").removeClass("d-block").addClass("d-none");
       //console.log("hide");
     } else {
-      $("#progBar")
-        .removeClass("d-none")
-        .addClass("d-block");
+      $("#progBar").removeClass("d-none").addClass("d-block");
       // console.log("show");
     }
   };
@@ -45,7 +41,7 @@ class AreaReservada extends Component {
   async componentDidMount() {
     this.setState({
       listaRepresentantes: await getRepres(),
-      usuario: this.props.usuario
+      usuario: this.props.usuario,
     });
 
     if (this.state.listaRepresentantes.length === 1) {
@@ -85,6 +81,7 @@ class AreaReservada extends Component {
                 itemValue="nombre" // valor que se mostrará
                 selectedItem={this.state.selectedRepre}
                 lan={lan}
+                usuario={usuario}
               />
             </div>
           ) : null}
@@ -94,6 +91,7 @@ class AreaReservada extends Component {
               <ListaRepresentantes
                 resultConsulta={this.state.resultConsulta}
                 lan={lan}
+                usuario={usuario}
               />
             </div>
           ) : null}

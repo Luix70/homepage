@@ -6,12 +6,12 @@ import Cliente from "./cliente";
 
 class Representante extends Component {
   state = {
-    sortColumn: { path: "codigo", order: "asc" }
+    sortColumn: { path: "codigo", order: "asc" },
   };
 
   criterioDocs = "";
 
-  handleSortCustomers = header => {
+  handleSortCustomers = (header) => {
     this.setState({
       sortColumn: {
         path: header,
@@ -20,8 +20,8 @@ class Representante extends Component {
             ? this.state.sortColumn.order === "asc"
               ? "desc"
               : "asc"
-            : "asc"
-      }
+            : "asc",
+      },
     });
   };
 
@@ -103,7 +103,7 @@ class Representante extends Component {
     return inLine;
   };
   render() {
-    const { repres, lan, criterio, enCurso, facturados } = this.props;
+    const { repres, lan, criterio, enCurso, facturados, usuario } = this.props;
     const { sortColumn } = this.state;
     const listaclientes = repres.Clientes;
 
@@ -118,7 +118,7 @@ class Representante extends Component {
       [sortColumn.order]
     );
 
-    return listaOrdenada.map(cli => {
+    return listaOrdenada.map((cli) => {
       if (this.isInCli(cli, criterio, enCurso, facturados)) {
         //console.log("CriterioDocs: " + this.criterioDocs);
         return (
@@ -131,6 +131,7 @@ class Representante extends Component {
             enCurso={enCurso}
             facturados={facturados}
             isInDocs={this.isInDocs}
+            usuario={usuario}
           ></Cliente>
         );
       } else {

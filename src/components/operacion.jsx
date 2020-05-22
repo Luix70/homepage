@@ -19,7 +19,7 @@ class Operacion extends Component {
   };
 
   render() {
-    const { doc, lan, criterioDocs } = this.props;
+    const { doc, lan, criterioDocs, usuario } = this.props;
     const { expanded, scans } = this.state;
 
     var olddoc = 0;
@@ -33,7 +33,7 @@ class Operacion extends Component {
           <div
             className="row py-1"
             style={{
-              cursor: "pointer"
+              cursor: "pointer",
             }}
           >
             <div className="col-8  d-flex align-items-center">
@@ -74,7 +74,7 @@ class Operacion extends Component {
               <h5 className="text-primary">{t.AR[lan]}</h5>
             </div>
             <div className="col-12 px-1">
-              {doc.lineas.map(linea => {
+              {doc.lineas.map((linea) => {
                 var newdoc = linea.pedido;
                 var isNew = false;
                 if (newdoc !== olddoc) {
@@ -88,6 +88,7 @@ class Operacion extends Component {
                     isNew={isNew}
                     lan={lan}
                     criterioDocs={criterioDocs}
+                    usuario={usuario}
                   />
                 );
               })}
@@ -98,11 +99,14 @@ class Operacion extends Component {
               <h5 className="text-primary">{t.ES[lan]}</h5>
             </div>
             <div className="col-12 px-0">
-              <EstadoOperacion
-                doc={doc}
-                lan={lan}
-                scans={scans}
-              ></EstadoOperacion>
+              {usuario ? (
+                <EstadoOperacion
+                  doc={doc}
+                  lan={lan}
+                  scans={scans}
+                  usuario={usuario}
+                ></EstadoOperacion>
+              ) : null}
             </div>
           </div>
         </div>
