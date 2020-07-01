@@ -130,7 +130,8 @@ const EstadoOperacion = (props) => {
       text: t.CO[lan],
       fecha: "",
       icono: "mail_outline",
-      tiposScan: [8, 28, 40],
+      //tiposScan: [8, 28,40],
+      tiposScan: [8, 28],
       docs: [],
     },
     {
