@@ -5,7 +5,6 @@ import moment from "moment";
 import config from "../config.json";
 import { toast } from "react-toastify";
 import DocView from "./common/docView";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 function formatFecha(fecha, formatoIngles) {
   var fecha2 = fecha.split(" ")[0];
@@ -130,8 +129,8 @@ const EstadoOperacion = (props) => {
       text: t.CO[lan],
       fecha: "",
       icono: "mail_outline",
-      //tiposScan: [8, 28,40],
-      tiposScan: [8, 28],
+      tiposScan: [8, 28, 40],
+      //tiposScan: [8, 28],
       docs: [],
     },
     {
@@ -203,18 +202,16 @@ const EstadoOperacion = (props) => {
                 </div>
               </div>
               <div className="col-12 col-md-6 bg-lighter-gray p-2 pl-5 border-bottom">
-                {estado.docs.length > 0 &&
-                (usuario.TipoEntidad !== "CL" ||
-                  estado.estado === "CO" ||
-                  estado.estado === "FA") ? (
-                  <span>{t[estado.docs[0].codTipo][lan]}</span>
-                ) : null}
+                {estado.docs.length > 0
+                  ? null //<span>{t[estado.docs[0].codTipo][lan]}</span>
+                  : null}
                 {estado.docs.map((scan) => {
                   return (
                     <DocView
                       estado={estado.estado}
                       key={scan.numerador}
                       tipo={scan.TipoImagen}
+                      codTipo={scan.codTipo}
                       ruta={scan.ruta + "\\" + scan.documento}
                       onClick={handleClick}
                       td={scan.tipodoc}

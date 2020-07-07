@@ -21,7 +21,7 @@ class Operacion extends Component {
   render() {
     const { doc, lan, criterioDocs, usuario } = this.props;
     const { expanded, scans } = this.state;
-
+    //console.log(usuario);
     var olddoc = 0;
 
     return (

@@ -10,8 +10,8 @@
     "en": "User (email)"
   },
   "CI": {
-    "es": "CIF / NIF (EJ: BXXXXXXXXX )",
-    "fr": "NIF (FRXXXXXXXXXXX)",
+    "es": "CIF / NIF (EJ: B000000000 , sin espacios ni guiones) ",
+    "fr": "NIF (FR0000000000, pas de tirets ni espaces) ",
     "en": "VAT ID"
   },
   "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
