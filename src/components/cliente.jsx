@@ -64,9 +64,6 @@ const Cliente = ({
       <div className="row bg-primary text-light p-2  " key={cli.codigo}>
         <div
           className="col-12 lead pointer"
-          npm
-          audit
-          fix
           style={{ cursor: "pointer" }}
           onClick={headerClick}
         >

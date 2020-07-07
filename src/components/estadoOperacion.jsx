@@ -5,7 +5,6 @@ import moment from "moment";
 import config from "../config.json";
 import { toast } from "react-toastify";
 import DocView from "./common/docView";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 function formatFecha(fecha, formatoIngles) {
   var fecha2 = fecha.split(" ")[0];
@@ -130,8 +129,8 @@ const EstadoOperacion = (props) => {
       text: t.CO[lan],
       fecha: "",
       icono: "mail_outline",
-      //tiposScan: [8, 28,40],
-      tiposScan: [8, 28],
+      tiposScan: [8, 28, 40],
+      //tiposScan: [8, 28],
       docs: [],
     },
     {
