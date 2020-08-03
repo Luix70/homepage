@@ -5,7 +5,7 @@ class DocView extends Component {
   state = {};
   render() {
     const {
-      estado,
+      //estado,
       tipo,
       codTipo,
       ruta,
@@ -15,7 +15,7 @@ class DocView extends Component {
       lan,
       usuario,
     } = this.props;
-    console.log(estado, codTipo, usuario.AccesoDocumentos);
+    // console.log(estado, codTipo, usuario.AccesoDocumentos, usuario.verPrecios);
     if (!usuario.AccesoDocumentos.includes(codTipo.toString())) {
       return null;
     }
