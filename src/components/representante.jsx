@@ -121,6 +121,7 @@ class Representante extends Component {
     return listaOrdenada.map((cli) => {
       if (this.isInCli(cli, criterio, enCurso, facturados)) {
         //console.log("CriterioDocs: " + this.criterioDocs);
+
         return (
           <Cliente
             cli={cli}

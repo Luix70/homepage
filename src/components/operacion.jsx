@@ -50,9 +50,12 @@ class Operacion extends Component {
               >
                 <strong>{expanded ? "- i" : "+ i"} </strong>
               </button>
-              €
               <span className="mx-1">
-                <b>{Number.parseFloat(doc.Importebruto).toFixed(2)} </b>
+                <b>
+                  {usuario && usuario.VerPrecios === true
+                    ? Number.parseFloat(doc.Importebruto).toFixed(2) + "€"
+                    : null}{" "}
+                </b>
               </span>{" "}
             </div>
             <div className="col-12 text-secondary pl-4 ">
