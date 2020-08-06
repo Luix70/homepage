@@ -4,10 +4,11 @@ import Form from "./common/form";
 import http from "../services/httpService";
 import { apiDataEndPoint } from "../config.json";
 import t from "./newPass.lit.json";
+import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 class RegisterForm extends Form {
   state = {
-    data: { username: "", password: "", cif: "", newPass: "", confirmPass: "" },
+    data: { password: "", newPass: "", confirmPass: "" },
     errors: {},
     result: "",
   };
@@ -23,8 +24,8 @@ class RegisterForm extends Form {
       "string.max": t.CL[this.props.lan],
       "string.empty": t.CR[this.props.lan],
     }),
-    confirmPass: Joi.string().required().messages({
-      "string.empty": t.CR[this.props.lan],
+    confirmPass: Joi.any().required().valid(Joi.ref("newPass")).messages({
+      "any.only": t.NM[this.props.lan],
     }),
   };
   schema = Joi.object(this.objSchema);
@@ -33,12 +34,13 @@ class RegisterForm extends Form {
     //console.log(apiDataEndPoint + "login/register/", this.state.data);
 
     try {
-      var { lan } = this.props;
+      var { lan, usuario } = this.props;
       let dataLan = { ...this.state.data };
       dataLan.lan = lan;
+      dataLan.username = usuario.Email;
       //console.log(dataLan);
       const { data } = await http.post(
-        apiDataEndPoint + "login/register/",
+        apiDataEndPoint + "login/changePass/",
         dataLan
       );
       this.setState({ result: data });
@@ -57,13 +59,16 @@ class RegisterForm extends Form {
   };
 
   render() {
-    const { lan } = this.props;
+    const { lan, usuario } = this.props;
+
     const { passVisible, result } = this.state;
+
+    if (!usuario || !usuario.Email) return <Redirect to="/login"></Redirect>;
     return (
       <div className="d-flex mt-2 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
           <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 mt-3 px-2">
-            <h4 className="text-center">{t.OP[lan]}</h4>
+            <h4 className="text-center">{t.TI[lan]}</h4>
             <hr />
             <form onSubmit={this.handleSubmit}>
               <div>

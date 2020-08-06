@@ -196,7 +196,9 @@ class App extends Component {
               />
               <Route
                 path="/newPass"
-                render={(props) => <NewPass lan={lan} {...props} />}
+                render={(props) => (
+                  <NewPass lan={lan} usuario={usuario} {...props} />
+                )}
               />
               <Route path="/en">
                 <LanRedirect lan="en" handleLanguage={this.handleLanguage} />

@@ -1,4 +1,9 @@
 {
+  "VE": {
+    "es": "No es un email válido",
+    "fr": "Ce n'est pas une adresse electronique valide ",
+    "en": "this is not a valid email"
+  },
   "CR": {
     "es": "Campo requerido",
     "fr": "Champ requis",
@@ -19,7 +24,11 @@
     "fr": "Changer Mot de Passe",
     "en": "Change Password"
   },
-
+  "NM": {
+    "es": "Las Contraseñas no coinciden",
+    "fr": "Changer Mot de Passe",
+    "en": "Change Password"
+  },
   "TOAST_SUCCESS": {
     "es": "Todo OK",
     "en": "Everything OK",
