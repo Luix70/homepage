@@ -25,7 +25,8 @@ class RegisterForm extends Form {
       "string.empty": t.CR[this.props.lan],
     }),
     confirmPass: Joi.any().required().valid(Joi.ref("newPass")).messages({
-      "any.only": t.NM[this.props.lan],
+      //"any.only": t.NM[this.props.lan],
+      "any.only": "", // evita que se muestre el cartucho
     }),
   };
   schema = Joi.object(this.objSchema);
