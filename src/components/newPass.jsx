@@ -6,7 +6,7 @@ import { apiDataEndPoint } from "../config.json";
 import t from "./newPass.lit.json";
 import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
-class RegisterForm extends Form {
+class newPassForm extends Form {
   state = {
     data: { password: "", newPass: "", confirmPass: "" },
     errors: {},
@@ -44,11 +44,15 @@ class RegisterForm extends Form {
         apiDataEndPoint + "login/changePass/",
         dataLan
       );
-      this.setState({ result: data });
 
-      data === "OK"
-        ? toast.success(t["TOAST_SUCCESS"][lan])
-        : toast.error(t["TOAST_FAIL"][lan]);
+      if (data === dataLan.newPass) {
+        toast.success(t["TOAST_SUCCESS"][lan]);
+        this.setState({ result: "OK" });
+      } else {
+        toast.error(t["TOAST_FAIL"][lan]);
+        this.setState({ result: "NOOK" });
+      }
+
       //console.log(data);
     } catch (error) {
       toast.error(t["TOAST_FAIL"][lan]);
@@ -65,6 +69,9 @@ class RegisterForm extends Form {
     const { passVisible, result } = this.state;
 
     if (!usuario || !usuario.Email) return <Redirect to="/login"></Redirect>;
+
+    if (result === "OK") return <Redirect to="/client"></Redirect>;
+
     return (
       <div className="d-flex mt-2 ">
         <div className="row m-0 p-0 w-100 justify-content-around ">
@@ -89,7 +96,7 @@ class RegisterForm extends Form {
                   this.changeVisibility
                 )}
 
-                {this.renderInput("confirmPass", t.RP[lan], "password")}
+                {this.renderInput("confirmPass", t.RP[lan], "password", false)}
               </div>
               <div className="d-flex justify-content-around align-items-center my-4">
                 {this.renderButton(t.CP[lan])}
@@ -106,7 +113,7 @@ class RegisterForm extends Form {
                 }
               >
                 <span className="small p-2">
-                  {result === "" ? null : t[result][lan]}
+                  {result || result === "" ? null : t[result][lan]}
                 </span>
               </div>
             </form>
@@ -117,4 +124,4 @@ class RegisterForm extends Form {
   }
 }
 
-export default RegisterForm;
+export default newPassForm;
