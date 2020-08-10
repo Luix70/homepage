@@ -12,6 +12,7 @@ import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
 import RecPassForm from "./components/recPassForm";
 import LanRedirect from "./components/lanRedirect";
+import NewPass from "./components/newPass";
 import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
@@ -31,7 +32,7 @@ class App extends Component {
     listaColecciones: [],
     windowWidth: 0,
     windowHeight: 0,
-    modoEdit: false
+    modoEdit: false,
   };
 
   componentDidMount = async () => {
@@ -64,7 +65,7 @@ class App extends Component {
       listaColecciones: randomArray(listaColecciones),
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
-      usuario: payload
+      usuario: payload,
     });
   };
 
@@ -74,7 +75,7 @@ class App extends Component {
     this.setState({ windowWidth: update_width, windowHeight: update_height });
   };
 
-  handleLanguage = lan => {
+  handleLanguage = (lan) => {
     sessionStorage.setItem("lan", lan);
     this.setState({ lan });
   };
@@ -97,7 +98,7 @@ class App extends Component {
       windowWidth,
       windowHeight,
       usuario,
-      modoEdit
+      modoEdit,
     } = this.state;
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
@@ -110,7 +111,7 @@ class App extends Component {
           buttonStyle={{
             backgroundColor: "#0275d8",
             color: "#fff",
-            fontSize: "1em"
+            fontSize: "1em",
           }}
           enableDeclineButton
           onDecline={() => {
@@ -120,7 +121,7 @@ class App extends Component {
           declineButtonStyle={{
             backgroundColor: "#d9534f",
             color: "#fff",
-            fontSize: "1em"
+            fontSize: "1em",
           }}
           flipButtons
         >
@@ -149,7 +150,7 @@ class App extends Component {
             <Switch>
               <Route
                 path="/coleccion/:col"
-                render={props => (
+                render={(props) => (
                   <Coleccion
                     lan={lan}
                     usuario={usuario}
@@ -161,37 +162,43 @@ class App extends Component {
               />
               <Route
                 path="/ar"
-                render={props => (
+                render={(props) => (
                   <AreaReservada usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
                 path="/client"
-                render={props => (
+                render={(props) => (
                   <DashCliente usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
                 path="/registro"
-                render={props => (
+                render={(props) => (
                   <RegisterForm usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
                 path="/recuperacion"
-                render={props => (
+                render={(props) => (
                   <RecPassForm usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
                 path="/contact"
-                render={props => (
+                render={(props) => (
                   <Contacto usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
                 path="/login"
-                render={props => <LoginForm lan={lan} {...props} />}
+                render={(props) => <LoginForm lan={lan} {...props} />}
+              />
+              <Route
+                path="/newPass"
+                render={(props) => (
+                  <NewPass lan={lan} usuario={usuario} {...props} />
+                )}
               />
               <Route path="/en">
                 <LanRedirect lan="en" handleLanguage={this.handleLanguage} />
@@ -205,7 +212,7 @@ class App extends Component {
 
               <Route
                 path="/activate"
-                render={props => (
+                render={(props) => (
                   <Activate
                     lan={lan}
                     handleLanguage={this.handleLanguage}
@@ -216,7 +223,7 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={props => (
+                render={(props) => (
                   <CollectionSlider
                     lan={lan}
                     listaColecciones={listaColecciones}

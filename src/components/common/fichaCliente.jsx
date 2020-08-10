@@ -1,7 +1,8 @@
 import React from "react";
 import t from "./fichaCliente.lit.json";
+import { Link } from "react-router-dom";
 
-const FichaCliente = props => {
+const FichaCliente = (props) => {
   const { datosCliente, lan } = props;
   return (
     <form>
@@ -119,6 +120,14 @@ const FichaCliente = props => {
         <label>
           <p className="small text-center font-italic text-info">{t.DC[lan]}</p>
         </label>
+      </div>
+      <div className="d-flex justify-content-center my-3 mx-5">
+        <Link
+          to="/newPass"
+          className="btn btn-primary  d-flex align-items-center justify-content-center"
+        >
+          {t.CC[lan]}
+        </Link>
       </div>
       <div className="form-group d-flex justify-content-center border-bottom">
         <label className="h3">{t.FR[lan]}</label>
