@@ -11,6 +11,8 @@ import AreaReservada from "./components/areaReservada";
 import LoginForm from "./components/loginForm";
 import RegisterForm from "./components/registerForm";
 import RecPassForm from "./components/recPassForm";
+import DashCliente from "./components/dashCliente";
+import Portal from "./components/portal";
 import LanRedirect from "./components/lanRedirect";
 import NewPass from "./components/newPass";
 import Activate from "./components/activate";
@@ -24,7 +26,6 @@ import "./App.css";
 import "./Custom.css";
 import "./AreaCliente.css";
 import "./Social.css";
-import DashCliente from "./components/dashCliente";
 
 class App extends Component {
   state = {
@@ -170,6 +171,12 @@ class App extends Component {
                 path="/client"
                 render={(props) => (
                   <DashCliente usuario={usuario} lan={lan} {...props} />
+                )}
+              />
+              <Route
+                path="/portal"
+                render={(props) => (
+                  <Portal usuario={usuario} lan={lan} {...props} />
                 )}
               />
               <Route
