@@ -26,8 +26,8 @@
   },
   "NM": {
     "es": "Las Contraseñas no coinciden",
-    "fr": "Changer Mot de Passe",
-    "en": "Change Password"
+    "fr": "Les mots de passe ne correspondent pas.",
+    "en": "Paswords do not match"
   },
   "TOAST_SUCCESS": {
     "es": "Todo OK",
@@ -41,18 +41,18 @@
   },
   "OP": {
     "es": "Contraseña Actual",
-    "fr": "Changer Mot de Passe",
-    "en": "Change Password"
+    "fr": "Mot de passe actuel",
+    "en": "Current Password"
   },
   "NP": {
     "es": "Contraseña Nueva",
-    "fr": "Changer Mot de Passe",
-    "en": "Change Password"
+    "fr": "Nouveau Mot de Passe",
+    "en": "New Password"
   },
   "RP": {
     "es": "Repetir Contraseña Nueva",
-    "fr": "Changer Mot de Passe",
-    "en": "Change Password"
+    "fr": "Répéter le mot de passe",
+    "en": "Repeat password"
   },
   "CP": {
     "es": "Cambiar Contraseña",
@@ -60,10 +60,16 @@
     "en": "Change Password"
   },
   "OK": {
-    "es": "Sus credenciales se generaron correctamente y un mensaje de correo electrónico ha sido enviado al email especificado conteniendo un enlace para activar la cuenta. Si no lo recibe, revise en primer lugar su carpeta de SPAM, y póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
-    "en": "Your credentials have been created and we have just sent a message to your email providing a link for the activation. If you don't get it, check your SPAM folder, and reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
-    "fr": "Vos identifiants d'accès ont été creés et un e-mail vient d'être envoyé a l'adresse indiquée avec un lien pour les activer. Si vous ne l'avez pas reçu dans quelques instants verifiez d'abord votre dossier de SPAM et contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+    "es": "La contraseña ha sido actualizada",
+    "en": "Password updated",
+    "fr": "Le mot de passe a été changé "
   },
+  "NOOK": {
+    "es": "La contraseña no ha podido ser actualizada. Póngase en contact con nosotros en webmaster@indesan.com",
+    "en": "We couldn't update the password. Prease contact our customer service at webmaster@indesan.com",
+    "fr": "Le mot de passe a été changé. Vous pouvez nous contacter par e-mail à webmaster@indesan.com "
+  },
+
   "CREDENTIAL_EXISTS_ACTIVATED": {
     "es": "Ya existen las credenciales para este cliente. Intente acceder de nuevo o proceder a RECUPERAR CONTRASEÑA (A traves de la opcion 'Contraseña Olvidada' del formulario de acceso)",
     "en": "There are credentials already in our database for this customer. Try to LOGIN again, or proceed to RECOVER PASSWORD (Click 'Forgotten Password' at the login form)",
