@@ -1,28 +1,42 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import { Link, Redirect } from "react-router-dom";
 import t from "./portal.lit.json";
+
 class Portal extends Component {
   state = {};
   render() {
-    const { lan } = this.props;
+    const { lan, usuario } = this.props;
     return (
       <div className="d-flex mt-5 ">
+        {!usuario ? <Redirect to={"/login"}></Redirect> : null}
         <div className="row m-0 p-0 w-100 justify-content-around ">
           <div className="col-11 col-sm-8 col-md-6 col-xl-4 m-0 px-2">
             <h1 className="text-center">{t.TI[lan]}</h1>
-            <hr />
           </div>
           <div className="row mt-3 mx-4">
-            <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <div className="card text-center p-4 h-100">
-                <img
-                  src="/resources/img/Customer.png"
-                  className="card-img-top img-fluid h-50"
-                  alt=""
-                />
+            <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
+              <div className="card p-3 h-100">
+                <Link to="/client">
+                  <div className="h-100 text-center">
+                    <img
+                      src="/resources/img/Customer.png"
+                      className="card-img-top text-center mb-4"
+                      alt=""
+                      style={{
+                        marginTop: "10%",
+                        height: "auto",
+                        width: "50%",
+                      }}
+                    />
+                  </div>
+                </Link>
                 <div className="card-block">
-                  <h3 className="card-title text-center">Ficha Cliente</h3>
-
+                  <Link to="/client">
+                    <h4 className="card-title text-center text-primary">
+                      Ficha Cliente
+                    </h4>
+                  </Link>
                   <p className="card-text text-center">
                     Datos de Facturación, representante, cambio de contraseña..
                     etc
@@ -31,55 +45,93 @@ class Portal extends Component {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <div className="card text-center p-4 h-100">
-                <img
-                  src="/resources/img/Documents.png"
-                  className="card-img-top img-fluid h-50"
-                  alt=""
-                />
+            <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
+              <div className="card p-3 h-100">
+                <Link to="/ar">
+                  <div className="h-100 text-center">
+                    <img
+                      src="/resources/img/Documents.png"
+                      className="card-img-top text-center mb-4"
+                      alt=""
+                      style={{
+                        marginTop: "10%",
+                        height: "auto",
+                        width: "50%",
+                      }}
+                    />
+                  </div>
+                </Link>
                 <div className="card-block">
-                  <h3 className="card-title text-center">Operaciones</h3>
-
+                  <Link to="/ar">
+                    <h4 className="card-title text-center text-primary">
+                      Operaciones
+                    </h4>
+                  </Link>
                   <p className="card-text text-center ">
-                    Datos de Facturación, representante, cambio de contraseña..
-                    etc
+                    Pedidos en curso y operaciones finalizadas de los útimos 100
+                    dias
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <div className="card text-center p-4 h-100">
-                <img
-                  src="/resources/img/Ventas.png"
-                  className="card-img-top img-fluid h-50"
-                  alt=""
-                />
+            <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
+              <div className="card p-3 h-100">
+                <div className="h-100 text-center">
+                  <img
+                    src="/resources/img/Ventas.png"
+                    className="card-img-top text-center mb-4"
+                    alt=""
+                    style={{
+                      marginTop: "10%",
+                      height: "auto",
+                      width: "50%",
+                      opacity: "0.2",
+                    }}
+                  />
+                </div>
+
                 <div className="card-block">
-                  <h3 className="card-title text-center">Ofertas Flash</h3>
+                  <h4 className="card-title text-center text-primary">
+                    Ofertas Flash
+                  </h4>
 
                   <p className="card-text text-center">
-                    Datos de Facturación, representante, cambio de contraseña..
-                    etc
+                    Ofertas y artículos con posibilidad de entrega inmediata.
                   </p>
+                  <h4 className="card-title text-center text-danger bg-warning">
+                    Proximamente!
+                  </h4>
                 </div>
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <div className="card text-center p-4 h-100">
-                <img
-                  src="/resources/img/catalog.png"
-                  className="card-img-top img-fluid h-50"
-                  alt=""
-                />
+            <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
+              <div className="card p-3 h-100">
+                <div className="h-100 text-center">
+                  <img
+                    src="/resources/img/catalog.png"
+                    className="card-img-top text-center mb-4"
+                    alt=""
+                    style={{
+                      marginTop: "10%",
+                      height: "auto",
+                      width: "50%",
+                      opacity: "0.2",
+                    }}
+                  />
+                </div>
                 <div className="card-block">
-                  <h3 className="card-title text-center">Documentacion</h3>
+                  <h4 className="card-title text-center text-primary">
+                    Documentacion
+                  </h4>
 
-                  <p className="card-text text-center">
-                    Datos de Facturación, representante, cambio de contraseña..
-                    etc
+                  <p className="card-text text-center h-25">
+                    Descarga de catálogos, tarifas, imagenes en alta
+                    resolución...
                   </p>
+                  <h4 className="card-title text-center text-danger bg-warning">
+                    Proximamente!
+                  </h4>
                 </div>
               </div>
             </div>
