@@ -3,5 +3,50 @@
     "es": "Portal de Clientes",
     "fr": "Portail Clients",
     "en": "Customers Portal"
+  },
+  "OC": {
+    "es": "Operaciones",
+    "fr": "Opérations",
+    "en": "Operations"
+  },
+  "OD": {
+    "es": "Pedidos en curso y operaciones finalizadas de los útimos 100 dias",
+    "fr": "Commandes en cours et factures des derniers 100 jours ",
+    "en": "Pending orders and invoices for the last 100 days"
+  },
+  "FC": {
+    "es": "Ficha Cliente",
+    "fr": "Fiche Client ",
+    "en": "Customer Profile"
+  },
+  "FD": {
+    "es": "Datos de Facturación, representante, cambio de contraseña, etc",
+    "fr": "Données de facturation, representant, changement du mot de passe, etc ",
+    "en": "Billing information, representative, password management, etc "
+  },
+  "OF": {
+    "es": "Ventas Flash",
+    "fr": "Ventes Flash",
+    "en": "Flash Deals"
+  },
+  "VD": {
+    "es": "Ofertas y artículos con posibilidad de entrega inmediata.",
+    "fr": "Offres et articles avec possibilité de livraison immédiate.",
+    "en": "Offers and articles with possibility of immediate delivery."
+  },
+  "DC": {
+    "es": "Documentacion",
+    "fr": "Docummentation",
+    "en": "Documents"
+  },
+  "DD": {
+    "es": "Descarga de catálogos, tarifas, imagenes en alta resolución...",
+    "fr": "Téléchargement de catalogues, tarifs, images haut débit...",
+    "en": "Downloads of catalogs, price lists, high-res images..."
+  },
+  "PR": {
+    "es": "Proximamente",
+    "fr": "Prochainement",
+    "en": "Coming Soon"
   }
 }

@@ -34,13 +34,10 @@ class Portal extends Component {
                 <div className="card-block">
                   <Link to="/client">
                     <h4 className="card-title text-center text-primary">
-                      Ficha Cliente
+                      {t.FC[lan]}
                     </h4>
                   </Link>
-                  <p className="card-text text-center">
-                    Datos de Facturación, representante, cambio de contraseña..
-                    etc
-                  </p>
+                  <p className="card-text text-center">{t.FD[lan]}</p>
                 </div>
               </div>
             </div>
@@ -64,18 +61,15 @@ class Portal extends Component {
                 <div className="card-block">
                   <Link to="/ar">
                     <h4 className="card-title text-center text-primary">
-                      Operaciones
+                      {t.OC[lan]}
                     </h4>
                   </Link>
-                  <p className="card-text text-center ">
-                    Pedidos en curso y operaciones finalizadas de los útimos 100
-                    dias
-                  </p>
+                  <p className="card-text text-center ">{t.OD[lan]}</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
-              <div className="card p-3 h-100">
+              <div className="card p-4 h-100">
                 <div className="h-100 text-center">
                   <img
                     src="/resources/img/Ventas.png"
@@ -90,23 +84,21 @@ class Portal extends Component {
                   />
                 </div>
 
-                <div className="card-block">
-                  <h4 className="card-title text-center text-primary">
-                    Ofertas Flash
+                <div className="card-block ">
+                  <h4 className="card-title text-center text-muted">
+                    {t.OF[lan]}
                   </h4>
 
-                  <p className="card-text text-center">
-                    Ofertas y artículos con posibilidad de entrega inmediata.
-                  </p>
-                  <h4 className="card-title text-center text-danger bg-warning">
-                    Proximamente!
+                  <p className="card-text text-center">{t.VD[lan]}</p>
+                  <h4 className="card-title text-center text-danger bg-warning p-3">
+                    {t.PR[lan]}
                   </h4>
                 </div>
               </div>
             </div>
 
             <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
-              <div className="card p-3 h-100">
+              <div className="card p-4 h-100">
                 <div className="h-100 text-center">
                   <img
                     src="/resources/img/catalog.png"
@@ -121,16 +113,12 @@ class Portal extends Component {
                   />
                 </div>
                 <div className="card-block">
-                  <h4 className="card-title text-center text-primary">
-                    Documentacion
+                  <h4 className="card-title text-center text-muted">
+                    {t.DC[lan]}
                   </h4>
-
-                  <p className="card-text text-center h-25">
-                    Descarga de catálogos, tarifas, imagenes en alta
-                    resolución...
-                  </p>
-                  <h4 className="card-title text-center text-danger bg-warning">
-                    Proximamente!
+                  <p className="card-text text-center ">{t.DD[lan]}</p>
+                  <h4 className="card-title text-center text-danger bg-warning p-3">
+                    {t.PR[lan]}
                   </h4>
                 </div>
               </div>
