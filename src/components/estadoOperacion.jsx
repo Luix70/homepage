@@ -157,7 +157,7 @@ const EstadoOperacion = (props) => {
       text: t.EN[lan],
       fecha: "",
       icono: "local_shipping",
-      tiposScan: [2, 21, 25],
+      tiposScan: [2, 21, 25, 45],
       docs: [],
     },
     {
@@ -166,7 +166,7 @@ const EstadoOperacion = (props) => {
       text: t.FA[lan],
       fecha: "",
       icono: "receipt",
-      tiposScan: [3, 34],
+      tiposScan: [3, 34, 46],
       docs: [],
     },
   ];
