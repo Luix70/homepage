@@ -7,7 +7,7 @@ import MaterialIcon from "react-google-material-icons";
 import t from "./navBar.lit.json";
 import CollectionsDropDown from "./common/collectionsDropDown.jsx";
 
-const NavBar = props => {
+const NavBar = (props) => {
   const {
     lan,
     handleLanguage,
@@ -16,7 +16,7 @@ const NavBar = props => {
     cols,
     toggleEdit,
     modoEdit,
-    windowWidth
+    windowWidth,
   } = props;
 
   // const { windowWidth, windowHeight, BSBreak } = props;
@@ -105,7 +105,7 @@ const NavBar = props => {
                   data-target="#toggler"
                   aria-controls="toggler"
                 >
-                  <Link className="nav-link" to={"/client"}>
+                  <Link className="nav-link" to={"/portal"}>
                     {t.AU[lan]}
                   </Link>
                 </div>
