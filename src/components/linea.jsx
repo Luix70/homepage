@@ -1,7 +1,7 @@
 import React from "react";
 import t from "./linea.lit.json";
 import Highlighter from "react-highlight-words";
-const Linea = ({ linea, isNew, lan, criterioDocs }) => {
+const Linea = ({ linea, isNew, lan, criterioDocs, usuario }) => {
   return (
     <React.Fragment>
       {isNew ? (
@@ -42,7 +42,7 @@ const Linea = ({ linea, isNew, lan, criterioDocs }) => {
         >
           {linea.cantidad === 1 ? "" : linea.cantidad + " x "}
           <strong>
-            {linea.precio !== 0
+            {linea.precio !== 0 && usuario && usuario.VerPrecios
               ? Number.parseFloat(linea.precio).toFixed(2) + " €"
               : ""}
           </strong>

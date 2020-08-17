@@ -12,22 +12,18 @@ class LoginForm extends Form {
     username: Joi.string()
       .email({
         minDomainSegments: 2,
-        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
+        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] },
       })
       .required()
       .messages({
         "string.email": t.VE[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
+        "string.empty": t.CR[this.props.lan],
       }),
-    password: Joi.string()
-      .min(8)
-      .max(30)
-      .required()
-      .messages({
-        "string.min": t.CC[this.props.lan],
-        "string.max": t.CL[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
-      })
+    password: Joi.string().min(8).max(30).required().messages({
+      "string.min": t.CC[this.props.lan],
+      "string.max": t.CL[this.props.lan],
+      "string.empty": t.CR[this.props.lan],
+    }),
   };
   schema = Joi.object(this.objSchema);
 
@@ -54,7 +50,7 @@ class LoginForm extends Form {
         sessionStorage.removeItem("apiToken");
         sessionStorage.setItem("apiToken", token);
         this.setState({ result: "" });
-        window.location = "/client";
+        window.location = "/portal";
       }
     } catch (error) {
       toast.error(t.TOAST_FAIL[lan]);

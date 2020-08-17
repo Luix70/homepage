@@ -8,14 +8,14 @@ class DashCliente extends Component {
   async componentDidMount() {
     this.setState({
       datosCliente: await getDatosCliente(this.props.usuario.AccesoCli),
-      usuario: this.props.usuario
+      usuario: this.props.usuario,
     });
   }
 
   render() {
     const { lan, usuario } = this.props;
     const { datosCliente } = this.state;
-    console.log(this.state.datosCliente, usuario);
+    //console.log(this.state.datosCliente, usuario);
     return (
       <div>
         {!usuario ? <Redirect to={"/login"}></Redirect> : null}

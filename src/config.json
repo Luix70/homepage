@@ -1,5 +1,6 @@
 {
   "apiEndPoint": "https://indesan.com:3001",
   "DataEndPoint": "https://indesan.org:1443/JData.asmx/",
-  "apiDataEndPoint": "https://indesan.org:1443/api/"
+  "apiDataEndPoint": "https://indesan.org:1443/api/",
+  "apiDataEndPoint_": "http://localhost:52608/api/"
 }

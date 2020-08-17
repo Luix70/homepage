@@ -1,29 +1,13 @@
 {
-  "TI": {
-    "es": "Formulario de Registro",
-    "fr": "Inscription",
-    "en": "Register Form"
+  "VE": {
+    "es": "No es un email válido",
+    "fr": "Ce n'est pas une adresse electronique valide ",
+    "en": "this is not a valid email"
   },
-  "US": {
-    "es": "Usuario (email)",
-    "fr": "Nom d'utilisateur (e-mail)",
-    "en": "User (email)"
-  },
-  "CI": {
-    "es": "CIF / NIF (EJ: B000000000 , sin espacios ni guiones) ",
-    "fr": "NIF (FR0000000000, pas de tirets ni espaces) ",
-    "en": "VAT ID"
-  },
-  "PA": { "es": "Contraseña", "fr": "Mot de passe", "en": "Password" },
-  "PC": {
-    "es": "Confirmar Contraseña",
-    "fr": "Confirmer mot de passe",
-    "en": "Password Confirmation"
-  },
-  "IN": {
-    "es": "Si Vd. es cliente de INDESAN y el correo especificado es el  mismo que en el que recibe las confirmaciones, le será enviado un email con un enlace para activar su cuenta. A partir de ese  momento podrá acceder a su Área de Usuario.",
-    "fr": "Si vous êtes déjà client d'INDESAN et l'adresse electronique coïncide avec celle ou vous recevez les confirmations de commande, un mail avec un lien pour activer votre compte vous sera renvoyé",
-    "en": "If you are already a customer of INDESAN, and if this email address matches the one where we send you the order confirmations, an email will be sent to you with a link to activate your account."
+  "CR": {
+    "es": "Campo requerido",
+    "fr": "Champ requis",
+    "en": "Required field"
   },
   "CC": {
     "es": "La contraseña debe contener al menos {#limit} caracteres",
@@ -35,37 +19,57 @@
     "fr": "Le mot de passe doit contenir un maximum de {#limit} caractères",
     "en": "The password must be no more than {#limit} characters long"
   },
-  "NC": {
-    "es": "El CIF/NIF debe contener al menos {#limit} caracteres",
-    "fr": "Le NIF doit contenir au moins {#limit} caractères",
-    "en": "The VAT Number must be at least {#limit} characters long"
+  "TI": {
+    "es": "Cambiar Contraseña",
+    "fr": "Changer Mot de Passe",
+    "en": "Change Password"
   },
-  "NL": {
-    "es": "El CIF/NIF debe contener no más {#limit} caracteres",
-    "fr": "Le NIF doit contenir un maximum de {#limit} caractères",
-    "en": "The VAT Number must be no more than {#limit} characters long"
+  "NM": {
+    "es": "Las Contraseñas no coinciden",
+    "fr": "Les mots de passe ne correspondent pas.",
+    "en": "Paswords do not match"
   },
-
-  "VE": {
-    "es": "No es un email válido",
-    "fr": "Ce n'est pas une adresse electronique valide ",
-    "en": "this is not a valid email"
+  "TOAST_SUCCESS": {
+    "es": "Todo OK",
+    "en": "Everything OK",
+    "fr": "Tout s'est bien passé"
   },
-  "CR": {
-    "es": "Campo requerido",
-    "fr": "Champ requis",
-    "en": "Required field"
+  "TOAST_FAIL": {
+    "es": "Algo ha ido mal",
+    "en": "Something weird happened",
+    "fr": "Quelque chose de bizarre s'est passé  "
   },
-  "SA": {
-    "es": "Regístrese",
-    "fr": "Inscrivez-vous",
-    "en": "Register"
+  "OP": {
+    "es": "Contraseña Actual",
+    "fr": "Mot de passe actuel",
+    "en": "Current Password"
+  },
+  "NP": {
+    "es": "Contraseña Nueva",
+    "fr": "Nouveau Mot de Passe",
+    "en": "New Password"
+  },
+  "RP": {
+    "es": "Repetir Contraseña Nueva",
+    "fr": "Répéter le mot de passe",
+    "en": "Repeat password"
+  },
+  "CP": {
+    "es": "Cambiar Contraseña",
+    "fr": "Changer Mot de Passe",
+    "en": "Change Password"
   },
   "OK": {
-    "es": "Sus credenciales se generaron correctamente y un mensaje de correo electrónico ha sido enviado al email especificado conteniendo un enlace para activar la cuenta. Si no lo recibe, revise en primer lugar su carpeta de SPAM, y póngase en contacto con nosotros a traves de webmaster@indesan.com  o en nuestro teléfono y solucionaremos su problema",
-    "en": "Your credentials have been created and we have just sent a message to your email providing a link for the activation. If you don't get it, check your SPAM folder, and reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
-    "fr": "Vos identifiants d'accès ont été creés et un e-mail vient d'être envoyé a l'adresse indiquée avec un lien pour les activer. Si vous ne l'avez pas reçu dans quelques instants verifiez d'abord votre dossier de SPAM et contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
+    "es": "La contraseña ha sido actualizada",
+    "en": "Password updated",
+    "fr": "Le mot de passe a été changé "
   },
+  "NOOK": {
+    "es": "La contraseña no ha podido ser actualizada. Póngase en contact con nosotros en webmaster@indesan.com",
+    "en": "We couldn't update the password. Prease contact our customer service at webmaster@indesan.com",
+    "fr": "Le mot de passe a été changé. Vous pouvez nous contacter par e-mail à webmaster@indesan.com "
+  },
+
   "CREDENTIAL_EXISTS_ACTIVATED": {
     "es": "Ya existen las credenciales para este cliente. Intente acceder de nuevo o proceder a RECUPERAR CONTRASEÑA (A traves de la opcion 'Contraseña Olvidada' del formulario de acceso)",
     "en": "There are credentials already in our database for this customer. Try to LOGIN again, or proceed to RECOVER PASSWORD (Click 'Forgotten Password' at the login form)",
@@ -95,15 +99,5 @@
     "es": "Se ha generado correctamente su credencial, pero por un inconveniente técnico no se le ha podido enviar el email de confirmacion. Volveremos a intentarlo en unos minutos. Si no lo recibe (revise su carpeta de SPAM) , póngase en contacto con nosotros a traves de webmaster@indesan.com y o en nuestro teléfono y solucionaremos su problema",
     "en": "Your credentials have been created, but due to a technical problem an email message could't be sent. We'll try again in a while. If you don't get it (check your SPAM folder) , plesas reach us out at webmaster@indesan.com  or via phone and we'll fix it inmediately",
     "fr": "Un jeu d'identifiants s'est bien crée, mais en raison d'une défaillance technique on n'a pas pu vous envoyer un e-mail pour les activer. On va essayer de le renvoyer dans quelques instants. Si vous ne le recevez pas ( vérifiez votre dossier de SPAM), contactez-nous par e-mail à webmaster@indesan.com ou par téléphone"
-  },
-  "TOAST_SUCCESS": {
-    "es": "Todo OK",
-    "en": "Everything OK",
-    "fr": "Tout s'est bien passé"
-  },
-  "TOAST_FAIL": {
-    "es": "Algo ha ido mal",
-    "en": "Something weird happened",
-    "fr": "Quelque chose de bizarre s'est passé  "
   }
 }

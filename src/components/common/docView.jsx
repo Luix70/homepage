@@ -4,7 +4,21 @@ import MaterialIcon from "react-google-material-icons";
 class DocView extends Component {
   state = {};
   render() {
-    const { tipo, ruta, onClick, td, cd, lan } = this.props;
+    const {
+      //estado,
+      tipo,
+      codTipo,
+      ruta,
+      onClick,
+      td,
+      cd,
+      lan,
+      usuario,
+    } = this.props;
+    // console.log(estado, codTipo, usuario.AccesoDocumentos, usuario.verPrecios);
+    if (!usuario.AccesoDocumentos.includes(codTipo.toString())) {
+      return null;
+    }
     return (
       <button
         onClick={() => onClick(ruta, tipo, td, cd, lan)}

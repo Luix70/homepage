@@ -46,7 +46,15 @@ const isInLines = (lineas, criterio) => {
 const headerClick = () => {
   window.location = "/client";
 };
-const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
+const Cliente = ({
+  cli,
+  lan,
+  criterio,
+  criterioDocs,
+  enCurso,
+  facturados,
+  usuario,
+}) => {
   var rzs = cli.rzs;
   var nomComercial = cli.nomComercial;
   var poblacion = cli.poblacion;
@@ -90,7 +98,7 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
       </div>
       <div className="row" key={cli.codigo + "-ops"}>
         <div className="col-12 mt-3 ">
-          {cli.documentos.map(doc => {
+          {cli.documentos.map((doc) => {
             //console.log(facturados, enCurso, doc.tipodoc);
             if (!enCurso && (doc.tipodoc === "P" || doc.tipodoc === "A"))
               return null;
@@ -106,6 +114,7 @@ const Cliente = ({ cli, lan, criterio, criterioDocs, enCurso, facturados }) => {
                 doc={doc}
                 lan={lan}
                 criterioDocs={criterioDocs}
+                usuario={usuario}
               />
             );
           })}
