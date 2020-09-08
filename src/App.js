@@ -204,7 +204,9 @@ class App extends Component {
               />
               <Route
                 path="/ofertas"
-                render={(props) => <Ofertas lan={lan} {...props} />}
+                render={(props) => (
+                  <Ofertas lan={lan} usuario={usuario} {...props} />
+                )}
               />
               <Route
                 path="/newPass"
