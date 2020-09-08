@@ -28,7 +28,6 @@ class Ofertas extends Component {
            col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-around"
           >
             <MaterialIcon icon="shopping_cart" size={36} />
-
             <div className="mr-4">
               <p className="p-0 m-0">Items</p>
               <p className="p-0 m-0">0</p>
