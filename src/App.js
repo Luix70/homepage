@@ -15,6 +15,7 @@ import DashCliente from "./components/dashCliente";
 import Portal from "./components/portal";
 import LanRedirect from "./components/lanRedirect";
 import NewPass from "./components/newPass";
+import Ofertas from "./components/ofertas";
 import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
@@ -200,6 +201,10 @@ class App extends Component {
               <Route
                 path="/login"
                 render={(props) => <LoginForm lan={lan} {...props} />}
+              />
+              <Route
+                path="/ofertas"
+                render={(props) => <Ofertas lan={lan} {...props} />}
               />
               <Route
                 path="/newPass"

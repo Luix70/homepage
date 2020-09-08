@@ -1,0 +1,148 @@
+[
+  {
+    "Id": 1,
+    "Cod": "870",
+    "Disponibles": 8,
+    "Imagen": "AURA/THUMB_870.JPG",
+    "Desc": {
+      "es": "MESA COMEDOR 'AURA' Ø 105 TAPA DE MADERA PIE METALICO CENTRAL",
+      "en": "[EN]MESA COMEDOR 'AURA' Ø 105 TAPA DE MADERA PIE METALICO CENTRAL",
+      "fr": "TABLE REPAS RONDE  'AURA' Ø 105 PLATEAU BOIS  PIÉTEMENT MÉTALLIQUE"
+    },
+    "Desc2": {
+      "es": "COLOR ROBLE NUDOSO 684, <ROBLE NUDOSO>, ACERO TEXTURIZADO VULCANO ROCA",
+      "en": "[EN] COLOR ROBLE NUDOSO 684, <ROBLE NUDOSO>, ACERO TEXTURIZADO VULCANO ROCA",
+      "fr": "TEINTE CHÊNE NOUEUX 684, <CHÊNE NOUEUX>, ACIER TEXTURÉ NOIR"
+    },
+    "Precios": [
+      {
+        "Tarifa": "A2019",
+        "Precio": 553.52,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa A 2019 EUROS"
+      },
+      {
+        "Tarifa": "A2019P",
+        "Precio": 1258,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa A 2019 Puntos"
+      },
+      {
+        "Tarifa": "B2019",
+        "Precio": 562.32,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa B 2019 EUROS"
+      },
+      {
+        "Tarifa": "B2019P",
+        "Precio": 1278,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa B 2019 Puntos"
+      },
+      {
+        "Tarifa": "C2019",
+        "Precio": 562.32,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa C 2019 EUROS"
+      },
+      {
+        "Tarifa": "C2019P",
+        "Precio": 1278,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa C 2019 Punto"
+      },
+      {
+        "Tarifa": "DN",
+        "Precio": 591.08,
+        "Moneda": "EUR",
+        "Descripcion": "TARIFA 2016 ANDORRA"
+      },
+      {
+        "Tarifa": "F2019B",
+        "Precio": 608.96,
+        "Moneda": "EUR",
+        "Descripcion": "TARIFA 2019 FRANCIA"
+      },
+      {
+        "Tarifa": "F2019BP",
+        "Precio": 1384,
+        "Moneda": "PUN",
+        "Descripcion": "TARIFA 2019 FRANCIA - PUNTOS"
+      }
+    ],
+    "Codagrupacion": ";COLOR=3410;CHAPA=17;PIE=3;"
+  },
+  {
+    "Id": 2,
+    "Cod": "21B",
+    "Disponibles": 12,
+    "Imagen": "ARMONIA/THUMB_21B.JPG",
+    "Desc": {
+      "es": "MESA CENTRO ELEVABLE 'ARMONIA' 105 x 55",
+      "en": "[EN]MESA CENTRO ELEVABLE 'ARMONIA' 105 x 55",
+      "fr": "TABLE BASSE RELEVABLE  'ARMONIA' 105 x 55"
+    },
+    "Desc2": {
+      "es": "COLOR LACADO TEXTURIZADO VULCANO ROCA    <DM>   TAPA PORCELÁNICO GRIS NATURE    .",
+      "en": "[EN]COLOR LACADO TEXTURIZADO VULCANO ROCA    <DM>   TAPA PORCELÁNICO GRIS NATURE",
+      "fr": "TEINTE LAQUÉ TEXTURÉ VULCANO ROCA, <FDM>, PLATEAU CÉRAMIQUE ROCA, ."
+    },
+    "Precios": [
+      {
+        "Tarifa": "A2019",
+        "Precio": 322.08,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa A 2019 EUROS"
+      },
+      {
+        "Tarifa": "A2019P",
+        "Precio": 732,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa A 2019 Puntos"
+      },
+      {
+        "Tarifa": "B2019",
+        "Precio": 330.88,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa B 2019 EUROS"
+      },
+      {
+        "Tarifa": "B2019P",
+        "Precio": 752,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa B 2019 Puntos"
+      },
+      {
+        "Tarifa": "C2019",
+        "Precio": 330.88,
+        "Moneda": "EUR",
+        "Descripcion": "Tarifa C 2019 EUROS"
+      },
+      {
+        "Tarifa": "C2019P",
+        "Precio": 752,
+        "Moneda": "PUN",
+        "Descripcion": "Tarifa C 2019 Punto"
+      },
+      {
+        "Tarifa": "DN",
+        "Precio": 347.8,
+        "Moneda": "EUR",
+        "Descripcion": "TARIFA 2016 ANDORRA"
+      },
+      {
+        "Tarifa": "F2019B",
+        "Precio": 354.2,
+        "Moneda": "EUR",
+        "Descripcion": "TARIFA 2019 FRANCIA"
+      },
+      {
+        "Tarifa": "F2019BP",
+        "Precio": 805,
+        "Moneda": "PUN",
+        "Descripcion": "TARIFA 2019 FRANCIA - PUNTOS"
+      }
+    ],
+    "Codagrupacion": ";COLOR=3410;CHAPA=17;PIE=3;"
+  }
+]
