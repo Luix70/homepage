@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import MaterialIcon from "react-google-material-icons";
-
+import t from "./itemOferta.lit.json";
 class ItemOferta extends Component {
   state = {};
   render() {
-    const { lan, oferta } = this.props;
+    const { lan, oferta, usuario } = this.props;
+
+    const precio = oferta.Precios.filter((of) => {
+      return of.Tarifa === usuario.Tarifa;
+    })[0];
+    //console.log(precio);
     return (
       <div className=" m-3 my-4 row py-3">
         <div className="col-2 ">
@@ -25,11 +30,11 @@ class ItemOferta extends Component {
         </div>
 
         <div className="col-2 border-right border-muted text-center  d-flex flex-column justify-content-center">
-          <p className="text-info mb-0">Disponibles</p>
+          <p className="text-info mb-0">{t.DI[lan]}</p>
           <h4 className="text-info mb-3"> {oferta.Disponibles}</h4>
           {/* <p className="text-muted mb-0">Precio</p> */}
           <h6 className="text-danger">
-            {oferta.Precios[0].Precio} {oferta.Precios[0].Moneda}
+            {precio.Precio} {precio.Moneda}
           </h6>
         </div>
         <div className="col-1  d-flex justify-content-center align-items-center">
