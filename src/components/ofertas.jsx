@@ -20,15 +20,18 @@ class Ofertas extends Component {
     ) : (
       <React.Fragment>
         <div className="bg-secondary row">
-          <div className="bg-info col-10 m-0 text-center ">
+          <div className="bg-info col-8 col-md-10 m-0 text-center ">
             <h1>Filtro</h1>
           </div>
           <div
             className="bg-danger
-           col-2 m-0 p-0 text-center d-flex align-items-center justify-content-center"
+           col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-around"
           >
             <MaterialIcon icon="shopping_cart" size={36} />
-            <p className="p-0 m-0">Items: 0</p>
+            <div className="mr-4">
+              <p className="p-0 m-0">Items</p>
+              <p className="p-0 m-0">0</p>
+            </div>
           </div>
         </div>
 
