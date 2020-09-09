@@ -14,7 +14,7 @@ export default async function getData() {
       timeout: 30000,
     });
 
-    console.log(liveData);
+    //console.log(liveData);
     const nData = JSON.parse(liveData);
 
     return nData;

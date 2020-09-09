@@ -1,7 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import MaterialIcon from "react-google-material-icons";
 import t from "./itemOferta.lit.json";
 class ItemOferta extends Component {
+  addToCart = () => {
+    console.log("added to cart");
+  };
   state = {};
   render() {
     const { lan, oferta, usuario } = this.props;
@@ -38,7 +42,13 @@ class ItemOferta extends Component {
           </h6>
         </div>
         <div className="col-4 col-sm-1  d-flex justify-content-center align-items-center">
-          <MaterialIcon icon="add_shopping_cart" size={48} />
+          <button
+            type="button"
+            className="btn btn-outline-dark border-0 p-0 "
+            onClick={this.addToCart}
+          >
+            <MaterialIcon icon="add_shopping_cart" size={48} />
+          </button>
         </div>
       </div>
     );
