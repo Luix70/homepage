@@ -16,9 +16,36 @@ class Ofertas extends Component {
   showCart = (ev) => {
     console.log("ver Carrito");
   };
+
+  AddtoCart = (obj) => {
+    const { listaOfertas } = this.state;
+
+    //hacemos copia de los objetos del estado a fin de actualizarlos luego
+    const newListaOfertas = [...listaOfertas];
+
+    //obtenemos una referencia a la oferta que estamos tratando de añadir
+
+    const oferta = newListaOfertas.find((el) => el.Id === obj.Id);
+
+    // reducimos la cantidad de disponibles en una unidad
+    if (oferta.Disponibles > 0) {
+      oferta.Disponibles--;
+      oferta.Reservadas++;
+    }
+    this.setState({ listaOfertas: newListaOfertas });
+
+    //console.log("Añadido item " + obj.Cod);
+  };
+
   render() {
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.state;
+
+    const totalReservadas = listaOfertas.reduce(
+      (acc, el) => acc + el.Reservadas,
+      0
+    ); // el valor inicial es para que considere acc como un integer y no como un object
+
     return !usuario ? (
       <Redirect to={"/login"}></Redirect>
     ) : (
@@ -41,7 +68,7 @@ class Ofertas extends Component {
 
             <div className="mr-4">
               <p className="p-0 m-0">Items</p>
-              <p className="p-0 m-0">0</p>
+              <p className="p-0 m-0">{totalReservadas}</p>
             </div>
           </div>
         </div>
@@ -53,6 +80,7 @@ class Ofertas extends Component {
               lan={lan}
               oferta={oferta}
               key={oferta.Id}
+              handleClick={this.AddtoCart}
             ></ItemOferta>
           );
         })}
