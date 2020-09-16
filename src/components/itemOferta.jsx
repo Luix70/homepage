@@ -5,7 +5,7 @@ import t from "./itemOferta.lit.json";
 class ItemOferta extends Component {
   state = {};
   render() {
-    const { lan, oferta, usuario, handleClick } = this.props;
+    const { lan, oferta, usuario, handleClick, blnEsCarrito } = this.props;
 
     const precio = oferta.Precios.filter((of) => {
       return of.Tarifa === usuario.Tarifa;
@@ -14,11 +14,13 @@ class ItemOferta extends Component {
     return (
       <div className=" m-3 my-4 row py-3 border-bottom border-muted">
         <div className="col-8 col-sm-2 d-flex align-items-center p-4">
-          <img
-            src={"/resources/img/" + oferta.Imagen}
-            className="w-100 rounded-circle"
-            alt="Imagen"
-          />
+          {!blnEsCarrito ? (
+            <img
+              src={"/resources/img/" + oferta.Imagen}
+              className="w-100 rounded-circle"
+              alt="Imagen"
+            />
+          ) : null}
         </div>
         <div className="col-4 col-sm-1 d-flex justify-content-center text-center align-items-center">
           <h3 key={oferta.Id}>{oferta.Cod}</h3>
@@ -31,21 +33,36 @@ class ItemOferta extends Component {
         </div>
 
         <div className="col-8 col-sm-2  text-center  d-flex flex-column justify-content-center">
-          <p className="text-info mb-0">{t.DI[lan]}</p>
-          <h4 className="text-info mb-3"> {oferta.Disponibles}</h4>
-          {/* <p className="text-muted mb-0">Precio</p> */}
-          <h6 className="text-danger">
-            {precio.Precio} {precio.Moneda}
-          </h6>
+          {!blnEsCarrito ? (
+            <div>
+              <p className="text-info mb-0">{t.DI[lan]}</p>
+              <h4 className="text-info mb-3"> {oferta.Disponibles}</h4>
+              <p className="text-muted mb-0">Precio Unitario</p>
+              <h6 className="text-danger">
+                {precio.Precio} {precio.Moneda}
+              </h6>
+            </div>
+          ) : (
+            <div>
+              <p className="text-info mb-0">{t.RE[lan]}</p>
+              <h4 className="text-info mb-3"> {oferta.Reservadas}</h4>
+              <p className="text-muted mb-0">Importe total</p>
+              <h6 className="text-danger">
+                {precio.Precio * oferta.Reservadas} {precio.Moneda}
+              </h6>
+            </div>
+          )}
         </div>
         <div className="col-4 col-sm-1  d-flex justify-content-center align-items-center">
-          <button
-            type="button"
-            className="btn btn-outline-dark border-0 p-0 "
-            onClick={() => handleClick(oferta)}
-          >
-            <MaterialIcon icon="add_shopping_cart" size={48} />
-          </button>
+          {!blnEsCarrito ? (
+            <button
+              type="button"
+              className="btn btn-outline-dark border-0 p-0 "
+              onClick={() => handleClick(oferta, 1)}
+            >
+              <MaterialIcon icon="add_shopping_cart" size={48} />
+            </button>
+          ) : null}
         </div>
       </div>
     );

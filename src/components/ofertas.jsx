@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, Link } from "react-router-dom";
 import getData from "../services/ofertas";
 import MaterialIcon from "react-google-material-icons";
 import ItemOferta from "./itemOferta";
@@ -13,11 +13,9 @@ class Ofertas extends Component {
     });
   }
 
-  showCart = (ev) => {
-    console.log("ver Carrito");
-  };
+  showCart = (ev) => {};
 
-  AddtoCart = (obj) => {
+  AddtoCart = (obj, cant) => {
     const { listaOfertas } = this.state;
 
     //hacemos copia de los objetos del estado a fin de actualizarlos luego
@@ -29,8 +27,8 @@ class Ofertas extends Component {
 
     // reducimos la cantidad de disponibles en una unidad
     if (oferta.Disponibles > 0) {
-      oferta.Disponibles--;
-      oferta.Reservadas++;
+      oferta.Disponibles -= cant;
+      oferta.Reservadas += cant;
     }
     this.setState({ listaOfertas: newListaOfertas });
 
@@ -58,14 +56,14 @@ class Ofertas extends Component {
             className="bg-secondary
            col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-around"
           >
-            <button
-              type="button"
-              className="btn btn-outline-light border-0 p-0 "
-              onClick={this.showCart}
-            >
-              <MaterialIcon icon="shopping_cart" size={36} />
-            </button>
-
+            <Link to={"/portal"}>
+              <button
+                type="button"
+                className="btn btn-outline-light border-0 p-0 "
+              >
+                <MaterialIcon icon="shopping_cart" size={36} />
+              </button>
+            </Link>
             <div className="mr-4">
               <p className="p-0 m-0">Items</p>
               <p className="p-0 m-0">{totalReservadas}</p>
@@ -81,6 +79,7 @@ class Ofertas extends Component {
               oferta={oferta}
               key={oferta.Id}
               handleClick={this.AddtoCart}
+              blnEsCarrito={false}
             ></ItemOferta>
           );
         })}
