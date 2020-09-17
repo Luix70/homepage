@@ -19,6 +19,7 @@ class ItemOferta extends Component {
       return of.Tarifa === usuario.Tarifa;
     })[0];
     //console.log(precio);
+
     return (
       <div className=" m-3 my-4 row py-3 border-bottom border-muted">
         <div className="col-8 col-sm-2 d-flex align-items-center p-4">
@@ -45,7 +46,7 @@ class ItemOferta extends Component {
               <h4 className="text-info mb-3"> {oferta.Disponibles}</h4>
               <p className="text-muted mb-0">Precio Unitario</p>
               <h6 className="text-danger">
-                {precio.Precio} {precio.Moneda}
+                {precio.Precio.toFixed(2)} {precio.Moneda}
               </h6>
             </div>
           ) : (
@@ -54,7 +55,7 @@ class ItemOferta extends Component {
               <div className="d-flex justify-content-center align-items-center">
                 <button
                   type="button"
-                  class="btn btn-danger btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block "
+                  className="btn btn-danger btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block "
                   onClick={() => handleClick(oferta, -1)}
                 >
                   <span className="h4 text-monospace">-</span>
@@ -64,7 +65,7 @@ class ItemOferta extends Component {
                 </span>
                 <button
                   type="button"
-                  class="btn btn-info btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block"
+                  className="btn btn-info btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block"
                   onClick={() => handleClick(oferta, 1)}
                 >
                   <span className="h4 text-monospace">+</span>
@@ -72,7 +73,7 @@ class ItemOferta extends Component {
               </div>
               <p className="text-muted mb-0">Importe total</p>
               <h6 className="text-danger">
-                {precio.Precio * oferta.Reservadas} {precio.Moneda}
+                {(precio.Precio * oferta.Reservadas).toFixed(2)} {precio.Moneda}
               </h6>
             </div>
           )}

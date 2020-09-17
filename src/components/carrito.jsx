@@ -13,7 +13,7 @@ class Carrito extends Component {
   //   }
 
   AddtoCart = (obj, cant) => {
-    const { listaOfertas } = this.props.location.state;
+    let { listaOfertas } = this.props.location.state;
 
     //hacemos copia de los objetos del estado a fin de actualizarlos luego
     const newListaOfertas = [...listaOfertas];
@@ -23,18 +23,22 @@ class Carrito extends Component {
     const oferta = newListaOfertas.find((el) => el.Id === obj.Id);
 
     // reducimos la cantidad de disponibles en una unidad
-    if (oferta.Disponibles > 0 && oferta.Reservadas > 1) {
+    if (
+      (cant > 0 && oferta.Disponibles > 0) ||
+      (cant < 0 && oferta.Reservadas > 1)
+    ) {
       oferta.Disponibles -= cant;
       oferta.Reservadas += cant;
     }
 
-    this.props.location.state.listaOfertas = newListaOfertas;
+    //listaOfertas = newListaOfertas;
     this.setState({});
 
     //console.log("Añadido item " + obj.Cod);
   };
 
   removeItem = (oferta) => {
+    oferta.Disponibles += oferta.Reservadas;
     oferta.Reservadas = 0;
     this.setState({});
   };
@@ -45,6 +49,10 @@ class Carrito extends Component {
 
     return !usuario ? (
       <Redirect to={"/login"}></Redirect>
+    ) : !listaOfertas ||
+      listaOfertas.length === 0 ||
+      listaOfertas.reduce((acc, el) => acc + el.Reservadas, 0) === 0 ? (
+      <Redirect to={"/ofertas"}></Redirect>
     ) : (
       <React.Fragment>
         <div className="row">
