@@ -54,7 +54,7 @@ class Ofertas extends Component {
           </div>
           <div
             className="bg-secondary
-           col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-around"
+           col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-center"
           >
             <Link
               to={{
@@ -71,10 +71,10 @@ class Ofertas extends Component {
                 <MaterialIcon icon="shopping_cart" size={36} />
               </button>
             </Link>
-            <div className="mr-4">
-              <p className="p-0 m-0">Items</p>
-              <p className="p-0 m-0">{totalReservadas}</p>
-            </div>
+
+            <span className="badge badge-secondary p-2 d-flex flex-column justify-items-between align-items-center">
+              <h3>{totalReservadas}</h3>
+            </span>
           </div>
         </div>
 
