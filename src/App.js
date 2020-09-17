@@ -16,6 +16,7 @@ import Portal from "./components/portal";
 import LanRedirect from "./components/lanRedirect";
 import NewPass from "./components/newPass";
 import Ofertas from "./components/ofertas";
+import Carrito from "./components/carrito";
 import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
@@ -206,6 +207,12 @@ class App extends Component {
                 path="/ofertas"
                 render={(props) => (
                   <Ofertas lan={lan} usuario={usuario} {...props} />
+                )}
+              />
+              <Route
+                path="/carrito"
+                render={(props) => (
+                  <Carrito lan={lan} usuario={usuario} {...props} />
                 )}
               />
               <Route

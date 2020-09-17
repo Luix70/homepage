@@ -56,7 +56,14 @@ class Ofertas extends Component {
             className="bg-secondary
            col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-around"
           >
-            <Link to={"/portal"}>
+            <Link
+              to={{
+                pathname: "/carrito",
+                state: {
+                  listaOfertas: listaOfertas.filter((el) => el.Reservadas),
+                },
+              }}
+            >
               <button
                 type="button"
                 className="btn btn-outline-light border-0 p-0 "
