@@ -13,7 +13,7 @@ class Carrito extends Component {
   //   }
 
   AddtoCart = (obj, cant) => {
-    const { listaOfertas } = this.location.state;
+    const { listaOfertas } = this.props.location.state;
 
     //hacemos copia de los objetos del estado a fin de actualizarlos luego
     const newListaOfertas = [...listaOfertas];
@@ -23,11 +23,13 @@ class Carrito extends Component {
     const oferta = newListaOfertas.find((el) => el.Id === obj.Id);
 
     // reducimos la cantidad de disponibles en una unidad
-    if (oferta.Disponibles > 0) {
+    if (oferta.Disponibles > 0 && oferta.Reservadas > 1) {
       oferta.Disponibles -= cant;
       oferta.Reservadas += cant;
     }
-    this.setState({ listaOfertas: newListaOfertas });
+
+    this.props.location.state.listaOfertas = newListaOfertas;
+    this.setState({});
 
     //console.log("Añadido item " + obj.Cod);
   };
@@ -45,6 +47,12 @@ class Carrito extends Component {
       <Redirect to={"/login"}></Redirect>
     ) : (
       <React.Fragment>
+        <div className="row">
+          <div className="bg-info col-12 col-md-12 m-0 text-center ">
+            <h1>Carrito</h1>
+          </div>
+        </div>
+
         {listaOfertas.map((oferta) => {
           return oferta.Reservadas ? (
             <ItemOferta
@@ -58,6 +66,11 @@ class Carrito extends Component {
             ></ItemOferta>
           ) : null;
         })}
+        <div className="row">
+          <div className="bg-secondary col-12 col-md-12 m-0 text-center ">
+            <h1>Datos del Pedido</h1>
+          </div>
+        </div>
       </React.Fragment>
     );
   }

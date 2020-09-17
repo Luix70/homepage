@@ -22,13 +22,11 @@ class ItemOferta extends Component {
     return (
       <div className=" m-3 my-4 row py-3 border-bottom border-muted">
         <div className="col-8 col-sm-2 d-flex align-items-center p-4">
-          {!blnEsCarrito ? (
-            <img
-              src={"/resources/img/" + oferta.Imagen}
-              className="w-100 rounded-circle"
-              alt="Imagen"
-            />
-          ) : null}
+          <img
+            src={"/resources/img/" + oferta.Imagen}
+            className="w-100 rounded-circle"
+            alt="Imagen"
+          />
         </div>
         <div className="col-4 col-sm-1 d-flex justify-content-center text-center align-items-center">
           <h3 key={oferta.Id}>{oferta.Cod}</h3>
@@ -53,7 +51,25 @@ class ItemOferta extends Component {
           ) : (
             <div>
               <p className="text-info mb-0">{t.RE[lan]}</p>
-              <h4 className="text-info mb-3"> {oferta.Reservadas}</h4>
+              <div className="d-flex justify-content-center align-items-center">
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block "
+                  onClick={() => handleClick(oferta, -1)}
+                >
+                  <span className="h4 text-monospace">-</span>
+                </button>
+                <span className="text-info  h2 text-center p-0 m-0">
+                  {oferta.Reservadas}
+                </span>
+                <button
+                  type="button"
+                  class="btn btn-info btn-sm p-0 m-0 mx-3 px-2 pb-1 btn-block"
+                  onClick={() => handleClick(oferta, 1)}
+                >
+                  <span className="h4 text-monospace">+</span>
+                </button>
+              </div>
               <p className="text-muted mb-0">Importe total</p>
               <h6 className="text-danger">
                 {precio.Precio * oferta.Reservadas} {precio.Moneda}
