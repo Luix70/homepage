@@ -32,6 +32,11 @@ class Carrito extends Component {
     //console.log("Añadido item " + obj.Cod);
   };
 
+  removeItem = (oferta) => {
+    oferta.Reservadas = 0;
+    this.setState({});
+  };
+
   render() {
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.props.location.state;
@@ -48,6 +53,7 @@ class Carrito extends Component {
               oferta={oferta}
               key={oferta.Id}
               handleClick={this.AddtoCart}
+              handleDelete={this.removeItem}
               blnEsCarrito={true}
             ></ItemOferta>
           ) : null;

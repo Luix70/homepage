@@ -4,8 +4,16 @@ import MaterialIcon from "react-google-material-icons";
 import t from "./itemOferta.lit.json";
 class ItemOferta extends Component {
   state = {};
+
   render() {
-    const { lan, oferta, usuario, handleClick, blnEsCarrito } = this.props;
+    const {
+      lan,
+      oferta,
+      usuario,
+      handleClick,
+      handleDelete,
+      blnEsCarrito,
+    } = this.props;
 
     const precio = oferta.Precios.filter((of) => {
       return of.Tarifa === usuario.Tarifa;
@@ -62,7 +70,15 @@ class ItemOferta extends Component {
             >
               <MaterialIcon icon="add_shopping_cart" size={48} />
             </button>
-          ) : null}
+          ) : (
+            <button
+              type="button"
+              className="btn btn-outline-dark border-0 p-0 "
+              onClick={() => handleDelete(oferta)}
+            >
+              <MaterialIcon icon="delete" size={48} />
+            </button>
+          )}
         </div>
       </div>
     );
