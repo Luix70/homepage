@@ -1,6 +1,18 @@
 import httpService from "./httpService";
 import config from "../config.json";
 
+export async function getCustomer() {
+  const nEndPoint = config.apiDataEndPoint + "ofertas/custData";
+  const token = sessionStorage.getItem("apiToken");
+
+  const { data: liveData } = await httpService.get(nEndPoint, {
+    headers: { Authorization: `Bearer ${token}` },
+    timeout: 30000,
+  });
+
+  return JSON.parse(liveData);
+}
+
 export default async function getData() {
   const nEndPoint = config.apiDataEndPoint + "ofertas/GetAll";
 

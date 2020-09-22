@@ -1,19 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
-//import getData from "../services/ofertas";
+import { getCustomer } from "../services/ofertas";
 import ItemOferta from "./itemOferta";
 
 class Carrito extends Component {
   state = { listaOfertas: [] };
-  //   async componentDidMount() {
-  //     this.setState({
-  //       listaOfertas: await getData(),
-  //     });
-  //   }
+
+  async componentDidMount() {
+    this.setState({
+      datosCliente: await getCustomer(),
+      listaOfertas: this.props.location.state.listaOfertas,
+    });
+  }
 
   AddtoCart = (obj, cant) => {
-    let { listaOfertas } = this.props.location.state;
+    //let { listaOfertas } = this.props.location.state;
+
+    let { listaOfertas } = this.state;
 
     //hacemos copia de los objetos del estado a fin de actualizarlos luego
     const newListaOfertas = [...listaOfertas];
@@ -46,6 +50,7 @@ class Carrito extends Component {
   render() {
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.props.location.state;
+    const { datosCliente } = this.state;
 
     return !usuario ? (
       <Redirect to={"/login"}></Redirect>
@@ -77,6 +82,9 @@ class Carrito extends Component {
         <div className="row">
           <div className="bg-secondary col-12 col-md-12 m-0 text-center ">
             <h1>Datos del Pedido</h1>
+          </div>
+          <div className="bg-info col-12 col-md-12 m-0 text-center ">
+            <h1>{datosCliente ? datosCliente.codCliente : null}</h1>
           </div>
         </div>
       </React.Fragment>
