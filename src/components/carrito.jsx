@@ -5,18 +5,18 @@ import { getCustomer } from "../services/ofertas";
 import ItemOferta from "./itemOferta";
 
 class Carrito extends Component {
-  state = { listaOfertas: [] };
+  state = {};
 
   async componentDidMount() {
+    const datosCliente = await getCustomer();
+    const { listaOfertas } = this.props.location.state;
     this.setState({
-      datosCliente: await getCustomer(),
-      listaOfertas: this.props.location.state.listaOfertas,
+      datosCliente,
+      listaOfertas,
     });
   }
 
   AddtoCart = (obj, cant) => {
-    //let { listaOfertas } = this.props.location.state;
-
     let { listaOfertas } = this.state;
 
     //hacemos copia de los objetos del estado a fin de actualizarlos luego
@@ -48,6 +48,9 @@ class Carrito extends Component {
   };
 
   render() {
+    if (!this.props.location.state) {
+      return <Redirect to={"/ofertas"}></Redirect>;
+    }
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.props.location.state;
     const { datosCliente } = this.state;
@@ -84,7 +87,11 @@ class Carrito extends Component {
             <h1>Datos del Pedido</h1>
           </div>
           <div className="bg-info col-12 col-md-12 m-0 text-center ">
-            <h1>{datosCliente ? datosCliente.codCliente : null}</h1>
+            <h1>
+              {datosCliente && datosCliente.codCliente !== "undefined"
+                ? JSON.stringify(datosCliente)
+                : null}
+            </h1>
           </div>
         </div>
       </React.Fragment>

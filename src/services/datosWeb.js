@@ -5,7 +5,7 @@ export async function getColeccion(col) {
   const colecciones = await getColecciones();
   // console.log(colecciones);
 
-  return colecciones.filter(coleccion => coleccion.mod === col)[0];
+  return colecciones.filter((coleccion) => coleccion.mod === col)[0];
 }
 
 export async function getColecciones() {
