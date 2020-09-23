@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import { getCustomer } from "../services/ofertas";
+import ClienteCarrito from "./clienteCarrito";
 import ItemOferta from "./itemOferta";
 
 class Carrito extends Component {
@@ -9,7 +10,9 @@ class Carrito extends Component {
 
   async componentDidMount() {
     const datosCliente = await getCustomer();
+
     const { listaOfertas } = this.props.location.state;
+
     this.setState({
       datosCliente,
       listaOfertas,
@@ -83,15 +86,14 @@ class Carrito extends Component {
           ) : null;
         })}
         <div className="row">
-          <div className="bg-secondary col-12 col-md-12 m-0 text-center ">
-            <h1>Datos del Pedido</h1>
-          </div>
-          <div className="bg-info col-12 col-md-12 m-0 text-center ">
-            <h1>
-              {datosCliente && datosCliente.codCliente !== "undefined"
-                ? JSON.stringify(datosCliente)
-                : null}
-            </h1>
+          <div className="bg-secondary col-12 col-md-12 m-0">
+            {datosCliente && datosCliente.CodCliente !== "undefined" ? (
+              <ClienteCarrito
+                lan={lan}
+                usuario={usuario}
+                datosCliente={datosCliente}
+              ></ClienteCarrito>
+            ) : null}
           </div>
         </div>
       </React.Fragment>
