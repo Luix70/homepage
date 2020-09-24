@@ -1,22 +1,28 @@
 import React, { Component } from "react";
-import MaterialIcon from "react-google-material-icons";
+
+import Direccion from "./direccion";
 
 class ClienteCarrito extends Component {
   state = {};
 
   render() {
-    const { datosCliente } = this.props;
+    const { datosCliente, usuario, lan } = this.props;
+    const direccionActiva =
+      datosCliente.DireccionesEnvio.find(
+        (el) => el.Codsucursal === datosCliente.DirEnvio
+      ) || datosCliente.DirFacturacion;
+
     //console.log(datosCliente);
     return (
       <div className="bg-light row ">
         <div className="col-12 bg-info text-center ">
-          <h1>Datos Cliente</h1>
+          <h4>Datos Pedido</h4>
         </div>
-        <form className="w-100 py-4 px-4 mx-4">
-          <div className="row ">
+        <form className="w-100 p-4">
+          {/* <div className="row ">
             <div className="col-12 col-md-12 col-lg-3">
               <div className="row mb-2">
-                <div className="col-12 col-sm-3 ">
+                <div className="col-3 col-sm-3 ">
                   <label
                     className="font-weight-bold m-0 pt-2"
                     htmlFor="CodCliente"
@@ -24,7 +30,7 @@ class ClienteCarrito extends Component {
                     Cod
                   </label>
                 </div>
-                <div className="col-12 col-sm-9">
+                <div className="col-9 col-sm-9">
                   <input
                     type="text"
                     className="form-control-plaintext"
@@ -58,12 +64,12 @@ class ClienteCarrito extends Component {
           <div className="row ">
             <div className="col-12 col-md-12 col-lg-3">
               <div className="row mb-2">
-                <div className="col-12 col-sm-3 ">
+                <div className="col-3 col-sm-3 ">
                   <label className="font-weight-bold m-0 pt-2" htmlFor="Cif">
                     Cif
                   </label>
                 </div>
-                <div className="col-12 col-sm-9">
+                <div className="col-9 col-sm-9">
                   <input
                     type="text"
                     className="form-control-plaintext"
@@ -89,14 +95,43 @@ class ClienteCarrito extends Component {
                     type="text"
                     className="form-control-plaintext"
                     id="NombreComercial"
-                    placeholder={datosCliente.Nombrecomercial}
+                    placeholder={
+                      datosCliente.Nombrecomercial || datosCliente.Rzs
+                    }
                     readOnly
                   />
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
           <div className="row">
+            <div className="col-12 col-md-6 col-lg-6">
+              <Direccion
+                direccion={datosCliente.DirFacturacion}
+                usuario={usuario}
+                lan={lan}
+                nombre={datosCliente.Rzs}
+                predet={false}
+                cif={datosCliente.Cif}
+              ></Direccion>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-6">
+              <Direccion
+                direccion={direccionActiva}
+                usuario={usuario}
+                lan={lan}
+                nombre={datosCliente.Nombrecomercial || datosCliente.Rzs}
+                predet={
+                  direccionActiva.Codsucursal === datosCliente.Direccion_predet
+                }
+                cif={datosCliente.Cif}
+              ></Direccion>
+            </div>
+          </div>
+
+          <div className="row pt-4 border-top">
             <div className="col-12 col-md-12 col-lg-6">
               <div className="row mb-2">
                 <div className="col-12 col-sm-3 ">
@@ -104,24 +139,17 @@ class ClienteCarrito extends Component {
                     className="font-weight-bold m-0 pt-2"
                     htmlFor="FormaPago"
                   >
-                    Fecha Entrega
+                    Entrega
                   </label>
                 </div>
                 <div className="col-12 col-sm-9">
-                  <div className="input-group">
-                    <div className="input-group-prepend">
-                      <span className="btn btn-secondary">
-                        <MaterialIcon icon="date_range" size={24} />
-                      </span>
-                    </div>
-                    <input
-                      type="text"
-                      className="form-control-plaintext pl-4"
-                      id="FormaPago"
-                      placeholder="20 Sept 2020"
-                      readOnly
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    className="form-control-plaintext "
+                    id="FormaPago"
+                    placeholder="Agencia: 20 Sept 2020 - Cliente: 25 Sept 2020"
+                    readOnly
+                  />
                 </div>
               </div>
             </div>
@@ -168,6 +196,35 @@ class ClienteCarrito extends Component {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="row mb-2">
+                <div className="col-12 col-sm-3 ">
+                  <label
+                    className="font-weight-bold m-0 pt-2"
+                    htmlFor="Referencia"
+                  >
+                    Referencia
+                  </label>
+                </div>
+                <div className="col-12 col-sm-9">
+                  <input type="text" className="form-control" id="Referencia" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-12 col-lg-12 d-flex justify-content-around">
+              <span className="btn-block"> </span>
+              <button type="button" className="btn btn-success btn-block">
+                Realizar Pedido
+              </button>
+              <span className="btn-block"> </span>
+              <button type="button" className="btn btn-danger btn-block">
+                Cancelar
+              </button>
+              <span className="btn-block"> </span>
             </div>
           </div>
         </form>
