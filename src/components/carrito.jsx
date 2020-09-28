@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
-import { getCustomer } from "../services/ofertas";
+import { getCustomer, cursarPedido } from "../services/ofertas";
 import ClienteCarrito from "./clienteCarrito";
 import ItemOferta from "./itemOferta";
 
 class Carrito extends Component {
-  state = {};
+  state = { datosPedido: { observaciones: "", referencia: "" } };
 
   async componentDidMount() {
     const datosCliente = await getCustomer();
@@ -18,6 +18,28 @@ class Carrito extends Component {
       listaOfertas,
     });
   }
+
+  cancelarPedido = () => {
+    this.props.history.push("/ofertas");
+  };
+
+  realizarPedido = async () => {
+    const pedido = {
+      listaArticulos: this.state.listaOfertas,
+      ...this.state.datosCliente,
+      ...this.state.datosPedido,
+    };
+    const { data, output } = await cursarPedido(pedido);
+    console.log(data, output);
+  };
+
+  handleChange = (e) => {
+    const { datosPedido } = this.state;
+
+    datosPedido[e.target.id] = e.target.value;
+    //console.log(datosPedido);
+    this.setState({ datosPedido });
+  };
 
   AddtoCart = (obj, cant) => {
     let { listaOfertas } = this.state;
@@ -50,13 +72,13 @@ class Carrito extends Component {
     this.setState({});
   };
 
-  render() {
+  render(props) {
     if (!this.props.location.state) {
       return <Redirect to={"/ofertas"}></Redirect>;
     }
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.props.location.state;
-    const { datosCliente } = this.state;
+    const { datosCliente, datosPedido } = this.state;
 
     return !usuario ? (
       <Redirect to={"/login"}></Redirect>
@@ -92,6 +114,10 @@ class Carrito extends Component {
                 lan={lan}
                 usuario={usuario}
                 datosCliente={datosCliente}
+                datosPedido={datosPedido}
+                cancelarPedido={this.cancelarPedido}
+                realizarPedido={this.realizarPedido}
+                handleChange={this.handleChange}
               ></ClienteCarrito>
             ) : null}
           </div>

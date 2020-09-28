@@ -13,6 +13,18 @@ export async function getCustomer() {
   return JSON.parse(liveData);
 }
 
+export async function cursarPedido(pedido) {
+  const nEndPoint = config.apiDataEndPoint + "ofertas/cursarPedido";
+  const token = sessionStorage.getItem("apiToken");
+
+  const { data: liveData } = await httpService.post(nEndPoint, pedido, {
+    headers: { Authorization: `Bearer ${token}` },
+    timeout: 30000,
+  });
+
+  return JSON.parse(liveData);
+}
+
 export default async function getData() {
   const nEndPoint = config.apiDataEndPoint + "ofertas/GetAll";
 

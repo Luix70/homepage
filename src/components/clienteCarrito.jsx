@@ -5,8 +5,19 @@ import Direccion from "./direccion";
 class ClienteCarrito extends Component {
   state = {};
 
+  DireccionEnvio = () => {};
+
   render() {
-    const { datosCliente, usuario, lan } = this.props;
+    const {
+      datosCliente,
+      usuario,
+      lan,
+      cancelarPedido,
+      realizarPedido,
+      datosPedido,
+      handleChange,
+    } = this.props;
+
     const direccionActiva =
       datosCliente.DireccionesEnvio.find(
         (el) => el.Codsucursal === datosCliente.DirEnvio
@@ -19,92 +30,6 @@ class ClienteCarrito extends Component {
           <h4>Datos Pedido</h4>
         </div>
         <form className="w-100 p-4">
-          {/* <div className="row ">
-            <div className="col-12 col-md-12 col-lg-3">
-              <div className="row mb-2">
-                <div className="col-3 col-sm-3 ">
-                  <label
-                    className="font-weight-bold m-0 pt-2"
-                    htmlFor="CodCliente"
-                  >
-                    Cod
-                  </label>
-                </div>
-                <div className="col-9 col-sm-9">
-                  <input
-                    type="text"
-                    className="form-control-plaintext"
-                    id="CodCliente"
-                    placeholder={datosCliente.CodCliente}
-                    readOnly
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-9">
-              <div className="row mb-2">
-                <div className="col-12 col-sm-3">
-                  <label className="font-weight-bold m-0 pt-2" htmlFor="Rzs">
-                    R. Social
-                  </label>
-                </div>
-                <div className="col-12 col-sm-9">
-                  <input
-                    type="text"
-                    className="form-control-plaintext"
-                    id="Rzs"
-                    placeholder={datosCliente.Rzs}
-                    readOnly
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row ">
-            <div className="col-12 col-md-12 col-lg-3">
-              <div className="row mb-2">
-                <div className="col-3 col-sm-3 ">
-                  <label className="font-weight-bold m-0 pt-2" htmlFor="Cif">
-                    Cif
-                  </label>
-                </div>
-                <div className="col-9 col-sm-9">
-                  <input
-                    type="text"
-                    className="form-control-plaintext"
-                    id="Cif"
-                    placeholder={datosCliente.Cif}
-                    readOnly
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-9">
-              <div className="row mb-2">
-                <div className="col-12 col-sm-3">
-                  <label
-                    className="font-weight-bold m-0 pt-2"
-                    htmlFor="NombreComercial"
-                  >
-                    N. Comercial
-                  </label>
-                </div>
-                <div className="col-12 col-sm-9">
-                  <input
-                    type="text"
-                    className="form-control-plaintext"
-                    id="NombreComercial"
-                    placeholder={
-                      datosCliente.Nombrecomercial || datosCliente.Rzs
-                    }
-                    readOnly
-                  />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6">
               <Direccion
@@ -192,7 +117,9 @@ class ClienteCarrito extends Component {
                   <input
                     type="text"
                     className="form-control"
-                    id="Observaciones"
+                    id="observaciones"
+                    value={datosPedido.observaciones}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -209,7 +136,13 @@ class ClienteCarrito extends Component {
                   </label>
                 </div>
                 <div className="col-12 col-sm-9">
-                  <input type="text" className="form-control" id="Referencia" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="referencia"
+                    value={datosPedido.referencia}
+                    onChange={handleChange}
+                  />
                 </div>
               </div>
             </div>
@@ -217,11 +150,19 @@ class ClienteCarrito extends Component {
           <div className="row">
             <div className="col-12 col-md-12 col-lg-12 d-flex justify-content-around">
               <span className="btn-block"> </span>
-              <button type="button" className="btn btn-success btn-block">
+              <button
+                type="button"
+                className="btn btn-success btn-block"
+                onClick={realizarPedido}
+              >
                 Realizar Pedido
               </button>
               <span className="btn-block"> </span>
-              <button type="button" className="btn btn-danger btn-block">
+              <button
+                type="button"
+                className="btn btn-danger btn-block"
+                onClick={cancelarPedido}
+              >
                 Cancelar
               </button>
               <span className="btn-block"> </span>
