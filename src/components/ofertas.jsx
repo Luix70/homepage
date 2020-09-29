@@ -39,6 +39,9 @@ class Ofertas extends Component {
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.state;
 
+    if (!listaOfertas.length) {
+      return <Redirect to={"/ofertas"}></Redirect>;
+    }
     const totalReservadas = listaOfertas.reduce(
       (acc, el) => acc + el.Reservadas,
       0

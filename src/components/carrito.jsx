@@ -26,7 +26,7 @@ class Carrito extends Component {
   realizarPedido = async () => {
     const pedido = {
       listaArticulos: this.state.listaOfertas,
-      ...this.state.datosCliente,
+      datosCliente: this.state.datosCliente,
       ...this.state.datosPedido,
     };
     const { data, output } = await cursarPedido(pedido);
