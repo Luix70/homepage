@@ -94,7 +94,15 @@ class ClienteCarrito extends Component {
                     type="text"
                     className="form-control-plaintext"
                     id="FormaPago"
-                    placeholder={datosCliente.FormaPago}
+                    placeholder={
+                      direccionActiva.DescFormaPago +
+                      (direccionActiva.Dto1 > 0
+                        ? ` ( - ${direccionActiva.Dto1}%) `
+                        : "") +
+                      (direccionActiva.Dto2 > 0
+                        ? ` ( - ${direccionActiva.Dto2}%) `
+                        : "")
+                    }
                     readOnly
                   />
                 </div>
