@@ -30,7 +30,7 @@ class Carrito extends Component {
       ...this.state.datosPedido,
     };
     const { data, output } = await cursarPedido(pedido);
-    console.log(data, output);
+    //console.log(data, output);
   };
 
   handleChange = (e) => {

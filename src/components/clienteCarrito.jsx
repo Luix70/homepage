@@ -97,10 +97,10 @@ class ClienteCarrito extends Component {
                     placeholder={
                       direccionActiva.DescFormaPago +
                       (direccionActiva.Dto1 > 0
-                        ? ` ( - ${direccionActiva.Dto1}%) `
+                        ? ` ( Dto1: ${direccionActiva.Dto1}%) `
                         : "") +
                       (direccionActiva.Dto2 > 0
-                        ? ` ( - ${direccionActiva.Dto2}%) `
+                        ? ` ( Dto2: ${direccionActiva.Dto2}%) `
                         : "")
                     }
                     readOnly
