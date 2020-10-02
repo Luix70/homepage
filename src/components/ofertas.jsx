@@ -13,8 +13,6 @@ class Ofertas extends Component {
     });
   }
 
-  showCart = (ev) => {};
-
   AddtoCart = (obj, cant) => {
     const { listaOfertas } = this.state;
 
@@ -60,12 +58,18 @@ class Ofertas extends Component {
            col-4 col-md-2 m-0 p-0 text-center d-flex align-items-center justify-content-center"
           >
             <Link
-              to={{
-                pathname: "/carrito",
-                state: {
-                  listaOfertas: listaOfertas.filter((el) => el.Reservadas),
-                },
-              }}
+              to={
+                totalReservadas
+                  ? {
+                      pathname: "/carrito",
+                      state: {
+                        listaOfertas: listaOfertas.filter(
+                          (el) => el.Reservadas
+                        ),
+                      },
+                    }
+                  : { pathname: "/ofertas" }
+              }
             >
               <button
                 type="button"
