@@ -24,7 +24,11 @@ class ItemOferta extends Component {
       <div className=" m-3 my-4 row py-3 border-bottom border-muted">
         <div className="col-8 col-sm-2 d-flex align-items-center p-4">
           <img
-            src={"/resources/img/" + oferta.Imagen}
+            src={
+              oferta.Imagen
+                ? "/resources/img/" + oferta.Imagen
+                : "/resources/img/NoImg.png"
+            }
             className="w-100 rounded-circle"
             alt="Imagen"
           />

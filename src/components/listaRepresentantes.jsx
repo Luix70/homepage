@@ -34,13 +34,7 @@ class ListaRepresentantes extends Component {
   }
   render() {
     const { resultConsulta, lan, usuario } = this.props;
-    const {
-      criterio,
-
-      enCurso,
-      facturados,
-      expandido,
-    } = this.state;
+    const { criterio, enCurso, facturados, expandido } = this.state;
     if (!resultConsulta || resultConsulta.representantes.length === 0)
       return null;
     // console.log(
