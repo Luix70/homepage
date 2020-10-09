@@ -4,6 +4,7 @@ import { Redirect } from "react-router-dom";
 import { getCustomer, cursarPedido } from "../services/ofertas";
 import ClienteCarrito from "./clienteCarrito";
 import ItemOferta from "./itemOferta";
+import { toast } from "react-toastify";
 
 class Carrito extends Component {
   state = { datosPedido: { observaciones: "", referencia: "" } };
@@ -30,7 +31,13 @@ class Carrito extends Component {
       ...this.state.datosPedido,
     };
     const { data, output } = await cursarPedido(pedido);
-    //console.log(data, output);
+    console.log(data, output);
+    if (data.resultado === "OK") {
+      toast.success("Pedido realizado con éxito. Codigo: " + output.CodPedido);
+      this.props.history.push("/ofertas");
+    } else {
+      toast.error("Pedido no realizado");
+    }
   };
 
   handleChange = (e) => {

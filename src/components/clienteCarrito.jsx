@@ -57,7 +57,7 @@ class ClienteCarrito extends Component {
           </div>
 
           <div className="row pt-4 border-top">
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-none">
               <div className="row mb-2">
                 <div className="col-12 col-sm-3 ">
                   <label
@@ -111,7 +111,7 @@ class ClienteCarrito extends Component {
           </div>
 
           <div className="row">
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-none">
               <div className="row mb-2">
                 <div className="col-12 col-sm-3 ">
                   <label

@@ -51,7 +51,7 @@ class Ofertas extends Component {
       <React.Fragment>
         <div className="bg-secondary row">
           <div className="bg-secondary col-8 col-md-10 m-0 text-center ">
-            <h1>Filtro</h1>
+            <h1> </h1>
           </div>
           <div
             className="bg-secondary
