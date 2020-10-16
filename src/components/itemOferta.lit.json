@@ -1,0 +1,17 @@
+{
+  "DI": {
+    "es": "Disponibles ",
+    "en": "Available ",
+    "fr": "Disponibles "
+  },
+  "RE": {
+    "es": "Reservadas ",
+    "en": "Reserved ",
+    "fr": "Reservées "
+  },
+  "PR": {
+    "es": "Precio ",
+    "en": "Price ",
+    "fr": "Prix "
+  }
+}
