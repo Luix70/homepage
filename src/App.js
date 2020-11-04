@@ -91,6 +91,12 @@ class App extends Component {
     this.setState({ usuario: null });
   };
 
+  handleCurrency = (currency) => {
+    const nUsuario = { ...this.state.usuario };
+    nUsuario.Moneda = currency;
+    this.setState({ usuario: nUsuario });
+  };
+
   toggleEdit = () => {
     this.setState({ modoEdit: !this.state.modoEdit });
   };
@@ -206,7 +212,12 @@ class App extends Component {
               <Route
                 path="/ofertas"
                 render={(props) => (
-                  <Ofertas lan={lan} usuario={usuario} {...props} />
+                  <Ofertas
+                    lan={lan}
+                    usuario={usuario}
+                    handleCurrency={this.handleCurrency}
+                    {...props}
+                  />
                 )}
               />
               <Route
