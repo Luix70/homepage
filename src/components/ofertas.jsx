@@ -4,7 +4,7 @@ import { Redirect, Link } from "react-router-dom";
 import getData from "../services/ofertas";
 import MaterialIcon from "react-google-material-icons";
 import ItemOferta from "./itemOferta";
-
+import t from "./ofertas.lit.json";
 class Ofertas extends Component {
   state = { listaOfertas: [] };
   async componentDidMount() {
@@ -34,7 +34,7 @@ class Ofertas extends Component {
   };
 
   render() {
-    const { usuario, lan } = this.props;
+    const { usuario, lan, handleCurrency } = this.props;
     const { listaOfertas } = this.state;
 
     if (!listaOfertas.length) {
@@ -50,8 +50,48 @@ class Ofertas extends Component {
     ) : (
       <React.Fragment>
         <div className="bg-secondary row">
-          <div className="bg-secondary col-8 col-md-10 m-0 text-center ">
-            <h1> </h1>
+          <div className="bg-secondary col-8 col-md-10 m-0 text-center d-flex justify-content-end align-items-center">
+            <div className="dropdown mr-2 ">
+              <span className="text-light mr-2">{t.LA[lan]}</span>
+              <button
+                className="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                {t[usuario.Moneda].DE[lan]}
+              </button>
+              <div
+                className="dropdown-menu dropdown-menu-right "
+                aria-labelledby="dropdownMenuButton"
+                data-target="#toggler"
+                aria-controls="toggler"
+              >
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleCurrency("EUR")}
+                >
+                  {t.EUR.DE[lan]}
+                </a>
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleCurrency("PUN")}
+                >
+                  {t.PUN.DE[lan]}
+                </a>
+                <a
+                  className="dropdown-item"
+                  href="#"
+                  onClick={() => handleCurrency("PVP")}
+                >
+                  {t.PVP.DE[lan]}
+                </a>
+              </div>
+            </div>
           </div>
           <div
             className="bg-secondary

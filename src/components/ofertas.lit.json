@@ -1,0 +1,45 @@
+{
+  "LA": {
+    "es": "Mostrando",
+    "en": "Showing:",
+    "fr": "Montrant:"
+  },
+  "EUR": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    },
+    "DE": {
+      "es": "PV Distribuidor (€)",
+      "en": "Reseller Price (€)",
+      "fr": "PV Distributeur (€)"
+    }
+  },
+
+  "PUN": {
+    "SI": {
+      "es": "PUNTOS",
+      "en": "POINT",
+      "fr": "POINTS"
+    },
+    "DE": {
+      "es": "PV Distribuidor (Puntos)",
+      "en": "Reseller Price (Points)",
+      "fr": "PV Distributeur (Points)"
+    }
+  },
+
+  "PVP": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    },
+    "DE": {
+      "es": "PVP IVA No Incluido (€)",
+      "en": "Retail Price W/O VAT (€)",
+      "fr": "PVP Sans TVA (€)"
+    }
+  }
+}
