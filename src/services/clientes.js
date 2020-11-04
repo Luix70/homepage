@@ -51,7 +51,7 @@ export async function getRepres() {
 
 export async function getDatosCliente(codCli) {
   const nEndPoint = config.apiDataEndPoint + "customers/GetId/" + codCli;
-  console.log(nEndPoint);
+ // console.log(nEndPoint);
   try {
     const token = sessionStorage.getItem("apiToken");
     // console.log("retrieved " + new Date(cachedData.FechaCache));

@@ -223,7 +223,12 @@ class App extends Component {
               <Route
                 path="/carrito"
                 render={(props) => (
-                  <Carrito lan={lan} usuario={usuario} {...props} />
+                  <Carrito
+                    lan={lan}
+                    usuario={usuario}
+                    handleCurrency={this.handleCurrency}
+                    {...props}
+                  />
                 )}
               />
               <Route
