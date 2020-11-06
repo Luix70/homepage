@@ -72,7 +72,9 @@ class Ofertas extends Component {
                 <a
                   className="dropdown-item"
                   href="#"
-                  onClick={() => handleCurrency("EUR")}
+                  onClick={() => {
+                    handleCurrency("EUR");
+                  }}
                 >
                   {t.EUR.DE[lan]}
                 </a>

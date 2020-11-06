@@ -20,7 +20,7 @@ export default async function getClientes(repre) {
   if (repre.codrep === 0) return result;
   var reps = [...result.representantes];
 
-  result.representantes = reps.filter(rep => rep.codrep === repre.codrep);
+  result.representantes = reps.filter((rep) => rep.codrep === repre.codrep);
   result.totalRepresentantes = result.representantes.length;
 
   return result;
@@ -40,7 +40,7 @@ export async function getRepres() {
     return result;
   }
   try {
-    return result.representantes.map(repre => {
+    return result.representantes.map((repre) => {
       return _.pick(repre, ["codrep", "nombre", "totalClientes"]);
     });
   } catch (error) {
@@ -51,13 +51,13 @@ export async function getRepres() {
 
 export async function getDatosCliente(codCli) {
   const nEndPoint = config.apiDataEndPoint + "customers/GetId/" + codCli;
-  console.log(nEndPoint);
+  // console.log(nEndPoint);
   try {
     const token = sessionStorage.getItem("apiToken");
     // console.log("retrieved " + new Date(cachedData.FechaCache));
     const { data: liveData } = await httpService.get(nEndPoint, {
       headers: { Authorization: `Bearer ${token}` },
-      timeout: 30000
+      timeout: 30000,
     });
     //console.log(liveData);
     const nData = JSON.parse(liveData);
@@ -87,7 +87,7 @@ async function getData() {
       // console.log("retrieved " + new Date(cachedData.FechaCache));
       const { data: liveData } = await httpService.get(nEndPoint, {
         headers: { Authorization: `Bearer ${token}` },
-        timeout: 30000
+        timeout: 30000,
       });
 
       const nData = JSON.parse(liveData);

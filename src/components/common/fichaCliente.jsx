@@ -121,7 +121,7 @@ const FichaCliente = (props) => {
           <p className="small text-center font-italic text-info">{t.DC[lan]}</p>
         </label>
       </div>
-      <div className="d-flex justify-content-center my-3 mx-5">
+      <div className="d-flex justify-content-around my-3 mx-0 ">
         <Link
           to="/newPass"
           className="btn btn-primary  d-flex align-items-center justify-content-center"

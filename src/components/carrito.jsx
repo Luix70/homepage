@@ -5,6 +5,7 @@ import { getCustomer, cursarPedido } from "../services/ofertas";
 import ClienteCarrito from "./clienteCarrito";
 import ItemOferta from "./itemOferta";
 import { toast } from "react-toastify";
+//import t from "./carrito.lit.json";
 
 class Carrito extends Component {
   state = { datosPedido: { observaciones: "", referencia: "" } };
