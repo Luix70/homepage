@@ -28,7 +28,11 @@ class DashCliente extends Component {
           </Link>
         </div>
         <div className="d-flex justify-content-center mt-3 mx-5 ">
-          <FichaCliente datosCliente={datosCliente} lan={lan}></FichaCliente>
+          <FichaCliente
+            datosCliente={datosCliente}
+            lan={lan}
+            usuario={usuario}
+          ></FichaCliente>
         </div>
         <div className="d-flex justify-content-center my-3 mx-5">
           <Link

@@ -1,0 +1,33 @@
+{
+  "ME": {
+    "es": "Precios en",
+    "fr": "Montrer prix en",
+    "en": "Show Prices in"
+  },
+  "PVP": {
+    "es": "Valor punto PVP",
+    "fr": "Valeur Point PVP",
+    "en": "Retailer Point Value"
+  },
+  "VD": {
+    "es": "Establecer por defecto",
+    "fr": "Définir par défaut",
+    "en": "Set as default"
+  },
+  "ID": {
+    "es": "Idioma",
+    "fr": "Langue",
+    "en": "Language"
+  },
+  "PRE": {
+    "es": "PREFERENCIAS",
+    "fr": "PREFERENCES",
+    "en": "PREFERENCES"
+  },
+
+  "CC": {
+    "es": "Cambiar Contraseña",
+    "fr": "Changer Mot de Passe",
+    "en": "Change Password"
+  }
+}
