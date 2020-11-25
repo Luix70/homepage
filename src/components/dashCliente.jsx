@@ -37,7 +37,7 @@ class DashCliente extends Component {
         <div className="d-flex justify-content-center my-3 mx-5">
           <Link
             to="/ar"
-            className="btn btn-outline-primary  d-flex align-items-center justify-content-center"
+            className="btn btn-outline-primary d-flex align-items-center justify-content-center"
           >
             {t.DT[lan]}
           </Link>
