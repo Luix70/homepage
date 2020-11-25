@@ -2,6 +2,15 @@
 import React from "react";
 import t from "./preferencias.lit.json";
 import { Link } from "react-router-dom";
+import FlagIcon from "./FlagIcon";
+
+const handleCurrency = (cur) => {
+  console.log(`Quueremos la moneda ${cur}`);
+};
+
+const handleLanguage = (lan) => {
+  console.log(`Quueremos el idioma ${lan}`);
+};
 
 const Preferencias = (props) => {
   const { lan, usuario } = props;
@@ -12,14 +21,15 @@ const Preferencias = (props) => {
         <label className="h3">{t.PRE[lan]}</label>
       </div>
 
-     
-
       <div className="my-3 mx-0 row py-3 ">
         {/* Valor del punto PVP */}
         <div className="input-group  p-1  mb-3 col-12 col-md-4">
-          <div className="input-group-prepend col-6 m-0 p-0" >
-            <button className="btn btn-outline-secondary col-12 p-0  text-right pr-1" type="button">
-              {t.PVP[lan]}
+          <div className="input-group-prepend col-6 m-0 p-0">
+            <button
+              className="btn btn-outline-secondary col-12 p-0  text-right pr-1"
+              type="button"
+            >
+              {t.VPP[lan]}
             </button>
           </div>
           <input
@@ -42,14 +52,26 @@ const Preferencias = (props) => {
               {t.ME[lan]}
             </button>
             <div className="dropdown-menu">
-              <a className="dropdown-item" href="#">
-                EUR
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleCurrency("EUR")}
+              >
+                {t.EUR.DE[lan]}
               </a>
-              <a className="dropdown-item" href="#">
-                PUN
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleCurrency("PUN")}
+              >
+                {t.PUN.DE[lan]}
               </a>
-              <a className="dropdown-item" href="#">
-                PVP
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleCurrency("PVP")}
+              >
+                {t.PVP.DE[lan]}
               </a>
             </div>
           </div>
@@ -74,14 +96,26 @@ const Preferencias = (props) => {
               {t.ID[lan]}
             </button>
             <div className="dropdown-menu">
-              <a className="dropdown-item" href="#">
-                ES
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleLanguage("es")}
+              >
+                <FlagIcon code="es" /> Español
               </a>
-              <a className="dropdown-item" href="#">
-                EN
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleLanguage("en")}
+              >
+                <FlagIcon code="gb" /> English
               </a>
-              <a className="dropdown-item" href="#">
-                FR
+              <a
+                className="dropdown-item"
+                href="#"
+                onClick={() => handleLanguage("fr")}
+              >
+                <FlagIcon code="fr" /> Français
               </a>
             </div>
           </div>
@@ -106,7 +140,6 @@ const Preferencias = (props) => {
           {t.CC[lan]}
         </Link>
       </div>
-
     </div>
   );
 };

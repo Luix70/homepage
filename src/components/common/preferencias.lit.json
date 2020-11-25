@@ -4,7 +4,7 @@
     "fr": "Montrer prix en",
     "en": "Show Prices in"
   },
-  "PVP": {
+  "VPP": {
     "es": "Valor punto PVP",
     "fr": "Valeur Point PVP",
     "en": "Retailer Point Value"
@@ -29,5 +29,43 @@
     "es": "Cambiar Contraseña",
     "fr": "Changer Mot de Passe",
     "en": "Change Password"
+  },
+  "EUR": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    },
+    "DE": {
+      "es": "PV Distribuidor (€)",
+      "en": "Reseller Price (€)",
+      "fr": "PV Distributeur (€)"
+    }
+  },
+
+  "PUN": {
+    "SI": {
+      "es": "PUNTOS",
+      "en": "POINT",
+      "fr": "POINTS"
+    },
+    "DE": {
+      "es": "PV Distribuidor (Puntos)",
+      "en": "Reseller Price (Points)",
+      "fr": "PV Distributeur (Points)"
+    }
+  },
+
+  "PVP": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    },
+    "DE": {
+      "es": "PVP IVA No Incluido (€)",
+      "en": "Retail Price w/o VAT (€)",
+      "fr": "PVP Sans TVA (€)"
+    }
   }
 }
