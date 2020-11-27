@@ -12,6 +12,20 @@ class DashCliente extends Component {
     });
   }
 
+   handleCurrency = (cur, event) => {
+    console.log(`Quueremos la moneda ${cur}`);
+    event.preventDefault();
+  };
+  
+   handleLanguage = (lan, event) => {
+    console.log(`Quueremos el idioma ${lan}`);
+    event.preventDefault();
+  };
+  
+   handleChange = ({ currentTarget: input }) => {
+    console.log(`queremos establecer el vlor del pvp en ${input.value}`);
+  };
+
   render() {
     const { lan, usuario } = this.props;
     const { datosCliente } = this.state;
@@ -32,6 +46,9 @@ class DashCliente extends Component {
             datosCliente={datosCliente}
             lan={lan}
             usuario={usuario}
+            handleCurrency={this.handleCurrency}
+            handleChange={this.handleChange}
+            handleLanguage={this.handleLanguage}
           ></FichaCliente>
         </div>
         <div className="d-flex justify-content-center my-3 mx-5">

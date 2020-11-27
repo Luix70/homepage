@@ -4,16 +4,9 @@ import t from "./preferencias.lit.json";
 import { Link } from "react-router-dom";
 import FlagIcon from "./FlagIcon";
 
-const handleCurrency = (cur) => {
-  console.log(`Quueremos la moneda ${cur}`);
-};
-
-const handleLanguage = (lan) => {
-  console.log(`Quueremos el idioma ${lan}`);
-};
 
 const Preferencias = (props) => {
-  const { lan, usuario } = props;
+  const { lan, usuario , handleChange, handleCurrency, handleLanguage} = props;
   return (
     <div className="col-12">
       {/* Zona de actualizacion: contraseña, valor punto PVP... etc */}
@@ -36,6 +29,7 @@ const Preferencias = (props) => {
             type="text"
             className="form-control h-100"
             placeholder={usuario.FactorPVP}
+            onChange={handleChange}
           />
         </div>
 
@@ -55,21 +49,21 @@ const Preferencias = (props) => {
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleCurrency("EUR")}
+                onClick={(ev) => handleCurrency("EUR", ev)}
               >
                 {t.EUR.DE[lan]}
               </a>
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleCurrency("PUN")}
+                onClick={(ev) => handleCurrency("PUN", ev)}
               >
                 {t.PUN.DE[lan]}
               </a>
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleCurrency("PVP")}
+                onClick={(ev) => handleCurrency("PVP", ev)}
               >
                 {t.PVP.DE[lan]}
               </a>
@@ -99,21 +93,21 @@ const Preferencias = (props) => {
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleLanguage("es")}
+                onClick={(ev) => handleLanguage("es", ev)}
               >
                 <FlagIcon code="es" /> Español
               </a>
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleLanguage("en")}
+                onClick={(ev) => handleLanguage("en", ev)}
               >
                 <FlagIcon code="gb" /> English
               </a>
               <a
                 className="dropdown-item"
                 href="#"
-                onClick={() => handleLanguage("fr")}
+                onClick={(ev) => handleLanguage("fr", ev)}
               >
                 <FlagIcon code="fr" /> Français
               </a>
