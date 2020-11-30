@@ -69,6 +69,27 @@ export async function getDatosCliente(codCli) {
   }
 }
 
+export async function setPrefsCliente(usuario) {
+  const nEndPoint = config.apiDataEndPoint + "customers/savePrefs"
+  // console.log(nEndPoint);
+  try {
+    const token = sessionStorage.getItem("apiToken");
+    // console.log("retrieved " + new Date(cachedData.FechaCache));
+    const { data: liveData } = await httpService.post(nEndPoint, {
+      headers: { Authorization: `Bearer ${token}` },
+      timeout: 30000,
+    });
+    //console.log(liveData);
+    const nData = JSON.parse(liveData);
+    //console.log(nData);
+    return nData;
+  } catch (error) {
+    console.log("error getData", error);
+    return {};
+  }
+}
+
+
 async function getData() {
   const nEndPoint = config.apiDataEndPoint + "customers/GetAll";
 

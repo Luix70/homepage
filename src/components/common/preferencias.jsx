@@ -6,7 +6,7 @@ import FlagIcon from "./FlagIcon";
 
 
 const Preferencias = (props) => {
-  const { lan, usuario , handleChange, handleCurrency, handleLanguage} = props;
+  const { lan, usuario , handleChange, handleCurrency, handleLanguage,savePreferences} = props;
   return (
     <div className="col-12">
       {/* Zona de actualizacion: contraseña, valor punto PVP... etc */}
@@ -28,7 +28,7 @@ const Preferencias = (props) => {
           <input
             type="text"
             className="form-control h-100"
-            placeholder={usuario.FactorPVP}
+            value={usuario.FactorPVP}
             onChange={handleChange}
           />
         </div>
@@ -122,7 +122,7 @@ const Preferencias = (props) => {
           />
         </div>
         <div className="mt-4 d-flex justify-content-center col-12">
-          <button className="btn btn-outline-primary mb-3">{t.VD[lan]}</button>
+          <button className="btn btn-outline-primary mb-3" onClick={savePreferences}>{t.VD[lan]}</button>
         </div>
 
         {/* Fin de la zona de Actualizacion */}

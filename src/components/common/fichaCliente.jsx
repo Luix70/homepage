@@ -5,7 +5,15 @@ import DatosCliente from "./datosCliente";
 import DatosRepresentante from "./datosRepresentante";
 
 const FichaCliente = (props) => {
-  const { datosCliente, lan, usuario, handleChange, handleCurrency, handleLanguage } = props;
+  const {
+    datosCliente,
+    lan,
+    usuario,
+    handleChange,
+    handleCurrency,
+    handleLanguage,
+    savePreferences
+  } = props;
   return (
     <div className="row">
       <DatosCliente datosCliente={datosCliente} lan={lan}></DatosCliente>
@@ -20,8 +28,9 @@ const FichaCliente = (props) => {
         lan={lan}
         usuario={usuario}
         handleCurrency={handleCurrency}
-            handleChange={handleChange}
-            handleLanguage={handleLanguage}
+        handleChange={handleChange}
+        handleLanguage={handleLanguage}
+        savePreferences={savePreferences}
       ></Preferencias>
     </div>
   );

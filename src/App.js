@@ -178,7 +178,7 @@ class App extends Component {
               <Route
                 path="/client"
                 render={(props) => (
-                  <DashCliente usuario={usuario} lan={lan} {...props} />
+                  <DashCliente usuario={usuario} lan={lan} AppLanguage={this.handleLanguage} {...props} />
                 )}
               />
               <Route
