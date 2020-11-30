@@ -5,7 +5,7 @@ class Direccion extends Component {
     const { direccion, nombre, predet, cif } = this.props;
     //console.log(direccion, usuario, lan, nombre, predet);
     return (
-      <div className={"row border-top " + (predet ? "bg-dark text-light" : "")}>
+      <div className={"row border-top " + (predet ? "bg-light text-dark" : "")}>
         <div className="col-12 col-sm-12">
           <h4>
             {direccion.Codsucursal === 0
