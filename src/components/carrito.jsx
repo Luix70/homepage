@@ -32,7 +32,7 @@ class Carrito extends Component {
       ...this.state.datosPedido,
     };
     const { data, output } = await cursarPedido(pedido);
-    console.log(data, output);
+    //console.log(data, output);
     if (data.resultado === "OK") {
       toast.success("Pedido realizado con éxito. Codigo: " + output.CodPedido);
       this.props.history.push("/ofertas");
