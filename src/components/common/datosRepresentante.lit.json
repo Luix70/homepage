@@ -1,0 +1,16 @@
+{
+  "EM": { "es": "e-mail", "en": "e-mail", "fr": "e-mail" },
+
+  "TF": { "es": "Teléfono", "en": "Phone", "fr": "Téléphone" },
+
+  "FR": {
+    "es": "SU REPRESENTANTE",
+    "en": "YOUR REPRESENTATIVE",
+    "fr": "VOTRE REPRÉSENTANT"
+  },
+  "NR": {
+    "es": "Nombre Representante",
+    "en": "Representative's name",
+    "fr": "Nom du représentant"
+  }
+}

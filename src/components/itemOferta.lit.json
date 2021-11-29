@@ -1,0 +1,41 @@
+{
+  "DI": {
+    "es": "Disponibles ",
+    "en": "Available ",
+    "fr": "Disponibles "
+  },
+  "RE": {
+    "es": "Reservadas ",
+    "en": "Reserved ",
+    "fr": "Reservées "
+  },
+  "PR": {
+    "es": "Precio ",
+    "en": "Price ",
+    "fr": "Prix "
+  },
+
+  "EUR": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    }
+  },
+
+  "PUN": {
+    "SI": {
+      "es": "P",
+      "en": "P",
+      "fr": "P"
+    }
+  },
+
+  "PVP": {
+    "SI": {
+      "es": "€",
+      "en": "€",
+      "fr": "€"
+    }
+  }
+}

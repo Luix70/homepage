@@ -36,11 +36,5 @@
     "es": "Nombre Representante",
     "en": "Representative's name",
     "fr": "Nom du représentant"
-  },
-
-  "CC": {
-    "es": "Cambiar Contraseña",
-    "fr": "Changer Mot de Passe",
-    "en": "Change Password"
   }
 }

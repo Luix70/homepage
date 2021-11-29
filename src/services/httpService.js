@@ -15,7 +15,7 @@ axios.interceptors.response.use(null, (error) => {
   return Promise.reject(error); // devuelve el control al bloque catch
 });
 
-var exp = {
+var def = {
   post: axios.post,
   get: axios.get,
   put: axios.put,
@@ -23,4 +23,4 @@ var exp = {
   delete: axios.delete,
 };
 
-export default exp;
+export default def;

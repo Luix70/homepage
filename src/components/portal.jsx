@@ -70,29 +70,28 @@ class Portal extends Component {
             </div>
             <div className="col-sm-12 col-md-6  col-xl-3 mb-4 ">
               <div className="card p-4 h-100">
-                <div className="h-100 text-center">
-                  <img
-                    src="/resources/img/Ventas.png"
-                    className="card-img-top text-center mb-4"
-                    alt=""
-                    style={{
-                      marginTop: "10%",
-                      height: "auto",
-                      width: "50%",
-                      opacity: "0.2",
-                    }}
-                  />
-                </div>
+                <Link to="/ofertas">
+                  <div className="h-100 text-center">
+                    <img
+                      src="/resources/img/Ventas.png"
+                      className="card-img-top text-center mb-4"
+                      alt=""
+                      style={{
+                        marginTop: "10%",
+                        height: "auto",
+                        width: "50%",
+                      }}
+                    />
+                  </div>
+                </Link>
 
                 <div className="card-block ">
-                  <h4 className="card-title text-center text-muted">
-                    {t.OF[lan]}
-                  </h4>
-
+                  <Link to="/ofertas">
+                    <h4 className="card-title text-center text-primary">
+                      {t.OF[lan]}
+                    </h4>
+                  </Link>
                   <p className="card-text text-center">{t.VD[lan]}</p>
-                  <h4 className="card-title text-center text-danger bg-warning p-3">
-                    {t.PR[lan]}
-                  </h4>
                 </div>
               </div>
             </div>

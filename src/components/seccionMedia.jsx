@@ -1,5 +1,5 @@
 import React from "react";
-const SeccionMedia = prop => {
+const SeccionMedia = (prop) => {
   const { seccion, folder, lan } = prop;
   return (
     <div className="col-12">
@@ -14,12 +14,12 @@ const SeccionMedia = prop => {
             className="img-fluid"
           />
         ) : (
-          <div class="embed-responsive  embed-responsive-16by9 ">
+          <div className="embed-responsive  embed-responsive-16by9 ">
             <iframe
-              class="embed-responsive-item"
+              className="embed-responsive-item"
               title="Video"
               src={folder + seccion.archivo}
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         )}

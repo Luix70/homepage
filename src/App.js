@@ -15,6 +15,8 @@ import DashCliente from "./components/dashCliente";
 import Portal from "./components/portal";
 import LanRedirect from "./components/lanRedirect";
 import NewPass from "./components/newPass";
+import Ofertas from "./components/ofertas";
+import Carrito from "./components/carrito";
 import Activate from "./components/activate";
 import { getLan, getColecciones } from "./services/datosWeb";
 import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
@@ -87,6 +89,12 @@ class App extends Component {
     sessionStorage.removeItem("apiToken");
     sessionStorage.removeItem("nombreUsuario");
     this.setState({ usuario: null });
+  };
+
+  handleCurrency = (currency) => {
+    const nUsuario = { ...this.state.usuario };
+    nUsuario.Moneda = currency;
+    this.setState({ usuario: nUsuario });
   };
 
   toggleEdit = () => {
@@ -170,7 +178,12 @@ class App extends Component {
               <Route
                 path="/client"
                 render={(props) => (
-                  <DashCliente usuario={usuario} lan={lan} {...props} />
+                  <DashCliente
+                    usuario={usuario}
+                    lan={lan}
+                    AppLanguage={this.handleLanguage}
+                    {...props}
+                  />
                 )}
               />
               <Route
@@ -200,6 +213,28 @@ class App extends Component {
               <Route
                 path="/login"
                 render={(props) => <LoginForm lan={lan} {...props} />}
+              />
+              <Route
+                path="/ofertas"
+                render={(props) => (
+                  <Ofertas
+                    lan={lan}
+                    usuario={usuario}
+                    handleCurrency={this.handleCurrency}
+                    {...props}
+                  />
+                )}
+              />
+              <Route
+                path="/carrito"
+                render={(props) => (
+                  <Carrito
+                    lan={lan}
+                    usuario={usuario}
+                    handleCurrency={this.handleCurrency}
+                    {...props}
+                  />
+                )}
               />
               <Route
                 path="/newPass"
