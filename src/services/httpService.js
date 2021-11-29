@@ -1,7 +1,7 @@
 import axios from "axios";
 //import { toast } from "react-toastify";
 
-axios.interceptors.response.use(null, error => {
+axios.interceptors.response.use(null, (error) => {
   const expectedError =
     error.response &&
     (error.response.status === 404 || error.response.status === 401) &&
@@ -15,10 +15,12 @@ axios.interceptors.response.use(null, error => {
   return Promise.reject(error); // devuelve el control al bloque catch
 });
 
-export default {
+var exp = {
   post: axios.post,
   get: axios.get,
   put: axios.put,
   update: axios.update,
-  delete: axios.delete
+  delete: axios.delete,
 };
+
+export default exp;

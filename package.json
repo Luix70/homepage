@@ -6,7 +6,7 @@
     "@hapi/joi": "^16.1.8",
     "@sentry/browser": "^5.21.1",
     "auto-import": "^0.1.4",
-    "axios": "^0.19.2",
+    "axios": "^0.24.0",
     "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.6",
@@ -29,7 +29,7 @@
     "react-highlight-words": "^0.16.0",
     "react-moment": "^0.9.7",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-scroll-up-button": "^1.6.4",
     "react-social-sharing": "^3.3.0",
     "react-toastify": "^5.5.0"
