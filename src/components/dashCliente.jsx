@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import t from "./dashCliente.lit.json";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { getDatosCliente } from "../services/clientes";
 import FichaCliente from "./common/fichaCliente";
 import { apiDataEndPoint } from "../config.json";
@@ -59,7 +59,7 @@ class DashCliente extends Component {
       );
 
       console.log(data);
-      
+
       if (data === "OK") {
         toast.success(t.TOAST_SUCCESS[lan]);
       } else {
@@ -74,11 +74,11 @@ class DashCliente extends Component {
     const { lan, usuario } = this.props;
     const { datosCliente } = this.state;
     //console.log(this.state.datosCliente, usuario);
-    if (!usuario) return <Redirect to="/login"></Redirect>;
+    if (!usuario) return <Navigate to="/login"></Navigate>;
 
     return (
       <div>
-        {!usuario ? <Redirect to={"/login"}></Redirect> : null}
+        {!usuario ? <Navigate to={"/login"}></Navigate> : null}
         <div className="d-flex justify-content-center my-3 mx-5">
           <Link
             to="/ar"

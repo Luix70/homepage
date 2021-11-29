@@ -30,19 +30,11 @@
     "react-device-detect": "^2.1.2",
     "react-flag-icon-css": "^1.0.25",
     "react-google-material-icons": "^1.0.4",
-<<<<<<< HEAD
-    "react-helmet": "^5.2.1",
-    "react-highlight-words": "^0.16.0",
-    "react-moment": "^0.9.7",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "^0.9.5",
-=======
     "react-helmet": "^6.1.0",
     "react-highlight-words": "^0.17.0",
     "react-moment": "^1.1.1",
-    "react-router-dom": "^6.0.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
->>>>>>> 460e43e8ddc48deef6c31bd9c7d95c500428a4f1
     "react-scroll-up-button": "^1.6.4",
     "react-social-sharing": "^3.3.0",
     "react-toastify": "^8.1.0",

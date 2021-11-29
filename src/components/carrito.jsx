@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { getCustomer, cursarPedido } from "../services/ofertas";
 import ClienteCarrito from "./clienteCarrito";
 import ItemOferta from "./itemOferta";
@@ -82,18 +82,18 @@ class Carrito extends Component {
 
   render(props) {
     if (!this.props.location.state) {
-      return <Redirect to={"/ofertas"}></Redirect>;
+      return <Navigate to={"/ofertas"}></Navigate>;
     }
     const { usuario, lan } = this.props;
     const { listaOfertas } = this.props.location.state;
     const { datosCliente, datosPedido } = this.state;
 
     return !usuario ? (
-      <Redirect to={"/login"}></Redirect>
+      <Navigate to={"/login"}></Navigate>
     ) : !listaOfertas ||
       listaOfertas.length === 0 ||
       listaOfertas.reduce((acc, el) => acc + el.Reservadas, 0) === 0 ? (
-      <Redirect to={"/ofertas"}></Redirect>
+      <Navigate to={"/ofertas"}></Navigate>
     ) : (
       <React.Fragment>
         <div className="row">

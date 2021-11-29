@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import getClientes, { getRepres } from "../services/clientes";
 import ListaRepresentantes from "./listaRepresentantes";
 import ListGroup from "./common/listGroup";
@@ -70,7 +70,7 @@ class AreaReservada extends Component {
             <h6>{t.PA[lan]}</h6>
           </div>
         </div>
-        {!usuario ? <Redirect to={"/login"}></Redirect> : null}
+        {!usuario ? <Navigate to={"/login"}></Navigate> : null}
         <div className="row">
           {this.state.listaRepresentantes.length > 1 ? (
             <div className="col-12">
