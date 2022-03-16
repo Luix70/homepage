@@ -17,10 +17,10 @@ h6 {
   font-style: italic;
   color: #888888;
   padding: 1.5rem !important;
-}
 
-h6 .list-group-item:first-child {
   border-top: 1px solid Transparent !important;
   border-left: 1px solid Transparent !important;
   border-right: 1px solid Transparent !important;
+
 }
+
