@@ -16,6 +16,7 @@ h6 {
   font-size: 0.8rem !important;
   font-style: italic;
   color: #888888;
+  padding: 1.5rem !important;
 }
 
 h6 .list-group-item:first-child {
