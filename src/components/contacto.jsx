@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint, apiEndPoint } from "../config.json";
+import config from "../config.json";
 import { toast } from "react-toastify";
 import t from "./contacto.lit.json";
 
@@ -12,45 +12,38 @@ import Mapa from "./common/mapa";
 class Contacto extends Form {
   state = {
     data: { email: "", nombre: "", telefono: "", mensaje: "" },
-    errors: {}
+    errors: {},
   };
 
   objSchema = {
     email: Joi.string()
       .email({
         minDomainSegments: 2,
-        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
+        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] },
       })
       .required()
       .label("e-mail"),
-    nombre: Joi.string()
-      .min(4)
-      .required()
-      .label("Nombre"),
+    nombre: Joi.string().min(4).required().label("Nombre"),
     telefono: Joi.number()
       .greater(99999999)
       .less(99999999999)
       .label("Telefono"),
-    mensaje: Joi.string()
-      .min(1)
-      .max(500)
-      .required()
-      .label("Mensaje")
+    mensaje: Joi.string().min(1).max(500).required().label("Mensaje"),
   };
 
   schema = Joi.object(this.objSchema);
 
   doSubmit = async () => {
     const { lan } = this.props;
-    //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
+    //console.log(config.apiDataEndPoint + "login/authenticate/", this.state.data);
     // console.log(this.state.data);
     try {
       // Para enviarlo Por correo electronico
       //
 
       // eslint-disable-next-line no-unused-vars
-      var dirApp = apiDataEndPoint;
-      var dirMail = apiEndPoint;
+      var dirApp = config.apiDataEndPoint;
+      var dirMail = config.apiEndPoint;
 
       //console.log(dirMail);
 
@@ -70,20 +63,20 @@ class Contacto extends Form {
 
       if (data.status === "recibido" || data.status === "success") {
         toast.success(t.SU[lan], {
-          position: toast.POSITION.TOP_RIGHT
+          position: toast.POSITION.TOP_RIGHT,
         });
 
         this.setState({
-          data: { email: "", nombre: "", telefono: "", mensaje: "" }
+          data: { email: "", nombre: "", telefono: "", mensaje: "" },
         });
       } else {
         toast.error(t.ER[lan], {
-          position: toast.POSITION.TOP_RIGHT
+          position: toast.POSITION.TOP_RIGHT,
         });
       }
     } catch (error) {
       toast.error(t.ER[lan], {
-        position: toast.POSITION.TOP_RIGHT
+        position: toast.POSITION.TOP_RIGHT,
       });
     }
   };

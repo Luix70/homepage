@@ -70,7 +70,7 @@ export async function getDatosCliente(codCli) {
 }
 
 export async function setPrefsCliente(usuario) {
-  const nEndPoint = config.apiDataEndPoint + "customers/savePrefs"
+  const nEndPoint = config.apiDataEndPoint + "customers/savePrefs";
   // console.log(nEndPoint);
   try {
     const token = sessionStorage.getItem("apiToken");
@@ -88,7 +88,6 @@ export async function setPrefsCliente(usuario) {
     return {};
   }
 }
-
 
 async function getData() {
   const nEndPoint = config.apiDataEndPoint + "customers/GetAll";

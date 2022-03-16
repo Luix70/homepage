@@ -3,7 +3,7 @@ import queryString from "query-string";
 import t from "./activate.lit.json";
 import { Link } from "react-router-dom";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import { toast } from "react-toastify";
 
 class Activate extends Component {
@@ -25,7 +25,7 @@ class Activate extends Component {
     try {
       //console.log(dataLan);
       const { data } = await http.post(
-        apiDataEndPoint + "login/activate/",
+        config.apiDataEndPoint + "login/activate/",
         params
       );
 

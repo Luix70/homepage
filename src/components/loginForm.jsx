@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import t from "./loginForm.lit.json";
 import { toast } from "react-toastify";
 class LoginForm extends Form {
@@ -28,12 +28,12 @@ class LoginForm extends Form {
   schema = Joi.object(this.objSchema);
 
   doSubmit = async () => {
-    //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
+    //console.log(config.apiDataEndPoint + "login/authenticate/", this.state.data);
     const { lan } = this.props;
 
     try {
       const { data: token } = await http.post(
-        apiDataEndPoint + "login/authenticate/",
+        config.apiDataEndPoint + "login/authenticate/",
         this.state.data
       );
 

@@ -2,45 +2,37 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import t from "./registerForm.lit.json";
 import { toast } from "react-toastify";
 class RegisterForm extends Form {
   state = {
     data: { username: "", password: "", cif: "" },
     errors: {},
-    result: ""
+    result: "",
   };
 
   objSchema = {
     username: Joi.string()
       .email({
         minDomainSegments: 2,
-        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
+        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] },
       })
       .required()
       .messages({
         "string.email": t.VE[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
+        "string.empty": t.CR[this.props.lan],
       }),
-    password: Joi.string()
-      .min(8)
-      .max(30)
-      .required()
-      .messages({
-        "string.min": t.CC[this.props.lan],
-        "string.max": t.CL[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
-      }),
-    cif: Joi.string()
-      .min(8)
-      .max(15)
-      .required()
-      .messages({
-        "string.min": t.NC[this.props.lan],
-        "string.max": t.NL[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
-      })
+    password: Joi.string().min(8).max(30).required().messages({
+      "string.min": t.CC[this.props.lan],
+      "string.max": t.CL[this.props.lan],
+      "string.empty": t.CR[this.props.lan],
+    }),
+    cif: Joi.string().min(8).max(15).required().messages({
+      "string.min": t.NC[this.props.lan],
+      "string.max": t.NL[this.props.lan],
+      "string.empty": t.CR[this.props.lan],
+    }),
 
     //   ,
     // password_confirmation: Joi.string()
@@ -53,8 +45,8 @@ class RegisterForm extends Form {
   };
   schema = Joi.object(this.objSchema);
 
-  doSubmit = async e => {
-    //console.log(apiDataEndPoint + "login/register/", this.state.data);
+  doSubmit = async (e) => {
+    //console.log(config.apiDataEndPoint + "login/register/", this.state.data);
 
     try {
       var { lan } = this.props;
@@ -62,7 +54,7 @@ class RegisterForm extends Form {
       dataLan.lan = lan;
       //console.log(dataLan);
       const { data } = await http.post(
-        apiDataEndPoint + "login/register/",
+        config.apiDataEndPoint + "login/register/",
         dataLan
       );
       this.setState({ result: data });

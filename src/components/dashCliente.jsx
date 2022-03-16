@@ -3,7 +3,7 @@ import t from "./dashCliente.lit.json";
 import { Link, Redirect } from "react-router-dom";
 import { getDatosCliente } from "../services/clientes";
 import FichaCliente from "./common/fichaCliente";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import { toast } from "react-toastify";
 import http from "../services/httpService";
 
@@ -50,7 +50,7 @@ class DashCliente extends Component {
     const token = sessionStorage.getItem("apiToken");
     try {
       const { data } = await http.post(
-        apiDataEndPoint + "customers/savePrefs",
+        config.apiDataEndPoint + "customers/savePrefs",
         this.state.usuario,
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -59,7 +59,7 @@ class DashCliente extends Component {
       );
 
       console.log(data);
-      
+
       if (data === "OK") {
         toast.success(t.TOAST_SUCCESS[lan]);
       } else {

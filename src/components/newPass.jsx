@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import t from "./newPass.lit.json";
 import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -32,7 +32,7 @@ class newPassForm extends Form {
   schema = Joi.object(this.objSchema);
 
   doSubmit = async (e) => {
-    //console.log(apiDataEndPoint + "login/register/", this.state.data);
+    //console.log(config.apiDataEndPoint + "login/register/", this.state.data);
 
     try {
       var { lan, usuario } = this.props;
@@ -41,7 +41,7 @@ class newPassForm extends Form {
       dataLan.username = usuario.Email;
       //console.log(dataLan);
       const { data } = await http.post(
-        apiDataEndPoint + "login/changePass/",
+        config.apiDataEndPoint + "login/changePass/",
         dataLan
       );
 

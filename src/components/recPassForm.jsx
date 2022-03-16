@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "@hapi/joi";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { apiDataEndPoint } from "../config.json";
+import config from "../config.json";
 import t from "./recPassForm.lit.json";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
@@ -13,24 +13,24 @@ class RecPassForm extends Form {
     username: Joi.string()
       .email({
         minDomainSegments: 2,
-        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] }
+        tlds: { allow: ["com", "net", "es", "fr", "uk", "de", "org", "*"] },
       })
       .required()
       .messages({
         "string.email": t.VE[this.props.lan],
-        "string.empty": t.CR[this.props.lan]
-      })
+        "string.empty": t.CR[this.props.lan],
+      }),
   };
   schema = Joi.object(this.objSchema);
 
   doSubmit = async () => {
-    //console.log(apiDataEndPoint + "login/authenticate/", this.state.data);
+    //console.log(config.apiDataEndPoint + "login/authenticate/", this.state.data);
     const { lan } = this.props;
     const dataLan = { ...this.state.data };
     dataLan.lan = lan;
     try {
       const { data: token } = await http.post(
-        apiDataEndPoint + "login/passwordRecovery/",
+        config.apiDataEndPoint + "login/passwordRecovery/",
         dataLan
       );
       console.log(token);
