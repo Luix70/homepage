@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c06b2ca66fd0a2ef46f89af"),
+  "_id": { "$oid": "5c06b2ca66fd0a2ef46f89af" },
   "mod": "cross",
   "thumbnail": "Cross_tn.jpg",
   "__v": 0,
@@ -8,13 +8,13 @@
     "es": "Alma de acero",
     "en": "Steel soul",
     "fr": "Esprit d'acier",
-    "_id": ObjectId("5c53fdf88a231811016da54e")
+    "_id": { "$oid": "5c53fdf88a231811016da54e" }
   },
   "desc": {
     "es": "Materiales naturales y texturas orgánicas sobre una estructura de acero diáfana con la comodidad de las mesas de pie central y gran estabilidad.",
     "en": "Natural materials and organic textures on a diaphanous steel structure with the comfort of the central standing tables and great stability.",
     "fr": "Des matériaux naturels et des textures organiques sur une structure en acier diaphane avec le confort des tables centrales et une grande stabilité.",
-    "_id": ObjectId("5c53fdf88a231811016da54f")
+    "_id": { "$oid": "5c53fdf88a231811016da54f" }
   },
   "tags": {
     "es": "Pie metálico central",
@@ -106,69 +106,57 @@
               "fr": "Vulcano Roca",
               "en": "Vulcano Roca"
             },
-            {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
-            },
-            {
-              "en": "Gray Nature",
-              "es": "Gris Nature",
-              "fr": "Gris Nature"
-            },
-            {
-              "es": "Blanco",
-              "en": "White",
-              "fr": "Blanc"
-            },
-            {
-              "es": "Nieve",
-              "en": "Snow",
-              "fr": "Neige"
-            },
-            {
-              "es": "Negro",
-              "en": "Black",
-              "fr": "Noir"
-            }
+            { "es": "Hidra Argen", "en": "Hidra Argen", "fr": "Hidra Argen" },
+            { "en": "Gray Nature", "es": "Gris Nature", "fr": "Gris Nature" },
+            { "es": "Blanco", "en": "White", "fr": "Blanc" },
+            { "es": "Nieve", "en": "Snow", "fr": "Neige" },
+            { "es": "Negro", "en": "Black", "fr": "Noir" }
           ]
         },
         {
           "titulo": {
-            "fr": "Coloris céramique ",
-            "es": "Porcelánicos",
-            "en": "Ceramic tops"
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
           },
           "subtitulo": {
-            "es": "(Grosor: 3mm)",
-            "en": "( 3mm thick)",
-            "fr": "(ÉPAISSEUR 3MM)"
+            "es": "(Grosor: 3 mm)",
+            "en": "(Thickness: 3 mm)",
+            "fr": "(Épaisseur 3 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -184,16 +172,8 @@
             "fr": "(Épaisseur: 4mm)"
           },
           "opciones": [
-            {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
-            },
-            {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
-            }
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
@@ -232,6 +212,15 @@
             "fr": "2 RALLONGES DE 47# Fermée: 180 x 98 x 76  # (Ouverte: 227 y 274 x 98  )"
           },
           "imagenes": ["3072_2_dim.svg", "3072_3_dim.svg", "3072_4_dim.svg"]
+        },
+        {
+          "cod": "3073",
+          "desc": {
+            "es": "2 EXTENSIBLES DE 47 # Mesa de 160 x 98 x 76 # (Abierta 207 y 254 x 98 )",
+            "en": "2x47 cm EXTENSIONS # 160 x 98 x 76 Table# (extended 207/254 x 90 )",
+            "fr": "2 RALLONGES DE 47# Fermée: 160 x 98 x 76  # (Ouverte: 207 y 254 x 98  )"
+          },
+          "imagenes": ["3073_2_dim.svg", "3073_3_dim.svg", "3073_4_dim.svg"]
         }
       ]
     },
@@ -253,7 +242,6 @@
           "en": "Blocking system at extended and closed positions",
           "fr": "Système de blocage dans les positions ouverte et fermée."
         },
-
         {
           "fr": "Piétement en acier texturé.",
           "es": "Base en acero texturado",
@@ -286,31 +274,11 @@
               "fr": "Vulcano Roca",
               "en": "Vulcano Roca"
             },
-            {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
-            },
-            {
-              "en": "Gray Nature",
-              "es": "Gris Nature",
-              "fr": "Gris Nature"
-            },
-            {
-              "es": "Blanco",
-              "en": "White",
-              "fr": "Blanc"
-            },
-            {
-              "es": "Nieve",
-              "en": "Snow",
-              "fr": "Neige"
-            },
-            {
-              "es": "Negro",
-              "en": "Black",
-              "fr": "Noir"
-            }
+            { "es": "Hidra Argen", "en": "Hidra Argen", "fr": "Hidra Argen" },
+            { "en": "Gray Nature", "es": "Gris Nature", "fr": "Gris Nature" },
+            { "es": "Blanco", "en": "White", "fr": "Blanc" },
+            { "es": "Nieve", "en": "Snow", "fr": "Neige" },
+            { "es": "Negro", "en": "Black", "fr": "Noir" }
           ]
         },
         {
@@ -331,16 +299,7 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-            {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
-            },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "en": "    -Knotty Oak",
               "es": "    -Roble Nudoso",

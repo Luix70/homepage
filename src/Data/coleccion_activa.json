@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c14f918f0375b6f821b9c36"),
+  "_id": { "$oid": "5c14f918f0375b6f821b9c36" },
   "thumbnail": "Activa_tn.jpg",
   "activa": true,
   "mod": "activa",
@@ -7,14 +7,14 @@
     "es": "La fuerza del contraste",
     "en": "The power of contrast",
     "fr": "La force du contraste",
-    "_id": ObjectId("5c5410088a231811016da69f")
+    "_id": { "$oid": "5fbbdc97b6731f2d48be675d" }
   },
   "__v": 0,
   "desc": {
     "es": "Modernidad y elegancia entre metal y madera, un modelo funcional y sofisticado regulable en altura y\napertura, donde mesa de centro y comedor se funden en una, para optimizar el espacio.",
     "en": "Modernity and elegance between metal and wood, a functional and sophisticated model adjustable in height and size, where coffee table and dining room merge into one to optimize space.",
     "fr": "Modernité et élégance entre le métal et le bois, modèle fonctionnel et sophistiqué à hauteur et ouverture variables, où table à manger et salle à manger se fondent pour optimiser l’espace.",
-    "_id": ObjectId("5c5410088a231811016da6a0")
+    "_id": { "$oid": "5fbbdc97b6731f2d48be675e" }
   },
   "tags": {
     "es": "Centro-comedor. Tapa madera. Altura variable",
@@ -64,14 +64,50 @@
       ]
     },
     {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "ELEVACIÓN MOTOR ELÉCTRICO. MANDO A DISTANCIA Y BATERÍA",
+        "en": "AUTOMATIC LIFT BY ELECTRIC MOTOR AND REMOTE CONTROL + BATTERY",
+        "fr": "RELEVAGE PAR MOTEUR ÉLECTRIQUE TÉLÉCOMMANDÉ + BATTERIE"
+      },
+      "articulos": [
+        {
+          "cod": "900B",
+          "desc": {
+            "es": "Mesa de 120 x 70 x 38#Abierta: 167 y 214 (x 70)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 70 x 38#EXTENDED: 167 AND 214 (x 70)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 70 x 38#Ouverte: 167 et 214 (x 70)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "90xB.svg",
+            "900_1_dim.svg",
+            "900_2_dim.svg",
+            "900_3_dim.svg",
+            "900_4_dim.svg"
+          ]
+        },
+        {
+          "cod": "910B",
+          "desc": {
+            "es": "Mesa de 120 x 80 x 38#Abierta: 167 y 214 (x 80)#Altura variable: 38 a 77",
+            "en": "TABLE 120 x 80 x 38#EXTENDED: 167 AND 214 (x 80)#VARIABLE HEIGHT: 38 TO 77",
+            "fr": "Fermée: 120 x 80 x 38#Ouverte: 167 et 214 (x 80)#Hauteur réglable: 38 à 77"
+          },
+          "imagenes": [
+            "90xB.svg",
+            "910_1_dim.svg",
+            "910_2_dim.svg",
+            "910_3_dim.svg",
+            "910_4_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
       "tipo": "media",
       "subtipo": "video",
       "archivo": "activa_video.webm",
-      "titulo": {
-        "es": "",
-        "en": "",
-        "fr": ""
-      },
+      "titulo": { "es": "", "en": "", "fr": "" },
       "pie": {
         "es": "Funcionamiento de la elevación automática",
         "en": "Automatic elevation demonstration",
@@ -120,11 +156,7 @@
       "tipo": "media",
       "subtipo": "imagen",
       "archivo": "activa_man.JPG",
-      "titulo": {
-        "es": "",
-        "en": "",
-        "fr": ""
-      },
+      "titulo": { "es": "", "en": "", "fr": "" },
       "pie": {
         "es": "Elevación asistida mediante muelles de acero y sistema de bloqueo en 5 posiciones distintas (Modelos 901, 911 y 920)",
         "en": "Assisted lifting by steel springs and 5 different blocking positions (Modelos 901, 911 y 920)",
@@ -134,9 +166,9 @@
     {
       "tipo": "tecnico",
       "titulo": {
-        "es": "Información técnica. Modelos: 900,901,910,911",
-        "en": "Technical Info. Models: 900,901,910,911",
-        "fr": "Détails (Modèles: 900,901,910,911) "
+        "es": "Información técnica",
+        "en": "Technical Info",
+        "fr": "Détails"
       },
       "items": [
         {
@@ -159,9 +191,9 @@
     {
       "tipo": "opciones",
       "titulo": {
-        "es": "OPCIONES DE ACABADO. Modelos: 900,901,910,911",
-        "en": "Finishings. Models: 900,901,910,911",
-        "fr": "FINITIONS. Modèles: 900,901,910,911"
+        "es": "OPCIONES DE ACABADO",
+        "en": "Finishings",
+        "fr": "FINITIONS"
       },
       "subopciones": [
         {
@@ -182,16 +214,7 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-            {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
-            },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "en": "    -Knotty Oak",
               "es": "    -Roble Nudoso",
@@ -226,6 +249,26 @@
               "es": "Lacado Texturizado Nieve",
               "en": "Textured paint Snow",
               "fr": "Laqué texturé Neige"
+            },
+            {
+              "es": "Lacado Texturizado Hidra Argen",
+              "en": "Textured paint Hidra Argen",
+              "fr": "Laqué texturé Hidra Argen"
+            },
+            {
+              "es": "Lacado Texturizado Gris Nature",
+              "en": "Textured paint Gris Nature",
+              "fr": "Laqué texturé Gris Nature"
+            },
+            {
+              "es": "Lacado Texturizado Negro",
+              "en": "Textured paint Black",
+              "fr": "Laqué texturé Noir"
+            },
+            {
+              "es": "Lacado Texturizado Blanco",
+              "en": "Textured paint White",
+              "fr": "Laqué texturé Blanc"
             }
           ]
         }
@@ -311,17 +354,9 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-            {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
-            },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
 
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
+            { "en": "    -Knotty Oak", "es": "    -Roble Nudoso", "fr": "    -Chêne Noueux" },
             {
               "es": "Lacados",
               "en": "Lacquered, Glossy or matte",
@@ -351,6 +386,26 @@
               "es": "Lacado Texturizado Nieve",
               "en": "Textured paint Snow",
               "fr": "Laqué texturé Neige"
+            },
+            {
+              "es": "Lacado Texturizado Hidra Argen",
+              "en": "Textured paint Hidra Argen",
+              "fr": "Laqué texturé Hidra Argen"
+            },
+            {
+              "es": "Lacado Texturizado Gris Nature",
+              "en": "Textured paint Gris Nature",
+              "fr": "Laqué texturé Gris Nature"
+            },
+            {
+              "es": "Lacado Texturizado Negro",
+              "en": "Textured paint Black",
+              "fr": "Laqué texturé Noir"
+            },
+            {
+              "es": "Lacado Texturizado Blanco",
+              "en": "Textured paint White",
+              "fr": "Laqué texturé Blanc"
             }
           ]
         }
