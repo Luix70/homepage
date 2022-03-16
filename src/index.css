@@ -16,11 +16,9 @@ h6 {
   font-size: 0.8rem !important;
   font-style: italic;
   color: #888888;
-  padding: 1.5rem !important;
+  margin: 1.5rem !important;
 
   border-top: 1px solid Transparent !important;
   border-left: 1px solid Transparent !important;
   border-right: 1px solid Transparent !important;
-
 }
-
