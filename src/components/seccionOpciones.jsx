@@ -17,7 +17,7 @@ const SeccionOpciones = (props) => {
             <ul className="list-group">
               {so.subtitulo[lan] ? (
                 <li
-                  className="list-group-item p-0 m-2 border-top-0 border-right-0 border-left-0"
+                  className="list-group-item p-2 m-0 border-0 border-right-0 border-left-0"
                   key="-1"
                 >
                   <h6 className="text-small text-small bg-light m-0 p-0">
