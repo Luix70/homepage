@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c06b22c66fd0a2ef46f89ac"),
+  "_id": { "$oid": "5c06b22c66fd0a2ef46f89ac" },
   "mod": "armonia",
   "thumbnail": "Armonia_tn.jpg",
   "__v": 0,
@@ -8,13 +8,13 @@
     "es": "Belleza y equilibrio",
     "en": "Beauty and balance",
     "fr": "Beauté et equilibre",
-    "_id": ObjectId("5c38c14aa5ae4e4411beaa9a")
+    "_id": { "$oid": "5c38c14aa5ae4e4411beaa9a" }
   },
   "desc": {
     "es": "La simplicidad estructural de los elementos de esta colección ofrece un juego equilibrado entre belleza\ny resistencia para crear ambientes cálidos y acogedores.",
     "en": "\nThe structural simplicity of the elements of this collection offers a balanced game between beauty\nand resistance to create warm and welcoming environments.",
     "fr": "La simplicité structurelle des éléments de cette collection offre un jeu équilibré entre beauté\net la résistance pour créer des environnements chaleureux et accueillants.",
-    "_id": ObjectId("5c38c14aa5ae4e4411beaa9b")
+    "_id": { "$oid": "5c38c14aa5ae4e4411beaa9b" }
   },
   "tags": {
     "es": "Tapa de madera, cristal o porcelánico",
@@ -35,7 +35,7 @@
           "cod": "21A",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 120 x 90 # (Abierta 190 x 90)",
-            "en": "70 cm EXTENSION # 120 x 90 cm # (190 x 90 extended)",
+            "en": "70 cm EXTENSION # 120 x 90 cm # (extended 190 x 90)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 120 x 90 # (Ouverte: 190 x 90 )"
           },
           "imagenes": ["21A_1_dim.svg", "21A_2_dim.svg", "21A_3_dim.svg"]
@@ -44,7 +44,7 @@
           "cod": "210",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 # (Abierta 210 x 90)",
-            "en": "70 cm EXTENSION # 140 x 90 cm # (210 x 90 extended)",
+            "en": "70 cm EXTENSION # 140 x 90 cm # (extended 210 x 90)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 90 # (Ouverte: 210 x 90 )"
           },
           "imagenes": ["210_1_dim.svg", "210_2_dim.svg", "210_3_dim.svg"]
@@ -53,7 +53,7 @@
           "cod": "21P",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 140 x 90 # (Abierta 190 y 240 x 90 )",
-            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (190 and 210 x 90 extended)",
+            "en": "2 x 50 cm EXTENSIONS # 140 x 90 cm # (extended 190/210 x 90)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 140 x 90 # (Ouverte: 190 et 240 x 90 )"
           },
           "imagenes": [
@@ -67,7 +67,7 @@
           "cod": "211",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 # (Abierta 230 x 90)",
-            "en": "70 cm EXTENSION # 160 x 90 cm # (230 x 90 extended)",
+            "en": "70 cm EXTENSION # 160 x 90 cm # (extended 230 x 90)",
             "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 90 # (Ouverte: 230 x 90 )"
           },
           "imagenes": ["211_1_dim.svg", "211_2_dim.svg", "211_3_dim.svg"]
@@ -76,7 +76,7 @@
           "cod": "21H",
           "desc": {
             "es": "2 EXTENSIBLES DE 50 cm # Mesa de 160 x 90 # (Abierta 210 y 260 x 90 )",
-            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (210 and 260 x 90 extended)",
+            "en": "2 x 50 cm EXTENSIONS # 160 x 90 cm # (extended 210/260 x 90)",
             "fr": "2 RALLONGES DE 50 cm # Fermée: 160 x 90 # (Ouverte: 210 et 260 x 90 )"
           },
           "imagenes": [
@@ -127,11 +127,7 @@
       },
       "subopciones": [
         {
-          "titulo": {
-            "es": "Acabados",
-            "en": "Finishings",
-            "fr": "Finitions"
-          },
+          "titulo": { "es": "Acabados", "en": "Finishings", "fr": "Finitions" },
           "subtitulo": "",
           "opciones": [
             {
@@ -145,15 +141,11 @@
               "en": "    -Walnut"
             },
             {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
             },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "es": "Lacados",
               "en": "Lacquered, Glossy or matte",
@@ -163,40 +155,48 @@
         },
         {
           "titulo": {
-            "fr": "Coloris céramique ",
-            "es": "Porcelánicos",
-            "en": "Ceramic"
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
           },
           "subtitulo": {
-            "es": "(3mm sobre cristal de 8mm)",
-            "en": "(3mm, on 8mm glass)",
-            "fr": "(3 mm, collé sur verre de 8 mm)"
+            "es": "(Grosor: 11 mm)",
+            "en": "(Thickneess 11 mm)",
+            "fr": "(Épaisseur 11 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -208,20 +208,12 @@
           },
           "subtitulo": {
             "es": "(Grosor: 10mm)",
-            "en": "(Tempered: 10mm)",
+            "en": "(Security Glass. Thickness: 10mm)",
             "fr": "(Verre de sécurité. Épaisseur: 10mm)"
           },
           "opciones": [
-            {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
-            },
-            {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
-            }
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
@@ -238,7 +230,7 @@
           "cod": "21B",
           "desc": {
             "es": "Mesa centro de 105 X 55 X 40#Elevable a 57 cm",
-            "en": "Coffee table 105 X 55 X 40 # Raised:57 cm",
+            "en": "Coffee table 105 X 55 X 40 # Lifted:57 cm",
             "fr": "TABLE BASSE 105 x 55 x 40 # RELEVABLE à 57"
           },
           "imagenes": ["21B_1_dim.svg", "21B_2_dim.svg", "21B_3_dim.svg"]
@@ -288,11 +280,7 @@
       },
       "subopciones": [
         {
-          "titulo": {
-            "es": "Acabados",
-            "en": "Finishings",
-            "fr": "Finitions"
-          },
+          "titulo": { "es": "Acabados", "en": "Finishings", "fr": "Finitions" },
           "subtitulo": "",
           "opciones": [
             {
@@ -306,15 +294,11 @@
               "en": "    -Walnut"
             },
             {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
             },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "es": "Lacados",
               "en": "Lacquered (glossy or matte)",
@@ -324,40 +308,48 @@
         },
         {
           "titulo": {
-            "fr": "Coloris céramique ",
-            "es": "Porcelánicos",
-            "en": "Ceramic"
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
           },
           "subtitulo": {
-            "es": "(3mm sobre cristal de 5mm)",
-            "en": "(3mm, on 5mm glass)",
-            "fr": "(3 mm, collé sur verre de 5 mm)"
+            "es": "(Grosor: 8 mm)",
+            "en": "(Thickneess 8 mm)",
+            "fr": "(Épaisseur 8 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -369,20 +361,160 @@
           },
           "subtitulo": {
             "es": "(Grosor: 8mm)",
-            "en": "(Tempered: 8mm)",
+            "en": "(Security Glass. Thickness: 8mm)",
             "fr": "(Verre de sécurité. Épaisseur: 8mm)"
           },
           "opciones": [
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS ALTAS FIJAS",
+        "en": "TALL INEXTENSIBLE TABLES",
+        "fr": "TABLES HAUTES FIXES"
+      },
+      "articulos": [
+        {
+          "cod": "213",
+          "desc": {
+            "es": "MESA ALTA de 115 X 65 X 92",
+            "en": "TALL TABLE  115 X 65 X 92",
+            "fr": "TABLE HAUTE 115 X 65 X 92"
+          },
+          "imagenes": ["213_1_dim.svg", "213_2_dim.svg"]
+        },
+        {
+          "cod": "214",
+          "desc": {
+            "es": "MESA ALTA de 120 X 90 X 92",
+            "en": "TALL TABLE  120 X 90 X 92",
+            "fr": "TABLE HAUTE 120 X 90 X 92"
+          },
+          "imagenes": ["214_1_dim.svg", "214_2_dim.svg"]
+        },
+        {
+          "cod": "215",
+          "desc": {
+            "es": "MESA ALTA de 140 X 90 X 92",
+            "en": "TALL TABLE  140 X 90 X 92",
+            "fr": "TABLE HAUTE 140 X 90 X 92"
+          },
+          "imagenes": ["215_1_dim.svg", "215_2_dim.svg"]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información técnica. Mesas Altas",
+        "en": "Technical info. Tall tables",
+        "fr": "Détails. Tables Hautes"
+      },
+      "items": [
+        {
+          "es": "La placa metálica de unión se puede colocar oculta si se solicita expresamente (por defecto se colocará vista).",
+          "en": "The metallic plate can be hidden if requested expressly (by default it will be visible).",
+          "fr": "Il y a la possibilité de monter cachée la platine métallique entre la ceinture et les pieds si l’on demande expressément (par défaut elle sera visible)"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO. Mesas Altas",
+        "en": "Finishings (Tall tables)",
+        "fr": "FINITIONS. Tables Hautes"
+      },
+      "subopciones": [
+        {
+          "titulo": { "es": "Acabados", "en": "Finishings", "fr": "Finitions" },
+          "subtitulo": "",
+          "opciones": [
             {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
             },
             {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            { "es": "    -Roble Nudoso", "en": "    -Knotty Oak", "fr": "    -Chêne Noueux" },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
+            {
+              "es": "Lacados",
+              "en": "Lacquered (glossy or matte)",
+              "fr": "Laqué mat ou brillant"
             }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
+          },
+          "subtitulo": {
+            "es": "(Grosor: 8 mm)",
+            "en": "(Thickneess 8 mm)",
+            "fr": "(Épaisseur 8 mm)"
+          },
+          "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
+            {
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
+            },
+            {
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
+            },
+            {
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
+            },
+            {
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
+            },
+            {
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass "
+          },
+          "subtitulo": {
+            "es": "(Grosor: 8mm)",
+            "en": "(Security Glass. Thickness: 8mm)",
+            "fr": "(Verre de sécurité. Épaisseur: 8mm)"
+          },
+          "opciones": [
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
