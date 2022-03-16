@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c06b30366fd0a2ef46f89b2"),
+  "_id": { "$oid": "5c06b30366fd0a2ef46f89b2" },
   "mod": "geo",
   "thumbnail": "Geo_tn.jpg",
   "__v": 0,
@@ -8,13 +8,13 @@
     "es": "La fuerza de la Tierra",
     "en": "The Power of the Earth",
     "fr": "La force de la terre",
-    "_id": ObjectId("5c53fee88a2312811016da5b")
+    "_id": { "$oid": "5c53fee88a2312811016da5b" }
   },
   "desc": {
     "es": "Estructura minimalista de gran robustez que ofrece al usuario unas superficies de cristal, madera o cerámica y alma de metal. La combinacion perfecta de los elementos.",
     "en": "Minimalist structure of great robustness that offers the user glass, wood or ceramic surfaces and metal soul. The perfect combination of the elements.",
     "fr": "Structure minimaliste d'une grande robustesse offrant aux utilisateurs des surfaces en verre, en bois ou en céramique et une âme en métal. La combinaison parfaite des éléments.",
-    "_id": ObjectId("5c53fee88a2312811016da5b")
+    "_id": { "$oid": "5c53fee88a2312811016da5b" }
   },
   "tags": {
     "es": "Tapa cristal, porcelánico o madera. Haya o Roble.",
@@ -92,11 +92,7 @@
       "tipo": "media",
       "subtipo": "imagen",
       "archivo": "Dimensiones_90.jpg",
-      "titulo": {
-        "es": "dimensiones",
-        "en": "dimensions",
-        "fr": "dimensions"
-      },
+      "titulo": { "es": "dimensiones", "en": "dimensions", "fr": "dimensions" },
       "pie": {
         "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2090)",
         "en": "EXTERNAL AND INTERNAL DIMENSIONS(REF: 2090)",
@@ -111,15 +107,6 @@
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
-        {
-          "cod": "2090+",
-          "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
-            "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
-            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
-          },
-          "imagenes": ["2090+_1_dim.svg", "2090+_2_dim.svg", "2090+_3_dim.svg"]
-        },
         {
           "cod": "2091+",
           "desc": {
@@ -274,15 +261,11 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
-            },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
             },
             {
               "es": "Lacados",
@@ -293,40 +276,48 @@
         },
         {
           "titulo": {
-            "fr": "Coloris céramique ",
-            "es": "Porcelánicos",
-            "en": "Ceramic tops"
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
           },
           "subtitulo": {
-            "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
-            "en": "(Dining tables: 3mm on 8mm glass)#(Coffee tables: 3mm on 5mm glass )",
-            "fr": "(3 mm, collé sur verre de 8 mm)"
+            "es": "(Grosor Comedor: 11 mm)#(Grosor Centro: 8 mm)",
+            "en": "(Dining tables: Thickneess 11 mm)#(Coffee tables: 8mm)",
+            "fr": "(Table répas: Épaisseur 11 mm)#(Table basse: 8 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -337,21 +328,13 @@
             "en": "Glass tops "
           },
           "subtitulo": {
-            "es": "(Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
-            "en": "(Dining tables: 10mm)#(Coffee tables: 8mm)",
-            "fr": "(Verre de sécurité. Épaisseur: 10mm)"
+            "es": "(Grosor Comedor: 10 mm)#(Grosor Centro: 8 mm)",
+            "en": "(Dining tables: Thickneess 10 mm)#(Coffee tables: 8 mm)",
+            "fr": "(Verre de securité: Épaisseur 10 mm )#(Table basse: 8 mm)"
           },
           "opciones": [
-            {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
-            },
-            {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
-            }
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
@@ -393,11 +376,7 @@
             "es": "Fotos (.jpg, 5.34Mb, comprimido ZIP)",
             "en": "Pictures (.jpg,5.346Mb, ZIP compressed)"
           },
-          "archivo": {
-            "es": "geo.zip",
-            "en": "geo.zip",
-            "fr": "geo.zip"
-          },
+          "archivo": { "es": "geo.zip", "en": "geo.zip", "fr": "geo.zip" },
           "loginRequired": false,
           "comun": false
         },

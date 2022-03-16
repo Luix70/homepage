@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c06b2d666fd0a2ef46f89b0"),
+  "_id": { "$oid": "5c06b2d666fd0a2ef46f89b0" },
   "mod": "eco",
   "thumbnail": "Eco_tn.jpg",
   "__v": 0,
@@ -8,13 +8,13 @@
     "es": "Siempre en movimiento",
     "en": "Always in movement",
     "fr": "Toujours en mouvement",
-    "_id": ObjectId("5c515f9b8a231811016da1fc")
+    "_id": { "$oid": "5c515f9b8a231811016da1fc" }
   },
   "desc": {
     "es": "De líneas suaves y sencilla geometría, esta colección se fusiona a la perfección con sus materiales y acabados\ny facilita su adaptabilidad a diferentes espacios y ambientes.",
     "en": "With soft lines and simple geometry, this collection blends perfectly with its materials and finishes\nmaking it easy to adapt to different spaces and environments.",
     "fr": "Avec des lignes douces et une géométrie simple, cette collection se marie parfaitement avec ses matériaux et ses finitions \nen s'adaptant parfaitement à différents espaces et environnements.",
-    "_id": ObjectId("5c515f9b8a231811016da1fd")
+    "_id": { "$oid": "5c515f9b8a231811016da1fd" }
   },
   "tec_thumbnail": "tec_thumbnail.JPG",
   "tags": {
@@ -92,11 +92,7 @@
       "tipo": "media",
       "subtipo": "imagen",
       "archivo": "Dimensiones_90.jpg",
-      "titulo": {
-        "es": "dimensiones",
-        "en": "dimensions",
-        "fr": "dimensions"
-      },
+      "titulo": { "es": "dimensiones", "en": "dimensions", "fr": "dimensions" },
       "pie": {
         "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 810)",
         "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 810)",
@@ -111,15 +107,6 @@
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
-        {
-          "cod": "810+",
-          "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
-            "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
-            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
-          },
-          "imagenes": ["810+_1_dim.svg", "810+_2_dim.svg", "810+_3_dim.svg"]
-        },
         {
           "cod": "811+",
           "desc": {
@@ -165,33 +152,6 @@
             "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
           },
           "imagenes": ["81E_1_dim.svg", "81E_2_dim.svg", "81E_3_dim.svg"]
-        },
-        {
-          "cod": "812",
-          "desc": {
-            "es": "MESA DE CENTRO 115 x 65 x 40 ",
-            "en": "FIXED COFFEE TABLE 115 x 65 x 40 ",
-            "fr": "TABLE BASSE 115 x 65 x 40 "
-          },
-          "imagenes": ["812_1_dim.svg", "812_2_dim.svg"]
-        },
-        {
-          "cod": "813",
-          "desc": {
-            "es": "MESA DE CENTRO 90 x 90 x 40 ",
-            "en": "FIXED COFFEE TABLE 90 x 90 x 40 ",
-            "fr": "TABLE BASSE 90 x 90 x 40 "
-          },
-          "imagenes": ["813_1_dim.svg"]
-        },
-        {
-          "cod": "814",
-          "desc": {
-            "es": " MESA DE RINCÓN 65 x 65 x 40",
-            "en": "END TABLE 65 x 65 x 40",
-            "fr": " TABLE BASSE 65 x 65 x 40"
-          },
-          "imagenes": ["814_1_dim.svg"]
         }
       ]
     },
@@ -286,16 +246,8 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-            {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
-            },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "en": "    -Knotty Oak",
               "es": "    -Roble Nudoso",
@@ -310,40 +262,48 @@
         },
         {
           "titulo": {
-            "fr": "Coloris céramique ",
-            "es": "Porcelánicos",
-            "en": "Ceramic tops"
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
           },
           "subtitulo": {
-            "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
-            "en": "(Dining tables: 3mm on 8mm glass)#(Coffee tables: 3mm on 5mm glass )",
-            "fr": "(3 mm, collé sur verre de 8 mm)"
+            "es": "(Grosor Comedor: 11 mm)#(Grosor Centro: 8 mm)",
+            "en": "(Dining tables: Thickneess 11 mm)#(Coffee tables: 8mm)",
+            "fr": "(Table répas: Épaisseur 11 mm)#(Table basse: 8 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -359,16 +319,8 @@
             "fr": "(Verre de sécurité. Épaisseur: 10mm)"
           },
           "opciones": [
-            {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
-            },
-            {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
-            }
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
@@ -410,11 +362,7 @@
             "es": "Fotos (.jpg, 2.56Mb, comprimido ZIP)",
             "en": "Pictures (.jpg, 2.56Mb, ZIP compressed)"
           },
-          "archivo": {
-            "es": "eco.zip",
-            "en": "eco.zip",
-            "fr": "eco.zip"
-          },
+          "archivo": { "es": "eco.zip", "en": "eco.zip", "fr": "eco.zip" },
           "loginRequired": false,
           "comun": false
         },
