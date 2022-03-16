@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c112e4f1766f52bfc4f688f"),
+  "_id": { "$oid": "5c112e4f1766f52bfc4f688f" },
   "thumbnail": "Nordic_tn.jpg",
   "activa": true,
   "mod": "nordic",
@@ -7,14 +7,14 @@
     "es": "De lo más natural",
     "en": "Nature at its most",
     "fr": "La nature à son meilleur",
-    "_id": ObjectId("5c5404958a231811016da60f")
+    "_id": { "$oid": "5c5404958a231811016da60f" }
   },
   "__v": 0,
   "desc": {
     "es": "La esencia del diseño nórdico y el carácter mediterráneo en una colección que propone un retorno a los valores naturales.",
     "en": "The essence of Nordic design and Mediterranean character in a collection that aims to a return to natural values",
     "fr": "L'essence du design nordique et du caractère méditerranéen dans une collection qui propose un retour aux valeurs naturelles",
-    "_id": ObjectId("5c5404958a231811016da610")
+    "_id": { "$oid": "5c5404958a231811016da610" }
   },
   "tec_thumbnail": "tec_thumbnail.jpg",
   "tags": {
@@ -92,11 +92,7 @@
       "tipo": "media",
       "subtipo": "imagen",
       "archivo": "Dimensiones_90.jpg",
-      "titulo": {
-        "es": "",
-        "en": "",
-        "fr": ""
-      },
+      "titulo": { "es": "", "en": "", "fr": "" },
       "pie": {
         "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080)",
         "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080)",
@@ -111,15 +107,6 @@
         "fr": "TABLES DE SALLE À MANGER. LARGEUR 100"
       },
       "articulos": [
-        {
-          "cod": "2080+",
-          "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 100 # (Abierta 210 x 100)",
-            "en": "70 cm EXTENSION # 140 x 100 cm # (210 x 100 extended)",
-            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 100 # (Ouverte: 210 x 100 )"
-          },
-          "imagenes": ["2080+_1_dim.svg", "2080+_2_dim.svg", "2080+_3_dim.svg"]
-        },
         {
           "cod": "2081+",
           "desc": {
@@ -153,15 +140,11 @@
       "tipo": "media",
       "subtipo": "imagen",
       "archivo": "Dimensiones_100.jpg",
-      "titulo": {
-        "es": "",
-        "en": "",
-        "fr": ""
-      },
+      "titulo": { "es": "", "en": "", "fr": "" },
       "pie": {
-        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2080+)",
-        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2080+)",
-        "fr": "DIMENSIONS INTERNES (RÉF: 2080+)"
+        "es": "DIMENSIONES INTERNAS Y EXTERNAS (REF: 2081+)",
+        "en": "EXTERNAL AND INTERNAL DIMENSIONS (REF: 2081+)",
+        "fr": "DIMENSIONS INTERNES (RÉF: 2081+)"
       }
     },
     {
@@ -176,7 +159,7 @@
           "cod": "208E",
           "desc": {
             "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
-            "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
+            "en": "LIFT-TOP TABLE 115 x 65 x 40 # LIFTED: 58",
             "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
           },
           "imagenes": ["208E_1_dim.svg", "208E_2_dim.svg", "208E_3_dim.svg"]
@@ -290,15 +273,11 @@
               "en": "    -Walnut"
             },
             {
-              "es": "    -Cerezo",
-              "en": "    -Cherry",
-              "fr": "    -Merisier"
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
             },
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "es": "Lacados",
               "en": "Lacquered, Glossy or matte",
@@ -315,33 +294,41 @@
           "subtitulo": {
             "es": "(Comedor: 3mm sobre cristal de 8mm )#(Centro: 3mm sobre cristal de 5mm )",
             "en": "(Dining tables: 3mm on 8mm glass)#(Coffee tables: 3mm on 5mm glass )",
-            "fr": "(3 mm, collé sur verre de 8 mm)"
+            "fr": "(Table Repas: 3 mm, collé sur verre de 8 mm)#(Table Basse: 3 mm, collé sur verre de 5 mm)"
           },
           "opciones": [
+            { "fr": "GAMME 1:", "es": "SERIE 1:", "en": "SERIES 1:" },
             {
-              "fr": "Noir",
-              "es": "Negro",
-              "en": "Black"
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
             },
             {
-              "fr": "Blanc",
-              "es": "Blanco",
-              "en": "White"
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
             },
             {
-              "fr": "Vulcano Roca",
-              "en": "Vulcano Roca",
-              "es": "Vulcano Roca"
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            { "fr": "- Blanc", "es": "- Blanco", "en": "- White" },
+            { "fr": "GAMME 2:", "en": "SERIES 2:", "es": "SERIE 2: " },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
             },
             {
-              "es": "Hidra Argen",
-              "en": "Hidra Argen",
-              "fr": "Hidra Argen"
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
             },
             {
-              "es": "Gris Nature",
-              "en": "Gris Nature",
-              "fr": "Gris Nature"
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
             }
           ]
         },
@@ -354,19 +341,11 @@
           "subtitulo": {
             "es": "(Grosor Comedor: 10mm)#(Grosor Centro: 8mm)",
             "en": "(Dining tables: 10mm)#(Coffee tables: 8mm)",
-            "fr": "(Verre de sécurité. Épaisseur: 10mm)"
+            "fr": "(Verre de sécurité. Épaisseur: 10mm)#(Tables Basses: 5mm)"
           },
           "opciones": [
-            {
-              "fr": "Extra-Blanc",
-              "es": "Extra Blanco",
-              "en": "Extra White"
-            },
-            {
-              "fr": "Sable",
-              "es": "Arena",
-              "en": "Sand"
-            }
+            { "fr": "Extra-Blanc", "es": "Extra Blanco", "en": "Extra White" },
+            { "fr": "Sable", "es": "Arena", "en": "Sand" }
           ]
         }
       ]
