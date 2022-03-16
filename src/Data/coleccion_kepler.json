@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("5c3360645b8ef86aac7fdb31"),
+  "_id": { "$oid": "5c3360645b8ef86aac7fdb31" },
   "thumbnail": "Kepler_tn.jpg",
   "tec_thumbnail": "tn_KEPLER_1_.JPG",
   "activa": true,
@@ -7,13 +7,13 @@
     "es": "El mundo de las ideas",
     "en": "The world of ideas",
     "fr": "Le monde des idées",
-    "_id": ObjectId("5d3eb9b5cce52a0677179815")
+    "_id": { "$oid": "5d3eb9b5cce52a0677179815" }
   },
   "desc": {
     "es": "La geometría rige el diseño de la colección con formas inusuales que aportan la suavidad de sus curvas. El dominio de la mente sobre la materia.",
     "en": "The geometry governs the design of the collection with unusual forms that bring the smoothness of their curves.The predominance of the mind over matter.",
     "fr": "La géométrie régit la conception de la collection avec des formes inhabituelles qui apportent la finesse de leurs courbes. La prédominance de l'esprit sur la matière.",
-    "_id": ObjectId("5d3eb9b5cce52a0677179816")
+    "_id": { "$oid": "5d3eb9b5cce52a0677179816" }
   },
   "mod": "kepler",
   "__v": 0,
@@ -110,12 +110,7 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-
-            {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
+            { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "en": "    -Knotty Oak",
               "es": "    -Roble Nudoso",
@@ -137,20 +132,36 @@
           "subtitulo": "",
           "opciones": [
             {
-              "fr": "Acier chromé",
-              "es": "Acabado Cromo",
-              "en": "Chromed Steel"
+              "es": "Texturizado Vulcano Roca",
+              "fr": "Texturé Vulcano Roca",
+              "en": "Vulcano Roca. Textured"
             },
             {
-              "fr": "Laqué texturé Vulcano Roca",
-              "es": "Lacado Texturizado Vulcano Roca",
-              "en": "Textured Paint. Vulcano Roca"
+              "es": "Texturizado Hidra Argen",
+              "en": "Hidra Argen. Textured",
+              "fr": "Texturé Hidra Argen"
             },
             {
-              "fr": "Laqué texturé Neige",
-              "en": "Textured Paint. Snow white",
-              "es": "Lacado Texturizado Nieve"
-            }
+              "en": "Nature Grey. Textured",
+              "es": "Texturizado Gris Nature",
+              "fr": "Texturé Gris Nature"
+            },
+            {
+              "es": "Texturizado Blanco",
+              "en": "White. Textured",
+              "fr": "Texturé Blanc"
+            },
+            {
+              "es": "Texturizado Nieve",
+              "en": "Snow. Textured",
+              "fr": "Texturé Neige"
+            },
+            {
+              "es": "Texturizado Negro",
+              "en": "Black. Textured",
+              "fr": "Texturé Noir"
+            },
+            { "es": "Acabado Cromado", "en": "Chrome Finish", "fr": "Finition Chromée" }
           ]
         },
         {
@@ -164,7 +175,7 @@
             {
               "fr": "TOUJOURS Laquée",
               "es": "Lacados (SIEMPRE)",
-              "en": "Always Textured Paint"
+              "en": "ALWAYS Textured Paint"
             }
           ]
         }
