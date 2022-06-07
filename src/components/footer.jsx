@@ -7,19 +7,19 @@ import {
   Mail,
   Telegram,
   Linkedin,
-  Tumblr
+  Tumblr,
 } from "react-social-sharing";
 import {
   MobileView,
   BrowserView,
   isAndroid,
-  isIOS //,  deviceDetect
+  isIOS, //,  deviceDetect
 } from "react-device-detect";
 
 import t from "./footer.lit.json";
 // import Direcciones from "./common/direcciones.jsx";
 
-const Footer = props => {
+const Footer = (props) => {
   const { lan } = props;
   // console.log(deviceDetect());
   return (
@@ -34,7 +34,7 @@ const Footer = props => {
         <MobileView>
           <Whatsapp
             solid
-            medium
+            small
             link="https://indesan.com"
             message="Compartir en Whatsapp"
           ></Whatsapp>
@@ -42,49 +42,49 @@ const Footer = props => {
 
         <Facebook
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Facebook"
         ></Facebook>
 
         <Twitter
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Twitter"
         ></Twitter>
 
         <Pinterest
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Pinterest"
         ></Pinterest>
 
         <Mail
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Mail"
         ></Mail>
 
         <Telegram
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Telegram"
         ></Telegram>
 
         <Tumblr
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Tumblr"
         ></Tumblr>
 
         <Linkedin
           solid
-          medium
+          small
           link="https://indesan.com"
           message="Compartir en Linkedin"
         ></Linkedin>
@@ -94,8 +94,8 @@ const Footer = props => {
             <img
               src={`/resources/img/fb_${lan}.png`}
               alt="facebook"
-              width="256px"
-              height="auto"
+              width="40px"
+              height="40px"
             />
           </a>
         </BrowserView>
@@ -105,7 +105,7 @@ const Footer = props => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="256px"
+                width="32px"
                 height="auto"
               />
             </a>
@@ -114,7 +114,7 @@ const Footer = props => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="256px"
+                width="32px"
                 height="auto"
               />
             </a>
@@ -123,7 +123,7 @@ const Footer = props => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="256px"
+                width="32px"
                 height="auto"
               />
             </a>
