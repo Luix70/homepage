@@ -29,7 +29,7 @@ const Footer = (props) => {
       </div> */}
 
       {/* <div className="bg-dark text-light col-xs-12 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration"> */}
-      <div className="bg-dark text-light col-12  container p-5 pb-5 nodecoration">
+      <div className="bg-dark text-light col-12  container p-5 pb-5 nodecoration social">
         <h5 className="lead">{t.CN[lan]}</h5>
         <MobileView>
           <Whatsapp
@@ -37,6 +37,7 @@ const Footer = (props) => {
             small
             link="https://indesan.com"
             message="Compartir en Whatsapp"
+            className ="social"
           ></Whatsapp>
         </MobileView>
 
@@ -45,6 +46,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Facebook"
+          className ="social"
         ></Facebook>
 
         <Twitter
@@ -52,6 +54,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Twitter"
+          className ="social"
         ></Twitter>
 
         <Pinterest
@@ -59,6 +62,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Pinterest"
+          className ="social"
         ></Pinterest>
 
         <Mail
@@ -66,6 +70,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Mail"
+          className ="social"
         ></Mail>
 
         <Telegram
@@ -73,6 +78,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Telegram"
+          className ="social"
         ></Telegram>
 
         <Tumblr
@@ -80,6 +86,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Tumblr"
+          className ="social"
         ></Tumblr>
 
         <Linkedin
@@ -87,6 +94,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Linkedin"
+          className ="social"
         ></Linkedin>
         <h5 className="lead">{t.SN[lan]}</h5>
         <BrowserView>
@@ -94,8 +102,8 @@ const Footer = (props) => {
             <img
               src={`/resources/img/fb_${lan}.png`}
               alt="facebook"
-              width="40px"
-              height="40px"
+              width="128px"
+              height="auto"
             />
           </a>
         </BrowserView>
@@ -105,8 +113,8 @@ const Footer = (props) => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="32px"
-                height="auto"
+                width="128px"
+              height="auto"
               />
             </a>
           ) : isIOS ? (
@@ -114,8 +122,8 @@ const Footer = (props) => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="32px"
-                height="auto"
+                width="128px"
+              height="auto"
               />
             </a>
           ) : (
@@ -123,8 +131,8 @@ const Footer = (props) => {
               <img
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
-                width="32px"
-                height="auto"
+                width="128px"
+              height="auto"
               />
             </a>
           )}
