@@ -141,7 +141,7 @@
               "en": "    -Walnut"
             },
             {
-              "en": "    -Knotty Oak",
+              "en": "    -Burl Oak",
               "es": "    -Roble Nudoso",
               "fr": "    -Chêne Noueux"
             },
@@ -294,7 +294,7 @@
               "en": "    -Walnut"
             },
             {
-              "en": "    -Knotty Oak",
+              "en": "    -Burl Oak",
               "es": "    -Roble Nudoso",
               "fr": "    -Chêne Noueux"
             },
@@ -445,7 +445,11 @@
               "fr": "    -Noyer",
               "en": "    -Walnut"
             },
-            { "es": "    -Roble Nudoso", "en": "    -Knotty Oak", "fr": "    -Chêne Noueux" },
+            {
+              "es": "    -Roble Nudoso",
+              "en": "    -Burl Oak",
+              "fr": "    -Chêne Noueux"
+            },
             { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
               "es": "Lacados",

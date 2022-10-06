@@ -216,7 +216,7 @@
             },
             { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
             {
-              "en": "    -Knotty Oak",
+              "en": "    -Burl Oak",
               "es": "    -Roble Nudoso",
               "fr": "    -Chêne Noueux"
             },
@@ -356,7 +356,11 @@
             },
 
             { "en": "    -Oak", "es": "    -Roble", "fr": "    -Chêne" },
-            { "en": "    -Knotty Oak", "es": "    -Roble Nudoso", "fr": "    -Chêne Noueux" },
+            {
+              "en": "    -Burl Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
             {
               "es": "Lacados",
               "en": "Lacquered, Glossy or matte",
