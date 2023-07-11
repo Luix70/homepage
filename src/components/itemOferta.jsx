@@ -7,14 +7,8 @@ class ItemOferta extends Component {
   state = {};
 
   render() {
-    const {
-      lan,
-      oferta,
-      usuario,
-      handleClick,
-      handleDelete,
-      blnEsCarrito,
-    } = this.props;
+    const { lan, oferta, usuario, handleClick, handleDelete, blnEsCarrito } =
+      this.props;
 
     const { Moneda } = usuario;
 
@@ -36,7 +30,7 @@ class ItemOferta extends Component {
           <img
             src={
               oferta.Imagen
-                ? "/resources/img/" + oferta.Imagen
+                ? "/resources/img/ofertas/" + oferta.Imagen
                 : "/resources/img/NoImg.png"
             }
             className="w-100 rounded-circle"
