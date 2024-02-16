@@ -27,7 +27,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import "./Custom.css";
 import "./AreaCliente.css";
-import "./Social.css";
+
 
 class App extends Component {
   state = {
