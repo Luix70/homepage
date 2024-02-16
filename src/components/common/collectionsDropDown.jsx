@@ -7,7 +7,7 @@ const CollectionsDropDown = props => {
   return (
     <div className="dropdown ">
       <button
-        className="btn btn-link text-decoration-none text-light dropdown-toggle pl-0 "
+        className="btn btn-link text-decoration-none text-dark dropdown-toggle pl-0 "
         type="button"
         id="dropdownMenuButton"
         data-toggle="dropdown"

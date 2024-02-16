@@ -23,10 +23,12 @@ import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "js-cookie";
 import t from "./App.lit.json";
-import "react-toastify/dist/ReactToastify.css";
 
+// Estilos
+
+import "react-toastify/dist/ReactToastify.css";
 import "./Custom.css";
-import "./AreaCliente.css";
+
 
 
 class App extends Component {

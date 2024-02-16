@@ -53,13 +53,13 @@ const NavBar = (props) => {
   }
 
   return (
-    <div className="row w-100 mx-0 bg-dark d-flex">
-      <nav className="navbar navbar-expand-md navbar-dark  w-100  align-items-center justify-content-between">
+    <div className="row w-100 mx-0 bg-light d-flex">
+      <nav className="navbar navbar-expand-md navbar-light  w-100  align-items-center justify-content-between">
         <div className="navbar-brand position-relative ml-1">
           <object
             type="image/svg+xml"
             data="/resources/img/logoIndesan.svg"
-            className="logo"
+            className="logo "
             aria-label="logo"
             style={{ height: "30px" }}
             onClick={clickLogo}
