@@ -10,6 +10,7 @@
     "auto-import": "^0.1.4",
     "axios": "^0.24.0",
     "bootstrap": "^4.6.1",
+    "caniuse-lite": "^1.0.30001587",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.6",
     "halogen": "^0.2.0",
