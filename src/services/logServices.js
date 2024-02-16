@@ -5,3 +5,5 @@ export default function initLogger() {
     dsn: "https://41619563761d49c7b78c61af5dfc8bbb@sentry.io/1800383"
   });
 }
+
+// sentry.io user:compras@indesan.com pwd I*******_14****

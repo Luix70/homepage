@@ -24,6 +24,7 @@ const Footer = (props) => {
   // console.log(deviceDetect());
   return (
     <div className="row w-100 mx-0 bg-dark">
+
       {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
         <Direcciones lan={lan}></Direcciones>
       </div> */}
