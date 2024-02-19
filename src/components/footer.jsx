@@ -3,11 +3,11 @@ import {
   Whatsapp,
   Facebook,
   Twitter,
-  Pinterest,
+  //Pinterest,
   Mail,
   Telegram,
   Linkedin,
-  Tumblr,
+  //Tumblr,
 } from "react-social-sharing";
 import {
   MobileView,
@@ -38,7 +38,7 @@ const Footer = (props) => {
             small
             link="https://indesan.com"
             message="Compartir en Whatsapp"
-            className ="social"
+            className="social"
           ></Whatsapp>
         </MobileView>
 
@@ -47,7 +47,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Facebook"
-          className ="social"
+          className="social"
         ></Facebook>
 
         <Twitter
@@ -55,23 +55,23 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Twitter"
-          className ="social"
+          className="social"
         ></Twitter>
-
+        {/* 
         <Pinterest
           solid
           small
           link="https://indesan.com"
           message="Compartir en Pinterest"
           className ="social"
-        ></Pinterest>
+        ></Pinterest> */}
 
         <Mail
           solid
           small
           link="https://indesan.com"
           message="Compartir en Mail"
-          className ="social"
+          className="social"
         ></Mail>
 
         <Telegram
@@ -79,23 +79,23 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Telegram"
-          className ="social"
+          className="social"
         ></Telegram>
 
-        <Tumblr
+        {/* <Tumblr
           solid
           small
           link="https://indesan.com"
           message="Compartir en Tumblr"
           className ="social"
-        ></Tumblr>
+        ></Tumblr> */}
 
         <Linkedin
           solid
           small
           link="https://indesan.com"
           message="Compartir en Linkedin"
-          className ="social"
+          className="social"
         ></Linkedin>
 
         <h5 className="lead">{t.SN[lan]}</h5>
@@ -116,7 +116,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           ) : isIOS ? (
@@ -125,7 +125,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           ) : (
@@ -134,7 +134,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           )}
