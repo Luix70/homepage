@@ -1,5 +1,8 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": null,
   "editor.formatOnSave": true,
-  "debug.javascript.warnOnLongPrediction": false
+  "debug.javascript.warnOnLongPrediction": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }
