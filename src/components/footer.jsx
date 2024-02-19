@@ -3,11 +3,11 @@ import {
   Whatsapp,
   Facebook,
   Twitter,
-  Pinterest,
+  //Pinterest,
   Mail,
   Telegram,
   Linkedin,
-  Tumblr,
+  //Tumblr,
 } from "react-social-sharing";
 import {
   MobileView,
@@ -23,14 +23,14 @@ const Footer = (props) => {
   const { lan } = props;
   // console.log(deviceDetect());
   return (
-    <div className="row w-100 mx-0 bg-dark">
+    <div className="row w-100 mx-0 bg-black">
 
       {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
         <Direcciones lan={lan}></Direcciones>
       </div> */}
 
       {/* <div className="bg-dark text-light col-xs-12 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration"> */}
-      <div className="bg-dark text-light col-12  container p-5 pb-5 nodecoration social">
+      <div className="bg-black text-light col-12 container p-3 pb-3 nodecoration social">
         <h5 className="lead">{t.CN[lan]}</h5>
         <MobileView>
           <Whatsapp
@@ -38,7 +38,7 @@ const Footer = (props) => {
             small
             link="https://indesan.com"
             message="Compartir en Whatsapp"
-            className ="social"
+            className="social"
           ></Whatsapp>
         </MobileView>
 
@@ -47,7 +47,7 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Facebook"
-          className ="social"
+          className="social"
         ></Facebook>
 
         <Twitter
@@ -55,23 +55,23 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Twitter"
-          className ="social"
+          className="social"
         ></Twitter>
-
+        {/* 
         <Pinterest
           solid
           small
           link="https://indesan.com"
           message="Compartir en Pinterest"
           className ="social"
-        ></Pinterest>
+        ></Pinterest> */}
 
         <Mail
           solid
           small
           link="https://indesan.com"
           message="Compartir en Mail"
-          className ="social"
+          className="social"
         ></Mail>
 
         <Telegram
@@ -79,24 +79,25 @@ const Footer = (props) => {
           small
           link="https://indesan.com"
           message="Compartir en Telegram"
-          className ="social"
+          className="social"
         ></Telegram>
 
-        <Tumblr
+        {/* <Tumblr
           solid
           small
           link="https://indesan.com"
           message="Compartir en Tumblr"
           className ="social"
-        ></Tumblr>
+        ></Tumblr> */}
 
         <Linkedin
           solid
           small
           link="https://indesan.com"
           message="Compartir en Linkedin"
-          className ="social"
+          className="social"
         ></Linkedin>
+
         <h5 className="lead">{t.SN[lan]}</h5>
         <BrowserView>
           <a href="https://www.facebook.com/ComercialIndesan/">
@@ -115,7 +116,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           ) : isIOS ? (
@@ -124,7 +125,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           ) : (
@@ -133,7 +134,7 @@ const Footer = (props) => {
                 src={`/resources/img/fb_${lan}.png`}
                 alt="facebook"
                 width="128px"
-              height="auto"
+                height="auto"
               />
             </a>
           )}
