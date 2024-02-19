@@ -23,14 +23,14 @@ const Footer = (props) => {
   const { lan } = props;
   // console.log(deviceDetect());
   return (
-    <div className="row w-100 mx-0 bg-dark">
+    <div className="row w-100 mx-0 bg-black">
 
       {/* <div className="bg-dark text-light col-xs-6 col-sm-6 col-md-4 container pt-3 pb-5">
         <Direcciones lan={lan}></Direcciones>
       </div> */}
 
       {/* <div className="bg-dark text-light col-xs-12 col-sm-6 col-md-4 container pt-3 pb-5 nodecoration"> */}
-      <div className="bg-dark text-light col-12  container p-5 pb-5 nodecoration social">
+      <div className="bg-black text-light col-12 container p-3 pb-3 nodecoration social">
         <h5 className="lead">{t.CN[lan]}</h5>
         <MobileView>
           <Whatsapp
@@ -97,6 +97,7 @@ const Footer = (props) => {
           message="Compartir en Linkedin"
           className ="social"
         ></Linkedin>
+
         <h5 className="lead">{t.SN[lan]}</h5>
         <BrowserView>
           <a href="https://www.facebook.com/ComercialIndesan/">
