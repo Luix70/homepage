@@ -150,8 +150,7 @@ html {
 
 .carousel {
 
-  margin-top: 5em;
-  margin-bottom: 5em;
+  border-radius: 50px;
 
 
 
@@ -159,13 +158,13 @@ html {
 
 .carousel-item {
 
-  height: 80vh;
+  height: 75vh;
 
 
 }
 
 .carousel-inner>.carousel-item>img {
-  height: 50vh;
+  height: 75vh;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;

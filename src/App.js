@@ -120,11 +120,11 @@ class App extends Component {
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
-      <div className="p-0 m-0 bg-white ">
+      <div className="p-0 m-0 bg-white">
 
 
         
-        <div className="row m-0 p-0  vh-100 no-gutters">
+        <div className="row m-0 p-0 no-gutters">
           
             <BrowserView className="w-100">
             
