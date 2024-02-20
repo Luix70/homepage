@@ -11,14 +11,14 @@ const CollectionSlider = props => {
   return (
     <div
       id="carouselColecciones"
-      className="carousel slide"
+      className="carousel slide my-5 "
       data-ride="carousel"
-      data-interval="7000"
+      data-interval="5000"
     >
       <div className="carousel-inner">
         {cols.map(col => {
           const index = cols.indexOf(col);
-          const baseStyle = "carousel-item vh-100 min-vh-100 hero-image";
+          const baseStyle = "carousel-item hero-image";
 
           return (
             <div

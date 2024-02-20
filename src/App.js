@@ -23,6 +23,12 @@ import { WhichBotstrapBreak, randomArray } from "./utils/utilities.js";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "js-cookie";
 import t from "./App.lit.json";
+import {
+  MobileView,
+  BrowserView,
+  MobileOnlyView
+} from "react-device-detect";
+
 
 // Estilos
 
@@ -114,50 +120,33 @@ class App extends Component {
     //console.log(lan, listaColecciones);
     if (listaColecciones.length === 0 || lan === "") return null;
     return (
-      <div className="container-fluid p-0 m-0 min-vh-100 bg-light ">
-        <ToastContainer></ToastContainer>
-        <CookieConsent
-          buttonText={t.AC[lan]}
-          style={{ background: "#2B2B2B" }}
-          buttonStyle={{
-            backgroundColor: "#0275d8",
-            color: "#fff",
-            fontSize: "1em",
-          }}
-          enableDeclineButton
-          onDecline={() => {
-            window.location = "https://google.com";
-          }}
-          declineButtonText={t.CA[lan]}
-          declineButtonStyle={{
-            backgroundColor: "#d9534f",
-            color: "#fff",
-            fontSize: "1em",
-          }}
-          flipButtons
-        >
-          {t.ME[lan]}
-        </CookieConsent>
-        <div
-          className="row panel m-0 p-0  
-          no-gutters"
-        >
-          <div className="w-100 navegacion m-0">
-            <NavBar
-              lan={lan}
-              handleLanguage={this.handleLanguage}
-              windowWidth={this.state.windowWidth}
-              windowHeight={this.state.windowHeight}
-              BSBreak={WhichBotstrapBreak(windowWidth)}
-              usuario={usuario}
-              handleLogout={this.handleLogout}
-              cols={listaColecciones}
-              modoEdit={modoEdit}
-              toggleEdit={this.toggleEdit}
-            ></NavBar>
-          </div>
+      <div className="p-0 m-0 bg-white ">
 
-          <div className="col-12 min-vh-100 m-0 p-0 ">
+
+        
+        <div className="row m-0 p-0  vh-100 no-gutters">
+          
+            <BrowserView className="w-100">
+            
+              <NavBar
+                lan={lan}
+                handleLanguage={this.handleLanguage}
+                windowWidth={this.state.windowWidth}
+                windowHeight={this.state.windowHeight}
+                BSBreak={WhichBotstrapBreak(windowWidth)}
+                usuario={usuario}
+                handleLogout={this.handleLogout}
+                cols={listaColecciones}
+                modoEdit={modoEdit}
+                toggleEdit={this.toggleEdit}
+              ></NavBar>
+            
+            </BrowserView>
+            
+          
+
+          <div className="col-12 m-0 p-0  ">
+        
             <Switch>
               <Route
                 path="/coleccion/:col"
@@ -268,7 +257,7 @@ class App extends Component {
                 exact
                 path="/"
                 render={(props) => (
-                  <CollectionSlider
+                 <CollectionSlider
                     lan={lan}
                     listaColecciones={listaColecciones}
                     windowWidth={windowWidth}
@@ -277,16 +266,67 @@ class App extends Component {
                     modoEdit={modoEdit}
                     {...props}
                   />
-                 
                 )}
               />
               <Redirect to="/" />
             </Switch>
           </div>
+          <BrowserView className=" w-100">
+            <div className="row m-0 ">
+             <Footer lan={lan}></Footer>
+            </div>
+          </BrowserView>
+
+          <MobileOnlyView className="pb-5 w-100">
+           <div className="row w-100 m-0 pb-3 ">
+             <Footer lan={lan}></Footer>
+            </div>
+          </MobileOnlyView>
+
+          <MobileOnlyView className="stickToBottom w-100">
+            
+            <NavBar
+              lan={lan}
+              handleLanguage={this.handleLanguage}
+              windowWidth={this.state.windowWidth}
+              windowHeight={this.state.windowHeight}
+              BSBreak={WhichBotstrapBreak(windowWidth)}
+              usuario={usuario}
+              handleLogout={this.handleLogout}
+              cols={listaColecciones}
+              modoEdit={modoEdit}
+              toggleEdit={this.toggleEdit}
+            ></NavBar>
+          
+          </MobileOnlyView>
+
+
         </div>
-        <div className="row w-100 m-0">
-          <Footer lan={lan}></Footer>
-        </div>
+
+        <ToastContainer></ToastContainer>
+        <CookieConsent
+          buttonText={t.AC[lan]}
+          style={{ background: "#2B2B2B" }}
+          buttonStyle={{
+            backgroundColor: "#0275d8",
+            color: "#fff",
+            fontSize: "1em",
+          }}
+          enableDeclineButton
+          onDecline={() => {
+            window.location = "https://google.com";
+          }}
+          declineButtonText={t.CA[lan]}
+          declineButtonStyle={{
+            backgroundColor: "#d9534f",
+            color: "#fff",
+            fontSize: "1em",
+          }}
+          flipButtons
+        >
+          {t.ME[lan]}
+        </CookieConsent>
+
       </div>
     );
   }

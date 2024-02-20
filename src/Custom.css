@@ -12,9 +12,6 @@
   background-color: #eee;
 }
 
-.panel {
-  padding-top: 60px;
-}
 
 .navegacion {
   min-height: 60px;
@@ -44,7 +41,7 @@
   position: absolute;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 80%;
   font-size: 10em !important;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+41,ffffff+100&1+0,0+100 */
   /* FF3.6-15 */
@@ -70,14 +67,15 @@
 }
 
 .heroLink h1 {
-  color: navy;
+  color: rgb(80, 110, 110);
   transition: all 0.2s ease-in-out;
-  text-shadow: 5px 5px 5px #fff;
+  text-shadow: 3px 3px 5px #000;
 }
 
 .heroLink h1:hover {
-  color: blue;
-  transform: scale(1.1);
+  color: rgb(100, 120, 120);
+  transform: scale(1.01);
+  text-shadow: 3px 3px 10px #000;
 }
 
 .semitrans {
@@ -150,8 +148,24 @@ html {
   transform: invert(50%);
 }
 
+.carousel {
+
+  margin-top: 5em;
+  margin-bottom: 5em;
+
+
+
+}
+
+.carousel-item {
+
+  height: 80vh;
+
+
+}
+
 .carousel-inner>.carousel-item>img {
-  height: 80vh !important;
+  height: 50vh;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -240,4 +254,11 @@ ol.carousel-indicators li.active {
 
 .icon-muted i {
   color: rgba(200, 200, 200, 1);
+}
+
+.stickToBottom {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+
 }
