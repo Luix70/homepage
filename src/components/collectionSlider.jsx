@@ -13,12 +13,12 @@ const CollectionSlider = props => {
       id="carouselColecciones"
       className="carousel slide m-lg-5 m-md-3"
       data-ride="carousel"
-      data-interval="5000"
+      data-interval="500000"
     >
       <div className="carousel-inner">
         {cols.map(col => {
           const index = cols.indexOf(col);
-          const baseStyle = "carousel-item hero-image ";
+          const baseStyle = "carousel-item hero-image w-100";
 
           return (
             <div
@@ -37,7 +37,7 @@ const CollectionSlider = props => {
               }}
             >
               <div className="hero w-100 pt-0 ">
-                <h4 className="text-dark lead mt-4 mb-0 p-2">
+                <h4 className="text-dark lead mt-4 mb-0 px-5">
                   {col.tags[lan]}
                 </h4>
                 <Link to={"/coleccion/" + col.mod} className={"heroLink"}>
@@ -47,12 +47,12 @@ const CollectionSlider = props => {
                 </Link>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans ">
+              <div className="carousel-caption d-sm-inline-block semitrans rounded px-5">
                 {(aspectRatio > 1 && windowHeight > 399) ||
                 (aspectRatio <= 1 && windowHeight > 500) ? (
                   <p className=" text-dark font-italic">{col.desc[lan]}</p>
                 ) : null}
-                <Link className="btn btn-link " to={"/coleccion/" + col.mod}>
+                 <Link className="btn-lg text-danger " to={"/coleccion/" + col.mod}>
                   {t.VC[lan]}
                 </Link>
               </div>
