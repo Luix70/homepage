@@ -139,6 +139,7 @@ class App extends Component {
                 cols={listaColecciones}
                 modoEdit={modoEdit}
                 toggleEdit={this.toggleEdit}
+                position = "top"
               ></NavBar>
             
             </BrowserView>
@@ -296,6 +297,7 @@ class App extends Component {
               cols={listaColecciones}
               modoEdit={modoEdit}
               toggleEdit={this.toggleEdit}
+              position="bottom"
             ></NavBar>
           
           </MobileOnlyView>
