@@ -139,10 +139,10 @@ class App extends Component {
           {t.ME[lan]}
         </CookieConsent>
         <div
-          className="row panel w-100 m-0  
-         min-vh-100 no-gutters"
+          className="row panel m-0 p-0  
+          no-gutters"
         >
-          <div className="col-12 fixed-top navegacion m-0">
+          <div className="w-100 navegacion m-0">
             <NavBar
               lan={lan}
               handleLanguage={this.handleLanguage}

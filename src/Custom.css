@@ -2,8 +2,10 @@
 
 /* Fondo de los iconos de redes sociales */
 .social {
-  background-color: #f00 !important;
+  background-color: #000 !important;
 }
+
+
 
 /* color del fondo de la aplicacion*/
 .container-fluid {
@@ -22,8 +24,8 @@
   margin-right: 0;
   margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
+  >.col,
+  >[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
   }
@@ -47,25 +49,23 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+41,ffffff+100&1+0,0+100 */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.7) 20%,
-    rgba(255, 255, 255, 0) 30%,
-    rgba(255, 255, 255, 0) 70%,
-    rgba(255, 255, 255, 0) 80%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.7) 20%,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 80%,
+      rgba(255, 255, 255, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
   /* IE6-9 */
 }
 
-.hero > a {
+.hero>a {
   color: navy;
 }
 
-.hero > a:hover {
+.hero>a:hover {
   text-decoration: none;
 }
 
@@ -92,14 +92,21 @@
 }
 
 body,
-html,
-#root {
+html {
   margin: 0 !important;
   padding: 0 !important;
   width: 100vw;
   min-width: 250px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+#root {
+
+  max-width: 1080px;
+  margin: auto;
+
+
 }
 
 .idiomas {
@@ -143,7 +150,7 @@ html,
   transform: invert(50%);
 }
 
-.carousel-inner > .carousel-item > img {
+.carousel-inner>.carousel-item>img {
   height: 80vh !important;
   width: 100%;
   -o-object-fit: cover;
