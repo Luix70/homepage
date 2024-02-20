@@ -4,5 +4,8 @@
   "debug.javascript.warnOnLongPrediction": false,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   }
 }
