@@ -10,8 +10,8 @@ const HeroSection = props => {
                  <div className="heroOverlay w-100 h-100">
                   <div id="textos" className="col-12 col-md-6 p-4 p-md-4 text-light h-100 ">
                     <img src='/resources/img/logoIndesan_animated.svg' alt="" className="h-33"/>
-                    <h2 className="card-title h1">El referente de calidad en mesas de comedor</h2>
-                    <p className="card-text h4 font-weight-light font-italic ">Descubre nuestras colecciones de mesas de comedor modernas, construidas con materiales naturales como maderas, cerámicas y estructuras de acero.</p>
+                    <h2 className="card-title h1 my-4">El referente de calidad en mesas de comedor</h2>
+                    <p className="card-text h4 my-4 font-weight-light font-italic ">Descubre nuestras colecciones de mesas de comedor modernas, construidas con materiales naturales como maderas, cerámicas y estructuras de acero.</p>
                     <a href="/" class="btn btn-primary btn-lg " role="button" aria-disabled="false">Conócenos</a>
                   </div>
                   </div>

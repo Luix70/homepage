@@ -13,7 +13,7 @@ const CollectionSlider = props => {
 
      <div className="coleccionesIntro h-33 bg-white p-5 d-flex justify-content-center">
         <div className="col-12 col-md-6 text-center ">
-          <img src='/resources/img/logoIndesan.svg' alt="" className="v-50 mb-3"/>  
+          <img src='/resources/img/logoIndesan.svg' alt="" className="v-50 mb-3 "/>  
           <h1>Colecciones</h1>
           <h4>Explora nuestra amplia selección de mesas de comedor modernas y elegantes.</h4>
         </div> 
@@ -48,14 +48,15 @@ const CollectionSlider = props => {
               }}
             >
               <div className="hero w-100 pt-0 ">
-                <h4 className="text-dark lead mt-4 mb-0 px-5">
-                  {col.tags[lan]}
-                </h4>
+
                 <Link to={"/coleccion/" + col.mod} className={"heroLink"}>
                   <h1 className="display-3 text-uppercase mt-0 pt-0">
                     {col.mod}
                   </h1>
                 </Link>
+                <h4 className="text-dark lead mt-4 mb-0 px-5">
+                  {col.tags[lan]}
+                </h4>
               </div>
 
               <div className="carousel-caption d-sm-inline-block semitrans rounded px-5">
