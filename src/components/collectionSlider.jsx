@@ -9,11 +9,22 @@ const CollectionSlider = props => {
   //console.log(aspectRatio);
 
   return (
+    <div className=" bg-light colsContainer"> 
+
+     <div className="coleccionesIntro h-33 bg-white p-5 d-flex justify-content-center">
+        <div className="col-12 col-md-6 text-center ">
+          <img src='/resources/img/logoIndesan.svg' alt="" className="v-50 mb-3"/>  
+          <h1>Colecciones</h1>
+          <h4>Explora nuestra amplia selección de mesas de comedor modernas y elegantes.</h4>
+        </div> 
+        
+     </div>
+
     <div
       id="carouselColecciones"
-      className="carousel slide  bg-warning"
+      className="carousel slide bg-white"
       data-ride="carousel"
-      data-interval="500000"
+      data-interval="10000"
     > <div className="mx-lg-5 mx-md-3 py-3">
             <div className="carousel-inner">
         {cols.map(col => {
@@ -82,7 +93,11 @@ const CollectionSlider = props => {
     </div>
 
     </div>
-  );
+
+
+
+    </div>
+      );
 };
 
 export default CollectionSlider;

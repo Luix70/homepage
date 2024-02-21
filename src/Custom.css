@@ -24,11 +24,34 @@ html {
   background-color: #000 !important;
 }
 
+.heroOverlay {
+  background: linear-gradient(135deg, black 0%, rgba(100, 100, 100, 00) 75%) !important;
+}
+
+.heroContainer {
+  height: 50vh;
+  min-height: 400px;
+  max-height: 800px;
+
+  /* Ruta de la imagen de fondo */
+  background-size: cover;
+  /* Imagen de fondo cubriendo el contenedor */
+  background-position: center;
+  /* Centrar la imagen de fondo */
+}
+
+@media only screen and (min-width: 600px) {
+  .heroContainer {
+    border-radius: 40px !important;
+  }
+
+  .heroOverlay {
+    border-radius: 40px !important;
+    background: linear-gradient(135deg, black 0%, rgba(100, 100, 100, 00) 60%) !important;
+  }
 
 
-/* color del fondo de la aplicacion*/
-
-
+}
 
 .navegacion {
   min-height: 60px;
@@ -151,7 +174,9 @@ html {
 
 .carousel-item {
 
-  height: 75vh;
+  height: 50vh;
+  min-height: 400px;
+  max-height: 800px;
 
 
 }
