@@ -4,7 +4,9 @@ import { ToastContainer } from "react-toastify";
 import jwt_decode from "jwt-decode";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
+import HeroSection from "./components/heroSection.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
+import MaterialsSection from "./components/materialsSection.jsx";
 import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
@@ -258,15 +260,23 @@ class App extends Component {
                 exact
                 path="/"
                 render={(props) => (
-                 <CollectionSlider
-                    lan={lan}
-                    listaColecciones={listaColecciones}
-                    windowWidth={windowWidth}
-                    windowHeight={windowHeight}
-                    usuario={usuario}
-                    modoEdit={modoEdit}
-                    {...props}
-                  />
+                  <React.Fragment>
+                      <HeroSection id="heroSection" />
+
+                      <CollectionSlider
+                        lan={lan}
+                        listaColecciones={listaColecciones}
+                        windowWidth={windowWidth}
+                        windowHeight={windowHeight}
+                        usuario={usuario}
+                        modoEdit={modoEdit}
+                        {...props}
+                      />
+
+                      <MaterialsSection id="materialsSection"/>
+                      
+                  </React.Fragment>
+                 
                 )}
               />
               <Redirect to="/" />
