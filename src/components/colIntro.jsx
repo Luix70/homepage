@@ -14,7 +14,7 @@ const ColIntro = props => {
         className="col-xs-12 col-sm-12 col-md-5 col-lg-5 p4
       -0 mx-0 mx-auto my-auto justify-content-center text-center"
       >
-        <p className="font-weight-lighter font-italic h2 ">{col.desc[lan]}</p>
+        <p className="font-weight-lighter font-italic h4 text-secondary pt-4 px-4">{col.desc[lan]}</p>
       </div>
     </div>
   );
