@@ -11,11 +11,11 @@ const CollectionSlider = props => {
   return (
     <div
       id="carouselColecciones"
-      className="carousel slide m-lg-5 m-md-3"
+      className="carousel slide  bg-warning"
       data-ride="carousel"
       data-interval="500000"
-    >
-      <div className="carousel-inner">
+    > <div className="mx-lg-5 mx-md-3 py-3">
+            <div className="carousel-inner">
         {cols.map(col => {
           const index = cols.indexOf(col);
           const baseStyle = "carousel-item hero-image w-100";
@@ -79,6 +79,8 @@ const CollectionSlider = props => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="sr-only">Next</span>
       </a>
+    </div>
+
     </div>
   );
 };

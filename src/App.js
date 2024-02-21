@@ -148,7 +148,7 @@ class App extends Component {
             
           
 
-          <div className="col-12 m-0 p-0  ">
+          <div className="col-12 flex-columnm-0 p-0  ">
         
             <Switch>
               <Route
@@ -261,7 +261,7 @@ class App extends Component {
                 path="/"
                 render={(props) => (
                   <React.Fragment>
-                      <HeroSection id="heroSection" />
+                      <HeroSection  />
 
                       <CollectionSlider
                         lan={lan}
@@ -273,7 +273,7 @@ class App extends Component {
                         {...props}
                       />
 
-                      <MaterialsSection id="materialsSection"/>
+                      <MaterialsSection />
                       
                   </React.Fragment>
                  

@@ -1,6 +1,5 @@
 /* Clases personalizadas */
 
-/* Fondo de los iconos de redes sociales */
 
 #root {
 
@@ -28,9 +27,7 @@ html {
 
 
 /* color del fondo de la aplicacion*/
-.container-fluid {
-  background-color: #eee;
-}
+
 
 
 .navegacion {
