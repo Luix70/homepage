@@ -1,6 +1,26 @@
 /* Clases personalizadas */
 
 /* Fondo de los iconos de redes sociales */
+
+#root {
+
+  max-width: 1080px;
+  margin: auto;
+
+
+}
+
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  min-width: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
 .social {
   background-color: #000 !important;
 }
@@ -85,23 +105,9 @@
 
 }
 
-body,
-html {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100vw;
-  min-width: 250px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-#root {
-
-  max-width: 1080px;
-  margin: auto;
 
 
-}
+
 
 .idiomas {
   right: 20px;

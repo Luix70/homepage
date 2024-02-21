@@ -9,6 +9,8 @@
 /coverage
 
 # production
+/build
+/public/resources/img
 
 
 # misc
