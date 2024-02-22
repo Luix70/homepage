@@ -20,6 +20,7 @@ html {
 }
 
 .heroOverlay {
+  min-height: 500px;
   background: linear-gradient(160deg,
       black 15%,
       rgba(100, 100, 100, 00) 100%) !important;
@@ -27,7 +28,7 @@ html {
 
 .heroContainer {
 
-  min-height: 400px;
+  min-height: 500px;
 
   margin: 0em;
 

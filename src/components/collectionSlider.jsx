@@ -9,7 +9,7 @@ const CollectionSlider = props => {
   //console.log(aspectRatio);
 
   return (
-    <div className=" bg-light colsContainer"> 
+    <div id="seccionColecciones" className=" bg-light colsContainer"> 
 
      <div className="coleccionesIntro h-33 bg-white p-5 d-flex justify-content-center">
         <div className="col-12 col-md-6 text-center ">

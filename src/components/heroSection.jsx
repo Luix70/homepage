@@ -13,7 +13,7 @@ const HeroSection = props => {
                     <img src='/resources/img/logoIndesan_animated.svg' alt="" className="h-33"/>
                     <h2 className="card-title h1 my-4 text-light">{t.HE[lan]}</h2>
                     <p className="card-text h5 my-4 font-weight-lighter font-italic">{t.SH[lan]}</p>
-                    <a href="#carouselColecciones" class="btn btn-primary btn-lg " role="button" aria-disabled="false">{t.BU[lan]}</a>
+                    <a href="#seccionColecciones" class="btn btn-primary btn-lg " role="button" aria-disabled="false">{t.BU[lan]}</a>
                   </div>
                   </div>
                  </div>
