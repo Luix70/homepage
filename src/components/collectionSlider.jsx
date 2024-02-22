@@ -14,8 +14,8 @@ const CollectionSlider = props => {
      <div className="coleccionesIntro h-33 bg-white p-5 d-flex justify-content-center">
         <div className="col-12 col-md-6 text-center ">
           <img src='/resources/img/logoIndesan.svg' alt="" className="v-50 mb-3 "/>  
-          <h1>Colecciones</h1>
-          <h4>Explora nuestra amplia selección de mesas de comedor modernas y elegantes.</h4>
+          <h1>{t.TC[lan]}</h1>
+          <h4>{t.SC[lan]}</h4>
         </div> 
         
      </div>

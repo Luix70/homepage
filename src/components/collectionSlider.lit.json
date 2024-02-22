@@ -3,5 +3,15 @@
     "es": "Ver Coleccion",
     "en": "Go to Collection",
     "fr": "Voir Collection"
+  },
+  "TC": {
+    "es": "Coleccions",
+    "en": "Collections",
+    "fr": "Collections"
+  },
+  "SC": {
+    "es": "Explora nuestra amplia selección de mesas de comedor modernas y elegantes.",
+    "en": "Explore our wide selection of modern and elegant dining tables.",
+    "fr": "Découvrez notre large sélection de tables à manger modernes et élégantes."
   }
 }
