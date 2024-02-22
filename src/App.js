@@ -266,7 +266,12 @@ class App extends Component {
                         windowWidth={windowWidth}
                         windowHeight={windowHeight}
                       />
-
+                      <MaterialsSection
+                        lan={lan}
+                        windowWidth={windowWidth}
+                        windowHeight={windowHeight}
+                       />
+                       
                       <CollectionSlider
                         lan={lan}
                         listaColecciones={listaColecciones}
@@ -277,11 +282,7 @@ class App extends Component {
                         {...props}
                       />
 
-                      <MaterialsSection
-                        lan={lan}
-                        windowWidth={windowWidth}
-                        windowHeight={windowHeight}
-                       />
+
                       
                   </React.Fragment>
                  
@@ -302,7 +303,7 @@ class App extends Component {
             </div>
           </MobileView>
 
-          <MobileOnlyView className="stickToBottom w-100">
+          <MobileView className="stickToBottom w-100">
             
             <NavBar
               lan={lan}
@@ -318,7 +319,7 @@ class App extends Component {
               position="bottom"
             ></NavBar>
           
-          </MobileOnlyView>
+          </MobileView>
 
 
         </div>
