@@ -261,7 +261,11 @@ class App extends Component {
                 path="/"
                 render={(props) => (
                   <React.Fragment>
-                      <HeroSection  />
+                      <HeroSection
+                        lan={lan}
+                        windowWidth={windowWidth}
+                        windowHeight={windowHeight}
+                      />
 
                       <CollectionSlider
                         lan={lan}
@@ -273,7 +277,11 @@ class App extends Component {
                         {...props}
                       />
 
-                      <MaterialsSection />
+                      <MaterialsSection
+                        lan={lan}
+                        windowWidth={windowWidth}
+                        windowHeight={windowHeight}
+                       />
                       
                   </React.Fragment>
                  
@@ -288,11 +296,11 @@ class App extends Component {
             </div>
           </BrowserView>
 
-          <MobileOnlyView className="pb-5 w-100">
+          <MobileView className="pb-5 w-100">
            <div className="row w-100 m-0 pb-3 ">
              <Footer lan={lan}></Footer>
             </div>
-          </MobileOnlyView>
+          </MobileView>
 
           <MobileOnlyView className="stickToBottom w-100">
             
