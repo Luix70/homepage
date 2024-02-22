@@ -26,9 +26,10 @@ html {
 }
 
 .heroContainer {
-  height: 60vh;
+
   min-height: 400px;
-  max-height: 800px;
+
+  margin: 0em;
 
   /* Ruta de la imagen de fondo */
   background-size: cover;
@@ -37,9 +38,32 @@ html {
   /* Centrar la imagen de fondo */
 }
 
-@media only screen and (min-width: 600px) {
+.materialsContainer {
+
+  min-height: 400px;
+  margin: 0em;
+
+
+
+}
+
+.imagenCalidad {
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+
+.imagenCalidadContainer {
+  float: unset
+}
+
+@media only screen and (min-width: 768px) {
   .heroContainer {
     border-radius: 40px !important;
+    margin: 1.5em;
+    border-width: 10px !important;
+
   }
 
   .heroOverlay {
@@ -48,6 +72,14 @@ html {
         black 15%,
         rgba(100, 100, 100, 00) 80%) !important;
   }
+
+  .materialsContainer {
+    margin: 1.5em;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 3px;
+  }
+
 }
 
 .navegacion {
