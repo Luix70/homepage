@@ -37,6 +37,7 @@
     "react-share": "^5.1.0",
     "react-social-sharing": "^3.3.0",
     "react-toastify": "^8.1.0",
+    "serve": "^14.2.1",
     "typescript": "^3.9.10"
   },
   "scripts": {
