@@ -7,6 +7,7 @@ import Footer from "./components/footer.jsx";
 import HeroSection from "./components/heroSection.jsx";
 import CollectionSlider from "./components/collectionSlider.jsx";
 import MaterialsSection from "./components/materialsSection.jsx";
+import QualitySection from "./components/qualitySection.jsx";
 import Contacto from "./components/contacto.jsx";
 import Coleccion from "./components/coleccion";
 import AreaReservada from "./components/areaReservada";
@@ -271,6 +272,8 @@ class App extends Component {
                         windowWidth={windowWidth}
                         windowHeight={windowHeight}
                        />
+
+
                        
                       <CollectionSlider
                         lan={lan}
@@ -282,7 +285,11 @@ class App extends Component {
                         {...props}
                       />
 
-
+                      <QualitySection
+                        lan={lan}
+                        windowWidth={windowWidth}
+                        windowHeight={windowHeight}
+                       /> 
                       
                   </React.Fragment>
                  

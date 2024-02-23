@@ -48,6 +48,18 @@ html {
 
 }
 
+
+
+.qualityContainer {
+
+  min-height: 400px;
+  margin: 0em;
+
+
+
+}
+
+
 .imagenCalidad {
   padding: 10px;
   border-radius: 20px;
@@ -79,6 +91,12 @@ html {
     border-radius: 40px;
     border-style: solid;
     border-width: 3px;
+  }
+
+
+  .qualityContainer {
+    margin: 1.5em;
+
   }
 
 }

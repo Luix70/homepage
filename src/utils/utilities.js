@@ -10,6 +10,19 @@ export const WhichBotstrapBreak = (ww, wh) => {
   return "4k";
 };
 
+
+export const WhichBotstrapBreak_width = (ww, wh) => {
+
+
+  if (ww < 576) return "xs";
+  if (ww < 768) return "sm";
+  if (ww < 992) return "md";
+  if (ww < 1200) return "lg";
+  if (ww <= 1920) return "xl";
+
+  return "4k";
+};
+
 export const randomArray = oldArray => {
   const array = [...oldArray];
 
