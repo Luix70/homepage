@@ -11,7 +11,7 @@
     },
     "items":[
         {
-            "img":"Calidad2.jpg",
+            "img":"q1.jpg",
             "copy":{
                 "es":"Chapas naturales seleccionadas de Roble y Nogal, o melaminas de primera calidad para los acabados lacados",
                 "en":"Selected natural veneers of Oak and Walnut, or premium quality melamine for lacquered finishings",
@@ -20,15 +20,15 @@
             }
         },
         {
-            "img":"Calidad3.jpg",
+            "img":"q2.jpg",
             "copy":{
                 "es":"Guias metálicas en aluminio anodizado, con rodamientos de acero.",
-                "en":"Metallic guides in anodized aluminio, with steel bearings",
+                "en":"Metallic guides in anodized aluminum, with steel bearings",
                 "fr":"Guides métalliques en aluminium anodisé, avec roulements en acier"
             }
         },
         {
-            "img":"Calidad4.jpg",
+            "img":"q3.jpg",
             "copy":{
                 "es":"Componentes electrónicos (en determinadas colecciones) para mayor facilidad de uso y confort.",
                 "en":"Electronic components (in certain collections) for ease of use and comfort.",
@@ -36,12 +36,19 @@
             }
         },
         {
-            "img":"Calidad5.jpg",
+            "img":"q4.jpg",
             "copy":{
                 "es":"Superficies cerámicas de 3mm resistentes al rayado formando un composite con vidrio templado de 10mm",
                 "en":"3mm scratch resistant ceramic surfaces forming a composite with 10mm tempered glass",
                 "fr":"Surfaces céramiques de 3mm résistantes aux rayures formant un composite avec verre trempé de 10mm"
             }
         }
-    ]
+    ],
+
+    "BU":{
+        "es":"Mira lo que hacemos",
+        "en":"Look what we do",
+        "fr":"Regardez ce qu'on fait"
+    }
+    
   }

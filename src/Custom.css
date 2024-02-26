@@ -67,7 +67,17 @@ html {
   object-fit: cover;
 }
 
+.imagenCalidad2 {
 
+
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2em;
+  max-height: 25vh;
+
+
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -95,6 +105,14 @@ html {
 
   .qualityContainer {
     margin: 1.5em;
+
+  }
+
+  .imagenCalidad2 {
+
+    max-height: 40em;
+    object-fit: cover;
+
 
   }
 
