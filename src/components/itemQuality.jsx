@@ -1,6 +1,6 @@
 import React from "react";
 const ItemQuality = props => {
-    const {windowWidth, windowHeight ,lan, item} = props;
+    const {lan, item} = props;
     //const { art, lan, folder, BSBreak } = prop;
     return (
         <div className="d-flex justify-content-start align-items-center py-1">
