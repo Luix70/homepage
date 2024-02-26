@@ -69,7 +69,7 @@ class Secciones extends Component {
               );
             case "descargas":
               return (
-                <div className="row mb-5" key={secciones.indexOf(sec)}>
+                <div className="row mb-5 d-none" key={secciones.indexOf(sec)}>
                   <SeccionDescargas
                     seccion={sec}
                     lan={lan}
