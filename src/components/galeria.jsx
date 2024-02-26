@@ -40,6 +40,8 @@ class Galeria extends Component {
     const { col, lan, modoEdit, usuario } = this.props;
     const defaultButtonStyle = "btn btn-white pl-4 ";
 
+
+
     return listaImagenes ? (
       <div className="row">
         {modoEdit ? (

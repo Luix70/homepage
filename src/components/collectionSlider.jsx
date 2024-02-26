@@ -59,7 +59,7 @@ const CollectionSlider = props => {
                 </h4>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans rounded px-5">
+              <div className="carousel-caption d-sm-inline-block semitrans rounded px-5 text-danger">
                 {(aspectRatio > 1 && windowHeight > 399) ||
                 (aspectRatio <= 1 && windowHeight > 500) ? (
                   <p className=" text-dark font-italic">{col.desc[lan]}</p>
@@ -78,7 +78,7 @@ const CollectionSlider = props => {
         role="button"
         data-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="carousel-control-prev-icon " aria-hidden="true"></span>
         <span className="sr-only">Previous</span>
       </a>
 
