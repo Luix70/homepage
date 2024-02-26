@@ -1,0 +1,54 @@
+{
+    "H1": {
+      "es": "Elegancia y durabilidad en nuestras mesas de comedor",
+      "en": "Quintessential elegance and durability in our dining tables",
+      "fr": "Nos tables sont la quintessence de l’élégance et de la durabilité."
+    },
+    "PA": {
+      "es": "Nuestras mesas de comedor son reconocidas por su durabilidad y diseño moderno. Están construidas con materiales de alta calidad, como maderas naturales, tableros de cerámica y estructuras de acero. Cada mesa es cuidadosamente diseñada para brindar un toque de elegancia a cualquier comedor.",
+      "en": "Our dining tables are recognized for their durability and modern design. They are built with high quality materials such as natural woods, ceramic boards and steel structures. Each table is carefully designed to bring a touch of elegance to any dining room.",
+      "fr": "Nos tables à manger sont reconnues pour leur durabilité et leur design moderne. Ils sont construits avec des matériaux de haute qualité tels que le bois naturel, les panneaux en céramique et les structures en acier. Chaque table est soigneusement conçue pour apporter une touche d’élégance à toute salle à manger."
+    },
+    "items":[
+        {
+            "img":"q1.jpg",
+            "copy":{
+                "es":"Chapas naturales seleccionadas de Roble y Nogal, o melaminas de primera calidad para los acabados lacados",
+                "en":"Selected natural veneers of Oak and Walnut, or premium quality melamine for lacquered finishings",
+                "fr":"Placages naturels sélectionnés de chêne et de noyer, ou mélamines de première qualité pour les finitions laquées"
+               
+            }
+        },
+        {
+            "img":"q2.jpg",
+            "copy":{
+                "es":"Guias metálicas en aluminio anodizado, con rodamientos de acero.",
+                "en":"Metallic guides in anodized aluminum, with steel bearings",
+                "fr":"Guides métalliques en aluminium anodisé, avec roulements en acier"
+            }
+        },
+        {
+            "img":"q3.jpg",
+            "copy":{
+                "es":"Componentes electrónicos (en determinadas colecciones) para mayor facilidad de uso y confort.",
+                "en":"Electronic components (in certain collections) for ease of use and comfort.",
+                "fr":"Composants électroniques (dans certaines collections) pour plus de facilité d’utilisation et de confort."
+            }
+        },
+        {
+            "img":"q4.jpg",
+            "copy":{
+                "es":"Superficies cerámicas de 3mm resistentes al rayado formando un composite con vidrio templado de 10mm",
+                "en":"3mm scratch resistant ceramic surfaces forming a composite with 10mm tempered glass",
+                "fr":"Surfaces céramiques de 3mm résistantes aux rayures formant un composite avec verre trempé de 10mm"
+            }
+        }
+    ],
+
+    "BU":{
+        "es":"Mira lo que hacemos",
+        "en":"Look what we do",
+        "fr":"Regardez ce qu'on fait"
+    }
+    
+  }
