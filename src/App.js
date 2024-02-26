@@ -27,8 +27,8 @@ import Cookies from "js-cookie";
 import t from "./App.lit.json";
 import {
   MobileView,
-  BrowserView,
-  MobileOnlyView
+  BrowserView
+  
 } from "react-device-detect";
 
 
