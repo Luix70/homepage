@@ -10,7 +10,7 @@ class Galeria extends Component {
   state = {
     listaImagenes: null,
     verGaleria: true,
-    modo: "module",
+    modo: "carousel",
     currentImage: null
   };
   componentDidMount = async () => {

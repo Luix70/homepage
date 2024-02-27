@@ -35,7 +35,7 @@ const Slider = props => {
             return (
               <div
                 className={
-                  "carousel-item max-vh-100 " + (i === 0 ? "active" : "")
+                  "carousel-item  " + (i === 0 ? "active" : "")
                 }
                 key={i}
               >
@@ -43,6 +43,7 @@ const Slider = props => {
                   className="img-fluid"
                   src={"/resources/img/" + img.folder + "/" + img.nombre_img}
                   alt={"slide " + i}
+                  
                 />
               </div>
             );
