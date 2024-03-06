@@ -40,7 +40,7 @@ const Slider = props => {
                 key={i}
               >
                 <img
-                  className="img-fluid"
+                  className="carousel-img"
                   src={"/resources/img/" + img.folder + "/" + img.nombre_img}
                   alt={"slide " + i}
                   

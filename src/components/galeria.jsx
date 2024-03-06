@@ -49,7 +49,7 @@ class Galeria extends Component {
             <span>Editar</span>
           </div>
         ) : null}
-        <div className="col-12 bg-white">
+        <div className="col-12 bg-light">
           <div
             className={
               "btn-group btn-group-sm float-right " +
@@ -78,7 +78,7 @@ class Galeria extends Component {
             </button>
           </div>
           <div
-            className="btn-group btn-group-sm float-left bg-white"
+            className="btn-group btn-group-sm float-left "
             role="group"
           >
             <button
@@ -104,7 +104,7 @@ class Galeria extends Component {
           </div>
         </div>
 
-        <div className={"row " + (verGaleria ? "px-3" : "d-none")}>
+        <div className={(verGaleria ? " col-12 bg-light p-0" : "d-none")}>
           {modo === "module" ? (
             <ThumbnailGallery
               col={col}
