@@ -1,8 +1,8 @@
 import React from "react";
-import { WhichBotstrapBreak } from "../utils/utilities.js";
+
 import t from "./materialsSection.lit.json"
 const MaterialsSection = props => {
-    const {windowWidth, windowHeight ,lan} = props;
+    const {lan} = props;
     //const { art, lan, folder, BSBreak } = prop;
     return (
       <div id="materialsSection" className="bg-white w-100 mt-0 mt-md-3 ">

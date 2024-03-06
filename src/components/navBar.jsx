@@ -163,7 +163,7 @@ const NavBar = (props) => {
               </Link>
             ) : null}
 
-            <div className={"dropdown mr-2" + (position=="top"?"":" dropup" )}>
+            <div className={"dropdown mr-2" + (position==="top"?"":" dropup" )}>
               <button
                 className="btn btn-secondary dropdown-toggle"
                 type="button"
