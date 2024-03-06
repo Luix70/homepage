@@ -231,6 +231,8 @@ html {
   min-height: 600px;
   max-height: 800px;
   width: 100%;
+
+
 }
 
 .carousel-inner>.carousel-item>img {
@@ -241,6 +243,7 @@ html {
   -o-object-fit: cover;
   object-fit: cover;
   opacity: 1;
+
 }
 
 ol.carousel-indicators {

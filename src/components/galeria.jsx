@@ -104,7 +104,7 @@ class Galeria extends Component {
           </div>
         </div>
 
-        <div className={(verGaleria ? " col-12 bg-light p-0" : "d-none")}>
+        <div className={(verGaleria ? " col-12 row bg-light p-0 m-0" : "d-none")}>
           {modo === "module" ? (
             <ThumbnailGallery
               col={col}
