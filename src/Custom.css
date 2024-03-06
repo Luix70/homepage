@@ -228,8 +228,8 @@ html {
 
 .carousel-item {
   height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
+  min-height: 512px;
+  max-height: 768px;
   width: 100%;
 
 
@@ -237,8 +237,8 @@ html {
 
 .carousel-inner>.carousel-item>img {
   height: 75vh;
-  min-height: 600px;
-  max-height: 800px;
+  min-height: 512px;
+  max-height: 768px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
