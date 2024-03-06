@@ -19,5 +19,5 @@ class Mapa extends Component {
   }
 }
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCDq6JWDWB7aNTdAnuBhAzNByYC70SsCL4"
+  apiKey: "AIzaSyAFAiTuByNeZlrXqcmzihMGjN8rUOsLJPc"
 })(Mapa);
