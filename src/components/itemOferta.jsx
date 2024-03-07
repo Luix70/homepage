@@ -33,7 +33,7 @@ class ItemOferta extends Component {
                 ? "/resources/img/ofertas/" + oferta.Imagen
                 : "/resources/img/NoImg.png"
             }
-            className="w-100 rounded-circle"
+            className="w-100 rounded"
             alt="Imagen"
           />
         </div>
@@ -150,10 +150,10 @@ class ItemOferta extends Component {
             </button>
           )}
         </div>
-        <div className="d-flex w-100 justify-content-center m-3">
+        <div className="d-flex w-100 justify-content-center m-1">
           {!blnEsCarrito ? (
             oferta.Promo && oferta.Promo[lan] !== "" ? (
-              <div className="d-flex w-80 bg-warning text-danger justify-content-center rounded-circle p-4 text-center">
+              <div className="d-flex w-80 text-danger justify-content-center rounded-circle text-center">
                 <h3>{oferta.Promo[lan]}</h3>
               </div>
             ) : null
