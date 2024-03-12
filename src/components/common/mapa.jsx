@@ -5,7 +5,7 @@ class Mapa extends Component {
     const { coordenadasCentro, coordenadasMarker, zoom } = this.props;
 
     return (
-      <div>
+      <div className="ubicacion">
         <Map
           google={this.props.google}
           zoom={zoom}

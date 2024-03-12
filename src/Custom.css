@@ -304,6 +304,11 @@ ol.carousel-indicators li.active {
 
 .ubicacion {
   min-height: 400px;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
 }
 
 .custom-btn-circle {
