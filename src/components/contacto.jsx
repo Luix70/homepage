@@ -85,7 +85,7 @@ class Contacto extends Form {
     const { lan } = this.props;
     return (
       <div className="row ">
-        <div className="col-12 m-0 p-0">
+        <div className="col-12 m-0 p-3">
           <img
             src="/resources/img/fachada.jpg"
             className="img-fluid w-100 h-auto"
