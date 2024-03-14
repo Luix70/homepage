@@ -1,0 +1,2953 @@
+commit fe999905deedc1078fb1671a9ef5fdccdb6207be
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 14 10:10:20 2024 +0100
+
+    Actualizadas fotos activa
+
+commit f9eb1a1d6f86bd6750fbf1abba8717dcc742bc70
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 14 09:43:52 2024 +0100
+
+    cambiada transparencia a 0.5
+
+commit e2284209fbbdf719894bcb2cf5500d58b97ab10d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 14 09:39:11 2024 +0100
+
+    arreglada transparencia slider
+
+commit 83095309ac4a44072408fac048e2a55bb3146f2d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 14 09:38:29 2024 +0100
+
+    transparencia
+
+commit d7ac4820964494a07f1e4a9fe8a43413c8c32cb4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 14 09:35:42 2024 +0100
+
+    "$1"
+
+commit 9e476da9bd1563ef64ca439424b8d7d7cc84aa9d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 12 17:45:16 2024 +0100
+
+    arreglada ubicacion del banner
+
+commit 76fdf8559caeb1fe87071ea961c0a2c12fa7b519
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 12 17:42:41 2024 +0100
+
+    arreglada ubicacion del mapa
+
+commit 61b03b2473ac381fff88936f109fa631dd445a2c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 7 11:13:00 2024 +0100
+
+    cambiado estilo ofertas
+
+commit ccbd94af6f69be6433df25b26d9a080e5dbae5c2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 7 11:00:00 2024 +0100
+
+    many things
+
+commit 3a5df2f6eed1766097a2d323abe7087b3c3bdd29
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 6 16:11:07 2024 +0100
+
+    Arreglado mapas.sin warnings
+
+commit 997713b6dd3288b038f745d74deab777a5a5f38e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 6 16:09:47 2024 +0100
+
+    Arreglado mapas
+
+commit f85d3c1d2849e426c486994fd4c13d3815d847a7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 6 12:32:08 2024 +0100
+
+    Actualizadas fotos armonia
+
+commit b0b2e68b268a04c9d243335e378025d496f464d1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 6 10:08:16 2024 +0100
+
+    Ahora si corregida imagenes
+
+commit 529fe7d81fef46e04bb8a852843532e9fcde9b4f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 6 09:45:36 2024 +0100
+
+    Arreglada proporciones galeria
+
+commit 5dc2e0d2753a81525e089f214a2f1eff15463047
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 5 18:26:05 2024 +0100
+
+    Añadida coleccion activa+
+
+commit 923aec9d29f7e64aa67864b6cf2349a351201804
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Mar 1 08:24:26 2024 +0100
+
+    ajuste fichero mta-sts
+
+commit 4eaf0cfec6f96020365154f4f9ad1aeea20adfaa
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 28 15:24:44 2024 +0100
+
+    foto aura 4
+
+commit 769fd34e7eb1804ee4e0da039092c646360b13ac
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 27 17:55:32 2024 +0100
+
+    algunas cosas
+
+commit 255719a784f8bce38b16991acb1d50c9744670be
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 12:47:20 2024 +0100
+
+    cambiado estilo controles galeria
+
+commit e6769a894e5a17b69266b9ef9a474e085b6b389e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 12:12:37 2024 +0100
+
+    ocultadas las descargas
+
+commit 14ba3dbb8ad5b18120eae78358a29e5379c7e147
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 11:59:22 2024 +0100
+
+    eliminar warnings
+
+commit ab5ed1822d3beef747b068397c11b85fcaf9ef4c
+Merge: 6917a35 84d2483
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 11:58:17 2024 +0100
+
+    merged
+
+commit 84d2483d10c7ab84de6b5e5ec08318438f02430f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 11:56:01 2024 +0100
+
+    Maquetacion seccion calidad
+
+commit 6917a35e0fff60727253512753792d71b5cd8b37
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 26 09:32:45 2024 +0100
+
+    Erratas
+
+commit 5ff617f77924fc8976d4dd5dbfc0a9f8e991f65b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 23 12:44:57 2024 +0100
+
+    cambios en el resizing de las imagenes
+
+commit 72ca742a001e255b29422798d7c55426c2a3c31a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 23 12:31:53 2024 +0100
+
+    estructura quality section
+
+commit af4a533d5e0ba08c35f63bd7ffdec8dcfa682d9b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 23 08:34:32 2024 +0100
+
+    erratas
+
+commit 613be6e63fd38db02c6cae020bb55ac3856d9ad0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 23 08:19:05 2024 +0100
+
+    collectionSlider
+
+commit 488e81612256dfc0280a4b99c1f637f6bcaa9eb6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 18:08:18 2024 +0100
+
+    ajustado link a colecciones
+
+commit 7d12d521e71695fba94c3a6a764873826ac3e0c1
+Merge: a222007 2d0a7a0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 17:53:21 2024 +0100
+
+    merging
+
+commit 2d0a7a0081a17219cf481a44c23e2b238b14685c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 17:51:22 2024 +0100
+
+    Seccion materiales·
+
+commit 2c60bd6f2fb793d430f9cc8e872e8d1b45db24ee
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 15:26:02 2024 +0100
+
+    literales
+
+commit a2220079dd97344a288c2345bc67452a2baa4cb9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 15:23:40 2024 +0100
+
+    literales de la seccion Materiales
+
+commit 9a275bcca3af8386093376c5444379bdb6a132bb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 15:16:28 2024 +0100
+
+    cambios en los archivos de acabados
+
+commit 4b1a442629fb7d844c47c287d772846a580f5cc3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 15:15:35 2024 +0100
+
+    imgenes de acabados
+
+commit 6b2e6c02134646c246507545ff5dc3110983397b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 09:43:28 2024 +0100
+
+    imagenes para el diseño. materiales
+
+commit a9e410293017bcc03ec0dfaa39b677552e1ba5ff
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 09:42:29 2024 +0100
+
+    imagenes para el diseño
+
+commit b8ae19c5980a7afaa84989810b3a6e1f7dd7a877
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 09:08:27 2024 +0100
+
+    reorganizado orden elementos en landing page
+
+commit 237b764946e96c6bd53dad5c6f0790a98bcf81e3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 08:51:52 2024 +0100
+
+    Traduccuion intro collection Slider
+
+commit 9b6f0ec856db42c77f5421d853c285d888773a5a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 08:46:13 2024 +0100
+
+    traduccion del heroSection
+
+commit ecfe67937c177b8184daf6a84e57ede941dc54d7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 22 07:13:26 2024 +0100
+
+    cambios en el tamaño de los componentes
+
+commit 885c61a1658891a93bf8473d87d30e0a8d7f8369
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 18:28:10 2024 +0100
+
+    cambiado color del logo
+
+commit f96b8424db975bb117de2c40c8f5c8c827de62f0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 18:19:03 2024 +0100
+
+    Seccion Hero sin traducir
+
+commit 2cb82ca0da6078218077ff3228da5014cb4037f9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 12:57:29 2024 +0100
+
+    algunas modificaciones materials sections
+
+commit 43da83138a33a5f7a964218617980df769ee608d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 12:24:44 2024 +0100
+
+    stub for hero and materials sections
+
+commit 003994c8fb62f8b2004a32d184bdecb86be00ffc
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 12:02:40 2024 +0100
+
+    reubicadas las imagenes
+
+commit de386c2b064f881bfa1576acbd9a805eb0293d17
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 11:37:05 2024 +0100
+
+    Gitignore
+
+commit ab7e0104b87ee7e511d4b9cb84ef9c1936e17b3d
+Merge: af45e5c 44dee5a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 11:20:32 2024 +0100
+
+    good
+
+commit af45e5c6da7e84a1ee28cebd79f70505ea1d372b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 11:17:35 2024 +0100
+
+    cambiar heading coleccion
+
+commit 44dee5a05ed007dcebb80e658681cb9d02e363b4
+Merge: c16fc65 62bb634
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 10:37:54 2024 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit c16fc6506ee11004d469490c25a2a886b12dfb6d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 10:37:01 2024 +0100
+
+    prefetch
+
+commit e1fc1d0215df4ffe91133ec3281fa793954543db
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 10:32:18 2024 +0100
+
+    pre-branch
+
+commit 62bb63474af76e558358e7c5d44e3d8ba78fe994
+Author: Luis Ortuño Molina <lortuno1@gmail.com>
+Date:   Wed Feb 21 09:58:10 2024 +0100
+
+    Delete build directory
+
+commit 14dc16221b46c0c764fab8dd193c6e94c6c44c46
+Author: Luis Ortuño Molina <lortuno1@gmail.com>
+Date:   Wed Feb 21 09:57:55 2024 +0100
+
+    Delete public/resources/img directory
+
+commit 373a67ec52c4c4503ef9d5de41eaa335cf06c61b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 21 09:54:33 2024 +0100
+
+    lightrn up
+
+commit 03e11021b6695306a052ff74efd12062f543764c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 18:10:35 2024 +0100
+
+    build del martes
+
+commit 98372352515f86baed9fd9cc584f5723f05314a4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 17:36:53 2024 +0100
+
+    capitalize zenit
+
+commit 9d568abe989904f48bf13c03508669ef65d24055
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 16:57:39 2024 +0100
+
+    margenes del slider
+
+commit b2f96a7ce706d16a5652c65bd0e82910f793de6b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 16:40:35 2024 +0100
+
+    fotos nuevas (Activa)
+
+commit 1360f6afc7154609594ff3883c8e707d83702c04
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 16:37:03 2024 +0100
+
+    fotos nuevas
+
+commit b3c3dd501baf8edc306f3789f768235b8570193f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 12:58:56 2024 +0100
+
+    last commit
+
+commit 1269c48fe04d75062443f0af7f1fff5e64aeb921
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 12:34:24 2024 +0100
+
+    solucionado dropup de idiomas
+
+commit f3d0b994cf14c5253db2d7051cbca5a3bb938e3b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 11:55:55 2024 +0100
+
+    build con css actualizado
+
+commit 993cde0986a19ef2de45a14fa71d085dfed03199
+Merge: 386f79f dd6211a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 11:50:30 2024 +0100
+
+    Merge branch 'CSStweak'
+
+commit dd6211a0805311b8ee100a720fccdd47551c95be
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 11:49:42 2024 +0100
+
+    algunos cambios en css
+
+commit 386f79ffef11f76bf29c48a18ec375425db2e9d1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 09:13:49 2024 +0100
+
+    include build
+
+commit ebc0b4973ef0a4060e8710e5e44f482b34df6746
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 20 08:39:19 2024 +0100
+
+    css-fijado ancho maximo
+
+commit d4c739f2a6253e6389a3f4f250da4a0602eb84c2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 19 13:43:39 2024 +0100
+
+    En casa funciona
+
+commit ca115d8635a86825ad835dd779baf8b9910be6ce
+Merge: 39f4e57 bd31340
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 19 13:37:34 2024 +0100
+
+    ready to merge
+
+commit 39f4e57e5f9a0fab21a74238f3dc87e4899fa8a2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 19 13:35:22 2024 +0100
+
+    ready to merge
+
+commit bd31340c1fe5973fa7de65fc898d07542cdd2bf5
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Feb 19 13:01:08 2024 +0100
+
+    a vueltas con las actualizaciones
+
+commit e21dc2e057c848e51181da02e0cb0b5c8711721b
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Feb 19 12:22:45 2024 +0100
+
+    custom
+
+commit efcdae4627e1eed23d123618fc638944951118ac
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Feb 19 12:00:23 2024 +0100
+
+    back to the fture
+
+commit 2c83e351aa3201dfe30caa63757c1bdd90d23eb2
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Feb 19 11:39:59 2024 +0100
+
+    after the outlet
+
+commit 26e4b741fb755b8edf5defe75c0a4bf5c99b13ee
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 19 09:40:17 2024 +0100
+
+    icono react-social-sharing twitter to x
+
+commit cbec7a129c499a5c9ff56bfeb35de4bf22f36031
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 22:36:33 2024 +0100
+
+    plj
+
+commit f9a2d9d2dfb7aa14b69666f9b1de62b3b6970781
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 12:06:11 2024 +0100
+
+    incluimos el bootstrap.css con tema
+
+commit bc7c40eef860054bfeed55713b00f8f4ee18122c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 11:43:50 2024 +0100
+
+    solucionado error en build
+
+commit bcb7bf73e9b3fbf3d0fe2f91f528a0f904c5a08c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 10:33:21 2024 +0100
+
+    Cambiado tema a Sandstorm de Bootswatch
+
+commit 5c20fcbd9ad6011feb03f8d551bfdabdc07b6628
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 09:21:50 2024 +0100
+
+    elimiinados social.css y index.css
+
+commit 3f2a602bc3d7ac3912442eac3b51ed4edefd6945
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 16 09:10:47 2024 +0100
+
+    Eliminado App.css
+
+commit b17fb912a38ce5845d1addaba87db2f6caa06122
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 13 18:12:16 2024 +0100
+
+    Hace muchos, muchos años, en un reino junto al mar
+
+commit bb05ccfb230af37d24ba16654ec6c16e138d4b25
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 11 13:01:11 2023 +0200
+
+    PLJ
+
+commit 58414a80193d477585b3aab47624230fbd978539
+Merge: a10d3db ba0de3c
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 11 12:48:24 2023 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit ba0de3c7f545b0956cde2de74ed4eaeba1f3087e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jul 11 12:47:54 2023 +0200
+
+    imagenes
+
+commit a10d3db6f868386d70c373919375b5dfe878086e
+Merge: 432e48c 0abe27b
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 11 12:03:14 2023 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 0abe27b6d35683987a31b07ca3b8751ab47976e7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jul 11 12:02:53 2023 +0200
+
+    config
+
+commit 432e48ccf59c29cdc20403d476c30e5bef2f0535
+Merge: aeb7d4c 9cfc2d0
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 11 11:54:28 2023 +0200
+
+    pre update
+
+commit aeb7d4cbaaaaad423f831c8ec1faa87616a6224e
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 11 11:34:49 2023 +0200
+
+    todo
+
+commit 9cfc2d05721161fd389ffc4c4790343996aa90fe
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jul 11 11:09:41 2023 +0200
+
+    Ventas Flash
+
+commit 314348bb58e4af2a21584d59e2b8b551b03bae6b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jun 5 16:33:04 2023 +0200
+
+    debug
+
+commit a54a4694e0659bbc1504528317f05d65cb9fc079
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Oct 6 09:22:55 2022 +0200
+
+    Burl instead of knotty
+
+commit 9e238801a63cb03b57580d7328e2234e03c742b6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Oct 5 18:19:54 2022 +0200
+
+    Nada
+
+commit d7bdabff8df1cae9f37cae10e6ee360fbc07a7b3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Oct 3 16:48:50 2022 +0200
+
+    Tex eliminado
+
+commit fb4fba884f8231914e52fa926d7f3f394988a403
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jun 8 11:32:01 2022 +0200
+
+    Cambio color iconos red social
+
+commit 0e1abf5c8992946f17385d5b78ef27dea74f4f75
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jun 7 16:22:50 2022 +0200
+
+    Iconos redes sociales footer Minimizados
+
+commit 23a4d434c981acf32145097eddfa2cfce8a4a8be
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 17:56:08 2022 +0100
+
+    Varias colecciones
+
+commit 9100b62709980c59cb1a7d365dba0f17d744dd4e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:48:42 2022 +0100
+
+    tweak bootstrap
+
+commit 5b9e57affbbd7dc7aa2579951ebf15bcbcd34c53
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:46:26 2022 +0100
+
+    tweak bootstrap
+
+commit 4febce6b59ca40fa818b51e0a29c2f7c57b2032e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:39:22 2022 +0100
+
+    tweak bootstrap
+
+commit 7b0f4b61243ab308b50f1571070f73024cf6ad1f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:30:21 2022 +0100
+
+    css tweak
+
+commit 72afcd7c2e26ddb5ade1026cdae17383cee05537
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:28:47 2022 +0100
+
+    css tweak
+
+commit 9ffe5aa1d818443b2c1622f9563851c63dacaf16
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:28:01 2022 +0100
+
+    css tweak
+
+commit 183c27bac4a4820763aca819b63ee01a89fd63fd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:22:46 2022 +0100
+
+    css tweak
+
+commit 0497f9c37a13a525fb769f38b096f1dcfef9e7ed
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:16:54 2022 +0100
+
+    css tweak
+
+commit 5fd28cb95d4f78a14becb738d7d0e979d97eea0e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:14:30 2022 +0100
+
+    css tweak
+
+commit 1abce252cf803c3e61ae3e06852ab82ebd9d2352
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 16:10:07 2022 +0100
+
+    css tweak
+
+commit 492c933aee8517d31095c1c9b55c4719aad160dd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 15:59:11 2022 +0100
+
+    cambios en css h6
+
+commit b33b90825d44f96dbfd5f68aedcb9b9b1e608f17
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 15:51:15 2022 +0100
+
+    Coleccion Nordic
+
+commit 9a30d8e412399aa3e30b5d81bd269f2780786713
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 12:59:51 2022 +0100
+
+    icons svg 214 y 215
+
+commit ecc9b7cd55b688c2a8b58cff5d07ccedfe083a81
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 12:53:13 2022 +0100
+
+    Cambiado tipo de letra en .svgs
+
+commit a9a7b32c7cfaab6a9d5889bfec3613225096c917
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 12:49:45 2022 +0100
+
+    icons 213
+
+commit b94f536a171102d1996bf75bbf2ed8e5c051f087
+Merge: 3429fc8 d6e5972
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 11:46:02 2022 +0100
+
+    plj
+
+commit 3429fc8a710212f0371baf54a1870e103a86eddb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 11:44:33 2022 +0100
+
+    plj
+
+commit d36fc23741e72e12608ad197226b14bf72efd8c7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 11:42:29 2022 +0100
+
+    plj
+
+commit d6e59726215bf9e73cb27cb5d11b4ab41d6e717d
+Merge: 93fdfcf 62bd05c
+Author: root <root@box.indesan.com>
+Date:   Wed Mar 16 11:41:25 2022 +0100
+
+    pljbak
+
+commit 93fdfcf4529049f087444e2de2a320861782a6f8
+Author: root <root@box.indesan.com>
+Date:   Wed Mar 16 11:30:41 2022 +0100
+
+    plj
+
+commit 62bd05cbc2521a1dc3f59e8508f7d32aa6a83866
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 11:23:19 2022 +0100
+
+    modelo 3073
+
+commit f41b1595aeabdc3c7e5fceb4e7fec84d34b90f1c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 11:05:01 2022 +0100
+
+    redefinida exportacion de apiEnddPoint
+
+commit 211a58e5ed70139a281b56598f5d416678a9ac94
+Merge: 1c7478c fd0eedd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 10:33:38 2022 +0100
+
+    fuck it 2
+
+commit 1c7478ca487940c467cc698c2ab671572908d5f7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 10:31:21 2022 +0100
+
+    fuck it
+
+commit fd0eeddfb143483625727282310df7b45e32e07d
+Merge: e7f6f75 122576f
+Author: root <root@box.indesan.com>
+Date:   Wed Mar 16 10:09:37 2022 +0100
+
+    unmerged
+
+commit e7f6f758f29b6387dff4f0b1c6855674c4c9d55a
+Author: root <root@box.indesan.com>
+Date:   Wed Mar 16 10:03:43 2022 +0100
+
+    new icons
+
+commit dc72b4fc667f717f72656306ebbe4bef30c9d8f4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 16 09:35:59 2022 +0100
+
+    iconos activa
+
+commit 122576f2098277b52e0f065bbbedeb2fae6f662f
+Author: Luix70 <luis@indesan.com>
+Date:   Tue Nov 30 16:24:01 2021 +0100
+
+    tras audit fix
+
+commit 62473120ff99576b3f361e106298edbbcac4eca6
+Merge: 29acf2c 3802b76
+Author: root <root@box.indesan.com>
+Date:   Tue Nov 30 16:18:15 2021 +0100
+
+    prepull
+
+commit 29acf2c13ad3b81b5e5c0f9e2bfb75b1ff35654b
+Author: root <root@box.indesan.com>
+Date:   Tue Nov 30 16:16:31 2021 +0100
+
+    prepll
+
+commit 3802b764df999571255eac9d6df76edde3b6114c
+Author: Luix70 <luis@indesan.com>
+Date:   Tue Nov 30 15:52:54 2021 +0100
+
+    new package-lock.json
+
+commit b57d6762afb01bd3cf5135ac68494272c407eae9
+Author: Luix70 <luis@indesan.com>
+Date:   Tue Nov 30 15:46:44 2021 +0100
+
+    sin pg
+
+commit 57566ff0198bcd2a1cd96adad0fd08f094faa3d3
+Merge: 49f9a59 9049538
+Author: Luix70 <luis@indesan.com>
+Date:   Tue Nov 30 15:23:49 2021 +0100
+
+    unmo
+
+commit ee257e45b3f95aadfc53c522cb1b7a6519a9f126
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 29 18:22:16 2021 +0100
+
+    raro
+
+commit 7e30eba45b9522ecf974556050f2a0fc324af1a2
+Merge: 0d96376 9049538
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 29 18:18:13 2021 +0100
+
+    pj1
+
+commit 0d963761e3b4e95cf266553c083729bbf5d66791
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 29 18:09:31 2021 +0100
+
+    pls
+
+commit 49f9a593e184cb574e505ca150b4130cb1c1e484
+Author: Luix70 <luis@indesan.com>
+Date:   Mon Nov 29 18:00:47 2021 +0100
+
+    aver
+
+commit 904953857c07513b2f31bfb349e9e87cd512d38d
+Merge: efdbef8 ad66e97
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Nov 29 17:34:48 2021 +0100
+
+    merged
+
+commit efdbef82538e3f5354fe28fbb059e65e12a908ce
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Nov 29 15:52:54 2021 +0100
+
+    updated
+
+commit 726ed9f5afe372aa1086ed3974422a56f289fa7a
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Mon Nov 29 14:37:38 2021 +0100
+
+    likely to work
+
+commit ad66e9737caae4608ac1126561b558857f254a19
+Author: Luix70 <luis@indesan.com>
+Date:   Mon Nov 29 12:02:28 2021 +0100
+
+    reverted to rrd 5.2.0
+
+commit 20c9ba1c9e1e56091421bc3782769453340c76fd
+Author: root <root@COMPRAS.localdomain>
+Date:   Mon Nov 29 11:50:46 2021 +0100
+
+    reverted rrd to 5.2.0
+
+commit ccc0e545d3efcb9ea54a3cdcf92d0e65b6bfd138
+Merge: 739adf3 460e43e
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 29 11:00:41 2021 +0100
+
+    pu
+
+commit 739adf3e6f3b437d8b9669d3417b3fa56fe107cc
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 29 10:57:06 2021 +0100
+
+    pre-update
+
+commit 460e43e8ddc48deef6c31bd9c7d95c500428a4f1
+Author: root <root@COMPRAS.localdomain>
+Date:   Fri Nov 26 16:38:28 2021 +0100
+
+    updates
+
+commit 222c68209bab4219258439b26822ad6800f8cecd
+Author: root <root@COMPRAS.localdomain>
+Date:   Fri Nov 26 15:26:22 2021 +0100
+
+    to new node
+
+commit 631644fba99e0662421857cc805c32eb263725d6
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 24 16:58:39 2021 +0100
+
+    thumbs tao
+
+commit 283ca467ab63a5bdcb41df6f4b73cd4f33e64056
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 24 16:22:25 2021 +0100
+
+    Fotos Nuevas Tao
+
+commit f788d5d98149a8fa60e41749dacddd578f213a75
+Author: root <root@COMPRAS.localdomain>
+Date:   Thu Nov 11 09:31:34 2021 +0100
+
+    mesas tao en blanco
+
+commit 550da63e1c43c4fb94594c5ab04870709ef5c133
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 10 17:24:13 2021 +0100
+
+    Taos Nudosas
+
+commit 6022b7d9a83e1fc08ac8f486e1bed652b21e786e
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 10 17:10:49 2021 +0100
+
+    package.lock.json
+
+commit 11b3bd88d0181aab568250818589b2384331bb8d
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 10 16:45:33 2021 +0100
+
+    Taos nudosos
+
+commit 17ea970353b8ff2da9e292f96fbb9314afa83db9
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 10 16:40:22 2021 +0100
+
+    Armonias nudosas
+
+commit 962dcfc406882ae01e242f106d25d86254e2d98e
+Author: root <root@COMPRAS.localdomain>
+Date:   Wed Nov 10 16:02:43 2021 +0100
+
+    Armonia en nudoso
+
+commit 442a7edb037b4c583658cab476301d209b4d4139
+Author: root <root@COMPRAS.localdomain>
+Date:   Mon Nov 8 18:04:48 2021 +0100
+
+    All changes
+
+commit dfe56ede5d279e160bb6de7f1039d7690b1396a4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Oct 28 16:31:44 2021 +0200
+
+    Nuevas imagenes tao nudoso
+
+commit 87831b620c8f672d7cdb9b3ffe4d6e13db9617a7
+Author: Luis Ortuño Molina <lortuno1@gmail.com>
+Date:   Thu Oct 28 12:38:13 2021 +0200
+
+    Create SECURITY.md
+
+commit ab7dfecd535d12cd42a26392ad9bc77281fb487a
+Merge: f5d8599 b78df0e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Oct 28 12:16:18 2021 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit f5d8599823b2bc8885fbf393ee2d6fbc5fe06486
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Oct 28 12:16:04 2021 +0200
+
+    update
+
+commit b78df0e935bad37fe87a17a4a00bbcf4b5bb7276
+Merge: 96ba4ea 3537f70
+Author: root <root@box.indesan.com>
+Date:   Tue Feb 9 11:12:16 2021 +0100
+
+    pre-update
+
+commit 96ba4ea0360940d11ba768e72afe250a6148e687
+Author: root <root@box.indesan.com>
+Date:   Tue Feb 9 10:57:42 2021 +0100
+
+    pre update
+
+commit 3537f70940acb25ff3dfbcba296aee8c805e17e7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 9 10:55:55 2021 +0100
+
+    update
+
+commit af843178ad541039371ba2a3351d68d3416dd234
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 14 09:28:46 2021 +0100
+
+    updated
+
+commit a2e565e231f198c230ce7c4c9763093ef1ccc7d2
+Merge: 5f7f664 801fd6b
+Author: root <root@box.indesan.com>
+Date:   Tue Dec 1 16:42:28 2020 +0100
+
+    Merge branch 'master' of http://github.com/Luix70/homepage
+
+commit 801fd6bee8a65c57b25307eefdf785ef60d81578
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 1 16:42:06 2020 +0100
+
+    confit json
+
+commit 5b371f850f4d6dbedc431286a863037f3e7ee17e
+Merge: 3f20fc7 b53122b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 1 16:41:46 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 5f7f6649f17b6d182db90ec00edd21af2d47f077
+Merge: 62d1db5 b53122b
+Author: root <root@box.indesan.com>
+Date:   Tue Dec 1 16:38:45 2020 +0100
+
+    Merge branch 'master' of http://github.com/Luix70/homepage
+
+commit 3f20fc760cc6cb3ed6c81d92d7961557c689fd27
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 1 16:33:11 2020 +0100
+
+    modificaciones en el carro
+
+commit b53122bded7f0611d4c4b9775e3c3edca27c618d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 1 16:33:11 2020 +0100
+
+    modificaciones en el carro
+
+commit 62d1db5d45aea0b6e3925cdac436f230357ee9b0
+Merge: d23cf65 f6f72c3
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 30 17:10:16 2020 +0100
+
+    Merge branch 'master' of http://github.com/Luix70/homepage
+
+commit d23cf65412c373e94004eb5b4d3b424d5786af83
+Author: root <root@box.indesan.com>
+Date:   Mon Nov 30 17:10:12 2020 +0100
+
+    Cambios en el Homepage
+
+commit f6f72c31c9a471fb985a7bfe56a32a129ddc5a58
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 30 17:08:14 2020 +0100
+
+    Vulnerabilities solved
+
+commit f83977a5c0392b36b9d9b7d1298acf6cbd8865ee
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 30 16:55:36 2020 +0100
+
+    COnfigurabilidad web
+
+commit f82f238c107d18d9e01e890e902cd28de0cf2a11
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 30 12:59:26 2020 +0100
+
+    parte Frontend para salvar preferencias
+
+commit a7cd03b698f02e9cc7d9266d8959332d4f498d18
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 27 10:34:11 2020 +0100
+
+    trasladadas funciones handleXXX as nivel superior
+
+commit b388370ae397d7518db8f7ffbcaaa59c38988c55
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 25 17:04:04 2020 +0100
+
+    Funcionalidad a los desplegables en Preferencias
+
+commit 33267c9babb0a69350732d23545b569f351e61e6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 25 16:45:32 2020 +0100
+
+    reorganizacion dashboard
+
+commit dadf45d93e0f58e1c7d7de4d06c18d7cf14b4642
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 24 18:22:17 2020 +0100
+
+    Panel de preferencias
+
+commit 50ba3fa454fbbed2238d7b02d9d28ba39d689aea
+Merge: 1729e72 3d25285
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 6 17:15:27 2020 +0100
+
+    Ultimos cambios
+
+commit 3d25285552a07837332476efbfb46919190fdeaf
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 4 18:12:00 2020 +0100
+
+    Hecho y deshecho
+
+commit da6ea350bfe0771649cdaae2b87e16ba3bbf769f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 4 16:16:54 2020 +0100
+
+    literales ofertas
+
+commit 1729e72e48eed29b4c01e6b91a3821439286f51d
+Merge: f18c695 9572bba
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 4 12:22:17 2020 +0100
+
+    Merge branch 'ofertas'
+
+commit 9572bbaaab10709a1971bcf1d36b4c0a737af5c1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 4 12:21:37 2020 +0100
+
+    Ofertas en euros y puntos
+
+commit 538949318549690da7e43057ed6bdd84be36c89a
+Merge: 09ba74b 147cf4e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Oct 21 18:29:13 2020 +0200
+
+    Merge branch 'ofertas' of https://github.com/Luix70/homepage into ofertas
+
+commit f18c695390c529561bb5b01deb1912e9a5d8afe9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Oct 21 15:28:55 2020 +0200
+
+    cambios en la configuracion
+
+commit 8cec2a8c78077722c42537513c6941f34f25cdb0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 16 18:47:51 2020 +0200
+
+    imagenes
+
+commit 84af17b46cbf4b35eed88cf35ba2f9890577d7a9
+Merge: 4aff4b1 09ba74b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 16 18:27:56 2020 +0200
+
+    ofertas
+
+commit 09ba74b3187affa729ea622d7fa13f4b07416aa1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 9 17:17:19 2020 +0200
+
+    diferentes mejoras en el formulario de ofertas
+
+commit 147cf4e2c374712c7caaae273330d14596ba7254
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 9 17:17:19 2020 +0200
+
+    diferentes mejoras en el formulario de ofertas
+
+commit 1de8c60b2aa12f1c4a4a37911271e0bfe6f81a82
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 2 18:42:05 2020 +0200
+
+    Realizacion del pedido
+
+commit ba7ee56c41ce9720d45d14199558c3a30f95fb0c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 2 11:50:51 2020 +0200
+
+    Muestra los descuentos y la forma de pago de la sucursal
+
+commit 177d21b15a71b62e59d04cb8797cf764b48778ff
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Oct 2 11:22:15 2020 +0200
+
+    whatever changes may have
+
+commit 694f18f37404da0916e9e849b33b95674531d43b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 29 18:28:52 2020 +0200
+
+    Realizacion del pedido
+
+commit 31d9a064e6cd3046e5561d36ee3ec2614aa4808d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Sep 28 18:29:41 2020 +0200
+
+    Llamada a hacer pedido
+
+commit 0e1915eca64de496309918c70f03934f945136f2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 24 18:19:28 2020 +0200
+
+    direcciones
+
+commit 28c623277360fc9b7a8c7cffeff04feafd77c15b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 24 12:54:02 2020 +0200
+
+    formulario datos Cliente complementado
+
+commit 544a5c0a1dd4d768372651d5bc89b9506ed9a94f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 24 12:26:02 2020 +0200
+
+    formulario datos Cleinte
+
+commit ab66205b70157c08f43e8e115af9c54b980bfb8e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Sep 23 18:30:04 2020 +0200
+
+    Cliente Carrito
+
+commit bbbac50573fd25523f232a30a4ac6ecac5ca2991
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Sep 23 12:58:07 2020 +0200
+
+    cliente carrito
+
+commit 153014e75254fb6f8d7dc903288ff65ead02107c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 22 16:56:08 2020 +0200
+
+    Recuperacion de datos dliente API
+
+commit f20b99a6926ae0e3e1a8937f7db52a3b5a6fbbac
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 17 18:07:15 2020 +0200
+
+    estilado icono del carrito y total reservadas
+
+commit 5287e5c62374118b3e078a5e2e507b95935dd10f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 17 17:41:59 2020 +0200
+
+    Mecánica de añadir y quitar articulos al carrito
+
+commit db04881eda2667d411e1fcf5f8af61b343054e8c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 17 12:52:33 2020 +0200
+
+    Añadido botoes + y -  en el carrito
+
+commit f139774a0bc0de7ed3828f14caf045a70eb291fe
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 17 10:55:17 2020 +0200
+
+    Añadido boton papelera en el carrito
+
+commit 4493c22e4379a957ad3163a0e332004892f4daeb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Sep 17 10:16:16 2020 +0200
+
+    añadido componente carrito
+
+commit 2356dc2704feb1d9d72516c2bbf329154b54aa8b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Sep 16 18:32:19 2020 +0200
+
+    Añadido Link a boton de carrito
+
+commit cc080fe88dc8fad607813b121c8ee52b43e7d5a7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Sep 16 18:04:07 2020 +0200
+
+    Añadida funcion AddToCart
+
+commit 627794a427bc755e74dd6488d0981cba8604bb1f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Sep 9 12:40:46 2020 +0200
+
+    Añadida funcionalidad a Botones (stub)
+
+commit 2f3f04fade8ac5e12a6795cfefff3c102180694a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 18:27:54 2020 +0200
+
+    guardados intermedios
+
+commit 14f8133d9c9ac22a74b95862c1810a8684303cd2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 18:27:29 2020 +0200
+
+    guardados intermedios
+
+commit 795cdfd9d94cd9fe43d69776ba3a4c47b1cc6488
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 18:26:14 2020 +0200
+
+    inbetween
+
+commit e4062745b062cdaca90e464a9814356caa8bbff3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 17:52:59 2020 +0200
+
+    Tarifas en Ofertas
+
+commit 593e19b3415d0a8dab9db12519de0ac67144a2d4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 16:42:48 2020 +0200
+
+    Formateo Estanteria
+
+commit 0997e35182d2774511e3f81609714938cdaeb693
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 12:30:36 2020 +0200
+
+    componente itemOferta.Bordes redondeados
+
+commit 28026d581445aad4a2153dd365c16a05ac4db2b2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 10:41:31 2020 +0200
+
+    Completada la recuperacion de datos
+
+commit 4aff4b1ce81b08b9762db6ca991118c239055cd5
+Merge: 65ef858 788dc34
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 09:24:53 2020 +0200
+
+    App.js
+
+commit 65ef858387b66316960150a9c7967e4578a294e0
+Merge: 83d0730 70c34a0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 09:20:01 2020 +0200
+
+    whatever happened
+
+commit 788dc343008677cc33de19e36305ab68cd86dc6a
+Merge: 83d0730 70c34a0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 09:20:01 2020 +0200
+
+    whatever happened
+
+commit 83d0730244aacbb5fad167ba405dfd474c41aef0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Sep 8 09:17:50 2020 +0200
+
+    Estructurada pagina Ofertas
+
+commit 70c34a0d8f5f3390b5afa9602f4f0a75a74b24bc
+Author: Luis Ortuño <luis@indesan.com>
+Date:   Thu Aug 20 14:43:56 2020 +0200
+
+    desde WSL
+
+commit ca3f13841b78c1183ffc25c545b34257f7bd74d2
+Author: Luis Ortuño Molina <lortuno1@gmail.com>
+Date:   Mon Aug 17 16:04:54 2020 +0200
+
+    edicion remota
+
+commit b9c3c92896c4deb830c28d8f67e3256c95d8dd7a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 17 16:00:34 2020 +0200
+
+    prueba ssh
+
+commit ee8b081e5de31bcd20db1ba1a623781a30f284ba
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 17 15:49:38 2020 +0200
+
+    updates
+
+commit b88be8e5475391e269b6483ed33c0cca6ab445c8
+Merge: 6d630da 2d9dd8a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 17 15:45:56 2020 +0200
+
+    cambios en package-lock
+
+commit 6d630da2867db583957593f7a0e9098207e649be
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 17 15:42:49 2020 +0200
+
+    pl
+
+commit 2d9dd8a3d04ec27020b25e6ea8345d7dc76de85b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 12 18:04:26 2020 +0200
+
+    reparado tipo albaran firmado que no aparece
+
+commit 53639da23e5254354dc2a6fc341c9ba44651a3f6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 12 17:19:01 2020 +0200
+
+    idiomas en portalCliente
+
+commit 8bbe24c2d40e54c141de0bccdcd2be679c8f5938
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 12 15:29:03 2020 +0200
+
+    reparado?
+
+commit a2aceae3134ea8ffe186cf136eda3c91761b4ca8
+Merge: 2880960 2c4f048
+Author: root <root@box.indesan.com>
+Date:   Wed Aug 12 15:12:01 2020 +0200
+
+    pre-merge
+
+commit 288096014b64f3e65460f014b7be4c920d3df6fa
+Author: root <root@box.indesan.com>
+Date:   Wed Aug 12 15:10:39 2020 +0200
+
+    pre-merge
+
+commit 2c4f048579dbbd92f1983bf86fe8e4947f23be29
+Merge: 5e814d8 95a0b36
+Author: root <root@box.indesan.com>
+Date:   Wed Aug 12 13:03:02 2020 +0200
+
+    pre-portal 2
+
+commit 5e814d87065a5181bb0f67cf9bcf67fe263ae969
+Author: root <root@box.indesan.com>
+Date:   Wed Aug 12 13:00:50 2020 +0200
+
+    pre-Portal
+
+commit 95a0b365a2724937730df961dbccb0eba3515433
+Merge: aa5b2cb c76d4b1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 12 12:59:12 2020 +0200
+
+    Merge branch 'PortalCliente'
+
+commit c76d4b1166add6ab905991c35c4b01a9bcb1d7e7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 12 12:58:35 2020 +0200
+
+    PortalCliente activo
+
+commit 54819ee446c025c6a1e3ce8a683ea22f5272ad3b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Aug 11 18:45:58 2020 +0200
+
+    layout portal (unfinished)
+
+commit d7d18184f8e0b4d133e5647fab72beee65aa5294
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Aug 11 17:28:34 2020 +0200
+
+    Stop messing with bootstrap css
+
+commit 6967e04f204e8d187c27e0c20e8492b546867710
+Merge: 03b98e9 aa5b2cb
+Author: root <root@box.indesan.com>
+Date:   Tue Aug 11 15:21:24 2020 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit aa5b2cbaa76c39993b8dc8be53260b9acb86c2ac
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Aug 11 15:20:47 2020 +0200
+
+    Actualizados literales en newpass.jsx
+
+commit 883706de4f24a1db4c867a8dee701632647c61ca
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Aug 11 15:09:26 2020 +0200
+
+    iniciado Portal
+
+commit 03b98e94e6b1e1e5f882afe98a76d04549296c10
+Merge: 5d3c752 1c11682
+Author: root <root@box.indesan.com>
+Date:   Mon Aug 10 18:26:30 2020 +0200
+
+    Actualizada api
+    
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 1c116829a8de8a592ef668d0540991dbce3088a8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 10 18:26:06 2020 +0200
+
+    api point changed
+
+commit 5d3c75205b4ade4d4ef77f9dfb0631f76512fb2f
+Merge: 40fba5e ed6e62b
+Author: root <root@box.indesan.com>
+Date:   Mon Aug 10 18:24:41 2020 +0200
+
+    Implementado cambio de contraseña
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit ed6e62bace3adcbc3aa4450b40e10111a532c39a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 10 18:23:12 2020 +0200
+
+    newPass terminado
+
+commit 9be040e3a1684b16dc3b52f9bc29f3b26f88c818
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Aug 7 17:39:56 2020 +0200
+
+    Estado newpass weekend
+
+commit b4892b215ff38cddfeb19a69b4109ec0fa69658f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Aug 6 18:29:43 2020 +0200
+
+    Mensajes de error en formulario newpass
+
+commit 1e3b542a6edeb62e66e998ebdf8d77cc84ab68ba
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Aug 6 12:35:08 2020 +0200
+
+    Creados campos cambio de contraseña (y esquemas joi)
+
+commit 5441db0a9dde109614119ddf0677806a3390d76b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Aug 6 08:43:26 2020 +0200
+
+    Creacion de la ruta para cambio de contraseña
+
+commit f551e20bebb7d63c555ffe87c48193d9cd2fd4de
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Aug 5 17:45:04 2020 +0200
+
+    Preparacion para rama cambio contraseña
+
+commit 40fba5e4a48c21c498f8663098a3d5af996c0813
+Merge: 633e848 422e6ad
+Author: root <root@box.indesan.com>
+Date:   Mon Aug 3 11:52:04 2020 +0200
+
+    unfinished merge
+
+commit 422e6ad79b45ffb1fa2f0e7bd90632d9a244a66f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Aug 3 11:47:58 2020 +0200
+
+    Desactivacion precios en la web
+
+commit 633e848415985867aff06ada243fe86327a9e464
+Merge: a896f3d 053712f
+Author: root <root@box.indesan.com>
+Date:   Tue Jul 7 18:30:52 2020 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 053712fe75f9ac61482cf3f74c6ca86fbc05b2bb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jul 7 18:29:00 2020 +0200
+
+    filtrodocs
+
+commit 76997deb5f2e8bb15bfb7be49d0712cffe85970a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jul 7 16:36:01 2020 +0200
+
+    Previo a fitro Documentos
+
+commit a896f3d0a2a9193b156ebc031947ef9a621caa5d
+Merge: 3c23867 a6d3acd
+Author: root <root@box.indesan.com>
+Date:   Wed Jul 1 18:09:09 2020 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit a6d3acdaccab8a49cad01ebc6c013f41d145f633
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jul 1 18:05:40 2020 +0200
+
+    ocultada confirmacion representant
+
+commit 706d93a07d3e5c4799f9343b7fa1e024c81ebde7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jun 26 11:54:43 2020 +0200
+
+    importacion de servicios de datos"
+
+commit 3c2386785b693e5e16d4ff6c205128a2a9227caf
+Merge: 00a5c4e 1a55338
+Author: root <root@box.indesan.com>
+Date:   Fri May 22 12:35:59 2020 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 1a553388f6adfa4c082164577577fa6d4bdaae8c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri May 22 12:35:40 2020 +0200
+
+    Docview selectivo por usuario.tipoEntidad
+
+commit 00a5c4ea04cfb02e7ab6014e2ead16be9b73f81e
+Merge: 6651432 2c890b6
+Author: root <root@box.indesan.com>
+Date:   Fri May 22 11:55:25 2020 +0200
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 66514327493bac2121efe9240e284d228a8ed737
+Author: root <root@box.indesan.com>
+Date:   Fri May 22 11:53:48 2020 +0200
+
+    pj
+
+commit 2c890b63024a05e136c648d22c5693a4dcc6d163
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri May 22 11:51:09 2020 +0200
+
+    docview solo para confirmaciones y facturas
+
+commit 813dd4fa9f2fdddc7f84d5355ded4b508c7e5da5
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu May 21 12:59:52 2020 +0200
+
+    ocultar albaranes y pedios
+
+commit 9801dcd559d682a37745477f985383d93a99202f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed May 13 09:59:59 2020 +0200
+
+    Updates
+
+commit 43691136c1533ea5fe3bb282f563838a95f80490
+Merge: 0e05a6a 62537b4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Sat Mar 21 13:15:14 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 62537b4b7caee61b6b5ee3b036318c3c5072166d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 18 18:21:07 2020 +0100
+
+    Ficha Cliente
+
+commit 050f29e0923b29e7d453402e0627582221243415
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 18 12:42:37 2020 +0100
+
+    ficha cliente
+
+commit 2f81e86177fbb8495a9af191436ad8a728298a74
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 18:29:59 2020 +0100
+
+    dashCliente. API Call
+
+commit ea4b8ef9f60c78090efb02737e1ef72ecfbec2ba
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 16:59:15 2020 +0100
+
+    Componete DashCliente
+
+commit 09f24738577ab935c904ee20efe48fb911b29226
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 11:44:08 2020 +0100
+
+    Recuperacion de contraseñas 4
+
+commit 2e5bc9da15c090c6ddaa6eb3c0edaa1898680ab3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 10:27:08 2020 +0100
+
+    Recuperacion de contraseñas. literales mejorados
+
+commit 97169fe9eaa7cb4989bde9f7ccec551cb978052d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 10:16:33 2020 +0100
+
+    Recuperacion de contraseñas
+
+commit da01e0433c56ebc223a4d379153e5de4af2709c5
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 17 10:13:10 2020 +0100
+
+    Recuperacion de contraseñas
+
+commit 095d833cdaaf2551c99add6d2146f58fa204b7f9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Mar 16 18:41:09 2020 +0100
+
+    recovery. not working yet
+
+commit c5e91809e3f54c2213a70d9e21748dc2486d39b9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Mar 16 16:20:31 2020 +0100
+
+    configuracion correcta
+
+commit 1369996018304c7e5243ad5b94065bf199d98873
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Mar 16 16:18:02 2020 +0100
+
+    activacion cuenta. enlaces
+
+commit 5961cdf02b1d829871448f5ae256b6662b897039
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Mar 16 13:01:54 2020 +0100
+
+    formulario de activacion
+
+commit 5c0da68f5777412dce4f471b26fdab7523b99b60
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Mar 13 18:00:58 2020 +0100
+
+    Gestion de mensajes e error en formulario de login
+
+commit 3abb72f962b519c38291838d22c5769e4edddce2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Mar 13 13:00:32 2020 +0100
+
+    finalizada formulario de registro
+
+commit ae3a4a57d2aa5afa949d552d8a4ac90e07470f2f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Mar 12 10:10:44 2020 +0100
+
+    ruta de activacion
+
+commit b9d76b83f3d54f3664938fab223cb4f8f4f6ddb9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Mar 11 15:49:44 2020 +0100
+
+    lanRedirect
+
+commit b1e675310324e72b29ec281bdc3c163b87154b25
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Mar 10 09:16:25 2020 +0100
+
+    Seleccion de lenguaje en barra de direcciones con LanRedirect
+
+commit 0b1630775d0436956353ced952672aa5c2b25e05
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 27 18:30:05 2020 +0100
+
+    llamada a api de registro
+
+commit 9b131cda76d0653d01df2968ec669cf8ac77d45d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 27 17:45:49 2020 +0100
+
+    Renombreado formulario registro
+
+commit f3e9cf7d0118affe05f30a304e42cc2dfe6a3005
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 27 17:05:25 2020 +0100
+
+    estilizado text tipo passwords en forms
+
+commit 5d905ab3331b97d28cdd976cbb11b21ccfa0cd61
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 26 18:27:06 2020 +0100
+
+    evitado el error controlled to uncontrolled
+
+commit 0be2076def4051d83004ac5f3827feba5469f2bb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 26 18:07:07 2020 +0100
+
+    nuevos mensajes de error
+
+commit a7b16ada21cf7bb369e6555716eb0273b77bdd89
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 26 17:53:50 2020 +0100
+
+    actualizados mensajes de error en formularios en todos los idiomas
+
+commit 72b3e53cda2d988690af4c0c6a61d60e7e382012
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 18:30:28 2020 +0100
+
+    formulario de registro
+
+commit b0fc9424b6c23e2d5fbdd33306f9ead6b7cecf79
+Merge: 12efe6a 5050a37
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 13:06:26 2020 +0100
+
+    new login form 2
+
+commit 12efe6a11341937a2768beed64ea9244e9f599b3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 13:03:43 2020 +0100
+
+    new login form
+
+commit 5050a3707f57ac524e2a550df1150cce2097d4f8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 13:03:43 2020 +0100
+
+    new login form
+
+commit 073e3f064ebf0fab5c3032b1c454b8196284bd86
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 12:41:46 2020 +0100
+
+    nueva area reservada
+
+commit 10ed3d138ff1ccda78428eb307ad6b15573e796a
+Merge: 427d7c2 e174662
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 12:38:57 2020 +0100
+
+    loader success
+
+commit e174662fa14e7d3ac136c234a2a6a3da9412926e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 12:36:43 2020 +0100
+
+    Loader success!
+
+commit 427d7c23f8a92ac8c7bc13309dd95cfea7db4d88
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Feb 24 11:12:31 2020 +0100
+
+    Limpieza progressBar
+
+commit 0e05a6a80928f43275c10bed40a588c944c6c8fc
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Sat Feb 22 18:59:45 2020 +0100
+
+    borrados
+
+commit 7421d686418b7074584794ac33e9ebda240285e5
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 21 17:45:12 2020 +0100
+
+    scrollButton en colecciones
+
+commit 0d18111aaf0ec3b59525ee758d1694b3d5f639a8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 21 17:27:14 2020 +0100
+
+    implementado scroll
+
+commit 35afe7811bec96973372505a1a164cd6529cbb18
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 21 17:11:18 2020 +0100
+
+    fracaso loader
+
+commit 6164118cc75bb509ab5e31be6f4b5e36d5c6addd
+Merge: 2d440d1 b7bd383
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 20 10:41:57 2020 +0100
+
+    Merge branch 'buscador'
+
+commit b7bd383570985aa84bc8759000670fb764b66f75
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 20 10:41:29 2020 +0100
+
+    eliminados comentarios
+
+commit 652dc539e7c1282db606b41a06b8b3247e4fe6f6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 20 10:31:22 2020 +0100
+
+    añadido nombre comercial al buscador
+
+commit 2d440d18219f24b8c34373e87d873982ebdb6af0
+Merge: 044f312 ed6f973
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 19 18:30:47 2020 +0100
+
+    Merge branch 'buscador'
+
+commit ed6f97332a9dcabf3f7584c2698c4eef7bf85bc2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 19 18:30:26 2020 +0100
+
+    highlighter
+
+commit 044f312c7b17a3e89f60d9838c6ce2dec764b839
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 19 18:04:48 2020 +0100
+
+    Entrada al area de usuario directamente
+
+commit ee5afd54046d12309637ae7a658729c54aaa3c19
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 19 17:38:06 2020 +0100
+
+    buscador con filtro v.1.0
+
+commit 2fe3564f09edcb7a1d6e12b4f0813b7c2b66b71e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 14 18:31:53 2020 +0100
+
+    criterio en cliente
+
+commit 7a09d53703b60b4340c4b95fb47c8ab482a8dfe3
+Merge: c3e5c5f 0ce36b7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Feb 14 08:46:42 2020 +0100
+
+    Merge branch 'buscador' of https://github.com/Luix70/homepage into buscador
+
+commit 0ce36b7805fe91fb2d05e8146cf454f77f64bd61
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 22:58:05 2020 +0100
+
+    cambios en package.lock
+
+commit c3e5c5f2e16c678a5b51e87fc5c39ef66846cb53
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 18:28:19 2020 +0100
+
+    cambios en los literales
+
+commit beb62227158a50ddc883b899534122ff50e244e0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 18:20:24 2020 +0100
+
+    filtro por tipo de documentos implementado
+
+commit bf91c99b820b924b634540b690dc89106b2a80cd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 17:32:35 2020 +0100
+
+    Promocionado el estado del buscador a la lista de representantes
+
+commit 5be1ecd0ac9b8b5d8e741bb9292cfb5bdcf7e85c
+Merge: ee1817d 0dd8b9d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 16:35:34 2020 +0100
+
+    internacionalizacion formulario busqueda
+
+commit ee1817db33bb09323587cdc10d05eaaf18019e54
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 16:33:35 2020 +0100
+
+    internacionalizacion formulario busqueda
+
+commit 2039a80b7eff5e1d9becf82b4b80db700a93689f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 12:46:31 2020 +0100
+
+    mecanica del formulario de busqueda
+
+commit 0dd8b9d4e1c45dd00aa40ad8b42a03bd4a97f81e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Feb 13 12:46:31 2020 +0100
+
+    mecanica del formulario de busqueda
+
+commit b514aab446324ed3b04796acc0024a45b452178f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 12 18:25:34 2020 +0100
+
+    checkBoxes del buscador
+
+commit c6ad1ad3f76090d59a91341946f2a644c2053a4f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 12 17:27:18 2020 +0100
+
+    panel buscador expandible
+
+commit 4c491de50b8a67ad9934c3efc7b53a87e0776144
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Feb 11 18:25:30 2020 +0100
+
+    buscador dummy
+
+commit f1ff72b08f5f34927f92a33885cdf162043c4116
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 5 15:34:37 2020 +0100
+
+    Version Produccion Correo
+
+commit d56f034e5087360ac7953eb52988de30402c93e9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 5 15:06:57 2020 +0100
+
+    reformado el formulario de contacto
+
+commit 838728a315b7d8a723b0abb1180c2d61ab3cfc18
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Feb 5 12:34:06 2020 +0100
+
+    Formulario de contacto envia por mail
+
+commit ef6de5036d494e44f74414c48a5ec3e0ddcd5fd2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 28 17:54:33 2020 +0100
+
+    cORREccion de textos en contact.lit.json
+
+commit c9f48b30b04a8ec2c66c6b1fd03f8d8ff919d7db
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 28 17:30:46 2020 +0100
+
+    retoques
+
+commit 7526aaedf1aeb21ec8b82eff55fa4671892abad1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 28 12:10:37 2020 +0100
+
+    Eliminada ruta de scans
+
+commit 0f2428057d43662674e3b1a0b94ad5ef5ef37852
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 27 11:23:23 2020 +0100
+
+    Implementado Cookie Consent
+
+commit 0adbb3e34ecd8b67482d905c9312bf7d49818e7e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 27 11:22:24 2020 +0100
+
+    implementado Cookie Consent
+
+commit 580a505c97e96eaaba714b3fa29a666b5703c8c0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 27 10:17:39 2020 +0100
+
+    Compactado numero documento
+
+commit f680dbc3abe759c430a0b1560cd3921bdfec12b7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jan 24 18:24:08 2020 +0100
+
+    Estructura sin tablas
+
+commit 378616842d89996cf17e42c72c08dd4a750d9b1d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jan 24 15:28:40 2020 +0100
+
+    color icono usuario identificado (subatómico)
+
+commit 38904aa7e1647fb7bfec93306318d9e07e547d7b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jan 24 11:44:34 2020 +0100
+
+    deeplinking fb
+
+commit 6090cd5ac3650a3e1d1505f253c149e498c65e3c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 18:03:20 2020 +0100
+
+    a vueltas con el limite de localStorage
+
+commit 5a066eb3326e8b6b0097c6f10f9245120447e07e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 15:27:42 2020 +0100
+
+    mejoras en el componente operacion
+
+commit ecbf0ef4a1aafc0a8ae323ede95ccbc5fe407388
+Merge: df31ac0 17fda9f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 13:03:34 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit df31ac07deb01881a2da212b6f3928e76b0fd5d7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 12:20:43 2020 +0100
+
+    responsiveness operations
+
+commit 17fda9faefb746d30915c708f35b2f6ac8079d75
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 12:20:43 2020 +0100
+
+    responsiveness operations
+
+commit 16d145c82e6d1b7942f61b85db31e923ad1bf55e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 23 10:49:08 2020 +0100
+
+    responsive encabezado operacion
+
+commit 3e69661d5a35ffa10e405e286aa5dc6e5ecd1992
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 22 18:30:43 2020 +0100
+
+    descargas documentos
+
+commit 9b19961aefa8889a2492c30f027c2b607214d36e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 22 13:08:24 2020 +0100
+
+    trabajando con las fechas
+
+commit 6b03745e1919687932bad368478d1ab55382238b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 21 18:24:08 2020 +0100
+
+    remodelado listado operaciones
+
+commit 9662376175d667f95a6911c4869e93257e4ba55f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 21 12:58:27 2020 +0100
+
+    evolucion de estados2
+
+commit 5c362fee0e05dbfd7c199026d91b4acdb017e730
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 21 12:27:05 2020 +0100
+
+    evolucion de estados
+
+commit f70fcfac6b931bec13b17ba0d99b2a49fb167ed2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Jan 21 09:21:17 2020 +0100
+
+    estado pedidos colapsable
+
+commit eeded406e51002fefcfe5cb2d5cdc54254dc1343
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 18:31:28 2020 +0100
+
+    desplegable operaciones
+
+commit 2b9091bf34c58c9a7ae4f656667a1b2ff7dde146
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 18:02:55 2020 +0100
+
+    desplegable idiomas en navbar
+
+commit d7f20a4b234794bf4a36bb47d9b3b314699e7e51
+Merge: 5ef92e0 03d076d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 15:28:51 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 5ef92e077506092d90b5385a22b2e09e2b6845f6
+Merge: a32566b d44700c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 15:28:05 2020 +0100
+
+    Merge branch 'react-semantic'
+
+commit d44700c43dad71fbcec4ba944833fb950d735f3a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 15:27:14 2020 +0100
+
+    Nuevo menu Idiomas
+
+commit 03d076da662350b47e08779e575889c8e99a4bb9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 20 09:48:21 2020 +0100
+
+    config vscode
+
+commit e17aca8f15200a72175146f349581a83c43f64e4
+Merge: b6aabde a32566b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Sun Jan 19 14:06:39 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit a32566bd40f8d65bfdd153e35ef6ebbd2f345c7c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jan 17 17:58:19 2020 +0100
+
+    cambios en literales
+
+commit 068ca2108b42fb49a8a9a8905415710696c6ab87
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Jan 17 08:46:16 2020 +0100
+
+    reticaas operaciones
+
+commit f17cb4a3a2567f270ee2150eda548807aa29bf5c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 16 12:16:08 2020 +0100
+
+    multilenguaje area reservada
+
+commit 2750b0232e0d75e2d5adef7807567e0885433cb4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Jan 16 09:17:38 2020 +0100
+
+    test actualizacion
+
+commit 5c0b496d21d3463538e7b00f05a24bcb8c98b08a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 15 18:28:38 2020 +0100
+
+    reestilado de articulos
+
+commit b0c93b1b59fd32756c006fa5b23e74b1ad8d7a13
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 15 17:14:43 2020 +0100
+
+    elimniado el tabulado del enc de cliente
+
+commit cdab934c660a238f5542fbaca4875b5fefa70985
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 15 16:59:00 2020 +0100
+
+    Neutralizado css antiguo
+
+commit 4df039075294badb8f9dda9214608b082b3e74a8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Jan 15 15:46:33 2020 +0100
+
+    solucionado bug listgroup page selector
+
+commit b6aabde1e84adae6630580434636f346ea024abe
+Merge: bdebc6f 5a681b7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Jan 6 21:01:01 2020 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 5a681b779402d604ea5c46015664cfba8169f6b9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 20 18:24:29 2019 +0100
+
+    area cliente. filtro por representantes terminado
+
+commit 35d754083f7aea675e4dcb617abc4e4e8f1adc35
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 20 17:53:35 2019 +0100
+
+    Selector de representantes
+
+commit ee974596c1e0a577b75e73aa5474845002988f3c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 18:25:03 2019 +0100
+
+    cambios en el area reservada
+
+commit c3d3511819f2210489b672e1291b5e97338a2500
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 17:32:17 2019 +0100
+
+    modificaciones area reservada
+
+commit 9d588554463a0531b26d94ba61c28f47cd9ccb41
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 17:09:33 2019 +0100
+
+    comienzo reorganizacion area cleintes
+
+commit bc215eabcb8ec4afc1d8363a027c5a144a1c3365
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 16:46:48 2019 +0100
+
+    Modificada pagina de contacto
+
+commit a9586018cc4f217ec41535847e31298934454629
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 12:55:55 2019 +0100
+
+    añadidos videos
+
+commit b8e62cd919bf8eea689da0d468b21564983ec977
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 11:58:06 2019 +0100
+
+    corregido archivo de imagenes
+
+commit 96ddaa811194f36caa9407a397089ed085e38dba
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 11:35:48 2019 +0100
+
+    Tecnicos en pseudoinglés
+
+commit cd01a4d664d4675191e79102b06dd87526fe2586
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 11:28:41 2019 +0100
+
+    traducidas y salvaguardadas todas las colecciones
+
+commit c6bf47cae0bea949fbbdd228672dc2202eb0925c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 11:19:57 2019 +0100
+
+    traduccion Kepler
+
+commit 7f81e3be0fca56c4f0e0f14b538f1597377e47e9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 10:14:51 2019 +0100
+
+    Traducida Nordic
+
+commit dd27dc5047446d445024c7c2b79ee105f4abae6d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 19 09:41:20 2019 +0100
+
+    traducida col geo
+
+commit cf601ef4cff803888e9b8753172627125e8d7fc8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 18:13:20 2019 +0100
+
+    traducida col eco
+
+commit 1d74addeb87b274ceaf923a4c1f8ea4dd11586d5
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 17:30:57 2019 +0100
+
+    traducidos aura y cross
+
+commit 43f5c6b434eee10fc6e73f9420fd4278fc7fab36
+Merge: c85eb81 4083fdd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 16:41:00 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit c85eb81b4b1ce5e5f85c0ad211bf15ec1b344160
+Merge: cdc2f5c 9442e93
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 16:20:35 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 4083fdd970446e824a4b0f2c58d1eeae1ae82c85
+Merge: cdc2f5c 9442e93
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 16:20:35 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit cdc2f5c96c31d48eef4895546b76a58fdb0cf758
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 16:17:37 2019 +0100
+
+    armonia.json
+
+commit 9442e931faab88708e0b0cd6b089befd5517a0b0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 16:17:37 2019 +0100
+
+    armonia.json
+
+commit ea4b0665c164f1b9ac637220633769e525a3f7b9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 18 12:28:33 2019 +0100
+
+    minor changes
+
+commit 6c39e45858fb2a99062a695997e64e2590e86ef0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 17 09:38:32 2019 +0100
+
+    Mensaje del link en contacto.jsx localizado
+
+commit 96c83b823371040060a7b825439b2375049d9823
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 16 16:29:48 2019 +0100
+
+    Introduccion de video en seccionMedia.jsx
+
+commit e191f0bacf9681d94c03eace55f82e92eafae7b1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 16 13:00:18 2019 +0100
+
+    añadido abrir en google maps
+
+commit 02dcac8fd035d8675f0da405b8d4cebeddf2003d
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 16 12:27:42 2019 +0100
+
+    borradas vistas estaticas
+
+commit bdebc6f7552b2ec10bb626d2ab1bf85e8593e07f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Sat Dec 14 10:28:27 2019 +0100
+
+    updated
+
+commit 3b336ba78287cbe51ca42e78a4c95509199fa2bc
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 17:41:39 2019 +0100
+
+    unificado contacto/empresa
+
+commit 17ee00c3327a11adc2c7c946ca5d85537132ca47
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 16:51:38 2019 +0100
+
+    Fin estilado contacto
+
+commit d0e1ab22c1091b2ca6e6a35e70700cd0a9231d92
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 13:06:05 2019 +0100
+
+    estilando el form de contacto
+
+commit 2765b9f2cbf4d0a687ed11713a562f377ddc750e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 12:13:24 2019 +0100
+
+    incrustado mapa de google
+
+commit cfcc2ada07ecfc0c17fb4cce8c53705d28bac595
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 10:22:23 2019 +0100
+
+    Añadida direccion a pagina de contacto
+
+commit 709183dab6dccf6df2ca8f1361a68ae569923bb2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Dec 13 09:51:09 2019 +0100
+
+    terminado mecanica formulario de contacto
+
+commit 6bc0a6ea337aa7be3be096418d7b69cd767b2641
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 12 12:59:06 2019 +0100
+
+    actualizado footer con fb
+
+commit b666230d02509af8d4ee62cbb36ce052fc4b9997
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 18:26:31 2019 +0100
+
+    Cambiados los meta-tags
+
+commit f16e2c9578bc711c785a55cfa33224c91e690747
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 17:56:53 2019 +0100
+
+    implementado Helmet. mejor
+
+commit 57a7bfaf0b83ed8f7e4974a2d63c6ce98315f9d1
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 17:43:26 2019 +0100
+
+    Helmet no funciona en CSR
+
+commit 9cb0cfcf5469fa76558086bda386a77f223170ef
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 17:27:54 2019 +0100
+
+    implementado Helmet
+
+commit b66baf9c7a917f0fae0d2ca2be9cd5ba2ba03e3c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 17:13:56 2019 +0100
+
+    añadido react-device-detect y MobileView
+
+commit bcaa180b4d27d466bddb682397db72419685193f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 16:44:16 2019 +0100
+
+    social
+
+commit 1ed264b31f27ed919627d154e608aaf47af54888
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 12:16:06 2019 +0100
+
+    deshecho meta-tags
+
+commit 4b1b53d81c39dc65fe1166b43aeb7c281bd4d3e4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 11 08:57:47 2019 +0100
+
+    añadidos metatags
+
+commit 71e36c819aca045968e585994dd33638059dd81c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 10 18:30:38 2019 +0100
+
+    componente ColeccionMetaTags
+
+commit 7e784c679270e622d3b98cc670821c24ade82e3e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 10 12:46:58 2019 +0100
+
+    Propagacion Modo edicion
+
+commit 758167dd573ca48e138a7ec0d3011939e7ffb8d0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 9 16:07:12 2019 +0100
+
+    Añadido modo edit
+
+commit 3614d8d39e7bda7c445e68fc83cafbf9bcbe84bb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 9 11:07:29 2019 +0100
+
+    ultimas modificaciones en NavBar
+
+commit 34c921bb043236bfd8c8b0b5a2590c3fc7952f97
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 9 10:40:50 2019 +0100
+
+    text-capitalize en colecciones
+
+commit af7126b5cce5bba093d0099cb8b4a2e614ef5287
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 9 10:35:30 2019 +0100
+
+    dropdow de colecciones
+
+commit 8753f81637bd99a8759d764c36c91938048f8432
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 9 09:24:39 2019 +0100
+
+     json coleccion geo
+
+commit 0f2b9216f3b7fd84be474fabe17425ca7bcca8df
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 5 18:32:29 2019 +0100
+
+    Añadido json de colecciones
+
+commit a286cdafe2b35762e62653ca6a87b474235a0a75
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 5 16:47:49 2019 +0100
+
+    Tweak css
+
+commit ca04136ac3516535015df9c60375ae9c7c55ec48
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 5 12:55:40 2019 +0100
+
+    reestilados los articulos y las descargas
+
+commit e17ee5fadfb18d052a301258decb6e43198525e5
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 5 11:49:48 2019 +0100
+
+    mend
+
+commit 04420837e849291a166d6abf22b36daf3b31b95a
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Dec 5 10:41:17 2019 +0100
+
+    completado estilo articulo.jsx
+
+commit 108489ae2c08f58ffc8e74834c36d51283ab5a3c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 4 18:29:44 2019 +0100
+
+    empezado el diseño del componete articulo
+
+commit 381c09b0bafeb42d63b3190801bb9ce37f94938e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Dec 4 09:39:55 2019 +0100
+
+    subcomponentes
+
+commit d321001f847c202d8919e89e7caf9d0c080061a0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 18:23:41 2019 +0100
+
+    Seccion Media
+
+commit 6375b2b6e67738ffd4122efa95c8fb207edb3db8
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 18:07:04 2019 +0100
+
+    esquematizado Seccion Media
+
+commit 4a1dca59e3deba0f04145ef3f7b0c644cf5ac24e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 17:15:42 2019 +0100
+
+    Esquematizada seccin Grupo de articulos
+
+commit 2d3e3cc58c6d6dd6b96957be610acb2f3898380f
+Merge: 6101e71 7af2e5c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 16:31:34 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 6101e71e13542c53754a92fcde1fcd9f8c3b90c7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 16:31:06 2019 +0100
+
+    iniciado el componente secciones
+
+commit 8cf797bb555092b0f3849c203bf946d2ae010155
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Dec 3 09:36:07 2019 +0100
+
+    ajustado tamaño logo
+
+commit 466d2e6c44b048b466c175e8db82a6836502ec31
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 2 18:15:12 2019 +0100
+
+    variado web.config para reconocer nombres de archivo con espacios
+
+commit 7af2e5cd72689c3f7713953c94d23bebeccbfe75
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 2 18:15:12 2019 +0100
+
+    automatizada la copia de web.config en el entorno de desarrollo
+
+commit 284321e41a487b75f6e10c260f23c83291ea572e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Dec 2 17:24:03 2019 +0100
+
+    Añadido web.config para compatibilidd IIS y react-router-dom
+
+commit 6b2b8552d74842f3e2870cfde4f27013a4878164
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 29 18:00:21 2019 +0100
+
+    renombrado de imagenes
+
+commit fb88b77eb9aae94dc0f690449bffacaffbd918e0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 29 10:48:02 2019 +0100
+
+    Añadidos estilos al área e cliente
+
+commit 331f621bb98d88bde77701fd957bb68ccded52fa
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 18:30:51 2019 +0100
+
+    otras colecciones optimizadas
+
+commit 508c5b96e42f3e1359f40df94a973d5f8de8447c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 18:15:18 2019 +0100
+
+    otras colecciones optimizadas
+
+commit f572bba7376f044510e9762b6745e508114666f7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 16:43:43 2019 +0100
+
+    centrado de Login Form
+
+commit c086b1ad32790fa8a83b5f16b8f1448651b03495
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 12:26:10 2019 +0100
+
+    Optimizadas varias colecciones
+
+commit 1453e7150ba12f00c16176c5cb007ccd0c09348e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 12:10:02 2019 +0100
+
+    Optimizadas elite greta geo hydra
+
+commit 67527cea7679f5b32f8d96139eb342cc61e084aa
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 11:47:43 2019 +0100
+
+    Optimizadas cross demos y eco
+
+commit 8cdfd6961f5f74808bcc08a4c7116322f3eaa9bb
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 11:05:40 2019 +0100
+
+    Optimizadas activa armonia y box
+
+commit 0804df6f26095303586cddcbb4b5e24ea39168b4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 28 09:12:13 2019 +0100
+
+    cambiadas referencias a folder common
+
+commit bdc76d60018434231c9f434d4c3fe46ca6518aa7
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 12:45:31 2019 +0100
+
+    agustados margenes barra de navegacion
+
+commit e5a000a75932aef654e84459fc6ad5d64569d6c3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 12:13:49 2019 +0100
+
+    Implementado logout
+
+commit 118718c500a451fc83326d5c30a0221d265aa86b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 12:07:26 2019 +0100
+
+    implementado login
+
+commit a4c1863e66d48d4b96746601e491fc5a58acd6c9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 10:14:02 2019 +0100
+
+    Separado Custom Css
+
+commit 1ab01d75341525bdb2225bb4c568e226060460d0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 09:59:29 2019 +0100
+
+    reorganizados componetnes
+
+commit 38db79f45069669e76f31d90a00ddb436d1e9793
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 09:55:53 2019 +0100
+
+    Renombrada  randomCols como randomArray
+
+commit d9eb0107d1e52d418cd29b8efb597db701d78614
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 09:53:04 2019 +0100
+
+    Movida randomCols a utils
+
+commit 033540947ec32c5917bca4944e4a22baf7375bc6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 09:49:37 2019 +0100
+
+    instaladas utilidades
+
+commit 61df70f093108531e7f10e10e533df849157e710
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 27 09:35:22 2019 +0100
+
+    importados componentes del area reservada
+
+commit 5e150fe885b36cbb60494f971325457c4f3033c6
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 26 11:26:57 2019 +0100
+
+    ajustada visualizacion pantalla principal
+
+commit 8f4f3e3dfd5598d43052925735e5b173c671a419
+Merge: 3ebbdc3 bfc8fc9
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 18:33:32 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 3ebbdc38ef3f0f9230925cd8697e9b28f8b1f3f2
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 18:24:59 2019 +0100
+
+    ajustadas rutas Thumbs
+
+commit bfc8fc9315e4842bbe9de8b57606f23dd63f2c59
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 18:24:59 2019 +0100
+
+    ajustadas rutas Thumbs
+
+commit bd5eb23da5c4635092edef5e2d2c1618f5587901
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 17:55:53 2019 +0100
+
+    Finalizada generacion de thumbs
+
+commit d422c0c7dbc23a9d799bf8d00fa2c0d67bd1a7a4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 17:41:54 2019 +0100
+
+    Thumbs lg
+
+commit 3f7b528d0e25ef4efe57a9404908e3fb5678df76
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 17:30:33 2019 +0100
+
+    Thumbs XL
+
+commit 7e6f7b4676915d5be2d9960fce3c0d88ab1f8a41
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 16:57:47 2019 +0100
+
+    Thumbs 4k
+
+commit 0ae09f1003d34b4c19d7fa41436caac7edfcac4e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 16:15:37 2019 +0100
+
+    Comienzo nuevos iconos
+
+commit 8841a15ebdfe02262879e8d7445e7cc2d1414139
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 13:00:06 2019 +0100
+
+    deteccion windowWidth y windowHeight
+
+commit 97101e4e04c7d14c8802d54785bca9ae3da50b1f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 12:20:38 2019 +0100
+
+    incorporado react-toastify (fullscreen.jsx)
+
+commit b797fe5a1a2975cd8c6adfcd2a7e8d7e8bac9f84
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 11:24:21 2019 +0100
+
+    recuperacion idioma del navegador
+
+commit 48327cf7c6a78e4b5b67c9dcb7e2abd4ac7f69db
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 22 10:52:50 2019 +0100
+
+    fullscreen terminado con icono descarga
+
+commit 385ea9fd7097f3e9e366556daa6e57b0b082a734
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 21 18:33:29 2019 +0100
+
+    Fullscreen iniciado
+
+commit 13c48870dbf66511564b50674b685d5bafbfb338
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 21 17:03:20 2019 +0100
+
+    slider de articulos
+
+commit 7be12c2892c23cd570cb00dd2b57636200c7d35f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 21 12:46:58 2019 +0100
+
+    rndomizada la galeria de colecciones
+
+commit 0c97654783b981aae20b014c2d706b0258e73d92
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 21 08:40:55 2019 +0100
+
+    añadir interactividad al logo
+
+commit 82745674c4544a3bf6c4ab3a49a78c42b61d92dd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 19 12:27:31 2019 +0100
+
+    creados thumbnails
+
+commit 2933157660b4f564b2a1b646ac292573faf4bb04
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 19 08:43:23 2019 +0100
+
+    vuelta a la normalidad
+
+commit 4e18cd8cd23ad7a67473d89042c725bf6132441c
+Merge: b4f7af4 809f218
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 19 08:39:10 2019 +0100
+
+    Merge branch 'master' of https://github.com/Luix70/homepage
+
+commit 809f218679ba1d35de93d7df47d74d0fb12d55b4
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 19 07:59:34 2019 +0100
+
+    fucking json
+
+commit b4f7af496205d508540a057212f57ffc1a5b31b3
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 17:46:29 2019 +0100
+
+    t "Revert "alineados idiomas a la derecha""
+    
+    This reverts commit 3805a1531f3dca0ae5cae7c34d7b22f2a72ab537.
+
+commit 3805a1531f3dca0ae5cae7c34d7b22f2a72ab537
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 15:56:36 2019 +0100
+
+    Revert "alineados idiomas a la derecha"
+    
+    This reverts commit f7a80f484fe75a6e36c7441afb01e43e3c1b0f4e.
+
+commit f7a80f484fe75a6e36c7441afb01e43e3c1b0f4e
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 12:24:43 2019 +0100
+
+    alineados idiomas a la derecha
+
+commit cbda43797529ce451d5f9d322f47e68c74808196
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 12:11:40 2019 +0100
+
+    menu auto collapse
+
+commit 12a5e7558b9e69b566077eed91580f61d9587349
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 11:50:42 2019 +0100
+
+    idiomas en Coleccines y Slider
+
+commit d2d0fe327a42e522461db3a4f88c38625ae3e361
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 10:48:37 2019 +0100
+
+    pasado parametro idioma a los componentes del Switch
+
+commit e02e704f193cb3d0d199032e5572ef63c5c5b868
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Mon Nov 18 10:18:06 2019 +0100
+
+    enu idiomas en navBar
+
+commit c0b852cafe128435d2d2e87c5de84292128b3aed
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 15 12:57:41 2019 +0100
+
+    eliminados videos
+
+commit 647e18e6e94207a395dee6e0de7382e0ff1b726f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 15 10:26:50 2019 +0100
+
+    vamos con todo
+
+commit 2c87dcd37a2522834a22c2bf15570da335389b7c
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Fri Nov 15 10:24:17 2019 +0100
+
+    eliminadas las imagenes
+
+commit 4eb841a2c5471f31e53ef49c75dc3fb77109cdd0
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 14 18:31:04 2019 +0100
+
+    mejoras en css
+
+commit be9fe7e24f732ab219938d3c895468648fefe5fd
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 14 13:00:38 2019 +0100
+
+    minor
+
+commit f38614f797f12bd26046701c5c2829bc1a267729
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 14 12:25:27 2019 +0100
+
+    Logo en el navBar
+
+commit d4ebd366117b22c9b71187538339229eb0c4d18f
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 14 12:05:44 2019 +0100
+
+    finalizado nuevo layout
+
+commit ed36f423b7aafb84a845783453c8ea7380ab43ef
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Thu Nov 14 10:23:36 2019 +0100
+
+    mas o menos como quiero
+
+commit fc225ea0faf79892581aeabec7dd06e9da672f93
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 13 23:02:39 2019 +0100
+
+    retoques css
+
+commit bc34d3f4b7db67f7eaf82ce366549a94b5534571
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 13 18:52:19 2019 +0100
+
+    working on collections·
+
+commit b4a29b2dcc58216a91b13fe5b236d1385bdc0e6b
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Wed Nov 13 17:57:39 2019 +0100
+
+    extraido el servicio de datos
+
+commit 97edebec966e48ff6c067f29f7aa5a78ab725768
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 12 17:32:26 2019 +0100
+
+    diseñado el slider
+
+commit e85f26ad88103b3d993c0dd0f8fb1b93efdaf031
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 12 11:49:32 2019 +0100
+
+    Implementado Navbar y footer
+
+commit 46399d93044eaa542e220fe22dfb0be914d06c31
+Author: Luix70 <lortuno1@gmail.com>
+Date:   Tue Nov 12 10:16:54 2019 +0100
+
+    Initial commit from Create React App
