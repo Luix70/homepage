@@ -59,7 +59,7 @@ const CollectionSlider = props => {
                 </h4>
               </div>
 
-              <div className="carousel-caption d-sm-inline-block semitrans rounded px-5 text-danger">
+              <div className="carousel-caption d-sm-inline-block semitrans rounded px-3 ">
                 {(aspectRatio > 1 && windowHeight > 399) ||
                 (aspectRatio <= 1 && windowHeight > 500) ? (
                   <p className=" text-dark font-italic">{col.desc[lan]}</p>

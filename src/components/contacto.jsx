@@ -122,9 +122,9 @@ class Contacto extends Form {
             </div>
           </div>
         </div>
-        <div className="col-12   m-0 p-0 px-3 mb-5">
+        <div className="col-12   m-0 p-0 px-3 mb-3">
           <a
-            className="pb-0 mx-0 px-0  btn btn-link"
+            className="pb-0 ml-2 px-0  btn btn-link"
             href="https://www.google.com/maps/place/Indesan,+S.L./@38.5971805,-1.0955072,17z/data=!4m5!3m4!1s0xd63fcf996d48fdd:0x7bdf775feba5bc57!8m2!3d38.5971805!4d-1.0933185"
             target="_blank"
             rel="noopener noreferrer"
