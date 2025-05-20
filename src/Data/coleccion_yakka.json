@@ -1,105 +1,92 @@
 [{
   "_id": {
-    "$oid": "64d01234abcd1234567890ef"
+    "$oid": "681cd68ff8cccb30d28d3a6c"
   },
-  "mod": "anas",
-  "thumbnail": "Anas_tn.jpg",
+  "mod": "yakka",
+  "thumbnail": "Yakka_tn.jpg",
   "__v": 0,
   "activa": true,
   "captions": {
-    "es": "Colección Anas",
-    "en": "Anas Collection",
-    "fr": "Collection Anas",
+    "es": "Retorno a las Raíces",
+    "en": "Back to the roots",
+    "fr": "Le Retour aux Racines",
     "_id": {
       "$oid": "64d01234abcd1234567890f0"
     }
   },
   "desc": {
-    "es": "Mesas de diseño moderno con estructura robusta y acabados de alta calidad.",
-    "en": "Modern design tables with a robust structure and high-quality finishes.",
-    "fr": "Tables au design moderne avec une structure robuste et des finitions de haute qualité.",
+    "es": "Yakka es una mesa elegante con base de acero y tapa extensible, disponible en porcelánico, cristal o madera. Su diseño rinde homenaje a nuestras raíces.",
+    "en": "Yakka is an elegant table with a steel base and an extendable top, available in ceramic, glass, or wood. Its design pays tribute to our historical origins",
+    "fr": "Yakka est une table élégante avec un piètement en acier et un plateau extensible, disponible en céramique, verre ou bois. Son design rend hommage à nos origines",
     "_id": {
       "$oid": "64d01234abcd1234567890f1"
     }
   },
   "tags": {
-    "es": "Mesas extensibles",
-    "fr": "Tables extensibles",
-    "en": "Extendable tables"
+    "es": "Mesas extensibles. Tapa tonel. Madera o Porcelánco",
+    "fr": "Tables extensibles. Plateau en tonneau. Bois ou céramique",
+    "en": "Extendable tables. Barrel-shaped top. Wood or Ceramic"
   },
   "tec_thumbnail": "tec_thumbnail.JPG",
   "secciones": [
     {
       "tipo": "grupo",
       "titulo": {
-        "es": "MESAS DE COMEDOR ANCHO 90 Y 100",
-        "en": "DINING TABLES. WIDTH: 90 OR 100 CM",
-        "fr": "TABLES DE SALLE À MANGER LARGEUR 90 OU 100"
+        "es": "MESAS DE COMEDOR ANCHO 94 Y 100",
+        "en": "DINING TABLES. WIDTH: 94 OR 100 CM",
+        "fr": "TABLES DE SALLE À MANGER LARGEUR 94 OU 100"
       },
       "articulos": [
         {
-          "cod": "3090",
+          "cod": "790",
           "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 90 x 76 # (Abierta 210 x 90)",
-            "en": "1x70 cm EXTENSION # 140 x 90 x 76 Table # (Extended 210 x 90)",
-            "fr": "1 RALLONGE DE 70 # Fermée: 140 x 90 x 76 # (Ouverte: 210 x 90)"
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 94 x 76 # (Abierta 210 x 94)",
+            "en": "1x70 cm EXTENSION # 140 x 94 x 76 Table # (Extended 210 x 94)",
+            "fr": "1 RALLONGE DE 70 # Fermée: 140 x 94 x 76 # (Ouverte: 210 x 94)"
           },
           "imagenes": [
-            "3090_2_dim.svg",
-            "3090_3_dim.svg",
-            "3090_4_dim.svg"
+            "790_2_dim.svg",
+            "790_3_dim.svg",
+            "790_4_dim.svg"
           ]
         },
         {
-          "cod": "3091",
+          "cod": "791",
           "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 90 x 76 # (Abierta 230 x 90)",
-            "en": "1x70 cm EXTENSION # 160 x 90 x 76 Table # (Extended 230 x 90)",
-            "fr": "1 RALLONGE DE 70 # Fermée: 160 x 90 x 76 # (Ouverte: 230 x 90)"
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 94 x 76 # (Abierta 230 x 94)",
+            "en": "1x70 cm EXTENSION # 160 x 94 x 76 Table # (Extended 230 x 94)",
+            "fr": "1 RALLONGE DE 70 # Fermée: 160 x 94 x 76 # (Ouverte: 230 x 94)"
           },
           "imagenes": [
-            "3091_2_dim.svg",
-            "3091_3_dim.svg",
-            "3091_4_dim.svg"
+            "791_2_dim.svg",
+            "791_3_dim.svg",
+            "791_4_dim.svg"
           ]
         },
         {
-          "cod": "3091+",
-          "desc": {
-            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 100 x 76 # (Abierta 230 x 100)",
-            "en": "1x70 cm EXTENSION # 160 x 100 x 76 Table # (Extended 230 x 100)",
-            "fr": "1 RALLONGE DE 70 # Fermée: 160 x 100 x 76 # (Ouverte: 230 x 100)"
-          },
-          "imagenes": [
-            "3091+_2_dim.svg",
-            "3091+_3_dim.svg",
-            "3091+_4_dim.svg"
-          ]
-        },
-        {
-          "cod": "309B+",
+          "cod": "792",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 x 76 # (Abierta 250 x 100)",
             "en": "1x70 cm EXTENSION # 180 x 100 x 76 Table # (Extended 250 x 100)",
             "fr": "1 RALLONGE DE 70 # Fermée: 180 x 100 x 76 # (Ouverte: 250 x 100)"
           },
           "imagenes": [
-            "309B+_2_dim.svg",
-            "309B+_3_dim.svg",
-            "309B+_4_dim.svg"
+            "792_2_dim.svg",
+            "792_3_dim.svg",
+            "792_4_dim.svg"
           ]
         },
         {
-          "cod": "309C+",
+          "cod": "793",
           "desc": {
             "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 x 76 # (Abierta 270 x 100)",
             "en": "1x70 cm EXTENSION # 200 x 100 x 76 Table # (Extended 270 x 100)",
             "fr": "1 RALLONGE DE 70 # Fermée: 200 x 100 x 76 # (Ouverte: 270 x 100)"
           },
           "imagenes": [
-            "309C+_2_dim.svg",
-            "309C+_3_dim.svg",
-            "309C+_4_dim.svg"
+            "793_2_dim.svg",
+            "793_3_dim.svg",
+            "793_4_dim.svg"
           ]
         }
       ]
@@ -107,9 +94,9 @@
     {
       "tipo": "tecnico",
       "titulo": {
-        "es": "INFORMACIÓN TÉCNICA. MESAS ANAS",
-        "en": "TECHNICAL INFO. ANAS TABLES",
-        "fr": "DÉTAILS. TABLES ANAS"
+        "es": "INFORMACIÓN TÉCNICA. MESAS YAKKA",
+        "en": "TECHNICAL INFO. ANAS YAKKA",
+        "fr": "DÉTAILS. TABLES YAKKA"
       },
       "items": [
         {
@@ -375,23 +362,23 @@
             "fr": "Fiche Technique"
           },
           "archivo": {
-            "es": "Tecnico_anas_es.pdf",
-            "en": "Tecnico_anas_en.pdf",
-            "fr": "Tecnico_anas_fr.pdf"
+            "es": "Tecnico_yakka_es.pdf",
+            "en": "Tecnico_yakka_en.pdf",
+            "fr": "Tecnico_yakka_fr.pdf"
           },
           "loginRequired": true,
           "comun": false
         },
         {
           "nombreDocumento": {
-            "es": "Catálogo Anas",
-            "en": "Anas Catalog",
-            "fr": "Catalogue Anas"
+            "es": "Catálogo Yakka",
+            "en": "Yakka Catalog",
+            "fr": "Catalogue Yakka"
           },
           "archivo": {
-            "es": "cat_anas.pdf",
-            "en": "cat_anas.pdf",
-            "fr": "cat_anas.pdf"
+            "es": "cat_yakka.pdf",
+            "en": "cat_yakka.pdf",
+            "fr": "cat_yakka.pdf"
           },
           "loginRequired": false,
           "comun": false
