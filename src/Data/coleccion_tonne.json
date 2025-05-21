@@ -1,0 +1,392 @@
+[{
+  "_id": {
+    "$oid": "682c34f1b759d254be5c8278"
+  },
+  "mod": "tonne",
+  "thumbnail": "tec_thumbnail.JPG",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "El dominio de las ideas sobre la materia",
+    "en": "The Power Ideas over Matter",
+    "fr": "Le pouvoir des Idées sur la Matière",
+    "_id": {
+      "$oid": "5c53fee88a2312811016da5b"
+    }
+  },
+  "desc": {
+    "es": "Estructura minimalista de gran robustez que ofrece al usuario unas superficies de cristal, madera o cerámica y alma de metal. La combinacion perfecta de los elementos.",
+    "en": "Minimalist structure of great robustness that offers the user glass, wood or ceramic surfaces and metal soul. The perfect combination of the elements.",
+    "fr": "Structure minimaliste d'une grande robustesse offrant aux utilisateurs des surfaces en verre, en bois ou en céramique et une âme en métal. La combinaison parfaite des éléments.",
+    "_id": {
+      "$oid": "5c53fee88a2312811016da5b"
+    }
+  },
+  "tags": {
+    "es": "Tapa cristal, porcelánico o madera. Haya o Roble. Ancho 94 y 100",
+    "en": "Tabletop in glass, ceramic or wood. Oak or Beechwood. Width 94 and 100",
+    "fr": "Plateau verre, céramique ou plaqué bois. Structure en hêtre ou chêne. Largeur 94 et 100"
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de Comedor. Ancho 94 y 100",
+        "en": "Dinner tables. Width 94 and 100 ",
+        "fr": "Tables de salle à manger. Largeur 94 et 100"
+      },
+      "articulos": [
+        {
+          "cod": "990",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 140 x 94 # (Abierta 210 x 94)",
+            "en": "70 cm EXTENSION # 140 x 94 cm # (210 x 94 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 140 x 94 # (Ouverte: 210 x 94 )"
+          },
+          "imagenes": [
+            "990_1_dim.svg",
+            "990_2_dim.svg",
+            "990_3_dim.svg"
+          ]
+        },
+        {
+          "cod": "991",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 160 x 94 # (Abierta 230 x 94)",
+            "en": "70 cm EXTENSION # 160 x 94 cm # (230 x 94 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 160 x 94 # (Ouverte: 230 x 94 )"
+          },
+          "imagenes": [
+            "991_1_dim.svg",
+            "991_2_dim.svg",
+            "991_3_dim.svg"
+          ]
+        },
+        {
+          "cod": "992",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 180 x 100 # (Abierta 250 x 100)",
+            "en": "70 cm EXTENSION # 180 x 100 cm # (250 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 180 x 100 # (Ouverte: 250 x 100 )"
+          },
+          "imagenes": [
+            "992_1_dim.svg",
+            "992_2_dim.svg",
+            "992_3_dim.svg"
+          ]
+        },
+        {
+          "cod": "993",
+          "desc": {
+            "es": "1 EXTENSIBLE DE 70 # Mesa de 200 x 100 # (Abierta 270 x 100)",
+            "en": "70 cm EXTENSION # 200 x 100 cm # (270 x 100 extended)",
+            "fr": "1 RALLONGE DE 70 cm # Fermée: 200 x 100 # (Ouverte: 270 x 100 )"
+          },
+          "imagenes": [
+            "993_1_dim.svg",
+            "993_2_dim.svg",
+            "993_3_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "MESAS DE CENTRO",
+        "en": "Coffee Tables",
+        "fr": "TABLES BASSES"
+      },
+      "articulos": [
+        {
+          "cod": "99E",
+          "desc": {
+            "es": "MESA DE CENTRO 115 x 65 x 40 # Elevable a 58",
+            "en": "LIFT-TOP TABLE 115 x 65 x 40 # RAISED: 58",
+            "fr": "TABLE BASSE 115 x 65 x 40 # RELEVABLE à 58"
+          },
+          "imagenes": [
+            "99E_1_dim.svg",
+            "99E_2_dim.svg",
+            "99E_3_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "Información Técnica",
+        "en": "TECHNICAL INFO",
+        "fr": "Détails"
+      },
+      "items": [
+        {
+          "es": "PATAS EN MADERA DE HAYA. Tapa en tablero de fibras chapado.",
+          "en": "Legs made of beech wood. Top made of veneered MDF board ",
+          "fr": "Pieds en chêne massif (vernis) ou hêtre massif (laqués). Plateau en panneau de fibres plaqué bois (vernis) ou melamine (laqués)."
+        },
+        {
+          "es": "Apertura mediante bastidor con guías de aluminio anodizado, con patines de acero y rodamientos de nylon",
+          "en": "Opening by ball-bearing aluminum runners",
+          "fr": "Ouverture de la table par glissières télescopiques en aluminium anodisé avec roulements de nylon et acier."
+        },
+        {
+          "fr": "Pour les options “Verre” et “Céramique Allonge Bois” les rallonges seront en panneau MDF mélaminé et laqué en couleur mat, assorties au plateau.",
+          "es": "Las mesas de cristal o porcelánico llevarán extensibles lacados en mate a juego de la tapa.",
+          "en": "In tables with glass or ceramic tops, extensions will be lacquered matte matching the top."
+        },
+        {
+          "fr": "Il y a des roues cachées dans les pieds (côté rallonges) pour faciliter l’ouverture.",
+          "es": "Ruedas ocultas en las patas de la parte extensible.",
+          "en": "Hidden wheels in the legs of the moveable side of the table"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "Opciones Adicionales",
+        "en": "Additional options",
+        "fr": "OPTIONS SUPPLÉMMENTAIRES"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Mesas de Comedor",
+            "en": "Dining tables",
+            "fr": "SALLE À MANGER"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "TABLE FIXE (sans allonges)",
+              "es": "MESA FIJA (sin extensibles)",
+              "en": "Fixed length table (no extensions)"
+            },
+            {
+              "fr": "",
+              "es": "PATAS MADERA DE ROBLE",
+              "en": "Legs in oak wood"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Mesas de Centro",
+            "en": "Coffee tables",
+            "fr": "TABLE BASSE"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "es": "Juego de cuatro ruedas",
+              "en": "Set of Four wheels",
+              "fr": "ENSEMBLE 4 ROUES"
+            },
+            {
+              "fr": "",
+              "es": "PATAS MADERA DE ROBLE",
+              "en": "Legs in oak wood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO",
+        "en": "Finishings",
+        "fr": "FINITIONS"
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "Acabados tapa",
+            "en": "Tabletop finishings",
+            "fr": "Finitions plateau"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "COLORIS CÉRAMIQUE ",
+            "es": "PORCELÁNICOS",
+            "en": "CERAMIC"
+          },
+          "subtitulo": {
+            "es": "(Grosor Comedor: 11 mm)#(Grosor Centro: 8 mm)",
+            "en": "(Dining tables: Thickneess 11 mm)#(Coffee tables: 8mm)",
+            "fr": "(Table répas: Épaisseur 11 mm)#(Table basse: 8 mm)"
+          },
+          "opciones": [
+            {
+              "fr": "GAMME 1:",
+              "es": "SERIE 1:",
+              "en": "SERIES 1:"
+            },
+            {
+              "fr": "- Vulcano Roca",
+              "en": "- Vulcano Roca",
+              "es": "- Vulcano Roca"
+            },
+            {
+              "es": "- Hidra Argen",
+              "en": "- Hidra Argen",
+              "fr": "- Hidra Argen"
+            },
+            {
+              "es": "- Gris Nature",
+              "en": "- Gris Nature",
+              "fr": "- Gris Nature"
+            },
+            {
+              "fr": "- Blanc",
+              "es": "- Blanco",
+              "en": "- White"
+            },
+            {
+              "fr": "GAMME 2:",
+              "en": "SERIES 2:",
+              "es": "SERIE 2: "
+            },
+            {
+              "fr": "- Sahara Blanche",
+              "es": "- Sahara Blanche",
+              "en": "- Sahara Blanche"
+            },
+            {
+              "fr": "- Sahara Noire",
+              "es": "- Sahara Noir",
+              "en": "- Sahara Noir"
+            },
+            {
+              "fr": "- Kalos Bianco",
+              "es": "- Kalos Bianco",
+              "en": "- Kalos Bianco"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "fr": "Coloris verre ",
+            "es": "Cristales ",
+            "en": "Glass tops "
+          },
+          "subtitulo": {
+            "es": "(Grosor Comedor: 10 mm)#(Grosor Centro: 8 mm)",
+            "en": "(Dining tables: Thickneess 10 mm)#(Coffee tables: 8 mm)",
+            "fr": "(Verre de securité: Épaisseur 10 mm )"
+          },
+          "opciones": [
+            {
+              "fr": "Extra-Blanc",
+              "es": "Extra Blanco",
+              "en": "Extra White"
+            },
+            {
+              "fr": "Sable",
+              "es": "Arena",
+              "en": "Sand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "descargas",
+      "documentos": [
+        {
+          "nombreDocumento": {
+            "es": "Técnico",
+            "fr": "Fiche Technique",
+            "en": "Datasheet"
+          },
+          "archivo": {
+            "es": "Tecnico_geo_es.pdf",
+            "fr": "Tecnico_geo_fr.pdf",
+            "en": "Tecnico_geo_en.pdf"
+          },
+          "loginRequired": true,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Cuadernilo geo",
+            "fr": "Brochure geo",
+            "en": "geo Collection Brochure"
+          },
+          "archivo": {
+            "es": "cat_geo.pdf",
+            "fr": "cat_geo.pdf",
+            "en": "cat_geo.pdf"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "fr": "Images (.jpg, 5.34Mo, compressé ZIP)",
+            "es": "Fotos (.jpg, 5.34Mb, comprimido ZIP)",
+            "en": "Pictures (.jpg,5.346Mb, ZIP compressed)"
+          },
+          "archivo": {
+            "es": "geo.zip",
+            "en": "geo.zip",
+            "fr": "geo.zip"
+          },
+          "loginRequired": false,
+          "comun": false
+        },
+        {
+          "nombreDocumento": {
+            "es": "Catálogo completo (.pdf, 12 Mb) ",
+            "en": "Full Catalog (.pdf, 12 Mb)",
+            "fr": "Catalogue integral INDESAN (.pdf, 12 Mo) "
+          },
+          "archivo": {
+            "es": "CATALOGUE_2018.pdf",
+            "en": "CATALOGUE_2018.pdf",
+            "fr": "CATALOGUE_2018.pdf"
+          },
+          "loginRequired": false,
+          "comun": true
+        }
+      ],
+      "titulo": {
+        "es": "Descargas Disponibles",
+        "en": "Download Area",
+        "fr": "Zone Téléchargement"
+      }
+    }
+  ]
+}]
