@@ -7,15 +7,15 @@
 	.st1{fill:none;stroke:#6D6F71;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st2{font-family:'ArialMT';}
 	.st3{font-size:25px;}
-	.st4{fill:none;stroke:#6D6F71;stroke-width:0.7087;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#1D1D1B;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
-		<line class="st0" x1="45.11" y1="33.46" x2="45.11" y2="104.9"/>
+		<line class="st0" x1="45.1" y1="20.3" x2="45.1" y2="103.5"/>
 	</g>
-	<line class="st1" x1="199.64" y1="113.46" x2="56.24" y2="113.46"/>
+	<line class="st1" x1="225" y1="113.5" x2="58.1" y2="113.5"/>
 </g>
-<text transform="matrix(0.9843 0 0 1 0.8292 81.6006)" class="st2 st3">100</text>
-<text transform="matrix(1.0159 0 0 1 105.4146 136.8224)" class="st2 st3">180</text>
-<rect x="91.46" y="-3.29" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 196.359 -57.9974)" class="st4" width="71.45" height="144.93"/>
+<text transform="matrix(0.9843 0 0 1 0.8291 81.6006)" class="st2 st3">100</text>
+<text transform="matrix(1.0159 0 0 1 105.4146 136.8223)" class="st2 st3">180</text>
+<rect x="56.3" y="20.3" class="st4" width="168.7" height="83.2"/>
 </svg>
