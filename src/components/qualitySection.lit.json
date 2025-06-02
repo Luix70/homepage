@@ -38,9 +38,9 @@
         {
             "img":"q4.jpg",
             "copy":{
-                "es":"Superficies cerámicas de 3mm resistentes al rayado formando un composite con vidrio templado de 10mm",
-                "en":"3mm scratch resistant ceramic surfaces forming a composite with 10mm tempered glass",
-                "fr":"Surfaces céramiques de 3mm résistantes aux rayures formant un composite avec verre trempé de 10mm"
+                "es":"Superficies cerámicas resistentes al rayado ",
+                "en":"Scratch resistant ceramic surfaces ",
+                "fr":"Surfaces céramiques résistantes aux rayures"
             }
         }
     ],
