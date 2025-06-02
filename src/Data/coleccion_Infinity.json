@@ -3,7 +3,7 @@
     "$oid": "682d7b2a97ffb1ed81b0ff47"
   },
   "mod": "infinity",
-  "thumbnail": "tec_thumbnail.JPG",
+  "thumbnail": "Infinity_tn.jpg",
   "__v": 0,
   "activa": true,
   "captions": {
@@ -53,7 +53,7 @@
         {
           "cod": "851",
           "desc": {
-             "es": "MESA DE COMEDOR # 160 x 90 x 76 # FIJA",
+            "es": "MESA DE COMEDOR # 160 x 90 x 76 # FIJA",
             "en": "DINING TABLE # 160 x 90 x 76 # FIXED",
             "fr": "TABLE DE SALLE À MANGER # 160 x 90 x 76 # FIXE"
           },
@@ -66,7 +66,7 @@
         {
           "cod": "852",
           "desc": {
-             "es": "MESA DE COMEDOR # 180 x 100 x 76 # FIJA",
+            "es": "MESA DE COMEDOR # 180 x 100 x 76 # FIJA",
             "en": "DINING TABLE # 180 x 100 x 76 # FIXED",
             "fr": "TABLE DE SALLE À MANGER # 180 x 100 x 76 # FIXE"
           },
@@ -102,9 +102,9 @@
         {
           "cod": "890",
           "desc": {
-            "es": "MESA DE COMEDOR # 140 x 90 x 76 # FIJA",
-            "en": "DINING TABLE # 140 x 90 x 76 # FIXED",
-            "fr": "TABLE DE SALLE À MANGER # 140 x 90 x 76 # FIXE"
+            "es": "MESA DE COMEDOR # 140 x 94 x 76 # FIJA",
+            "en": "DINING TABLE # 140 x 94 x 76 # FIXED",
+            "fr": "TABLE DE SALLE À MANGER # 140 x 94 x 76 # FIXE"
           },
           "imagenes": [
             "890_2_dim.svg",
@@ -115,9 +115,9 @@
         {
           "cod": "891",
           "desc": {
-             "es": "MESA DE COMEDOR # 160 x 90 x 76 # FIJA",
-            "en": "DINING TABLE # 160 x 90 x 76 # FIXED",
-            "fr": "TABLE DE SALLE À MANGER # 160 x 90 x 76 # FIXE"
+            "es": "MESA DE COMEDOR # 160 x 94 x 76 # FIJA",
+            "en": "DINING TABLE # 160 x 94 x 76 # FIXED",
+            "fr": "TABLE DE SALLE À MANGER # 160 x 94 x 76 # FIXE"
           },
           "imagenes": [
             "891_2_dim.svg",
@@ -128,7 +128,7 @@
         {
           "cod": "892",
           "desc": {
-             "es": "MESA DE COMEDOR # 180 x 100 x 76 # FIJA",
+            "es": "MESA DE COMEDOR # 180 x 100 x 76 # FIJA",
             "en": "DINING TABLE # 180 x 100 x 76 # FIXED",
             "fr": "TABLE DE SALLE À MANGER # 180 x 100 x 76 # FIXE"
           },
@@ -161,7 +161,6 @@
         "fr": "DÉTAILS. TABLES Infinity"
       },
       "items": [
-        
         {
           "es": "Base en acero texturado con acabados de alta resistencia.",
           "en": "Textured steel pedestal with high-resistance finishes.",
@@ -287,7 +286,6 @@
         }
       ]
     },
-    
     {
       "tipo": "descargas",
       "documentos": [

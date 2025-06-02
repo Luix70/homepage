@@ -5,7 +5,7 @@
       "fr": "Nos tables sont la quintessence de l’élégance et de la durabilité."
     },
     "PA": {
-      "es": "Nuestras mesas de comedor son reconocidas por su durabilidad y diseño moderno. Están construidas con materiales de alta calidad, como maderas naturales, tableros de cerámica y estructuras de acero. Cada mesa es cuidadosamente diseñada para brindar un toque de elegancia a cualquier comedor.",
+      "es": "Nuestras mesas de comedor son reconocidas por su durabilidad y diseño moderno. Están construidas con materiales de alta calidad, como maderas naturales, paneles de cerámica y estructuras de acero. Cada mesa es cuidadosamente diseñada para brindar un toque de elegancia a cualquier comedor.",
       "en": "Our dining tables are recognized for their durability and modern design. They are built with high quality materials such as natural woods, ceramic boards and steel structures. Each table is carefully designed to bring a touch of elegance to any dining room.",
       "fr": "Nos tables à manger sont reconnues pour leur durabilité et leur design moderne. Ils sont construits avec des matériaux de haute qualité tels que le bois naturel, les panneaux en céramique et les structures en acier. Chaque table est soigneusement conçue pour apporter une touche d’élégance à toute salle à manger."
     },
@@ -13,7 +13,7 @@
         {
             "img":"q1.jpg",
             "copy":{
-                "es":"Chapas naturales seleccionadas de Roble y Nogal, o melaminas de primera calidad para los acabados lacados",
+                "es":"Chapas naturales seleccionadas de Roble y Nogal, y acabados lacados de primera calidad",
                 "en":"Selected natural veneers of Oak and Walnut, or premium quality melamine for lacquered finishings",
                 "fr":"Placages naturels sélectionnés de chêne et de noyer, ou mélamines de première qualité pour les finitions laquées"
                
@@ -22,7 +22,7 @@
         {
             "img":"q2.jpg",
             "copy":{
-                "es":"Guias metálicas en aluminio anodizado, con rodamientos de acero.",
+                "es":"Guias metálicas en aluminio anodizado o acero, con rodamientos de nylon y acero, respectivamente.",
                 "en":"Metallic guides in anodized aluminum, with steel bearings",
                 "fr":"Guides métalliques en aluminium anodisé, avec roulements en acier"
             }
