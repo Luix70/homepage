@@ -5,7 +5,7 @@ const MaterialsSection = props => {
     const {lan} = props;
     //const { art, lan, folder, BSBreak } = prop;
     return (
-      <div id="materialsSection" className="bg-white w-100 mt-0 mt-md-3 ">
+      <div id="materialsSection" className="bg-white w-100 mt-0 mt-md-3 " data-animate>
           <div className="mx-lg-5 mx-md-3  ">
           <div className="sectionContainer bg-white min-vh-50  ">
             <div className="materialsContainer border-primary text-center  px-5">
