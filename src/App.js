@@ -274,8 +274,6 @@ class App extends Component {
                         windowHeight={windowHeight}
                        />
 
-
-                       
                       <CollectionSlider
                         lan={lan}
                         listaColecciones={listaColecciones}
