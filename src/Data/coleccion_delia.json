@@ -1,32 +1,32 @@
 [{
   "_id": {
-    "$oid": "5c06b23d66fd0a2ef46f89ad"
+    "$oid": "68484ef61a7d24ffa66bb8f8"
   },
-  "mod": "aura",
-  "thumbnail": "Aura_tn.jpg",
+  "mod": "delia",
+  "thumbnail": "Delia_tn.jpg",
   "__v": 0,
   "activa": true,
   "captions": {
-    "es": "La cuadratura del círculo",
-    "en": "The square of the circle",
-    "fr": "Le carré du cercle",
+    "es": "Fusión equilibrada de elementos",
+    "en": "Balanced fusion of elements",
+    "fr": "Fusion équilibrée des éléments",
     "_id": {
       "$oid": "5c53fda08a231811016da53b"
     }
   },
   "desc": {
-    "es": "Su combinacion armoniosa de formas y materiales la convierten en ideal para  cualquier ambiente.",
-    "en": "Its harmonious combination of shapes and materials make it ideal for any environment.",
-    "fr": "Sa combinaison harmonieuse de formes et de matériaux le rend idéal pour tout environnement.",
+    "es": "Delia redefine tu espacio con sofisticación: su tapa porcelánica fusiona textura y resistencia, mientras su pie metálico aporta carácter escultórico. Extensible con un gesto, adapta la mesa a tus momentos y refleja un estilo decididamente contemporáneo.",
+    "en": "Delia elevates any setting with flawless sophistication: a porcelain top marrying texture and strength, balanced by a sculptural metal base. Effortlessly extend it to suit every occasion and express a boldly contemporary aesthetic.",
+    "fr": "Delia sublime vos espaces avec une élégance saisissante : plateau en porcelaine alliant texture et robustesse, piétement métallique sculptural. Son système d’allonge fluide adapte la table à chaque instant et affirme un style résolument contemporain.",
     "_id": {
       "$oid": "5c53fda08a231811016da53c"
     }
   },
   "tec_thumbnail": "tec_thumbnail.JPG",
   "tags": {
-    "es": "Tapa madera. Pie metálico",
-    "fr": "Plateau plaqué en bois. Piétement métallique",
-    "en": "Wooden tabletop. Metallic pedestal"
+    "es": "Tapa porcelánica 3mm de grosor. Pie metálico",
+    "fr": "Plateau céramique 3 mm. Piétement métallique",
+    "en": "3mm ceramic table top. Metallic pedestal"
   },
   "secciones": [
     {
@@ -38,27 +38,27 @@
       },
       "articulos": [
         {
-          "cod": "870",
+          "cod": "880",
           "desc": {
             "es": "1 extensible de 65 # Mesa de Ø105. Altura 76 # (Abierta 170 x 105 x 76 )",
             "en": "1 x 65cm EXTENSION # Ø105 Table. Height: 76 # (Extended 170 x 105 x 76)",
             "fr": "1 RALLONGE DE 65 # Fermée: Ø105. Hauteur 76 # (Ouverte: 170 x 105 x 76 )"
           },
           "imagenes": [
-            "870_1_dim.svg",
-            "870_2_dim.svg"
+            "880_1_dim.svg",
+            "880_2_dim.svg"
           ]
         },
         {
-          "cod": "871",
+          "cod": "881",
           "desc": {
             "es": "1 extensible de 65 # Mesa de Ø120. Altura 76 # (Abierta 185 x 120 x 76 )",
             "en": "1 x 65cm EXTENSION # Ø120 Table. Height: 76 # (Extended 185 x 120 x 76)",
             "fr": "1 RALLONGE DE 65 # Fermée: Ø120. Hauteur 76 # (Ouverte: 185 x 120 x 76 )"
           },
           "imagenes": [
-            "871_1_dim.svg",
-            "871_2_dim.svg"
+            "881_1_dim.svg",
+            "881_2_dim.svg"
           ]
         }
       ]
@@ -91,9 +91,9 @@
     {
       "tipo": "opciones",
       "titulo": {
-        "es": "OPCIONES DE ACABADO. MESAS DE MADERA",
-        "en": "Finishings. Wooden top tables",
-        "fr": "FINITIONS. TABLES PLATEAU PLAQUÉ BOIS"
+        "es": "OPCIONES DE ACABADO.",
+        "en": "Finishings. ",
+        "fr": "FINITIONS. T"
       },
       "subopciones": [
         {
@@ -152,34 +152,28 @@
             "fr": "Finitions Plateau"
           },
           "subtitulo": "",
-          "opciones": [
+               "opciones": [
             {
-              "fr": "Placage en bois naturel",
-              "es": "Chapas naturales",
-              "en": "Natural wood veneers"
+              "es": "Pietra di Luna",
+              "fr": "Pietra di Luna",
+              "en": "Pietra di Luna"
             },
             {
-              "es": "    -Nogal Americano",
-              "fr": "    -Noyer",
-              "en": "    -Walnut"
+              "es": "Pietra di Piombo",
+              "en": "Pietra di Piombo",
+              "fr": "Pietra di Piombo"
             },
             {
-              "en": "    -Oak",
-              "es": "    -Roble",
-              "fr": "    -Chêne"
-            },
-            {
-              "en": "    -Knotty Oak",
-              "es": "    -Roble Nudoso",
-              "fr": "    -Chêne Noueux"
-            },
-            {
-              "es": "Lacados",
-              "en": "Lacquered, Glossy or matte",
-              "fr": "Laqué mat ou brillant"
+              "en": "Mont Blanc",
+              "es": "Mont Blanc",
+              "fr": "Mont Blanc"
             }
           ]
+     
         }
+      ]
+    } 
+        
       ]
     },
     {
@@ -187,14 +181,14 @@
       "documentos": [
         {
           "nombreDocumento": {
-            "es": "Cuadernilo Aura",
-            "fr": "Brochure Aura",
-            "en": "Aura Collection Brochure"
+            "es": "Cuadernilo Delia",
+            "fr": "Brochure Delia",
+            "en": "Delia Collection Brochure"
           },
           "archivo": {
-            "es": "cat_aura.pdf",
-            "fr": "cat_aura.pdf",
-            "en": "cat_aura.pdf"
+            "es": "cat_delia.pdf",
+            "fr": "cat_delia.pdf",
+            "en": "cat_delia.pdf"
           },
           "loginRequired": false,
           "comun": false
@@ -206,9 +200,9 @@
             "en": "Pictures (.jpg, 994 Kb, ZIP compressed)"
           },
           "archivo": {
-            "es": "aura.zip",
-            "en": "aura.zip",
-            "fr": "aura.zip"
+            "es": "delia.zip",
+            "en": "delia.zip",
+            "fr": "delia.zip"
           },
           "loginRequired": false,
           "comun": false
@@ -234,5 +228,5 @@
         "fr": "Zone Téléchargement"
       }
     }
-  ]
-}]
+]
+

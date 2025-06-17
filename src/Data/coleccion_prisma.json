@@ -1,0 +1,199 @@
+[{
+  "_id": {
+    "$oid": "6850396bb472020e6d2272d7"
+  },
+  "mod": "prisma",
+  "thumbnail": "Prisma_tn.jpg",
+  "__v": 0,
+  "activa": true,
+  "captions": {
+    "es": "El centro de atención",
+    "en": "In the spotlight",
+    "fr": "Le centre d'attention",
+    "_id": {
+      "$oid": "5c53fda08a231811016da53b"
+    }
+  },
+  "desc": {
+    "es": "Prisma irradia equilibrio y personalidad: elige entre tapa de madera cálida o porcelánico atemporal, realzada por un pie de acero texturizado que dibuja líneas geométricas. Una pieza fija que convierte cualquier ambiente en un manifiesto de diseño contemporáneo.",
+    "en": "Prisma radiates balance and character: choose a warm wood top or timeless porcelain, both elevated by a textured-steel base with striking geometric lines. A fixed centrepiece that turns any setting into a statement of refined contemporary design.",
+    "fr": "Prisma affirme l’équilibre et le caractère : choisissez un plateau bois chaleureux ou porcelaine intemporelle, sublimés par un piétement acier texturé aux lignes géométriques. Pièce fixe majestueuse, elle transforme tout espace en manifeste de design contemporain.",
+    "_id": {
+      "$oid": "5c53fda08a231811016da53c"
+    }
+  },
+  "tec_thumbnail": "tec_thumbnail.JPG",
+  "tags": {
+    "es": "Tapa madera o porcelánico. Fija. Pie metálico",
+    "fr": "Plateau en bois ou porcelaine. Fixe. Pied métallique",
+    "en": "Top wood or porcelain. Fixed. Metallic pedestal"
+  },
+  "secciones": [
+    {
+      "tipo": "grupo",
+      "titulo": {
+        "es": "Mesas de comedor redondas, pie central metálico. Tapa de madera",
+        "en": "Round dining tables. Central metallic pedestal. Wooden tops",
+        "fr": "Tables de salle à manger rondes. Pied central métallique. Plateau bois"
+      },
+      "articulos": [
+        {
+          "cod": "780",
+          "desc": {
+            "es": "Mesa de Ø105. Altura 76 # FIJA ",
+            "en": "Ø105 Table. Height: 76 # FIXED",
+            "fr": "Table Ø105. Hauteur 76 # FIXE"
+          },
+          "imagenes": [
+            "780_1_dim.svg"
+          ]
+        },
+        {
+          "cod": "781",
+          "desc": {
+            "es": "Mesa de Ø120. Altura 76 # FIJA",
+            "en": "Ø120 Table. Height: 76 # FIXED",
+            "fr": "Table: Ø120. Hauteur 76 # FIXE"
+          },
+          "imagenes": [
+            "781_1_dim.svg"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "tecnico",
+      "titulo": {
+        "es": "INFORMACIÓN TÉCNICA. ",
+        "en": "Technical Info. ",
+        "fr": "DÉTAILS. "
+      },
+      "items": [
+        {
+          "fr": "Piétement en acier texturé.",
+          "es": "Base en acero texturado",
+          "en": "Pedestal in painted steel (textured)"
+        }
+      ]
+    },
+    {
+      "tipo": "opciones",
+      "titulo": {
+        "es": "OPCIONES DE ACABADO.",
+        "en": "Finishings. ",
+        "fr": "FINITIONS."
+      },
+      "subopciones": [
+        {
+          "titulo": {
+            "es": "ACABADOS PIE",
+            "en": "Pedestal Finsihings",
+            "fr": "FINITIONS PIÉTEMENT"
+          },
+          "subtitulo": {
+            "es": "Lacados TEXTURIZADOS",
+            "en": "Textured Painting",
+            "fr": "Laqués texturés"
+          },
+          "opciones": [
+            {
+              "es": "Vulcano Roca",
+              "fr": "Vulcano Roca",
+              "en": "Vulcano Roca"
+            },
+            {
+              "es": "Hidra Argen",
+              "en": "Hidra Argen",
+              "fr": "Hidra Argen"
+            },
+            {
+              "en": "Gray Nature",
+              "es": "Gris Nature",
+              "fr": "Gris Nature"
+            },
+            {
+              "es": "Blanco",
+              "en": "White",
+              "fr": "Blanc"
+            },
+            {
+              "es": "Nieve",
+              "en": "Snow",
+              "fr": "Neige"
+            },
+            {
+              "es": "Negro",
+              "en": "Black",
+              "fr": "Noir"
+            },
+            {
+              "es": "Bronce",
+              "en": "Bronze",
+              "fr": "Bronze"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Acabados Tapa Porcelánica",
+            "en": "Ceramic Tabletop Finishings",
+            "fr": "Finitions Plateau céramique"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "es": "Pietra di Luna",
+              "fr": "Pietra di Luna",
+              "en": "Pietra di Luna"
+            },
+            {
+              "es": "Pietra di Piombo",
+              "en": "Pietra di Piombo",
+              "fr": "Pietra di Piombo"
+            },
+            {
+              "en": "Mont Blanc",
+              "es": "Mont Blanc",
+              "fr": "Mont Blanc"
+            }
+          ]
+        },
+        {
+          "titulo": {
+            "es": "Acabados Tapa Madera",
+            "en": "Wooden Tabletop Finishings",
+            "fr": "Finitions Plateau Bois"
+          },
+          "subtitulo": "",
+          "opciones": [
+            {
+              "fr": "Placage en bois naturel",
+              "es": "Chapas naturales",
+              "en": "Natural wood veneers"
+            },
+            {
+              "es": "    -Nogal Americano",
+              "fr": "    -Noyer",
+              "en": "    -Walnut"
+            },
+            {
+              "en": "    -Oak",
+              "es": "    -Roble",
+              "fr": "    -Chêne"
+            },
+            {
+              "en": "    -Knotty Oak",
+              "es": "    -Roble Nudoso",
+              "fr": "    -Chêne Noueux"
+            },
+            {
+              "es": "Lacados",
+              "en": "Lacquered, Glossy or matte",
+              "fr": "Laqué mat ou brillant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
