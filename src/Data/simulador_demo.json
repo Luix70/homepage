@@ -1,0 +1,99 @@
+{
+  "sku": "DEMO-180E",
+  "nombre": {
+    "es": "Mesa extensible 180",
+    "en": "Extending table 180",
+    "fr": "Table extensible 180",
+    "de": "Ausziehtisch 180"
+  },
+  "precioBase": 1290,
+  "dims": { "largo": 180, "ancho": 100, "alto": 75, "extendida": 230 },
+  "partes": [
+    {
+      "id": "tapa",
+      "supTipo": "pct",
+      "nombre": { "es": "Tapa", "en": "Top", "fr": "Plateau", "de": "Platte" },
+      "acabados": [
+        {
+          "id": "roble-nat",
+          "tipo": "wood",
+          "c1": "#c8a97e",
+          "c2": "#a5824f",
+          "sup": 0,
+          "nombre": { "es": "Roble natural", "en": "Natural oak", "fr": "Chêne naturel", "de": "Eiche natur" }
+        },
+        {
+          "id": "nogal",
+          "tipo": "wood",
+          "c1": "#7a573b",
+          "c2": "#59391f",
+          "sup": 8,
+          "nombre": { "es": "Nogal americano", "en": "American walnut", "fr": "Noyer américain", "de": "Amerik. Nussbaum" }
+        },
+        {
+          "id": "roble-ahum",
+          "tipo": "wood",
+          "c1": "#6e5942",
+          "c2": "#4c3a28",
+          "sup": 6,
+          "nombre": { "es": "Roble ahumado", "en": "Smoked oak", "fr": "Chêne fumé", "de": "Eiche geräuchert" }
+        },
+        {
+          "id": "lac-blanco",
+          "tipo": "lacquer",
+          "c1": "#f2efe9",
+          "c2": "#f2efe9",
+          "sup": 0,
+          "nombre": { "es": "Lacado blanco", "en": "White lacquer", "fr": "Laqué blanc", "de": "Weiß lackiert" }
+        },
+        {
+          "id": "ceramica",
+          "tipo": "ceramic",
+          "c1": "#dedad2",
+          "c2": "#9b948a",
+          "sup": 22,
+          "nombre": { "es": "Cerámica mármol", "en": "Marble ceramic", "fr": "Céramique marbre", "de": "Marmorkeramik" }
+        }
+      ]
+    },
+    {
+      "id": "estructura",
+      "supTipo": "fijo",
+      "nombre": { "es": "Estructura", "en": "Frame", "fr": "Structure", "de": "Gestell" },
+      "acabados": [
+        {
+          "id": "metal-negro",
+          "tipo": "metal",
+          "c1": "#2b2b2e",
+          "c2": "#2b2b2e",
+          "sup": 0,
+          "nombre": { "es": "Metal negro", "en": "Black metal", "fr": "Métal noir", "de": "Metall schwarz" }
+        },
+        {
+          "id": "metal-laton",
+          "tipo": "metal",
+          "c1": "#b08d57",
+          "c2": "#b08d57",
+          "sup": 90,
+          "nombre": { "es": "Latón envejecido", "en": "Aged brass", "fr": "Laiton vieilli", "de": "Messing antik" }
+        },
+        {
+          "id": "mad-roble",
+          "tipo": "wood",
+          "c1": "#c8a97e",
+          "c2": "#a5824f",
+          "sup": 60,
+          "nombre": { "es": "Madera roble", "en": "Oak wood", "fr": "Bois chêne", "de": "Eiche Holz" }
+        },
+        {
+          "id": "mad-nogal",
+          "tipo": "wood",
+          "c1": "#7a573b",
+          "c2": "#59391f",
+          "sup": 120,
+          "nombre": { "es": "Madera nogal", "en": "Walnut wood", "fr": "Bois noyer", "de": "Nussbaum Holz" }
+        }
+      ]
+    }
+  ]
+}

@@ -37,6 +37,9 @@ import {
 import "react-toastify/dist/ReactToastify.css";
 import "./Custom.css";
 
+// Simulador 3D: carga diferida para no incluir three.js en el bundle principal
+const Simulador3D = React.lazy(() => import("./components/simulador3d"));
+
 
 
 class App extends Component {
@@ -151,6 +154,18 @@ class App extends Component {
           <div className="col-12 flex-columnm-0 p-0  ">
         
             <Switch>
+              <Route
+                path="/simulador/:col?"
+                render={(props) => (
+                  <React.Suspense
+                    fallback={
+                      <div className="text-center text-muted py-5">3D…</div>
+                    }
+                  >
+                    <Simulador3D lan={lan} {...props} />
+                  </React.Suspense>
+                )}
+              />
               <Route
                 path="/coleccion/:col"
                 render={(props) => (

@@ -1,0 +1,50 @@
+{
+  "EXT": {
+    "es": "Ver extendida",
+    "en": "View extended",
+    "fr": "Voir déployée",
+    "de": "Ausgezogen ansehen"
+  },
+  "PLE": {
+    "es": "Ver plegada",
+    "en": "View folded",
+    "fr": "Voir repliée",
+    "de": "Eingeklappt ansehen"
+  },
+  "BAS": {
+    "es": "Modelo base",
+    "en": "Base model",
+    "fr": "Modèle de base",
+    "de": "Grundmodell"
+  },
+  "TOT": {
+    "es": "Precio total",
+    "en": "Total price",
+    "fr": "Prix total",
+    "de": "Gesamtpreis"
+  },
+  "MED": {
+    "es": "Medidas",
+    "en": "Dimensions",
+    "fr": "Dimensions",
+    "de": "Maße"
+  },
+  "INC": {
+    "es": "incluido",
+    "en": "included",
+    "fr": "inclus",
+    "de": "inklusive"
+  },
+  "GIR": {
+    "es": "Arrastra para girar · rueda para acercar",
+    "en": "Drag to rotate · scroll to zoom",
+    "fr": "Glissez pour pivoter · molette pour zoomer",
+    "de": "Ziehen zum Drehen · Scrollen zum Zoomen"
+  },
+  "CAR": {
+    "es": "Configura tu mesa",
+    "en": "Configure your table",
+    "fr": "Configurez votre table",
+    "de": "Konfigurieren Sie Ihren Tisch"
+  }
+}
