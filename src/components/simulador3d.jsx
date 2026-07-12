@@ -34,6 +34,12 @@ function woodCanvas(size, c1, c2) {
     }
     x.stroke();
   }
+  // variacion tonal entre "tablas": rompe la uniformidad del plastico
+  for (let i = 0; i < 4; i++) {
+    x.fillStyle = i % 2 ? c2 : "#ffffff";
+    x.globalAlpha = 0.045;
+    x.fillRect(0, (size / 4) * i, size, size / 4);
+  }
   x.globalAlpha = 1;
   return cv;
 }
@@ -97,26 +103,51 @@ function buildScene(mount, cfg) {
   mount.appendChild(renderer.domElement);
   renderer.domElement.style.cursor = "grab";
 
-  /* entorno para reflejos del metal */
-  const grad = (top, bottom) => {
-    const cv = document.createElement("canvas");
-    cv.width = cv.height = 64;
-    const x = cv.getContext("2d");
-    const g = x.createLinearGradient(0, 0, 0, 64);
-    g.addColorStop(0, top);
-    g.addColorStop(1, bottom);
-    x.fillStyle = g;
-    x.fillRect(0, 0, 64, 64);
-    return cv;
-  };
-  const envMap = new THREE.CubeTexture(
-    [...Array(6)].map(() => grad("#ffffff", "#b9b4aa"))
-  );
-  envMap.needsUpdate = true;
+  /* tone mapping cinematografico: gestiona las altas luces como una camara */
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.12;
 
-  /* luces */
-  scene.add(new THREE.HemisphereLight(0xffffff, 0xcfc9be, 0.75));
-  const key = new THREE.DirectionalLight(0xfff6e8, 0.9);
+  /* Entorno de estudio fotografico generado por codigo y convertido a mapa
+     de radiancia (PMREM): una "habitacion" gris con softboxes. Es lo que da
+     reflejos y volumen reales a metales, lacas y maderas. */
+  function entornoEstudio() {
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    const estudio = new THREE.Scene();
+
+    estudio.add(
+      new THREE.Mesh(
+        new THREE.BoxGeometry(10, 10, 10),
+        new THREE.MeshBasicMaterial({
+          color: new THREE.Color(0.32, 0.32, 0.34),
+          side: THREE.BackSide,
+        })
+      )
+    );
+    const panel = (w, h, intensidad, x, y, z, rx, ry) => {
+      const m = new THREE.Mesh(
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({
+          color: new THREE.Color(intensidad, intensidad, intensidad),
+        })
+      );
+      m.position.set(x, y, z);
+      m.rotation.set(rx, ry, 0);
+      estudio.add(m);
+    };
+    panel(4.5, 3.0, 7.0, 0, 4.9, 0.5, Math.PI / 2, 0);   // softbox cenital
+    panel(3.0, 2.2, 3.5, -4.9, 2.2, 0, 0, Math.PI / 2);  // lateral izquierdo
+    panel(3.0, 2.2, 2.0, 4.9, 1.8, -1, 0, -Math.PI / 2); // lateral derecho
+    panel(2.5, 2.0, 1.2, 0, 2.0, -4.9, 0, 0);            // contra de fondo
+
+    const env = pmrem.fromScene(estudio, 0.04).texture;
+    pmrem.dispose();
+    return env;
+  }
+  scene.environment = entornoEstudio();
+  const maxAniso = renderer.capabilities.getMaxAnisotropy();
+
+  /* luz principal: solo para las sombras (el volumen lo da el entorno) */
+  const key = new THREE.DirectionalLight(0xfff6e8, 0.55);
   key.position.set(3, 5, 2.5);
   key.castShadow = true;
   key.shadow.mapSize.set(2048, 2048);
@@ -124,11 +155,8 @@ function buildScene(mount, cfg) {
   key.shadow.camera.right = 2.5;
   key.shadow.camera.top = 2.5;
   key.shadow.camera.bottom = -2.5;
-  key.shadow.radius = 4;
+  key.shadow.radius = 5;
   scene.add(key);
-  const fill = new THREE.DirectionalLight(0xe8f0ff, 0.3);
-  fill.position.set(-4, 2, -3);
-  scene.add(fill);
 
   const ground = new THREE.Mesh(
     new THREE.CircleGeometry(6, 48),
@@ -138,27 +166,63 @@ function buildScene(mount, cfg) {
   ground.receiveShadow = true;
   scene.add(ground);
 
-  /* materiales por acabado */
+  /* materiales por acabado (el reflejo del entorno llega solo,
+     via scene.environment) */
   const matCache = {};
+
+  function texturaDe(a) {
+    let tx;
+    if (a.textura) {
+      // textura real del DAM (foto/escaneo de la muestra fisica)
+      tx = new THREE.TextureLoader().load(a.textura);
+    } else {
+      tx = new THREE.CanvasTexture(canvasFor(a, 512));
+    }
+    tx.wrapS = tx.wrapT = THREE.RepeatWrapping;
+    tx.encoding = THREE.sRGBEncoding;
+    tx.anisotropy = maxAniso; // nitidez de la veta en angulos rasantes
+    return tx;
+  }
+
   function materialFor(a) {
     if (matCache[a.id]) return matCache[a.id];
     let m;
     if (a.tipo === "metal") {
       m = new THREE.MeshStandardMaterial({
-        color: a.c1, metalness: 0.85, roughness: 0.32, envMap
+        color: a.c1,
+        metalness: 0.9,
+        roughness: 0.34,
+        envMapIntensity: 1.0,
       });
     } else if (a.tipo === "lacquer") {
-      m = new THREE.MeshStandardMaterial({
-        color: a.c1, metalness: 0.05, roughness: 0.28, envMap, envMapIntensity: 0.4
+      // laca con capa de barniz fisica (clearcoat)
+      m = new THREE.MeshPhysicalMaterial({
+        color: a.c1,
+        metalness: 0.0,
+        roughness: 0.42,
+        clearcoat: 0.9,
+        clearcoatRoughness: 0.18,
+        envMapIntensity: 0.7,
+      });
+    } else if (a.tipo === "ceramic") {
+      m = new THREE.MeshPhysicalMaterial({
+        map: texturaDe(a),
+        metalness: 0.0,
+        roughness: 0.3,
+        clearcoat: 0.35,
+        clearcoatRoughness: 0.25,
+        envMapIntensity: 0.7,
       });
     } else {
-      const tx = new THREE.CanvasTexture(canvasFor(a, 512));
-      tx.wrapS = tx.wrapT = THREE.RepeatWrapping;
-      tx.encoding = THREE.sRGBEncoding;
+      // madera: la propia textura hace de relieve sutil (bump)
+      const tx = texturaDe(a);
       m = new THREE.MeshStandardMaterial({
-        map: tx, metalness: 0,
-        roughness: a.tipo === "ceramic" ? 0.35 : 0.62,
-        envMap, envMapIntensity: 0.25
+        map: tx,
+        bumpMap: tx,
+        bumpScale: 0.015,
+        metalness: 0.0,
+        roughness: 0.58,
+        envMapIntensity: 0.5,
       });
     }
     matCache[a.id] = m;

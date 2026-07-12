@@ -218,7 +218,27 @@ solapadas o huecas, costes negativos) las detectarían automáticamente.
 
 ---
 
-## 7. Fases concretas
+## 7. Convenciones de los modelos 3D (Blender → GLB)
+
+- Un `.blend` por familia de modelo; las variantes de medida se derivan
+  dentro del mismo fichero. Se exporta **un GLB por artículo**:
+  `static/modelos3d/{sku}.glb` en la API Node (campo `modelo3d`).
+- **Nombres de malla = ids de cualidad del ERP**: `TAPA_`, `PIE`, `COLOR`.
+  Piezas múltiples con punto: `COLOR.faldon`, `COLOR.extensible`.
+- Escala real en metros, mesa apoyada en Y=0, centrada en el origen.
+- **Sin materiales definitivos**: los aplica el visor desde la biblioteca
+  global de acabados (un acabado = un set de texturas, compartido por
+  todas las colecciones).
+- **Direccionalidad de la veta: se decide en las UVs de cada malla**
+  (eje U = dirección de la veta). Es fija por modelo/parte; no existe
+  como opción en el ERP ni en el visor.
+- UVs con densidad de texel uniforme entre modelos, para que el grano
+  del acabado se vea al mismo tamaño en toda la gama.
+- Cantos con bisel de 1–2 mm (atrapan brillos; evitan el aspecto CAD).
+- Export glTF 2.0 `.glb`, Apply Modifiers, compresión Draco, sin texturas
+  incrustadas. Objetivo < 2–3 MB.
+
+## 8. Fases concretas
 
 1. **Endpoint simulador + precio** en la API ASP.NET actual leyendo el Access
    (o su réplica SQL Server si ya existe), portando el parser de CONDICION
