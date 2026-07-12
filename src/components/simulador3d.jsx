@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
-import { getSimulador } from "./../services/simulador";
+import { getSimulador, getModelosSimulador } from "./../services/simulador";
 import t from "./simulador3d.lit.json";
 
 /* ==================================================================
@@ -102,6 +102,8 @@ function buildScene(mount, cfg) {
   renderer.outputEncoding = THREE.sRGBEncoding;
   mount.appendChild(renderer.domElement);
   renderer.domElement.style.cursor = "grab";
+
+  console.log("[simulador3d] v2 — render de estudio (ACES + PMREM) activo");
 
   /* tone mapping cinematografico: gestiona las altas luces como una camara */
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -270,31 +272,80 @@ function buildScene(mount, cfg) {
     });
   }
 
-  /* ---- modelo procedural de reserva (mallas: tapa, pata, faldon) ---- */
+  /* ---- modelo procedural de reserva (mallas: tapa, pata, faldon) ----
+     Soporta cfg.forma = "rect" | "redonda" y cfg.pie = "esquinas" | "central" */
   let halfL, halfR, leaf;
   let EXT = 0, L4 = 0;
   function construirMesaProcedural() {
     const dims = cfg.dims || {};
-    const L = (dims.largo || 180) / 100;
-    const W = (dims.ancho || 100) / 100;
     const H = (dims.alto || 75) / 100;
-    EXT = dims.extendida ? (dims.extendida - (dims.largo || 180)) / 100 : 0;
-    L4 = L / 4;
     const TH = 0.045;
+    const forma = cfg.forma || "rect";
+    const pieCentral = cfg.pie === "central";
 
-    const halfGeo = new THREE.BoxGeometry(L / 2, TH, W);
-    halfL = new THREE.Mesh(halfGeo);
-    halfR = new THREE.Mesh(halfGeo);
-    leaf = new THREE.Mesh(new THREE.BoxGeometry(Math.max(EXT, 0.01), TH, W));
-    [halfL, halfR, leaf].forEach((m) => {
-      m.name = "tapa";
-      m.castShadow = true;
-      m.position.y = H - TH / 2;
-      raiz.add(m);
-    });
-    halfL.position.x = -L4;
-    halfR.position.x = L4;
-    leaf.visible = false;
+    let L, W;
+    if (forma === "redonda") {
+      const R = (dims.diametro || 120) / 200;
+      L = W = R * 2;
+      EXT = 0;
+      const tapa = new THREE.Mesh(new THREE.CylinderGeometry(R, R, TH, 64));
+      tapa.name = "tapa";
+      tapa.castShadow = true;
+      tapa.position.y = H - TH / 2;
+      raiz.add(tapa);
+    } else {
+      L = (dims.largo || 180) / 100;
+      W = (dims.ancho || 100) / 100;
+      EXT = dims.extendida ? (dims.extendida - (dims.largo || 180)) / 100 : 0;
+      L4 = L / 4;
+
+      const halfGeo = new THREE.BoxGeometry(L / 2, TH, W);
+      halfL = new THREE.Mesh(halfGeo);
+      halfR = new THREE.Mesh(halfGeo);
+      leaf = new THREE.Mesh(new THREE.BoxGeometry(Math.max(EXT, 0.01), TH, W));
+      [halfL, halfR, leaf].forEach((m) => {
+        m.name = "tapa";
+        m.castShadow = true;
+        m.position.y = H - TH / 2;
+        raiz.add(m);
+      });
+      halfL.position.x = -L4;
+      halfR.position.x = L4;
+      leaf.visible = false;
+    }
+
+    if (pieCentral) {
+      /* columna central + base */
+      const col = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.05, 0.06, H - TH - 0.02, 24)
+      );
+      col.name = "pata";
+      col.castShadow = true;
+      col.position.y = (H - TH) / 2;
+      raiz.add(col);
+
+      const rBase = Math.min(L, W) * 0.24;
+      const base = new THREE.Mesh(
+        new THREE.CylinderGeometry(rBase * 0.92, rBase, 0.022, 40)
+      );
+      base.name = "pata";
+      base.castShadow = true;
+      base.position.y = 0.011;
+      raiz.add(base);
+
+      /* faldon bajo tapa solo en las rectangulares */
+      if (forma !== "redonda") {
+        const skirtGeo = new THREE.BoxGeometry(L - 0.24, 0.08, 0.035);
+        [W / 2 - 0.1, -W / 2 + 0.1].forEach((pz) => {
+          const sk = new THREE.Mesh(skirtGeo);
+          sk.name = "faldon";
+          sk.position.set(0, H - TH - 0.062, pz);
+          sk.castShadow = true;
+          raiz.add(sk);
+        });
+      }
+      return;
+    }
 
     const legGeo = new THREE.BoxGeometry(0.06, H - TH, 0.06);
     [
@@ -518,6 +569,15 @@ const Simulador3D = (props) => {
     return <div className="container py-5 text-center text-muted">…</div>;
   }
 
+  /* al cambiar de modelo, cfg y sel se actualizan en dos renders distintos
+     (React 16 no los agrupa); mientras no casen, no renderizamos el detalle */
+  const selCompleta = cfg.partes.every((p) =>
+    p.acabados.some((a) => a.id === sel[p.id])
+  );
+  if (!selCompleta) {
+    return <div className="container py-5 text-center text-muted">…</div>;
+  }
+
   const acabadoSel = (p) => p.acabados.find((a) => a.id === sel[p.id]);
   const supDe = (p) => {
     const a = acabadoSel(p);
@@ -527,12 +587,33 @@ const Simulador3D = (props) => {
   const total = cfg.precioBase + cfg.partes.reduce((s, p) => s + supDe(p), 0);
   const d = cfg.dims;
 
+  /* serializa la configuracion elegida en el formato del ERP:
+     "COLOR=6;TAPA_=50;PIE=5;" */
+  const codagrupacion = () =>
+    cfg.partes
+      .map((p) => {
+        const a = acabadoSel(p);
+        return p.id + "=" + (a && a.valor !== undefined ? a.valor : a ? a.id : "?");
+      })
+      .join(";") + ";";
+
   return (
     <div className="container py-4">
       <h3 className="text-info">{lit("CAR")}</h3>
-      <h5 className="text-muted">
-        {tr(cfg.nombre)} · {cfg.sku}
-      </h5>
+      <div className="d-flex align-items-center mb-1">
+        <select
+          className="custom-select w-auto mr-3"
+          value={col}
+          onChange={(e) => props.history.push("/simulador/" + e.target.value)}
+        >
+          {getModelosSimulador().map((m) => (
+            <option key={m.ruta} value={m.ruta}>
+              {(m.nombre && (m.nombre[lan] || m.nombre.es)) || m.ruta}
+            </option>
+          ))}
+        </select>
+        <span className="text-muted">{cfg.sku}</span>
+      </div>
       <div className="row mt-3">
         {/* visor 3D */}
         <div className="col-12 col-lg-8">
@@ -546,7 +627,11 @@ const Simulador3D = (props) => {
         {/* panel de configuración */}
         <div className="col-12 col-lg-4">
           <p className="text-muted small mb-3">
-            {lit("MED")}: {d.largo} × {d.ancho} × {d.alto} cm · → {d.extendida} cm
+            {lit("MED")}:{" "}
+            {d.diametro
+              ? "Ø " + d.diametro + " × " + d.alto + " cm"
+              : d.largo + " × " + d.ancho + " × " + d.alto + " cm" +
+                (d.extendida ? "  ·  → " + d.extendida + " cm" : "")}
           </p>
 
           {cfg.partes.map((p) => {
@@ -615,6 +700,26 @@ const Simulador3D = (props) => {
               <span>{lit("TOT")}</span>
               <span>{fmtEUR(total)}</span>
             </div>
+            <button
+              className="btn btn-dark btn-block mt-3"
+              onClick={() =>
+                window.alert(
+                  lit("PEDMSG") +
+                    "\n\n" +
+                    tr(cfg.nombre) +
+                    "  (" +
+                    cfg.sku +
+                    ")\n\ncodagrupacion:\n" +
+                    codagrupacion() +
+                    "\n\n" +
+                    lit("TOT") +
+                    ": " +
+                    fmtEUR(total)
+                )
+              }
+            >
+              {lit("PED")}
+            </button>
           </div>
         </div>
       </div>

@@ -1,0 +1,140 @@
+{
+  "sku": "3041",
+  "nombre": {
+    "es": "Mesa Cross 160 × 90",
+    "fr": "Table Cross 160 × 90",
+    "en": "Cross table 160 × 90",
+    "de": "Tisch Cross 160 × 90"
+  },
+  "forma": "rect",
+  "pie": "central",
+  "precioBase": 1189,
+  "dims": { "largo": 160, "ancho": 90, "alto": 75, "extendida": 210 },
+  "partes": [
+    {
+      "id": "TAPA_",
+      "supTipo": "pct",
+      "nombre": { "es": "Tapa", "fr": "Plateau", "en": "Tabletop", "de": "Platte" },
+      "acabados": [
+        {
+          "id": "cristal-arena",
+          "valor": 15,
+          "tipo": "lacquer",
+          "c1": "#d8cfc0",
+          "c2": "#d8cfc0",
+          "sup": 0,
+          "nombre": { "es": "Cristal arena", "fr": "Verre sable", "en": "Sand glass", "de": "Glas Sand" }
+        },
+        {
+          "id": "porc-blanco",
+          "valor": 50,
+          "tipo": "ceramic",
+          "c1": "#dedad2",
+          "c2": "#9b948a",
+          "sup": 10,
+          "nombre": { "es": "Porcelánico blanco", "fr": "Céramique blanc", "en": "White ceramic", "de": "Keramik weiß" }
+        },
+        {
+          "id": "porc-negro",
+          "valor": 51,
+          "tipo": "ceramic",
+          "c1": "#33302d",
+          "c2": "#191715",
+          "sup": 10,
+          "nombre": { "es": "Porcelánico negro", "fr": "Céramique noir", "en": "Black ceramic", "de": "Keramik schwarz" }
+        },
+        {
+          "id": "porc-roca",
+          "valor": 53,
+          "tipo": "ceramic",
+          "c1": "#8a8378",
+          "c2": "#6b6459",
+          "sup": 18,
+          "nombre": { "es": "Porcelánico roca", "fr": "Céramique roca", "en": "Roca ceramic", "de": "Keramik Roca" }
+        }
+      ]
+    },
+    {
+      "id": "COLOR",
+      "supTipo": "pct",
+      "nombre": {
+        "es": "Faldón y extensibles",
+        "fr": "Ceinture et rallonges",
+        "en": "Frame & extensions",
+        "de": "Zarge & Auszüge"
+      },
+      "acabados": [
+        {
+          "id": "lac-tex-blanco",
+          "valor": 6,
+          "tipo": "lacquer",
+          "c1": "#f2efe9",
+          "c2": "#f2efe9",
+          "sup": 0,
+          "nombre": { "es": "Texturizado blanco", "fr": "Texturé blanc", "en": "Textured white", "de": "Strukturweiß" }
+        },
+        {
+          "id": "lac-tex-negro",
+          "valor": 31,
+          "tipo": "lacquer",
+          "c1": "#2b2b2e",
+          "c2": "#2b2b2e",
+          "sup": 0,
+          "nombre": { "es": "Texturizado negro", "fr": "Texturé noir", "en": "Textured black", "de": "Strukturschwarz" }
+        },
+        {
+          "id": "lac-tex-arena",
+          "valor": 44,
+          "tipo": "lacquer",
+          "c1": "#cfc4ae",
+          "c2": "#cfc4ae",
+          "sup": 4,
+          "nombre": { "es": "Texturizado arena", "fr": "Texturé sable", "en": "Textured sand", "de": "Struktursand" }
+        }
+      ]
+    },
+    {
+      "id": "PIE",
+      "supTipo": "fijo",
+      "nombre": { "es": "Pie central", "fr": "Piètement central", "en": "Central leg", "de": "Mittelfuß" },
+      "acabados": [
+        {
+          "id": "acero-negro",
+          "valor": 3,
+          "tipo": "metal",
+          "c1": "#2b2b2e",
+          "c2": "#2b2b2e",
+          "sup": 0,
+          "nombre": { "es": "Acero texturizado negro", "fr": "Acier texturé noir", "en": "Black textured steel", "de": "Stahl schwarz" }
+        },
+        {
+          "id": "acero-blanco",
+          "valor": 2,
+          "tipo": "metal",
+          "c1": "#e8e6e1",
+          "c2": "#e8e6e1",
+          "sup": 0,
+          "nombre": { "es": "Acero texturizado blanco", "fr": "Acier texturé blanc", "en": "White textured steel", "de": "Stahl weiß" }
+        },
+        {
+          "id": "acero-vulcano",
+          "valor": 5,
+          "tipo": "metal",
+          "c1": "#5f6266",
+          "c2": "#5f6266",
+          "sup": 40,
+          "nombre": { "es": "Vulcano roca", "fr": "Vulcano roca", "en": "Vulcano roca", "de": "Vulcano Roca" }
+        },
+        {
+          "id": "laton",
+          "valor": 9,
+          "tipo": "metal",
+          "c1": "#b08d57",
+          "c2": "#b08d57",
+          "sup": 90,
+          "nombre": { "es": "Latón envejecido", "fr": "Laiton vieilli", "en": "Aged brass", "de": "Messing antik" }
+        }
+      ]
+    }
+  ]
+}

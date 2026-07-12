@@ -1,0 +1,92 @@
+{
+  "sku": "870",
+  "nombre": {
+    "es": "Mesa redonda 870 Ø120",
+    "fr": "Table ronde 870 Ø120",
+    "en": "Round table 870 Ø120",
+    "de": "Runder Tisch 870 Ø120"
+  },
+  "forma": "redonda",
+  "pie": "central",
+  "precioBase": 890,
+  "dims": { "diametro": 120, "alto": 75 },
+  "partes": [
+    {
+      "id": "TAPA_",
+      "supTipo": "pct",
+      "nombre": { "es": "Tapa", "fr": "Plateau", "en": "Tabletop", "de": "Platte" },
+      "acabados": [
+        {
+          "id": "roble-nat",
+          "valor": 3,
+          "tipo": "wood",
+          "c1": "#c8a97e",
+          "c2": "#a5824f",
+          "sup": 0,
+          "nombre": { "es": "Roble natural", "fr": "Chêne naturel", "en": "Natural oak", "de": "Eiche natur" }
+        },
+        {
+          "id": "nogal",
+          "valor": 4,
+          "tipo": "wood",
+          "c1": "#7a573b",
+          "c2": "#59391f",
+          "sup": 8,
+          "nombre": { "es": "Nogal americano", "fr": "Noyer américain", "en": "American walnut", "de": "Amerik. Nussbaum" }
+        },
+        {
+          "id": "porc-blanco",
+          "valor": 50,
+          "tipo": "ceramic",
+          "c1": "#dedad2",
+          "c2": "#9b948a",
+          "sup": 15,
+          "nombre": { "es": "Porcelánico blanco", "fr": "Céramique blanc", "en": "White ceramic", "de": "Keramik weiß" }
+        },
+        {
+          "id": "porc-luna",
+          "valor": 55,
+          "tipo": "ceramic",
+          "c1": "#b9b4ac",
+          "c2": "#8d877d",
+          "sup": 22,
+          "nombre": { "es": "Pietra di Luna", "fr": "Pietra di Luna", "en": "Pietra di Luna", "de": "Pietra di Luna" }
+        }
+      ]
+    },
+    {
+      "id": "PIE",
+      "supTipo": "fijo",
+      "nombre": { "es": "Pie central", "fr": "Piètement central", "en": "Central leg", "de": "Mittelfuß" },
+      "acabados": [
+        {
+          "id": "acero-negro",
+          "valor": 3,
+          "tipo": "metal",
+          "c1": "#2b2b2e",
+          "c2": "#2b2b2e",
+          "sup": 0,
+          "nombre": { "es": "Acero texturizado negro", "fr": "Acier texturé noir", "en": "Black textured steel", "de": "Stahl schwarz" }
+        },
+        {
+          "id": "acero-blanco",
+          "valor": 2,
+          "tipo": "metal",
+          "c1": "#e8e6e1",
+          "c2": "#e8e6e1",
+          "sup": 0,
+          "nombre": { "es": "Acero texturizado blanco", "fr": "Acier texturé blanc", "en": "White textured steel", "de": "Stahl weiß" }
+        },
+        {
+          "id": "laton",
+          "valor": 9,
+          "tipo": "metal",
+          "c1": "#b08d57",
+          "c2": "#b08d57",
+          "sup": 75,
+          "nombre": { "es": "Latón envejecido", "fr": "Laiton vieilli", "en": "Aged brass", "de": "Messing antik" }
+        }
+      ]
+    }
+  ]
+}

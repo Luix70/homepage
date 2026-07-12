@@ -1,0 +1,16 @@
+[
+  {
+    "sku": "3041",
+    "forma": "rect",
+    "pie": "central",
+    "dims": { "largo": 160, "ancho": 90, "alto": 75 },
+    "cualidades": { "tapa": "TAPA_", "pie": "PIE", "faldon": "COLOR" }
+  },
+  {
+    "sku": "870",
+    "forma": "redonda",
+    "pie": "central",
+    "dims": { "diametro": 120, "alto": 75 },
+    "cualidades": { "tapa": "TAPA_", "pie": "PIE" }
+  }
+]

@@ -46,5 +46,17 @@
     "en": "Configure your table",
     "fr": "Configurez votre table",
     "de": "Konfigurieren Sie Ihren Tisch"
+  },
+  "PED": {
+    "es": "Pedir",
+    "en": "Order",
+    "fr": "Commander",
+    "de": "Bestellen"
+  },
+  "PEDMSG": {
+    "es": "Pedido (demostración)",
+    "en": "Order (demo)",
+    "fr": "Commande (démo)",
+    "de": "Bestellung (Demo)"
   }
 }

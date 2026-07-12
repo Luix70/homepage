@@ -1,23 +1,32 @@
 import demo from "../Data/simulador_demo.json";
+import m3041 from "../Data/simulador_3041.json";
+import m870 from "../Data/simulador_870.json";
 // import httpService from "./httpService";
 // import config from "../config.json";
 
-/**
- * Devuelve la configuración del simulador (partes, acabados, suplementos)
- * para una colección/artículo.
- *
- * HOY: datos locales de demostración (src/Data/simulador_demo.json).
- *
- * MAÑANA: cuando el hub de publicación exponga el endpoint, sustituir por:
+/* Registro local de modelos publicados en el simulador.
+ * HOY: ficheros de demostracion en src/Data.
+ * MAÑANA: sustituir por la API (un fetch por sku y otro para el listado):
  *
  *   const { data } = await httpService.get(
- *     config.apiDataEndPoint + "simulador/" + col
+ *     config.apiEndPoint + "/simulador/" + lan + "/" + sku
  *   );
  *   return data;
- *
- * La estructura JSON es la misma que la tabla pim.ArticuloAcabado:
- * partes -> acabados -> suplemento (pct sobre base, o importe fijo).
  */
-export async function getSimulador(col) {
-  return demo;
+const registro = {
+  demo: demo,
+  "3041": m3041,
+  "870": m870,
+};
+
+export async function getSimulador(sku) {
+  return registro[sku] || demo;
+}
+
+/* Listado para el desplegable de modelos */
+export function getModelosSimulador() {
+  return Object.keys(registro).map((ruta) => ({
+    ruta: ruta,
+    nombre: registro[ruta].nombre,
+  }));
 }
